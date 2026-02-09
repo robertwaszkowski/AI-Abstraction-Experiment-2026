@@ -1,0 +1,86 @@
+
+============================================================
+FILE: Leave Request Data.docx
+============================================================
+
+--- PARAGRAPHS ---
+Leave Request Process Data
+The data can be grouped into three main categories: data collected at the start, data retrieved for routing, and data generated during the process.
+1. Request Initiation Data (from Form Druk 23/DPE)
+This is the core data submitted by the employee who initiates the entire process. This data comes directly from the form no. 23/DPE.
+Employee Name (employee_name: Sring): The full name of the employee submitting the request.
+Employee Position (employee_position: String): The employee’s job title.
+Leave Type (leave_type: String): The type of leave being requested (e.g., recreational, childcare, exceptional circumstance, etc.).
+Leave Start Date (leave_start_date: String): The first day of the requested leave.
+Leave End Date (leave_end_date: String): The last day of the requested leave.
+Leave Duration Days (leave_duration_days: String): The total number of days requested, which will be checked by the PD.
+Leave Substitute (Optional) (leave_substitute: String): The name of the person covering for the employee, if provided.
+Request Date (request_date: Date): The date the employee submitted the form.
+2. Contextual and Routing Data (Internal System Data)
+This is data that the process must look up from internal MUT (WAT) systems to make decisions and assign tasks.
+Is an Academic Teacher? (is_academic_teacher: Boolean): This is the routing variable in the process. It is used by the gateway "Concerns an academic teacher?" to decide whether to send the request to the Chancellor (KAN) or to the approval chain (Vice-Rectors (PRK, PRN) and the Rector (RKR)). The variable should default to TRUE.
+Employee Leave Entitlement Balance (employee_leave_entitlement_balance: Numeric): The number of leave days the employee has remaining. This is required for the "Review leave request (check entitlement)" task. The variable should default to 26.
+3. Process-Generated Data (Decisions and Statuses)
+This data is created during the process as users complete their tasks.
+Head O.U. Decision (head_ou_decision: List [‘Approved’, ‘Rejected’]): The outcome of the first task, "Review and approve leave request" (e.g., ‘Approved’, ‘Rejected’).
+PD Review Status (pd_review_status: List [‘Entitlement Confirmed’, ‘Entitlement Exceeded’]): The outcome of the entitlement check (e.g., ‘Entitlement Confirmed’, ‘Entitlement Exceeded’).
+LSS Opinion Notes (lss_opinion_notes: Text): A text field to store the feedback from the legal team, if applicable.
+PRK Review Status (prk_review_status: String): The outcome of the review by the Vice-Rector for Education.
+PRN Review Status (prn_review_status: String): The outcome of the review by the Vice-Rector for Scientific Affairs.
+Final Decision (final_decision: List [‘Approved’, ‘Rejected’]): The final approval status (‘Approved’ or ‘Rejected’) set by either the Chancellor or the Rector.
+Final Decision Maker (final_decision_maker: String): The name or ID of the person (KAN or RKR) who made the final decision. The variable should default to ‘Rector’.
+
+--- TABLES ---
+
+============================================================
+FILE: Leave Request Test Scenario.docx
+============================================================
+
+--- PARAGRAPHS ---
+Test Scenario: Academic Teacher Leave Request - Approved
+Objective: To verify that a leave request submitted by an academic teacher is correctly routed through the Head of O.U., PD, PRK, PRN, and Rector for approval and is successfully registered in the system.
+Process: Leave Request
+Test Users:
+Initiator: Alice Academic (Academic Teacher) 
+Head of O.U.: Holly Head 
+PD (Personnel Department): Penny Personnel 
+Vice-Rector for Education (PRK): Paula VREdu 
+Vice-Rector for Scientific Affairs (PRN): Peter VRSci 
+Rector (RKR): Adam Rector 
+Step 1: Start Process (Initiator)
+Log in as the academic teacher, Alice Academic. Start the "Leave Request" process. Complete the necessary data, i.e.:
+Employee Name: Alice Academic 
+Employee Position: Professor 
+Leave Type: Recreational 
+Leave Start Date: (Select a future date) 
+Leave End Date: (Select a date after the start date) 
+Leave Duration Days: 5 
+Request Date: (Today's date) 
+Confirm the form to start the "Leave Request" process.
+Expected Result: The process engine should create an instance of the "Leave Request" business process, assign it a number, and assign the first task to the first executor (Head of O.U.).
+Step 2: Head of O.U. Approval (Holly Head)
+Log in as the user assigned to the "Head of O.U." role (Holly Head). Go to the to-do list and check if the "Review and approve leave request" task from this newly created process is listed. Once you identify this task, open it for processing. Review the details of this process instance and set the "Head O.U. Decision" to "Approved". Approve the task.
+Expected Result: The business process engine should assign the next task ("Review leave request (check entitlement)") and forward it to the "PD (Personnel Department)" role.
+Step 3: Personnel Department Review (Penny Personnel)
+Log in as the user assigned to the "PD (Personnel Department)" role (Penny Personnel). Go to the to-do list and check if the "Review leave request (check entitlement)" task from this newly created process is listed. Once you've identified this task, open it for processing. Review the details for this process instance and set the "PD Review Status" to "Entitlement Confirmed". Set the process variable "Is an Academic Teacher?" to TRUE. Confirm the task.
+Expected Result: The business process engine should evaluate the gateway "Concerns an academic teacher?" and take the "Yes" path, then assign the next task ("Review application (PRK) and forward to PRN") to the "Vice-Rector for Education (PRK)" role.
+Step 4: VRE (PRK) Approval (Paula VREdu)
+Log in as the user assigned to the "Vice-Rector for Education (PRK)" role (Paula VREdu). Go to the to-do list and check if the "Review application (PRK) and forward to PRN" task from this newly created process is listed. Once you've identified this task, open it for processing. Review the details and set the "PRK Review Status" to "Approved". Approve the task.
+Expected Result: The business process engine should assign the next task ("Review application (PRN) and forward to Rector") and forward it to the "Vice-Rector for Scientific Affairs (PRN)" role.
+Step 5: VRSA (PRN) Approval (Peter VRSci)
+Log in as the user assigned to the "Vice-Rector for Scientific Affairs (PRN)" role (Peter VRSci). Go to the to-do list and check if the "Review application (PRN) and forward to Rector" task from this newly created process is listed. Once you've identified this task, open it for processing. Review the details and set the "PRN Review Status" to "Approved". Approve the task.
+Expected Result: The business process engine should assign the next task ("Make decision (RKR) and return to PD") and forward it to the "Rector (RKR)" role.
+Step 6: Rector (RKR) Final Approval (Adam Rector)
+Log in as the user assigned to the "Rector (RKR)" role (Adam Rector). Go to the to-do list and check if the "Make decision (RKR) and return to PD" task from this newly created process is listed. Once you've identified this task, open it for processing. Review the details and set the "Final Decision" to "Approved". Approve the task.
+Expected Result: The business process engine should follow the flow and assign the next task ("Inform Head of O.U. about the decision" ) to the "PD (Personnel Department)" role.
+Step 7: Personnel Department Notification (Penny Personnel)
+Log in as the user assigned to the "PD (Personnel Department)" role (Penny Personnel). Go to the to-do list and check if the "Inform Head of O.U. about the decision" task is listed. Open the task and confirm it (simulating that the notification has been sent).
+Expected Result: The business process engine should assign the next task ("Register leave in HR system") to the "PD (Personnel Department)" role.
+Step 8: Personnel Department Finalize (Penny Personnel)
+Log in as the user assigned to the "PD (Personnel Department)" role (Penny Personnel). Go to the to-do list and check if the "Register leave in HR system" task is listed. Open the task and confirm it (simulating the final data entry in the external system).
+Expected Result: The business process engine should follow the flow to the end event "Service process ended".
+Step 9: Final Verification
+Check the process instance history for this "Leave Request".
+Expected Result: The process instance status should be "Completed". All process variables ("Head O.U. Decision", "PRK Review Status", "PRN Review Status", "Final Decision") should be set to "Approved". The "Is an Academic Teacher?" variable should be TRUE.
+
+--- TABLES ---

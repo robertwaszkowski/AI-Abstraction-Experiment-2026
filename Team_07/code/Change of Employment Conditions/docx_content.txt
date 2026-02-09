@@ -1,0 +1,72 @@
+--- Content of Change of Employment Conditions Data.docx ---
+Change of Employment Conditions Process Data
+The data can be grouped into three main categories: data collected at the start, data retrieved for routing, and process status and description data.
+1. Application Data (The Initial Request)
+This is the core data collected at the start of the process from the "Change of Employment Conditions Application".
+Employee Name (employee_name: String): The full name of the employee whose conditions are to be changed.
+Proposed Conditions (proposed_conditions: Text): The details of the change, such as the new proposed position, new salary, or other terms.
+Change Justification (change_justification: Text): A text field explaining the reason for the change.
+Change Effective Date (change_effective_date: Date): The date from which the new conditions should apply.
+2. Contextual and Routing Data (Internal System Data)
+This is data that the process must look up from internal systems to make decisions and assign tasks.
+Is an Academic Teacher? (is_academic_teacher: Boolean): It is used by the gateway "Concerns an academic teacher?" to route the request to either the Chancellor’s or the Rector’s approval path, as defined in the process. The variable should default to TRUE.
+3. Process Status and Decision Data (Generated During the Process)
+This data is created as the request moves through the approval chain.
+Head of O.U. Revie Status (head_of_ou_review_status: String): The outcome of the review by the Head of O.U. (e.g., ‘Approved’, ‘Rejected’, or other description).
+PD Review Status (pd_review_status: String): The outcome of the review by the Personnel Department.
+KWE Financial Opinion (kwe_financial_opinion: String): The financial opinion from the Quartermaster (e.g., ‘Funds_Available’, ‘No_Funds’).
+PRK Opinion (prk_opinion: String): The opinion from the Vice-Rector for Education (if applicable).
+PRN Opinion (prn_opinion: String): The opinion from the Vice-Rector for Scientific Affairs (if applicable).
+Final Decision (final_decision: String): The outcome (‘Approved’ or ‘Rejected’) set by either the Chancellor or the Rector.
+
+==================================================
+
+--- Content of Change of Employment Conditions Test Scenario.docx ---
+Test Scenario: Academic Teacher Change of Employment - Approved
+Objective: To verify that an application to change employment conditions for an academic teacher is correctly routed through the Head of O.U., PD, KWE, PRK, PRN, and Rector for approval and is successfully finalized.
+Process: DPE/1-3: Change of Employment Conditions 
+Test Users:
+Initiator (Head of O.U.): Holly Head 
+PD (Personnel Department): Penny Personnel 
+Quartermaster (KWE): Quentin Quartermaster 
+Vice-Rector for Education (PRK): Paula VREdu 
+Vice-Rector for Scientific Affairs (PRN): Peter VRSci 
+Rector (RKR): Adam Rector 
+Step 1: Start Process (Head of O.U.)
+Log in as the user assigned to the "Head of O.U." role (Holly Head). Start the "Change of Employment Conditions" process. Complete the necessary data for the employee:
+Employee Name: Alice Academic,
+Proposed Conditions: Promotion to Senior Lecturer, Salary 8000 PLN,
+Change Justification: Outstanding performance and new project responsibilities,
+Change Effective Date: (Select a date in the next month).
+Confirm the form to start the process.
+Expected Result: The process engine should create an instance of the business process and assign the first task, "Review and forward application to PD”, to the initiator (Holly Head).
+Step 2: Head of O.U. Approval (Holly Head)
+Log in as Holly Head. Go to the to-do list and open the "Review and forward application to PD" task. Review the details and set the "Head of O.U. Review Status" to "Approved". Approve the task.
+Expected Result: The business process engine should assign the next task ("Review application (PD)") and forward it to the "PD (Personnel Department)" role.
+Step 3: Personnel Department Review (Penny Personnel)
+Log in as the user assigned to the "PD (Personnel Department)" role (Penny Personnel). Go to the to-do list and check if the "Review application (PD)" task is listed. Open it for processing. Review the details and set the "PD Review Status" to "Confirmed". Set the process variable "Is an Academic Teacher?" to TRUE. Confirm the task.
+Expected Result: The business process engine should assign the next task ("Review application (Quartermaster)") and forward it to the "Quartermaster (KWE)" role.
+Step 4: Quartermaster Review (Quentin Quartermaster)
+Log in as the user assigned to the "Quartermaster (KWE)" role (Quentin Quartermaster). Go to the to-do list and check if the "Review application (Quartermaster)" task is listed. Open it for processing. Review the financial details and set the "KWE Financial Opinion" to "Funds Available". Approve the task.
+Expected Result: The business process engine should evaluate the gateway "Concerns an academic teacher?", take the "Yes" path, and assign the next task ("Review application (PRK) and forward to PRN") to the "Vice-Rector for Education (PRK)" role.
+Step 5: VRE (PRK) Approval (Paula VREdu)
+Log in as the user assigned to the "Vice-Rector for Education (PRK)" role (Paula VREdu). Go to the to-do list and check if the "Review application (PRK) and forward to PRN" task is listed. Open it for processing. Review the details and set the "PRK Opinion" to "Approved". Approve the task.
+Expected Result: The business process engine should assign the next task ("Review application (PRN) and forward to Rector") and forward it to the "Vice-Rector for Scientific Affairs (PRN)" role.
+Step 6: VRSA (PRN) Approval (Peter VRSci)
+Log in as the user assigned to the "Vice-Rector for Scientific Affairs (PRN)" role (Peter VRSci). Go to the to-do list and check if the "Review application (PRN) and forward to Rector" task is listed. Open it for processing. Review the details and set the "PRN Opinion" to "Approved". Approve the task.
+Expected Result: The business process engine should assign the next task ("Make decision (RKR) and return to PD") and forward it to the "Rector (RKR)" role.
+Step 7: Rector (RKR) Final Approval (Adam Rector)
+Log in as the user assigned to the "Rector (RKR)" role (Adam Rector). Go to the to-do list and check if the "Make decision (RKR) and return to PD" task is listed. Open it for processing. Review the details and set the "Final Decision" to "Approved". Approve the task.
+Expected Result: The business process engine should assign the next task ("Implement, Prepare, and Inform") to the "PD (Personnel Department)" role.
+Step 8: Personnel Department Finalization (Penny Personnel)
+Log in as the user assigned to the "PD (Personnel Department)" role (Penny Personnel). Go to the to-do list and check if the "Implement, Prepare, and Inform" task is listed. Open the task and complete the checklist (Inform Head of O.U., implement changes in the HR system, prepare confirming documents). Confirm the task.
+Expected Result: The business process engine should assign the next task ("Hand Over Documents and Archive") to the "PD (Personnel Department)" role.
+Step 9: Personnel Department Archiving (Penny Personnel)
+Log in as the user assigned to the "PD (Personnel Department)" role (Penny Personnel). Go to the to-do list and check if the "Hand Over Documents and Archive" task is listed. Open the task and complete the checklist (Hand documents to employee, attach 1 copy to personnel files). Confirm the task.
+Expected Result: The business process engine should follow the flow to the end event "Service process ended".
+Step 10: Final Verification
+Check the process instance history.
+Expected Result: The process instance status should be "Completed". The variable "Is an Academic Teacher?" should be TRUE. All approval/opinion variables ("Head of O.U. Review Status", "KWE Financial Opinion", "PRK Opinion", "PRN Opinion", "Final Decision") should be set to an appropriate status.
+
+==================================================
+

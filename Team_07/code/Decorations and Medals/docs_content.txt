@@ -1,0 +1,75 @@
+============================================================
+DECORATIONS AND MEDALS DATA
+============================================================
+
+=== PARAGRAPHS ===
+0: Decorations and Medals Process Data
+1: The data can be grouped into two main categories: data collected at the start, and data retrieved for routing and process task approval.
+2: 1. Application Data (Initiation)
+3: This data is collected at the very beginning of the process, originating from the "Submit application for distinction" task, and forms the core of the request.
+4: Employee Name (employee_name: String): The full name of the nominated employee.
+5: Organizational Unit (organizational_unit: String): The organizational unit of the nominated employee.
+6: Decoration Type (decoration_type: String): The specific state or resort-level medal/decoration being requested.
+7: Application Justification (application_justification: Text): A text field containing the reasons and achievements justifying the award.
+8: 2. Process Approval and Routing Data
+9: This data is generated during the process to track opinions and decisions and to route the flow correctly.
+10: Reviewer Opinion (reviewer_opinion: String): A text variable to store the opinion from the "Review applications and forward to PD" task, completed by the PRK / Chancellor.
+11: RKR Decision (rkr_decision: List [ĹAcceptedĺ, ĹRejectedĺ]): The variable set during the "Make decision" task by the Rector. This variable is used by the gateway "Application accepted?" to determine the next step. (e.g., ĹAcceptedĺ or ĹRejectedĺ).
+12: Award Grant Date (award_grant_date: Date): The date the award was officially granted, which would be entered during the "Enter decoration into register" task.
+13: Process Outcome (process_outcome: List [ĹAcceptedĺ, ĹRejectedĺ]): A final status variable for logging (e.g., ĹCompletedĺ, ĹRejectedĺ).
+
+=== TABLES ===
+
+
+
+============================================================
+DECORATIONS AND MEDALS TEST SCENARIO
+============================================================
+
+=== PARAGRAPHS ===
+0: Test Scenario: Decorations and Medals Request - Approved
+1: Objective: To verify that an application for a decoration is correctly routed through the Head of O.U., PD, PRK/Chancellor, Rector, and MPD, and is successfully registered upon final confirmation.
+2: Process: Decorations and Medals DPE/1-6
+3: Test Users:
+4: Initiator (Head of O.U.): Holly Head 
+5: PD (Personnel Department): Penny Personnel 
+6: PRK / Chancellor: Paula VREdu 
+7: Rector (RKR): Adam Rector 
+8: MPD (Military Personnel Dept.): Mike MPD 
+9: Step 1: Start Process (Head of O.U.)
+10: Log in as the user assigned to the "Head of O.U." role (Holly Head). Start the "Decorations and Medals" process by completing the "Submit application for distinction" task. Complete the necessary data:
+11: Employee Name: Peter VRSci 
+12: Organizational Unit: Office of the Vice-Rector for Scientific Affairs 
+13: Decoration Type: Gold Medal for Long Service 
+14: Application Justification: For 30 years of outstanding service to the university. 
+15: Confirm the form to submit the task.
+16: Expected Result: The process engine should create an instance of the business process and assign the next task ("Present applications for acceptance (PRK/Chancellor)") to the "PD (Personnel Department)" role.
+17: Step 2: PD Initial Review (Penny Personnel)
+18: Log in as the user assigned to the "PD (Personnel Department)" role (Penny Personnel). Go to the to-do list and check if the "Present applications for acceptance (PRK/Chancellor)" task is listed. Open it for processing (verifying the application is complete) and confirm the task.
+19: Expected Result: The business process engine should assign the next task ("Review applications and forward to PD") and forward it to the "PRK / Chancellor" role.
+20: Step 3: PRK / Chancellor Review (Paula VREdu)
+21: Log in as the user assigned to the "PRK / Chancellor" role (Paula VREdu). Go to the to-do list and check if the "Review applications and forward to PD" task is listed. Open it for processing. Review the details and set the "Reviewer Opinion" to "Strongly support". Approve the task.
+22: Expected Result: The business process engine should assign the next task ("Present reviewed applications to Rector") and forward it to the "PD (Personnel Department)" role.
+23: Step 4: PD Pre-Rector Review (Penny Personnel)
+24: Log in as the user assigned to the "PD (Personnel Department)" role (Penny Personnel). Go to the to-do list and check if the "Present reviewed applications to Rector" task is listed. Open the task (collating the opinion) and confirm it.
+25: Expected Result: The business process engine should assign the next task ("Make decision") and forward it to the "Rector (RKR)" role.
+26: Step 5: Rector (RKR) Final Approval (Adam Rector)
+27: Log in as the user assigned to the "Rector (RKR)" role (Adam Rector). Go to the to-do list and check if the "Make decision" task is listed. Open it for processing. Review the application and the opinion, and set the "RKR Decision" to "Accepted". Approve the task.
+28: Expected Result: The business process engine should evaluate the gateway "Application accepted?", take the "Yes" path, and assign the next task ("Forward accepted applications to MPD") to the "PD (Personnel Department)" role.
+29: Step 6: PD Forward to MPD (Penny Personnel)
+30: Log in as the user assigned to the "PD (Personnel Department)" role (Penny Personnel). Go to the to-do list and check if the "Forward accepted applications to MPD" task is listed. Open and confirm the task.
+31: Expected Result: The business process engine should assign the next task ("Handle applications (external transfer)") to the "Military Personnel Department (MPD)" role.
+32: Step 7: MPD External Handling (Mike MPD)
+33: Log in as the user assigned to the "MPD" role (Mike MPD). Go to the to-do list and check if the "Handle applications (external transfer)" task is listed. Open and confirm the task (simulating that the application has been sent to the appropriate external body).
+34: Expected Result: The business process engine should assign the next task ("Receive decision on award") and forward it to the "PD (Personnel Department)" role.
+35: Step 8: PD Receive Decision (Penny Personnel)
+36: Log in as Penny Personnel. Mimic waiting for the external decision. Once the (simulated) decision arrives, go to the to-do list and open the "Receive decision on award" task. Confirm the task to signal that the award has been officially granted. Approve the task.
+37: Expected Result: The business process engine should assign the next task ("Enter decoration into register") to the "PD (Personnel Department)" role.
+38: Step 9: PD Final Register (Penny Personnel)
+39: Log in as Penny Personnel. Go to the to-do list and check if the "Enter decoration into register" task is listed. Open the task and enter the "Award Grant Date". Confirm the task.
+40: Expected Result: The business process engine should follow the flow to the end event "Process ended".
+41: Step 10: Final Verification
+42: Check the process instance history.
+43: Expected Result: The process instance status should be "Completed". The "RKR Decision" variable should be "Accepted". The "Process Outcome" variable should be set to "Completed".
+
+=== TABLES ===
