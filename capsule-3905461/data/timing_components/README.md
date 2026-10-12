@@ -1,0 +1,5 @@
+# Recorded timing components
+
+`intervals.json` supplies the numerical inputs for all seven matched Code/Model teams. The source-specific parsers derive these components from recorded durations and timestamps. Each stream preserves its original boundary; no gap is added between separate documents/sessions. Model timestamps are merged and deduplicated before the gaps are derived. Fixed seconds represent team-reported totals or within-entry work durations. Negative duration-table gaps identify session boundaries and add no time. At every threshold, gaps shorter than that threshold contribute in full and gaps at or above it contribute zero. Run minutes are rounded to two decimals before paired comparison.
+
+The primary threshold is 45 minutes; sensitivity uses 15, 30 and 60. Source hashes identify the retained originals. These derived intervals contain no interaction text or personal identifiers. They reproduce timing arithmetic; validating the source interpretation separately requires the retained originals. No durations are imputed. The root build regenerates and verifies both threshold tables from these inputs.

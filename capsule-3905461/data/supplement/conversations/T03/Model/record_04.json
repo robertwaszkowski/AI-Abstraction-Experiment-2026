@@ -1,0 +1,27 @@
+{
+  "team": "T03",
+  "approach": "Model",
+  "source_filename": "Decorations and Medals Process Diagram-history.json",
+  "source_format": ".json",
+  "source_sha256": "0f22f94d79570badff99f3bbae88a1db96dd4b5d1bc468ce8a0ca7301f13e0f7",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Decorations and Medals Process",
+    "exportedAt": "2026-04-03T08:53:00.206Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Generate a BPMN diagram based on the model from the attachment.",
+        "timestamp": "2026-04-03T08:52:52.387Z",
+        "files": [
+          "Decorations and Medals.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Models the internal process for managing military decorations and medal applications at the Military University of Technology, involving submission, review, rector approval, and external handling.",
+        "timestamp": "2026-04-03T08:52:58.206Z"
+      }
+    ]
+  }
+}

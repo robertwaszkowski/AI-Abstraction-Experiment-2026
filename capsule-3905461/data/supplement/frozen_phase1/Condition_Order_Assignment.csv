@@ -1,0 +1,8 @@
+team_id,sequence_order,first_condition,second_condition,counterbalancing_status,evidence_source
+T01,Code -> Model,AI-Assisted Full-Stack Code Generation,AI-Assisted Model-Driven Low-Code Generation,Counterbalanced assignment,"Author confirmation, 5 August 2026"
+T02,Model -> Code,AI-Assisted Model-Driven Low-Code Generation,AI-Assisted Full-Stack Code Generation,Counterbalanced assignment,"Author confirmation, 5 August 2026"
+T03,Code -> Model,AI-Assisted Full-Stack Code Generation,AI-Assisted Model-Driven Low-Code Generation,Counterbalanced assignment,"Author confirmation, 5 August 2026"
+T04,Model -> Code,AI-Assisted Model-Driven Low-Code Generation,AI-Assisted Full-Stack Code Generation,Counterbalanced assignment,"Author confirmation, 5 August 2026"
+T05,Code -> Model,AI-Assisted Full-Stack Code Generation,AI-Assisted Model-Driven Low-Code Generation,Counterbalanced assignment,"Author confirmation, 5 August 2026"
+T06,Model -> Code,AI-Assisted Model-Driven Low-Code Generation,AI-Assisted Full-Stack Code Generation,Counterbalanced assignment,"Author confirmation, 5 August 2026"
+T07,Code -> Model,AI-Assisted Full-Stack Code Generation,AI-Assisted Model-Driven Low-Code Generation,Counterbalanced assignment,"Author confirmation, 5 August 2026"

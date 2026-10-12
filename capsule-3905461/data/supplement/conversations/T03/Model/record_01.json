@@ -1,0 +1,272 @@
+{
+  "team": "T03",
+  "approach": "Model",
+  "source_filename": "Academic Teacher Leave Request-history.json",
+  "source_format": ".json",
+  "source_sha256": "f05bf41f259a362eb837f468b328786949ba1d7cfaf785e9bc8b78c050d04b09",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Academic Teacher Leave Request",
+    "exportedAt": "2026-04-03T08:49:47.128Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Generate a data input form based on the files in the attachment.",
+        "timestamp": "2026-04-03T08:49:40.323Z",
+        "files": [
+          "Leave Request Test Scenario.docx",
+          "Leave Request Data.docx"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Constructed a multi-card form categorized by Initiation, Routing, and Process Data to support the academic leave workflow, including all decision fields and internal system variables required for process tracking.",
+        "timestamp": "2026-04-03T08:49:45.128Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "Academic Teacher Leave Request",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1"
+              }
+            },
+            "requestDetails": {
+              "title": "Request Initiation Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employee_name": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "employee_position": {
+                      "type": "string",
+                      "label": "Employee Position",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "leave_type": {
+                      "type": "string",
+                      "label": "Leave Type",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "leave_start_date": {
+                      "type": "string",
+                      "label": "Leave Start Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 6,
+                        "component": "date-picker"
+                      }
+                    },
+                    "leave_end_date": {
+                      "type": "string",
+                      "label": "Leave End Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 6,
+                        "component": "date-picker"
+                      }
+                    },
+                    "leave_duration_days": {
+                      "type": "number",
+                      "label": "Leave Duration Days",
+                      "component": "number-field",
+                      "layout": {
+                        "cols": 6,
+                        "component": "number-field"
+                      }
+                    },
+                    "leave_substitute": {
+                      "type": "string",
+                      "label": "Leave Substitute",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 6,
+                        "component": "text-field"
+                      }
+                    },
+                    "request_date": {
+                      "type": "string",
+                      "label": "Request Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "routingData": {
+              "title": "Contextual and Routing Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "is_academic_teacher": {
+                      "type": "boolean",
+                      "label": "Is an Academic Teacher?",
+                      "component": "switch",
+                      "layout": {
+                        "cols": 12,
+                        "component": "switch"
+                      }
+                    },
+                    "employee_leave_entitlement_balance": {
+                      "type": "number",
+                      "label": "Leave Entitlement Balance",
+                      "component": "number-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "number-field"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "processStatus": {
+              "title": "Process Decisions and Statuses",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "head_ou_decision": {
+                      "type": "string",
+                      "label": "Head O.U. Decision",
+                      "component": "select",
+                      "layout": {
+                        "cols": 6,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Approved",
+                            "value": "Approved",
+                            "title": "Approved"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    },
+                    "pd_review_status": {
+                      "type": "string",
+                      "label": "PD Review Status",
+                      "component": "select",
+                      "layout": {
+                        "cols": 6,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Entitlement Confirmed",
+                            "value": "Entitlement Confirmed",
+                            "title": "Entitlement Confirmed"
+                          },
+                          {
+                            "label": "Entitlement Exceeded",
+                            "value": "Entitlement Exceeded",
+                            "title": "Entitlement Exceeded"
+                          }
+                        ]
+                      }
+                    },
+                    "lss_opinion_notes": {
+                      "type": "string",
+                      "label": "LSS Opinion Notes",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "prk_review_status": {
+                      "type": "string",
+                      "label": "PRK Review Status",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 6,
+                        "component": "text-field"
+                      }
+                    },
+                    "prn_review_status": {
+                      "type": "string",
+                      "label": "PRN Review Status",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 6,
+                        "component": "text-field"
+                      }
+                    },
+                    "final_decision": {
+                      "type": "string",
+                      "label": "Final Decision",
+                      "component": "select",
+                      "layout": {
+                        "cols": 6,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Approved",
+                            "value": "Approved",
+                            "title": "Approved"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    },
+                    "final_decision_maker": {
+                      "type": "string",
+                      "label": "Final Decision Maker",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 6,
+                        "component": "text-field"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": []
+        }
+      }
+    ]
+  }
+}

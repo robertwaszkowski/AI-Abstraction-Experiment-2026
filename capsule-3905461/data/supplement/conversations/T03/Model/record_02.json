@@ -1,0 +1,27 @@
+{
+  "team": "T03",
+  "approach": "Model",
+  "source_filename": "Change of Employment Conditions Diagram-history.json",
+  "source_format": ".json",
+  "source_sha256": "493971fa95e944d8df825efd68c037cd81dfac377d0d4ac57a3ce9605d47a9e9",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Change of Employment Conditions",
+    "exportedAt": "2026-04-03T08:51:21.216Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Generate a BPMN diagram based on the model from the attachment.",
+        "timestamp": "2026-04-03T08:51:13.883Z",
+        "files": [
+          "Change of Employment Conditions.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "A personnel workflow managing employment changes, involving review by multiple administrative and academic leadership roles, with an academic/non-academic branching decision process.",
+        "timestamp": "2026-04-03T08:51:19.216Z"
+      }
+    ]
+  }
+}

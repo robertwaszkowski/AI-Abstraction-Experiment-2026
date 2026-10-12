@@ -1,0 +1,360 @@
+experiment_id,team_id,condition,relative_path,artifact_type,included_in_primary_marginal_footprint,files,text_lines,bytes,classification_reason
+code_01,T01,Code,package-lock.json,project_configuration_and_dependency_metadata,No,1,6,89,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,README.md,documentation_and_task_inputs,No,1,52,1214,Documentation or supplied task/reference material
+code_01,T01,Code,role-call-code/.gitignore,project_configuration_and_dependency_metadata,No,1,0,559,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/apphosting.yaml,project_configuration_and_dependency_metadata,No,1,7,277,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/components.json,project_configuration_and_dependency_metadata,No,1,21,467,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/docker-compose.yml,project_configuration_and_dependency_metadata,No,1,17,356,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/next.config.ts,project_configuration_and_dependency_metadata,No,1,35,680,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/package-lock.json,project_configuration_and_dependency_metadata,No,1,13141,500747,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/package.json,project_configuration_and_dependency_metadata,No,1,69,2260,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/postcss.config.mjs,project_configuration_and_dependency_metadata,No,1,8,143,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/README.md,documentation_and_task_inputs,No,1,52,1214,Documentation or supplied task/reference material
+code_01,T01,Code,role-call-code/setup-env.js,project_configuration_and_dependency_metadata,No,1,4,221,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/tailwind.config.ts,project_configuration_and_dependency_metadata,No,1,89,2583,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/tsconfig.json,project_configuration_and_dependency_metadata,No,1,27,629,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/.idx/dev.nix,project_configuration_and_dependency_metadata,No,1,44,1324,"Project configuration, environment definition, or dependency metadata"
+code_01,T01,Code,role-call-code/.idx/icon.png,application_assets,Yes,1,0,27438,Application image or other binary asset
+code_01,T01,Code,role-call-code/docs/blueprint.md,documentation_and_task_inputs,No,1,19,982,Documentation or supplied task/reference material
+code_01,T01,Code,role-call-code/prisma/schema.prisma,application_implementation_or_model,Yes,1,20,419,Application implementation source
+code_01,T01,Code,role-call-code/src/actions/process.ts,application_implementation_or_model,Yes,1,64,2000,Application implementation source
+code_01,T01,Code,role-call-code/src/ai/dev.ts,application_implementation_or_model,Yes,1,4,91,Application implementation source
+code_01,T01,Code,role-call-code/src/ai/genkit.ts,application_implementation_or_model,Yes,1,7,183,Application implementation source
+code_01,T01,Code,role-call-code/src/app/actions.ts,application_implementation_or_model,Yes,1,16,612,Application implementation source
+code_01,T01,Code,role-call-code/src/app/favicon.ico,application_assets,Yes,1,0,15086,Application image or other binary asset
+code_01,T01,Code,role-call-code/src/app/globals.css,application_implementation_or_model,Yes,1,72,1838,Application implementation source
+code_01,T01,Code,role-call-code/src/app/layout.tsx,application_implementation_or_model,Yes,1,38,1137,Application implementation source
+code_01,T01,Code,role-call-code/src/app/page.tsx,application_implementation_or_model,Yes,1,26,652,Application implementation source
+code_01,T01,Code,role-call-code/src/context/AuthContext.tsx,application_implementation_or_model,Yes,1,69,2098,Application implementation source
+code_01,T01,Code,role-call-code/src/context/ProcessContext.tsx,application_implementation_or_model,Yes,1,129,4915,Application implementation source
+code_01,T01,Code,role-call-code/src/hooks/use-toast.ts,application_implementation_or_model,Yes,1,194,4142,Application implementation source
+code_01,T01,Code,role-call-code/src/hooks/useAuth.ts,application_implementation_or_model,Yes,1,12,315,Application implementation source
+code_01,T01,Code,role-call-code/src/lib/auth.ts,application_implementation_or_model,Yes,1,19,1385,Application implementation source
+code_01,T01,Code,role-call-code/src/lib/db.ts,application_implementation_or_model,Yes,1,11,315,Application implementation source
+code_01,T01,Code,role-call-code/src/lib/placeholder-images.json,application_implementation_or_model,Yes,1,3,31,Application implementation source
+code_01,T01,Code,role-call-code/src/lib/placeholder-images.ts,application_implementation_or_model,Yes,1,10,249,Application implementation source
+code_01,T01,Code,role-call-code/src/lib/types.ts,application_implementation_or_model,Yes,1,7,117,Application implementation source
+code_01,T01,Code,role-call-code/src/lib/utils.ts,application_implementation_or_model,Yes,1,6,172,Application implementation source
+code_01,T01,Code,role-call-code/src/lib/workflows.ts,application_implementation_or_model,Yes,1,234,12516,Application implementation source
+code_01,T01,Code,role-call-code/src/ai/flows/generate-user-avatar.ts,application_implementation_or_model,Yes,1,54,1843,Application implementation source
+code_01,T01,Code,role-call-code/src/app/dashboard/layout.tsx,application_implementation_or_model,Yes,1,19,454,Application implementation source
+code_01,T01,Code,role-call-code/src/app/dashboard/page.tsx,application_implementation_or_model,Yes,1,177,7571,Application implementation source
+code_01,T01,Code,role-call-code/src/app/login/page.tsx,application_implementation_or_model,Yes,1,142,4603,Application implementation source
+code_01,T01,Code,role-call-code/src/components/auth/ProtectedRoute.tsx,application_implementation_or_model,Yes,1,28,737,Application implementation source
+code_01,T01,Code,role-call-code/src/components/layout/Header.tsx,application_implementation_or_model,Yes,1,102,3499,Application implementation source
+code_01,T01,Code,role-call-code/src/components/process/ProcessStartForm.tsx,application_implementation_or_model,Yes,1,172,9512,Application implementation source
+code_01,T01,Code,role-call-code/src/components/process/TaskExecuteForm.tsx,application_implementation_or_model,Yes,1,287,16936,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/accordion.tsx,application_implementation_or_model,Yes,1,58,2049,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/alert-dialog.tsx,application_implementation_or_model,Yes,1,141,4575,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/alert.tsx,application_implementation_or_model,Yes,1,59,1643,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/avatar.tsx,application_implementation_or_model,Yes,1,50,1469,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/badge.tsx,application_implementation_or_model,Yes,1,36,1164,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/button.tsx,application_implementation_or_model,Yes,1,56,1957,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/calendar.tsx,application_implementation_or_model,Yes,1,70,2779,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/card.tsx,application_implementation_or_model,Yes,1,79,1937,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/carousel.tsx,application_implementation_or_model,Yes,1,262,6486,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/chart.tsx,application_implementation_or_model,Yes,1,365,10844,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/checkbox.tsx,application_implementation_or_model,Yes,1,30,1100,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/collapsible.tsx,application_implementation_or_model,Yes,1,11,340,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/dialog.tsx,application_implementation_or_model,Yes,1,122,3970,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/dropdown-menu.tsx,application_implementation_or_model,Yes,1,200,7633,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/form.tsx,application_implementation_or_model,Yes,1,178,4298,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/input.tsx,application_implementation_or_model,Yes,1,23,841,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/label.tsx,application_implementation_or_model,Yes,1,26,750,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/menubar.tsx,application_implementation_or_model,Yes,1,256,8761,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/popover.tsx,application_implementation_or_model,Yes,1,31,1275,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/progress.tsx,application_implementation_or_model,Yes,1,28,819,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/radio-group.tsx,application_implementation_or_model,Yes,1,44,1525,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/scroll-area.tsx,application_implementation_or_model,Yes,1,48,1704,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/select.tsx,application_implementation_or_model,Yes,1,160,5789,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/separator.tsx,application_implementation_or_model,Yes,1,31,801,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/sheet.tsx,application_implementation_or_model,Yes,1,140,4421,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/skeleton.tsx,application_implementation_or_model,Yes,1,15,276,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/slider.tsx,application_implementation_or_model,Yes,1,28,1119,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/switch.tsx,application_implementation_or_model,Yes,1,29,1182,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/table.tsx,application_implementation_or_model,Yes,1,117,2882,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/tabs.tsx,application_implementation_or_model,Yes,1,55,1952,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/textarea.tsx,application_implementation_or_model,Yes,1,22,758,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/toast.tsx,application_implementation_or_model,Yes,1,129,4988,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/toaster.tsx,application_implementation_or_model,Yes,1,35,821,Application implementation source
+code_01,T01,Code,role-call-code/src/components/ui/tooltip.tsx,application_implementation_or_model,Yes,1,30,1189,Application implementation source
+code_01,T01,Code,role-call-code/src/lib/types/index.ts,application_implementation_or_model,Yes,1,3,62,Application implementation source
+code_01,T01,Code,role-call-code/src/lib/types/processes.ts,application_implementation_or_model,Yes,1,128,4992,Application implementation source
+code_02,T02,Code,README.md,documentation_and_task_inputs,No,1,65,3228,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/Change of Employment Conditions Data.docx,documentation_and_task_inputs,No,1,0,18059,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/Change of Employment Conditions Test Scenario.docx,documentation_and_task_inputs,No,1,0,22172,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/Change of Employment Conditions.bpmn,documentation_and_task_inputs,No,1,289,16882,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/Decorations and Medals Data.docx,documentation_and_task_inputs,No,1,0,17432,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/Decorations and Medals Test Scenario.docx,documentation_and_task_inputs,No,1,0,21732,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/Decorations and Medals.bpmn,documentation_and_task_inputs,No,1,242,14676,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/docker-compose.yml,project_configuration_and_dependency_metadata,No,1,44,1017,"Project configuration, environment definition, or dependency metadata"
+code_02,T02,Code,Mipb/extract_docx_to_console.py,development_support,No,1,29,897,"Extraction, inspection, or debugging helper"
+code_02,T02,Code,Mipb/extract_missing_docx.py,development_support,No,1,35,996,"Extraction, inspection, or debugging helper"
+code_02,T02,Code,Mipb/extract_remaining_docx.py,development_support,No,1,38,1146,"Extraction, inspection, or debugging helper"
+code_02,T02,Code,Mipb/Leave Request Data.docx,documentation_and_task_inputs,No,1,0,18186,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/Leave Request Test Scenario.docx,documentation_and_task_inputs,No,1,0,21777,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/Leave Request.bpmn,documentation_and_task_inputs,No,1,241,14280,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/Process to Roles Mapping.docx,documentation_and_task_inputs,No,1,0,16599,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/walkthrough.md,documentation_and_task_inputs,No,1,81,4243,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/backend/decorations_scenario.docx,documentation_and_task_inputs,No,1,0,21732,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/backend/Dockerfile,project_configuration_and_dependency_metadata,No,1,11,218,"Project configuration, environment definition, or dependency metadata"
+code_02,T02,Code,Mipb/backend/extract.py,development_support,No,1,29,897,"Extraction, inspection, or debugging helper"
+code_02,T02,Code,Mipb/backend/leave_scenario.docx,documentation_and_task_inputs,No,1,0,21777,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/backend/requirements.txt,documentation_and_task_inputs,No,1,8,149,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/backend/scenario.docx,documentation_and_task_inputs,No,1,0,22172,Documentation or supplied task/reference material
+code_02,T02,Code,Mipb/frontend/Dockerfile,project_configuration_and_dependency_metadata,No,1,13,162,"Project configuration, environment definition, or dependency metadata"
+code_02,T02,Code,Mipb/frontend/index.html,application_implementation_or_model,Yes,1,13,325,Application implementation source
+code_02,T02,Code,Mipb/frontend/package.json,project_configuration_and_dependency_metadata,No,1,24,600,"Project configuration, environment definition, or dependency metadata"
+code_02,T02,Code,Mipb/frontend/vite.config.ts,project_configuration_and_dependency_metadata,No,1,12,238,"Project configuration, environment definition, or dependency metadata"
+code_02,T02,Code,Mipb/backend/app/main.py,application_implementation_or_model,Yes,1,33,872,Application implementation source
+code_02,T02,Code,Mipb/backend/app/db/init_db.py,application_implementation_or_model,Yes,1,45,1933,Application implementation source
+code_02,T02,Code,Mipb/backend/app/db/models.py,application_implementation_or_model,Yes,1,56,2541,Application implementation source
+code_02,T02,Code,Mipb/backend/app/db/session.py,application_implementation_or_model,Yes,1,18,457,Application implementation source
+code_02,T02,Code,Mipb/backend/app/routers/auth.py,application_implementation_or_model,Yes,1,20,487,Application implementation source
+code_02,T02,Code,Mipb/backend/app/routers/process.py,application_implementation_or_model,Yes,1,101,3464,Application implementation source
+code_02,T02,Code,Mipb/backend/app/services/process_engine.py,application_implementation_or_model,Yes,1,193,10306,Application implementation source
+code_02,T02,Code,Mipb/frontend/src/App.tsx,application_implementation_or_model,Yes,1,52,2454,Application implementation source
+code_02,T02,Code,Mipb/frontend/src/index.css,application_implementation_or_model,Yes,1,81,1184,Application implementation source
+code_02,T02,Code,Mipb/frontend/src/main.tsx,application_implementation_or_model,Yes,1,11,256,Application implementation source
+code_02,T02,Code,Mipb/frontend/src/pages/Archive.tsx,application_implementation_or_model,Yes,1,70,2800,Application implementation source
+code_02,T02,Code,Mipb/frontend/src/pages/Login.tsx,application_implementation_or_model,Yes,1,64,2340,Application implementation source
+code_02,T02,Code,Mipb/frontend/src/pages/ProcessHistory.tsx,application_implementation_or_model,Yes,1,118,4620,Application implementation source
+code_02,T02,Code,Mipb/frontend/src/pages/StartProcess.tsx,application_implementation_or_model,Yes,1,141,7832,Application implementation source
+code_02,T02,Code,Mipb/frontend/src/pages/TaskForm.tsx,application_implementation_or_model,Yes,1,854,56191,Application implementation source
+code_02,T02,Code,Mipb/frontend/src/pages/Worklist.tsx,application_implementation_or_model,Yes,1,81,3122,Application implementation source
+code_03,T03,Code,MiPB/.gitignore,project_configuration_and_dependency_metadata,No,1,0,62,"Project configuration, environment definition, or dependency metadata"
+code_03,T03,Code,MiPB/co_zrobic.txt,documentation_and_task_inputs,No,1,4,102,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/README.md,documentation_and_task_inputs,No,1,77,2943,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/AplikacjaSystemu/database.js,application_implementation_or_model,Yes,1,10,267,Application implementation source
+code_03,T03,Code,MiPB/AplikacjaSystemu/package-lock.json,project_configuration_and_dependency_metadata,No,1,2794,104857,"Project configuration, environment definition, or dependency metadata"
+code_03,T03,Code,MiPB/AplikacjaSystemu/package.json,project_configuration_and_dependency_metadata,No,1,18,423,"Project configuration, environment definition, or dependency metadata"
+code_03,T03,Code,MiPB/AplikacjaSystemu/server.js,application_implementation_or_model,Yes,1,70,3701,Application implementation source
+code_03,T03,Code,MiPB/AplikacjaSystemu/test_decorations.js,application_tests,Yes,1,238,8386,Executable test artifact
+code_03,T03,Code,MiPB/AplikacjaSystemu/test_employment.js,application_tests,Yes,1,236,8026,Executable test artifact
+code_03,T03,Code,MiPB/AplikacjaSystemu/test_scenario_execution.js,application_tests,Yes,1,240,8946,Executable test artifact
+code_03,T03,Code,MiPB/AplikacjaSystemu/USER_ROLES.md,documentation_and_task_inputs,No,1,16,1807,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Change of Employment Conditions Data.docx,documentation_and_task_inputs,No,1,0,18059,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Change of Employment Conditions Test Scenario.docx,documentation_and_task_inputs,No,1,0,22172,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Change of Employment Conditions.bpmn,documentation_and_task_inputs,No,1,289,16882,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Decorations and Medals Data.docx,documentation_and_task_inputs,No,1,0,17432,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Decorations and Medals Test Scenario.docx,documentation_and_task_inputs,No,1,0,21732,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Decorations and Medals.bpmn,documentation_and_task_inputs,No,1,242,14676,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/extract_docx.py,development_support,No,1,39,1225,"Extraction, inspection, or debugging helper"
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Leave Request Data.docx,documentation_and_task_inputs,No,1,0,18186,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Leave Request Test Scenario.docx,documentation_and_task_inputs,No,1,0,21777,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Leave Request.bpmn,documentation_and_task_inputs,No,1,241,14280,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/Materialy_Pomocnicze/Process to Roles Mapping.docx,documentation_and_task_inputs,No,1,0,16599,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/ProjectDocs/AntigravityLog.docx,documentation_and_task_inputs,No,1,0,260151,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/ProjectDocs/implementation_plan_final.md,documentation_and_task_inputs,No,1,45,1947,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/ProjectDocs/walkthrough.md,documentation_and_task_inputs,No,1,122,5354,Documentation or supplied task/reference material
+code_03,T03,Code,MiPB/AplikacjaSystemu/models/Request.js,application_implementation_or_model,Yes,1,39,997,Application implementation source
+code_03,T03,Code,MiPB/AplikacjaSystemu/models/User.js,application_implementation_or_model,Yes,1,41,949,Application implementation source
+code_03,T03,Code,MiPB/AplikacjaSystemu/public/app.js,application_implementation_or_model,Yes,1,724,36096,Application implementation source
+code_03,T03,Code,MiPB/AplikacjaSystemu/public/index.html,application_implementation_or_model,Yes,1,239,10704,Application implementation source
+code_03,T03,Code,MiPB/AplikacjaSystemu/public/style.css,application_implementation_or_model,Yes,1,291,5444,Application implementation source
+code_03,T03,Code,MiPB/AplikacjaSystemu/routes/auth.js,application_implementation_or_model,Yes,1,137,5013,Application implementation source
+code_03,T03,Code,MiPB/AplikacjaSystemu/routes/processes.js,application_implementation_or_model,Yes,1,57,2257,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/.env.example,project_configuration_and_dependency_metadata,No,1,6,387,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/.gitignore,project_configuration_and_dependency_metadata,No,1,0,548,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/components.json,project_configuration_and_dependency_metadata,No,1,21,467,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/firebase.json,project_configuration_and_dependency_metadata,No,1,13,207,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/next.config.js,project_configuration_and_dependency_metadata,No,1,6,126,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/next.config.ts,project_configuration_and_dependency_metadata,No,1,35,680,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/package-lock.json,project_configuration_and_dependency_metadata,No,1,12497,478917,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/package.json,project_configuration_and_dependency_metadata,No,1,68,2237,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/postcss.config.mjs,project_configuration_and_dependency_metadata,No,1,8,143,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/README.md,documentation_and_task_inputs,No,1,14,489,Documentation or supplied task/reference material
+code_04,T04,Code,role-call-code_with_processes/tailwind.config.ts,project_configuration_and_dependency_metadata,No,1,89,2583,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/tsconfig.json,project_configuration_and_dependency_metadata,No,1,27,629,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/.idx/dev.nix,project_configuration_and_dependency_metadata,No,1,44,1324,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/.idx/icon.png,application_assets,Yes,1,0,27438,Application image or other binary asset
+code_04,T04,Code,role-call-code_with_processes/docs/blueprint.md,documentation_and_task_inputs,No,1,19,982,Documentation or supplied task/reference material
+code_04,T04,Code,role-call-code_with_processes/public/index.html,application_implementation_or_model,Yes,1,89,4695,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/firebase.ts,application_implementation_or_model,Yes,1,23,1118,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/.github/workflows/firebase-hosting-merge.yml,project_configuration_and_dependency_metadata,No,1,32,783,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/.github/workflows/firebase-hosting-pull-request.yml,project_configuration_and_dependency_metadata,No,1,21,701,"Project configuration, environment definition, or dependency metadata"
+code_04,T04,Code,role-call-code_with_processes/src/ai/dev.ts,application_implementation_or_model,Yes,1,4,91,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/ai/genkit.ts,application_implementation_or_model,Yes,1,7,183,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/actions.ts,application_implementation_or_model,Yes,1,16,612,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/favicon.ico,application_assets,Yes,1,0,15086,Application image or other binary asset
+code_04,T04,Code,role-call-code_with_processes/src/app/globals.css,application_implementation_or_model,Yes,1,72,1838,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/layout.tsx,application_implementation_or_model,Yes,1,35,1013,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/page.tsx,application_implementation_or_model,Yes,1,26,652,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/context/AuthContext.tsx,application_implementation_or_model,Yes,1,111,3066,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/hooks/use-toast.ts,application_implementation_or_model,Yes,1,194,4142,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/hooks/useAuth.ts,application_implementation_or_model,Yes,1,12,315,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/lib/actions-change-employment.ts,application_implementation_or_model,Yes,1,177,4240,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/lib/actions-leave.ts,application_implementation_or_model,Yes,1,102,2811,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/lib/actions.ts,application_implementation_or_model,Yes,1,143,3702,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/lib/auth.ts,application_implementation_or_model,Yes,1,19,1385,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/lib/placeholder-images.json,application_implementation_or_model,Yes,1,3,31,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/lib/placeholder-images.ts,application_implementation_or_model,Yes,1,10,249,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/lib/types.ts,application_implementation_or_model,Yes,1,7,117,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/lib/utils.ts,application_implementation_or_model,Yes,1,6,172,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/ai/flows/generate-user-avatar.ts,application_implementation_or_model,Yes,1,54,1843,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/dashboard/layout.tsx,application_implementation_or_model,Yes,1,19,454,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/dashboard/page.tsx,application_implementation_or_model,Yes,1,105,3418,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/head-approval/page.tsx,application_implementation_or_model,Yes,1,135,3593,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/login/page.tsx,application_implementation_or_model,Yes,1,142,4603,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/tasks/page.tsx,application_implementation_or_model,Yes,1,84,2493,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/flows/change-of-employment/start/page.tsx,application_implementation_or_model,Yes,1,85,2578,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/flows/decorations-and-medals/start/page.tsx,application_implementation_or_model,Yes,1,82,2488,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/flows/leave-request/start/page.tsx,application_implementation_or_model,Yes,1,161,4299,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/flows/leave-request/task/page.tsx,application_implementation_or_model,Yes,1,126,3673,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/flows/leave-request/task/[id]/page.tsx,application_implementation_or_model,Yes,1,229,6829,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/app/tasks/[id]/page.tsx,application_implementation_or_model,Yes,1,323,9922,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/auth/ProtectedRoute.tsx,application_implementation_or_model,Yes,1,28,737,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/layout/Header.tsx,application_implementation_or_model,Yes,1,102,3499,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/accordion.tsx,application_implementation_or_model,Yes,1,58,2049,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/alert-dialog.tsx,application_implementation_or_model,Yes,1,141,4575,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/alert.tsx,application_implementation_or_model,Yes,1,59,1643,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/avatar.tsx,application_implementation_or_model,Yes,1,50,1469,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/badge.tsx,application_implementation_or_model,Yes,1,36,1164,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/button.tsx,application_implementation_or_model,Yes,1,56,1957,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/calendar.tsx,application_implementation_or_model,Yes,1,70,2779,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/card.tsx,application_implementation_or_model,Yes,1,79,1937,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/carousel.tsx,application_implementation_or_model,Yes,1,262,6486,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/chart.tsx,application_implementation_or_model,Yes,1,365,10844,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/checkbox.tsx,application_implementation_or_model,Yes,1,30,1100,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/collapsible.tsx,application_implementation_or_model,Yes,1,11,340,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/dialog.tsx,application_implementation_or_model,Yes,1,122,3970,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/dropdown-menu.tsx,application_implementation_or_model,Yes,1,200,7633,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/form.tsx,application_implementation_or_model,Yes,1,178,4298,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/input.tsx,application_implementation_or_model,Yes,1,23,841,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/label.tsx,application_implementation_or_model,Yes,1,26,750,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/menubar.tsx,application_implementation_or_model,Yes,1,256,8761,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/popover.tsx,application_implementation_or_model,Yes,1,31,1275,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/progress.tsx,application_implementation_or_model,Yes,1,28,819,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/radio-group.tsx,application_implementation_or_model,Yes,1,44,1525,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/scroll-area.tsx,application_implementation_or_model,Yes,1,48,1704,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/select.tsx,application_implementation_or_model,Yes,1,160,5789,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/separator.tsx,application_implementation_or_model,Yes,1,31,801,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/sheet.tsx,application_implementation_or_model,Yes,1,140,4421,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/skeleton.tsx,application_implementation_or_model,Yes,1,15,276,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/slider.tsx,application_implementation_or_model,Yes,1,28,1119,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/switch.tsx,application_implementation_or_model,Yes,1,29,1182,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/table.tsx,application_implementation_or_model,Yes,1,117,2882,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/tabs.tsx,application_implementation_or_model,Yes,1,55,1952,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/textarea.tsx,application_implementation_or_model,Yes,1,22,758,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/toast.tsx,application_implementation_or_model,Yes,1,129,4988,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/toaster.tsx,application_implementation_or_model,Yes,1,35,821,Application implementation source
+code_04,T04,Code,role-call-code_with_processes/src/components/ui/tooltip.tsx,application_implementation_or_model,Yes,1,30,1189,Application implementation source
+code_05,T05,Code,Change of Employment Conditions/Change of Employment Conditions Data.docx,documentation_and_task_inputs,No,1,0,18059,Documentation or supplied task/reference material
+code_05,T05,Code,Change of Employment Conditions/Change of Employment Conditions Test Scenario.docx,documentation_and_task_inputs,No,1,0,22172,Documentation or supplied task/reference material
+code_05,T05,Code,Change of Employment Conditions/Change of Employment Conditions.bpmn,documentation_and_task_inputs,No,1,289,16882,Documentation or supplied task/reference material
+code_05,T05,Code,Change of Employment Conditions/Change_of_Employment_Conditions.md,documentation_and_task_inputs,No,1,49,2387,Documentation or supplied task/reference material
+code_05,T05,Code,Change of Employment Conditions/database.py,application_implementation_or_model,Yes,1,109,3770,Application implementation source
+code_05,T05,Code,Change of Employment Conditions/debug_read.py,development_support,No,1,6,210,"Extraction, inspection, or debugging helper"
+code_05,T05,Code,Change of Employment Conditions/docx_content.txt,documentation_and_task_inputs,No,1,72,8065,Documentation or supplied task/reference material
+code_05,T05,Code,Change of Employment Conditions/docx_content_v2.txt,documentation_and_task_inputs,No,1,74,8099,Documentation or supplied task/reference material
+code_05,T05,Code,Change of Employment Conditions/extract_docx.py,development_support,No,1,36,1181,"Extraction, inspection, or debugging helper"
+code_05,T05,Code,Change of Employment Conditions/extract_docx_v2.py,development_support,No,1,40,1272,"Extraction, inspection, or debugging helper"
+code_05,T05,Code,Change of Employment Conditions/inspect_docx.py,development_support,No,1,22,661,"Extraction, inspection, or debugging helper"
+code_05,T05,Code,Change of Employment Conditions/main.py,application_implementation_or_model,Yes,1,310,12791,Application implementation source
+code_05,T05,Code,Change of Employment Conditions/process.py,application_implementation_or_model,Yes,1,138,5466,Application implementation source
+code_05,T05,Code,Change of Employment Conditions/requirements.txt,documentation_and_task_inputs,No,1,38,680,Documentation or supplied task/reference material
+code_05,T05,Code,Change of Employment Conditions/test_employment.py,application_tests,Yes,1,469,18535,Executable test artifact
+code_05,T05,Code,Decorations and Medals/app.py,application_implementation_or_model,Yes,1,996,37609,Application implementation source
+code_05,T05,Code,Decorations and Medals/database.py,application_implementation_or_model,Yes,1,616,22262,Application implementation source
+code_05,T05,Code,Decorations and Medals/Decorations and Medals Data.docx,documentation_and_task_inputs,No,1,0,17432,Documentation or supplied task/reference material
+code_05,T05,Code,Decorations and Medals/Decorations and Medals Test Scenario.docx,documentation_and_task_inputs,No,1,0,21732,Documentation or supplied task/reference material
+code_05,T05,Code,Decorations and Medals/Decorations and Medals.bpmn,documentation_and_task_inputs,No,1,242,14676,Documentation or supplied task/reference material
+code_05,T05,Code,Decorations and Medals/DecorationsAndMedals.md,documentation_and_task_inputs,No,1,213,6392,Documentation or supplied task/reference material
+code_05,T05,Code,Decorations and Medals/docs_content.txt,documentation_and_task_inputs,No,1,75,7397,Documentation or supplied task/reference material
+code_05,T05,Code,Decorations and Medals/extract_docs.py,development_support,No,1,36,1120,"Extraction, inspection, or debugging helper"
+code_05,T05,Code,Decorations and Medals/read_any.py,development_support,No,1,19,521,"Extraction, inspection, or debugging helper"
+code_05,T05,Code,Decorations and Medals/requirements.txt,documentation_and_task_inputs,No,1,38,680,Documentation or supplied task/reference material
+code_05,T05,Code,Decorations and Medals/test_decorations.py,application_tests,Yes,1,500,20521,Executable test artifact
+code_05,T05,Code,Decorations and Medals/workflow.py,application_implementation_or_model,Yes,1,447,15816,Application implementation source
+code_05,T05,Code,Leave Request/app.py,application_implementation_or_model,Yes,1,816,28837,Application implementation source
+code_05,T05,Code,Leave Request/database.py,application_implementation_or_model,Yes,1,561,20103,Application implementation source
+code_05,T05,Code,Leave Request/extracted_content.txt,documentation_and_task_inputs,No,1,86,9016,Documentation or supplied task/reference material
+code_05,T05,Code,Leave Request/extract_docs.py,development_support,No,1,31,1021,"Extraction, inspection, or debugging helper"
+code_05,T05,Code,Leave Request/Leave Request Data.docx,documentation_and_task_inputs,No,1,0,18186,Documentation or supplied task/reference material
+code_05,T05,Code,Leave Request/Leave Request Test Scenario.docx,documentation_and_task_inputs,No,1,0,21777,Documentation or supplied task/reference material
+code_05,T05,Code,Leave Request/Leave Request-rozmowa.txt,documentation_and_task_inputs,No,1,555,25018,Documentation or supplied task/reference material
+code_05,T05,Code,Leave Request/Leave Request.bpmn,documentation_and_task_inputs,No,1,241,14280,Documentation or supplied task/reference material
+code_05,T05,Code,Leave Request/Leave_Request_App.md,documentation_and_task_inputs,No,1,194,6294,Documentation or supplied task/reference material
+code_05,T05,Code,Leave Request/requirements.txt,documentation_and_task_inputs,No,1,38,680,Documentation or supplied task/reference material
+code_05,T05,Code,Leave Request/test_leave_request.py,application_tests,Yes,1,542,21344,Executable test artifact
+code_05,T05,Code,Leave Request/workflow.py,application_implementation_or_model,Yes,1,364,13934,Application implementation source
+code_06,T06,Code,db.js,application_implementation_or_model,Yes,1,131,3717,Application implementation source
+code_06,T06,Code,package-lock.json,project_configuration_and_dependency_metadata,No,1,1583,55475,"Project configuration, environment definition, or dependency metadata"
+code_06,T06,Code,package.json,project_configuration_and_dependency_metadata,No,1,18,336,"Project configuration, environment definition, or dependency metadata"
+code_06,T06,Code,server.js,application_implementation_or_model,Yes,1,243,7644,Application implementation source
+code_06,T06,Code,test_runner.js,application_tests,Yes,1,86,3883,Executable test artifact
+code_06,T06,Code,workflowEngine.js,application_implementation_or_model,Yes,1,267,13371,Application implementation source
+code_06,T06,Code,public/app.js,application_implementation_or_model,Yes,1,1419,59789,Application implementation source
+code_06,T06,Code,public/index.html,application_implementation_or_model,Yes,1,423,19256,Application implementation source
+code_06,T06,Code,public/style.css,application_implementation_or_model,Yes,1,1170,21652,Application implementation source
+code_07,T07,Code,db.js,application_implementation_or_model,Yes,1,96,2689,Application implementation source
+code_07,T07,Code,package-lock.json,project_configuration_and_dependency_metadata,No,1,828,29358,"Project configuration, environment definition, or dependency metadata"
+code_07,T07,Code,package.json,project_configuration_and_dependency_metadata,No,1,13,266,"Project configuration, environment definition, or dependency metadata"
+code_07,T07,Code,server.js,application_implementation_or_model,Yes,1,481,13686,Application implementation source
+code_07,T07,Code,test_scenarios.js,application_tests,Yes,1,357,14724,Executable test artifact
+code_07,T07,Code,public/app.js,application_implementation_or_model,Yes,1,1232,48316,Application implementation source
+code_07,T07,Code,public/index.html,application_implementation_or_model,Yes,1,533,32323,Application implementation source
+code_07,T07,Code,public/style.css,application_implementation_or_model,Yes,1,1453,28849,Application implementation source
+model_01,T01,Model,Change of Employment Conditions Process.bpmn,application_implementation_or_model,Yes,1,179,10499,Submitted executable BPMN/JSON model artifact
+model_01,T01,Model,Change of Employment Conditions Process.json,application_implementation_or_model,Yes,1,140,3473,Submitted executable BPMN/JSON model artifact
+model_01,T01,Model,Change of Employment Conditions.json,application_implementation_or_model,Yes,1,205,5647,Submitted executable BPMN/JSON model artifact
+model_01,T01,Model,Decorations and Medals Process.bpmn,application_implementation_or_model,Yes,1,170,10170,Submitted executable BPMN/JSON model artifact
+model_01,T01,Model,Decorations and Medals Process.json,application_implementation_or_model,Yes,1,135,3415,Submitted executable BPMN/JSON model artifact
+model_01,T01,Model,Decorations and Medals Registration.json,application_implementation_or_model,Yes,1,140,3787,Submitted executable BPMN/JSON model artifact
+model_01,T01,Model,Leave Request Process.bpmn,application_implementation_or_model,Yes,1,167,9818,Submitted executable BPMN/JSON model artifact
+model_01,T01,Model,Leave Request Process.json,application_implementation_or_model,Yes,1,130,3189,Submitted executable BPMN/JSON model artifact
+model_01,T01,Model,Leave Request.json,application_implementation_or_model,Yes,1,248,7115,Submitted executable BPMN/JSON model artifact
+model_02,T02,Model,Change of Employment Conditions Diagram.json,application_implementation_or_model,Yes,1,140,3477,Submitted executable BPMN/JSON model artifact
+model_02,T02,Model,Change of Employment Conditions.bpmn,application_implementation_or_model,Yes,1,179,10449,Submitted executable BPMN/JSON model artifact
+model_02,T02,Model,Change of Employment Conditions.json,application_implementation_or_model,Yes,1,206,5740,Submitted executable BPMN/JSON model artifact
+model_02,T02,Model,Decorations and Medals Application.json,application_implementation_or_model,Yes,1,137,3746,Submitted executable BPMN/JSON model artifact
+model_02,T02,Model,Decorations and Medals Process.bpmn,application_implementation_or_model,Yes,1,170,10162,Submitted executable BPMN/JSON model artifact
+model_02,T02,Model,Decorations and Medals Process.json,application_implementation_or_model,Yes,1,135,3645,Submitted executable BPMN/JSON model artifact
+model_02,T02,Model,Leave Request Process Diagram.bpmn,application_implementation_or_model,Yes,1,167,9776,Submitted executable BPMN/JSON model artifact
+model_02,T02,Model,Leave Request Process Diagram.json,application_implementation_or_model,Yes,1,130,3177,Submitted executable BPMN/JSON model artifact
+model_02,T02,Model,Leave Request Process Form.json,application_implementation_or_model,Yes,1,264,7585,Submitted executable BPMN/JSON model artifact
+model_03,T03,Model,Academic Teacher Leave Request.json,application_implementation_or_model,Yes,1,244,6982,Submitted executable BPMN/JSON model artifact
+model_03,T03,Model,Change of Employment Conditions Diagram.bpmn,application_implementation_or_model,Yes,1,179,10702,Submitted executable BPMN/JSON model artifact
+model_03,T03,Model,Change of Employment Conditions Diagram.json,application_implementation_or_model,Yes,1,140,3591,Submitted executable BPMN/JSON model artifact
+model_03,T03,Model,Change of Employment Conditions Form.json,application_implementation_or_model,Yes,1,179,5037,Submitted executable BPMN/JSON model artifact
+model_03,T03,Model,Decorations and Medals Process Diagram.bpmn,application_implementation_or_model,Yes,1,170,10170,Submitted executable BPMN/JSON model artifact
+model_03,T03,Model,Decorations and Medals Process Diagram.json,application_implementation_or_model,Yes,1,135,3746,Submitted executable BPMN/JSON model artifact
+model_03,T03,Model,Decorations and Medals Request.json,application_implementation_or_model,Yes,1,140,3791,Submitted executable BPMN/JSON model artifact
+model_03,T03,Model,Leave Request Process Diagram.bpmn,application_implementation_or_model,Yes,1,167,9767,Submitted executable BPMN/JSON model artifact
+model_03,T03,Model,Leave Request Process Diagram.json,application_implementation_or_model,Yes,1,130,3117,Submitted executable BPMN/JSON model artifact
+model_04,T04,Model,Change of Employment Conditions Diagram.bpmn,application_implementation_or_model,Yes,1,179,10549,Submitted executable BPMN/JSON model artifact
+model_04,T04,Model,Change of Employment Conditions Diagram.json,application_implementation_or_model,Yes,1,140,3475,Submitted executable BPMN/JSON model artifact
+model_04,T04,Model,Change of Employment Conditions Form.json,application_implementation_or_model,Yes,1,182,5002,Submitted executable BPMN/JSON model artifact
+model_04,T04,Model,Decorations and Medals Application Form.json,application_implementation_or_model,Yes,1,137,3741,Submitted executable BPMN/JSON model artifact
+model_04,T04,Model,Decorations and Medals Process Diagram.bpmn,application_implementation_or_model,Yes,1,170,10162,Submitted executable BPMN/JSON model artifact
+model_04,T04,Model,Decorations and Medals Process Diagram.json,application_implementation_or_model,Yes,1,135,3643,Submitted executable BPMN/JSON model artifact
+model_04,T04,Model,Employee Leave Request Form.json,application_implementation_or_model,Yes,1,244,6919,Submitted executable BPMN/JSON model artifact
+model_04,T04,Model,Leave Request Process Diagram.bpmn,application_implementation_or_model,Yes,1,167,9699,Submitted executable BPMN/JSON model artifact
+model_04,T04,Model,Leave Request Process Diagram.json,application_implementation_or_model,Yes,1,130,3095,Submitted executable BPMN/JSON model artifact
+model_05,T05,Model,Change of Employment Conditions Diagram.bpmn,application_implementation_or_model,Yes,1,179,10452,Submitted executable BPMN/JSON model artifact
+model_05,T05,Model,Change of Employment Conditions Diagram.json,application_implementation_or_model,Yes,1,140,3480,Submitted executable BPMN/JSON model artifact
+model_05,T05,Model,Change of Employment Conditions Form.json,application_implementation_or_model,Yes,1,196,5452,Submitted executable BPMN/JSON model artifact
+model_05,T05,Model,Decorations and Medals Process Diagram.bpmn,application_implementation_or_model,Yes,1,170,10157,Submitted executable BPMN/JSON model artifact
+model_05,T05,Model,Decorations and Medals Process Diagram.json,application_implementation_or_model,Yes,1,135,3729,Submitted executable BPMN/JSON model artifact
+model_05,T05,Model,Decorations and Medals Process Form.json,application_implementation_or_model,Yes,1,137,3737,Submitted executable BPMN/JSON model artifact
+model_05,T05,Model,Leave Request Process Diagram.bpmn,application_implementation_or_model,Yes,1,167,9804,Submitted executable BPMN/JSON model artifact
+model_05,T05,Model,Leave Request Process Diagram.json,application_implementation_or_model,Yes,1,130,3161,Submitted executable BPMN/JSON model artifact
+model_05,T05,Model,Leave Request Process Form.json,application_implementation_or_model,Yes,1,244,6969,Submitted executable BPMN/JSON model artifact
+model_06,T06,Model,Change of Employment Conditions Diagram.bpmn,application_implementation_or_model,Yes,1,179,10564,Submitted executable BPMN/JSON model artifact
+model_06,T06,Model,Change of Employment Conditions Diagram.json,application_implementation_or_model,Yes,1,140,3492,Submitted executable BPMN/JSON model artifact
+model_06,T06,Model,Change of Employment Conditions Form.json,application_implementation_or_model,Yes,1,201,5574,Submitted executable BPMN/JSON model artifact
+model_06,T06,Model,Decorations and Medals Application Form.json,application_implementation_or_model,Yes,1,137,3741,Submitted executable BPMN/JSON model artifact
+model_06,T06,Model,Decorations and Medals Diagram.bpmn,application_implementation_or_model,Yes,1,170,10176,Submitted executable BPMN/JSON model artifact
+model_06,T06,Model,Decorations and Medals Diagram.json,application_implementation_or_model,Yes,1,135,3423,Submitted executable BPMN/JSON model artifact
+model_06,T06,Model,Leave Request Diagram.bpmn,application_implementation_or_model,Yes,1,167,9760,Submitted executable BPMN/JSON model artifact
+model_06,T06,Model,Leave Request Diagram.json,application_implementation_or_model,Yes,1,130,3120,Submitted executable BPMN/JSON model artifact
+model_06,T06,Model,Leave Request Process Form.json,application_implementation_or_model,Yes,1,263,7538,Submitted executable BPMN/JSON model artifact
+model_07,T07,Model,Change of Employment Conditions Process.bpmn,application_implementation_or_model,Yes,1,289,16594,Submitted executable BPMN/JSON model artifact
+model_07,T07,Model,Change of Employment Conditions Process.json,application_implementation_or_model,Yes,1,1,3343,Submitted executable BPMN/JSON model artifact
+model_07,T07,Model,Change of Employment Conditions.json,application_implementation_or_model,Yes,1,1,3581,Submitted executable BPMN/JSON model artifact
+model_07,T07,Model,Decorations and Medals Process.bpmn,application_implementation_or_model,Yes,1,242,14434,Submitted executable BPMN/JSON model artifact
+model_07,T07,Model,Decorations and Medals Process.json,application_implementation_or_model,Yes,1,1,2856,Submitted executable BPMN/JSON model artifact
+model_07,T07,Model,Decorations and Medals Registration.json,application_implementation_or_model,Yes,1,1,3303,Submitted executable BPMN/JSON model artifact
+model_07,T07,Model,Leave Request Process.bpmn,application_implementation_or_model,Yes,1,241,14040,Submitted executable BPMN/JSON model artifact
+model_07,T07,Model,Leave Request Process.json,application_implementation_or_model,Yes,1,1,2899,Submitted executable BPMN/JSON model artifact
+model_07,T07,Model,Leave Request.json,application_implementation_or_model,Yes,1,1,4693,Submitted executable BPMN/JSON model artifact

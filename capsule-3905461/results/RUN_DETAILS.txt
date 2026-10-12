@@ -1,0 +1,44 @@
+Tests: code
+..........................
+----------------------------------------------------------------------
+Ran 26 tests in 0.014s
+
+OK
+
+Tests: skills
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
+
+generate.py
+{
+  "teams": 7,
+  "conditions": 14,
+  "annotation_rows": 329,
+  "statuses": {
+    "observed use": 163,
+    "supported requirement": 125,
+    "excluded": 41
+  },
+  "taxonomy_ids": 209,
+  "exact_taxonomy_labels": 137,
+  "independent_coding": false,
+  "complete_repertoires": false,
+  "human_necessity_established": false,
+  "weighted_analysis": false,
+  "source_files_verified": null,
+  "primary_profile": "it_involved_profiles.csv: IT-only union of observed and implementation-supported category labels",
+  "complete_profile": "involved_profiles.csv: complete union including domain categories",
+  "classification_version": "P6-IT-classification-2026-10-02",
+  "IT_taxonomy_ids": 163,
+  "domain_taxonomy_ids": 46,
+  "warning": "Technical-content inventory with overlapping taxonomy levels, not an effort/difficulty scale or activity frequency; unknown is not absence."
+}
+
+describe_runs.py
+Generated per-run category CSV and Markdown descriptions for 14 runs.
+
+reproduce_matrix.py
+{"rows": 37, "cells": 518, "supported_cells": 206, "unknown_cells": 312}

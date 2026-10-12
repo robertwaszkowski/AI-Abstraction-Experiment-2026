@@ -1,0 +1,27 @@
+{
+  "team": "T01",
+  "approach": "Model",
+  "source_filename": "Decorations and Medals Process-history.json",
+  "source_format": ".json",
+  "source_sha256": "1c74d70e8075177c17ff009864deadec7a013797d3bb34b2a7a3287106559faa",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Decorations and Medals Process",
+    "exportedAt": "2026-04-02T18:53:19.762Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Prepare a diagram as attached.",
+        "timestamp": "2026-04-02T18:53:13.176Z",
+        "files": [
+          "Decorations and Medals.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Models the military decoration application process involving multiple departments from submission through approval, external handling, and registration.",
+        "timestamp": "2026-04-02T18:53:17.762Z"
+      }
+    ]
+  }
+}

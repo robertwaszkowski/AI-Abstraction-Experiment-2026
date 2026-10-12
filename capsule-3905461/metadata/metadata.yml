@@ -1,0 +1,30 @@
+metadata_version: 1
+name: Are Executable Models Faster to Develop Than Code? A Matched-Team Comparison
+  of Application Development — Reproducibility Capsule
+description: |-
+  Reproduce the analyses for “Are Executable Models Faster to Develop Than Code? A Matched-Team Comparison of Application Development”. Seven matched two-person teams implemented three personnel workflows using application code and executable BPMN/JSON models on Aurea, with AI assistance available in both approaches. Findings concern these teams, workflows and complete development strategies.
+
+  Click Reproducible Run. When it finishes, open /results/README.md for a guide to the generated tables, plot and descriptions. The run window shows a short progress summary. Detailed checks are saved in REPRODUCTION_REPORT.json and RUN_DETAILS.txt.
+
+  The capsule reproduces paired statistics, break-threshold and maximum-observation sensitivity analyses, technical-category profiles, an evidence matrix, the paired plot and tables transcribed from author acceptance reports. It checks all outputs against the supplied reference results and runs 34 automated checks.
+
+  Version TSE-models-vs-code-2026-10-12-r11 uses native /code, /data and /results folders. Inputs include paired measurements, derived timing intervals, 329 category annotations, task inputs, 14 author acceptance reports and 51 anonymized conversation-text exports. Source hashes select the author-confirmed Model histories containing recorded completion metadata. Embedded screenshots and identifying records are excluded. Manuscript and supplement documents are supplied separately. Python and its standard library are sufficient.
+
+  This is reanalysis of supplied study measurements and annotations. It does not independently recode evidence, rerun participant applications, validate deployed security or repeat the empirical study. Technical-category counts describe identified technical content rather than effort, difficulty or complete human skill requirements. Reviewer access is checked separately.
+tags:
+- Software engineering
+- generative AI
+- Large Language Models
+- low-code development
+- model-driven engineering
+- BPMN
+- Business Process Management
+- empirical software engineering
+- Reproducibility
+authors:
+- name: Robert Waszkowski
+  affiliations:
+  - name: Military University of Technology
+corresponding_contributor:
+  name: Robert Waszkowski
+  email: robert.waszkowski@wat.edu.pl

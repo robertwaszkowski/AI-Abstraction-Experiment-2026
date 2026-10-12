@@ -1,0 +1,15 @@
+experiment_id,team_id,team_size,sequence_order,condition_position,condition,documented_success,technology,time_method,reported_active_minutes,turn_method
+code_01,T01,2,Code -> Model,1,Code,Yes,Next.js + Prisma + PostgreSQL,reported_total,150,timestamp_lines
+code_02,T02,2,Model -> Code,2,Code,Yes,React/Vite + FastAPI + PostgreSQL,duration_rows,,duration_rows
+code_03,T03,2,Code -> Model,1,Code,Yes,Node.js/Express + SQLite + browser JavaScript,duration_rows,,duration_rows
+code_04,T04,2,Model -> Code,2,Code,Yes,Next.js + Firebase/Firestore,sessionized_docx,,timestamp_lines
+code_05,T05,2,Code -> Model,1,Code,Yes,Python + Streamlit + SQLite,reported_total,240,user_headings
+code_06,T06,2,Model -> Code,2,Code,Yes,Node.js + Express + SQLite,sessionized_text,,markdown_user
+code_07,T07,2,Code -> Model,1,Code,Yes,Node.js + Express + JSON persistence,sessionized_text,,markdown_user
+model_01,T01,2,Code -> Model,2,Model,Yes,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,,json_user_event
+model_02,T02,2,Model -> Code,1,Model,Yes,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,,json_user_event
+model_03,T03,2,Code -> Model,2,Model,Yes,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,,json_user_event
+model_04,T04,2,Model -> Code,1,Model,Yes,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,,json_user_event
+model_05,T05,2,Code -> Model,2,Model,Yes,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,,json_user_event
+model_06,T06,2,Model -> Code,1,Model,Yes,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,,json_user_event
+model_07,T07,2,Code -> Model,2,Model,Yes,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,,json_user_event

@@ -1,0 +1,14 @@
+{
+  "package_version": "TSE-models-vs-code-2026-10-12-r11",
+  "analysis_version": "P9-recorded-development-time-2026-09-30",
+  "classification_version": "P6-IT-classification-2026-10-02",
+  "title": "Are Executable Models Faster to Develop Than Code? A Matched-Team Comparison of Application Development",
+  "n_pairs": 7,
+  "annotation_rows": 329,
+  "request_measure_version": "recorded-ai-requests-2026-10-06",
+  "status": "Computational result reproduction",
+  "release_date": "2026-10-12",
+  "document_version": "TSE-models-vs-code-2026-10-12-r6",
+  "entry_script": "code/reproduce_results.py",
+  "structure": "Native code/data/results folders"
+}

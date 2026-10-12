@@ -1,0 +1,161 @@
+{
+  "team": "T05",
+  "approach": "Model",
+  "source_filename": "Decorations and Medals Process Form-history.json",
+  "source_format": ".json",
+  "source_sha256": "23209d1f294450d2afb9dd20d1f3a536ec550a93819c7247e1a6bbdd7be3a606",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Decorations and Medals Process",
+    "exportedAt": "2026-04-03T10:42:51.339Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Utwórz formularz w oparciu o poniższy opis:\n\nDecorations and Medals Process Data\nThe data can be grouped into two main categories: data collected at the start, and data retrieved for routing and process task approval.\n1. Application Data (Initiation)\nThis data is collected at the very beginning of the process, originating from the \"Submit application for distinction\" task, and forms the core of the request.\n•\tEmployee Name (employee_name: String): The full name of the nominated employee.\n•\tOrganizational Unit (organizational_unit: String): The organizational unit of the nominated employee.\n•\tDecoration Type (decoration_type: String): The specific state or resort-level medal/decoration being requested.\n•\tApplication Justification (application_justification: Text): A text field containing the reasons and achievements justifying the award.\n2. Process Approval and Routing Data\nThis data is generated during the process to track opinions and decisions and to route the flow correctly.\n•\tReviewer Opinion (reviewer_opinion: String): A text variable to store the opinion from the \"Review applications and forward to PD\" task, completed by the PRK / Chancellor.\n•\tRKR Decision (rkr_decision: List [‘Accepted’, ‘Rejected’]): The variable set during the \"Make decision\" task by the Rector. This variable is used by the gateway \"Application accepted?\" to determine the next step. (e.g., ‘Accepted’ or ‘Rejected’).\n•\tAward Grant Date (award_grant_date: Date): The date the award was officially granted, which would be entered during the \"Enter decoration into register\" task.\n•\tProcess Outcome (process_outcome: List [‘Accepted’, ‘Rejected’]): A final status variable for logging (e.g., ‘Completed’, ‘Rejected’).\n",
+        "timestamp": "2026-04-03T10:42:46.317Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have structured the form into two cards: 'Application Data' for the initial submission details and 'Process Approval and Routing' for administrative decisions, decisions, and outcomes, ensuring all required business data is captured.",
+        "timestamp": "2026-04-03T10:42:49.339Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "Decorations and Medals Process",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1"
+              }
+            },
+            "applicationData": {
+              "title": "Application Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employee_name": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "organizational_unit": {
+                      "type": "string",
+                      "label": "Organizational Unit",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "decoration_type": {
+                      "type": "string",
+                      "label": "Decoration Type",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "application_justification": {
+                      "type": "string",
+                      "label": "Application Justification",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "processData": {
+              "title": "Process Approval and Routing",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "reviewer_opinion": {
+                      "type": "string",
+                      "label": "Reviewer Opinion",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "rkr_decision": {
+                      "type": "string",
+                      "label": "RKR Decision",
+                      "component": "select",
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Accepted",
+                            "value": "Accepted",
+                            "title": "Accepted"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    },
+                    "award_grant_date": {
+                      "type": "string",
+                      "label": "Award Grant Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    },
+                    "process_outcome": {
+                      "type": "string",
+                      "label": "Process Outcome",
+                      "component": "select",
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Accepted",
+                            "value": "Accepted",
+                            "title": "Accepted"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": []
+        }
+      }
+    ]
+  }
+}

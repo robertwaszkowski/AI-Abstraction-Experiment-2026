@@ -1,0 +1,17 @@
+Models vs Code: reproducing the study results
+
+[1/4] Input and code checks passed.
+[2/4] Paired statistics, sensitivity analyses and plot reproduced.
+[3/4] All 34 automated checks passed.
+[4/4] Category profiles, evidence matrix and acceptance tables reproduced.
+
+SUCCESS: All reproduced results match the supplied reference results.
+Study: 7 matched teams, each using both development approaches.
+
+Open /results/README.md for a guide to the results.
+  paired_statistics/  Statistics, sensitivity analyses and plot
+  skill_profiles/     Category summaries and evidence matrix
+  acceptance/         Tables from author acceptance reports
+
+Verification details: REPRODUCTION_REPORT.json and RUN_DETAILS.txt.
+Scope: Reanalysis of supplied study data; participant applications are not rerun.

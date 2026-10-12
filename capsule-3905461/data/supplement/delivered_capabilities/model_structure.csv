@@ -1,0 +1,22 @@
+run_id,file,user_tasks,gateways,diagram_shapes,condition_expressions
+model_01,Change of Employment Conditions Process.bpmn,9,2,13,0
+model_01,Decorations and Medals Process.bpmn,9,1,13,0
+model_01,Leave Request Process.bpmn,8,2,12,0
+model_02,Change of Employment Conditions.bpmn,9,2,13,0
+model_02,Decorations and Medals Process.bpmn,8,1,13,0
+model_02,Leave Request Process Diagram.bpmn,8,2,12,0
+model_03,Change of Employment Conditions Diagram.bpmn,9,2,13,0
+model_03,Decorations and Medals Process Diagram.bpmn,9,1,13,0
+model_03,Leave Request Process Diagram.bpmn,8,2,12,0
+model_04,Change of Employment Conditions Diagram.bpmn,9,2,13,0
+model_04,Decorations and Medals Process Diagram.bpmn,8,1,13,0
+model_04,Leave Request Process Diagram.bpmn,8,2,12,0
+model_05,Change of Employment Conditions Diagram.bpmn,9,2,13,0
+model_05,Decorations and Medals Process Diagram.bpmn,9,1,13,0
+model_05,Leave Request Process Diagram.bpmn,8,2,12,0
+model_06,Change of Employment Conditions Diagram.bpmn,9,2,13,0
+model_06,Decorations and Medals Diagram.bpmn,8,1,13,0
+model_06,Leave Request Diagram.bpmn,8,2,12,0
+model_07,Change of Employment Conditions Process.bpmn,9,2,23,0
+model_07,Decorations and Medals Process.bpmn,8,1,19,0
+model_07,Leave Request Process.bpmn,8,2,19,0

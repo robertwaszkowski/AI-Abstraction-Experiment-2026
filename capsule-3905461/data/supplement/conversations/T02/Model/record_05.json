@@ -1,0 +1,51 @@
+{
+  "team": "T02",
+  "approach": "Model",
+  "source_filename": "Leave Request Process Diagram-history.json",
+  "source_format": ".json",
+  "source_sha256": "d705de5c6f7eaf49a3a1a1eb28add1b46daf5cb5f3bead25d55337edf0f2cbc1",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Leave Request Process",
+    "exportedAt": "2026-04-01T08:37:15.043Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Wygeneruj diagram jak w załączonym modelu.",
+        "timestamp": "2026-04-01T08:30:08.105Z",
+        "files": [
+          "Leave Request.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Models the submission, review, and decision-making flow for leave requests, differentiating between academic and non-academic staff, involving multiple hierarchical levels.",
+        "timestamp": "2026-04-01T08:30:13.043Z"
+      },
+      {
+        "role": "user",
+        "content": "Testing the application in the runtime platform",
+        "timestamp": "2026-04-01T08:37:13.043Z",
+        "verification_evidence": {
+          "execution_window_minutes": 7.0,
+          "runtime_platform": "Aurea 2026.01.0",
+          "tested_processes": [
+            "Leave Request",
+            "Change of Employment Conditions",
+            "Decorations and Medals"
+          ],
+          "scenario_manifest": "Scenario Manifest 1.0",
+          "scenarios_passed": [
+            "Leave Request Test Scenario 1.0 (8/8 steps)",
+            "Change of Employment Conditions Test Scenario 1.0 (10/10 steps)",
+            "Decorations and Medals Test Scenario 1.0 (10/10 steps)"
+          ],
+          "runtime_execution_errors": 0,
+          "developer_repairs_needed": 0,
+          "post_eval_corrections_required": 0,
+          "completion_status": "FUNCTIONALLY_COMPLETE_AND_ACCEPTED"
+        }
+      }
+    ]
+  }
+}

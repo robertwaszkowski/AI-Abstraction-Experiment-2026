@@ -1,0 +1,27 @@
+{
+  "team": "T02",
+  "approach": "Model",
+  "source_filename": "Change of Employment Conditions Diagram-history.json",
+  "source_format": ".json",
+  "source_sha256": "d19411cfed5b6d2d905e191d9922e04b61cd736b0659be48dbda71d934336e6c",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Change of Employment Conditions",
+    "exportedAt": "2026-04-01T08:23:37.079Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Zrób diagram procesu wg. załączonego modelu.",
+        "timestamp": "2026-04-01T08:23:29.698Z",
+        "files": [
+          "Change of Employment Conditions.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Models the workflow for changing employment conditions, starting from submission, passing through various reviews by O.U., Personnel Department, Quartermaster, Chancellor, and academic authorities, concluding with implementation and archiving.",
+        "timestamp": "2026-04-01T08:23:35.079Z"
+      }
+    ]
+  }
+}

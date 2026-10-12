@@ -1,0 +1,27 @@
+{
+  "team": "T06",
+  "approach": "Model",
+  "source_filename": "Decorations and Medals Diagram-history.json",
+  "source_format": ".json",
+  "source_sha256": "a5c17adfac21c1086414ff9137516a9fd1797bfdcf8a5c7c3f349a36a66b9643",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Decorations and Medals Process",
+    "exportedAt": "2026-04-02T11:26:50.886Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Generate a business process diagram based on the attached BPMN file.",
+        "timestamp": "2026-04-02T11:26:44.079Z",
+        "files": [
+          "Decorations and Medals.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Models the process for handling decoration and medal applications, involving submission, multi-departmental review, rector decision, and external processing.",
+        "timestamp": "2026-04-02T11:26:48.886Z"
+      }
+    ]
+  }
+}

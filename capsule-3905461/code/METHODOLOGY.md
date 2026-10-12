@@ -1,0 +1,7 @@
+# Recorded development time: measurement specification
+
+The intended endpoint is functional completion of the application-development work, as confirmed by the investigator. Team time includes implementation, inspection, review, testing and correction. Explicit totals are used for T01/T05. T02/T03 use constituent intervals plus between-entry review. T04/T06/T07 use recorded sessions, with T04 recalculated as 438 minutes under the agreed break boundary. The six Model histories form one sorted, unique team timeline through the recorded final runtime-test marker.
+
+The break criterion excludes each gap equal to or longer than 45 minutes in full; exactly 45 minutes is a break. Backward clock transitions identify separate recorded sessions without inventing dates. Durations are counted once; summary rows do not add time. Source-linked normalized duration rows and review intervals are supplied in timing_evidence/. Within-entry durations and explicit totals remain fixed in the 15/30/45/60-minute gap-threshold sensitivity. Neither person-hours nor unrecorded testing time is imputed.
+
+Seven paired teams remain in the descriptive analysis. Platform-supplied services and recorded additional-requirement implementation belong to the practical strategy comparison. Raw participant logs remain private. Source locators and SHA-256 hashes support re-extraction using retained data. Computational validation is distinct from independent semantic review.

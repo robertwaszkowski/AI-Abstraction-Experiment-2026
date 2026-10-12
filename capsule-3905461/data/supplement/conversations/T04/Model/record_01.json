@@ -1,0 +1,27 @@
+{
+  "team": "T04",
+  "approach": "Model",
+  "source_filename": "Change of Employment Conditions Diagram-history.json",
+  "source_format": ".json",
+  "source_sha256": "f239bf39900258fbc11480b9c47a08ea1758e15798d39898536c96fe9a5a5328",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Change of Employment Conditions",
+    "exportedAt": "2026-04-01T10:25:36.864Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Prepare a process diagram based on the model from the attachment.",
+        "timestamp": "2026-04-01T10:25:29.673Z",
+        "files": [
+          "Change of Employment Conditions.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "A workflow for changing employment conditions involving multiple departments, including review, evaluation based on academic status, and final administrative implementation.",
+        "timestamp": "2026-04-01T10:25:34.864Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+# Recorded requests to AI
+
+One request is a submitted user message asking the AI to prepare, modify, inspect, test or document a study application, including starter adaptation and the application requirements, such as process-diagram preview. Multipart submissions count once. Repeated wording in separately recorded occurrences remains counted unless evidence identifies a duplicate representation of the same submission. Summary totals, duration-table rows, application screenshots, procedural runtime-test markers, pure acknowledgments and tool-execution permissions do not independently establish requests.
+
+If the user message is absent but its distinct AI response is retained, infer exactly one request from that response. Mark the request as inferred; do not reconstruct its wording. Do not count an AI response again alongside its recorded user message, duplicated screenshot fragments, or known continuations of an already represented exchange. T04 includes two such inferred requests (image15 and image16, WordprocessingML paragraphs 140 and 141). This convention is a measurement assumption, not proof of the missing message boundaries.
+
+T05 is a direct report of development work, with an added introduction and interpretation. Its 19 directly recorded request occurrences include adaptation of role-call-code for the process-automation application. Identical wording alone is not deduplicated. Four recorded command-execution approvals are excluded.
+
+Code T01-T07: 19, 70, 45, 36, 19, 13, 23. Model: 14, 10, 7, 7, 10, 7, 10. Each Model record excludes one procedural runtime-test marker. Counts describe retained evidence; comparable counting rules do not establish equal recording completeness, request complexity, or cognitive effort. No independent second coding is claimed.
+
+counts.csv provides all 14 inputs and direct/inferred evidence totals. request_ledger.csv supplies detailed locators for T01/T03/T04/T05; additional_locators.json supplies T02 and Model boundaries; counts.csv identifies Markdown turns for T06/T07. WordprocessingML paragraph indices are zero-based and include table paragraphs. Hashes identify text ranges, except response-inferred entries, whose hashes identify embedded images. Original histories remain restricted and are not distributed. The portable build verifies these inputs and regenerates paired request outputs; it does not re-extract private records.
+
+The existing source-specific parser counts remain in explicitly named legacy fields for provenance. The comparative request outcome uses recorded_ai_requests fields only. Development-time and footprint outcomes use their separately defined measurements, with seven matched teams, gap-threshold sensitivity and measure-specific maximum-observation sensitivity.

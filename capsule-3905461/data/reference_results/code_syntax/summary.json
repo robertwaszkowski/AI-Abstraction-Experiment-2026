@@ -1,0 +1,52 @@
+{
+  "scope": "All retained .py/.js/.mjs/.cjs/.jsx/.ts/.tsx/.json files and inline JavaScript blocks; CSS/Prisma/YAML/SQL/shell and HTML markup not validated. No builds, typechecking, dependency resolution or behavioral tests.",
+  "tools": {
+    "python": "3.12.14",
+    "node": "v24.19.0",
+    "babel_parser": "7.28.5"
+  },
+  "teams": {
+    "T01": {
+      "pass": 70,
+      "not_checked": 4
+    },
+    "T02": {
+      "pass": 21,
+      "not_checked": 2,
+      "embedded_scripts_only": 1
+    },
+    "T03": {
+      "pass": 13,
+      "embedded_scripts_only": 1,
+      "not_checked": 1
+    },
+    "T04": {
+      "not_checked": 3,
+      "pass": 75,
+      "embedded_scripts_only": 1
+    },
+    "T05": {
+      "pass": 19
+    },
+    "T06": {
+      "pass": 7,
+      "embedded_scripts_only": 1,
+      "not_checked": 1
+    },
+    "T07": {
+      "pass": 6,
+      "embedded_scripts_only": 1,
+      "not_checked": 1
+    }
+  },
+  "kinds": {
+    ".json": 19,
+    ".ts": 34,
+    ".mjs": 2,
+    ".js": 21,
+    ".tsx": 103,
+    ".py": 31,
+    "inline_javascript": 1
+  },
+  "failures": []
+}

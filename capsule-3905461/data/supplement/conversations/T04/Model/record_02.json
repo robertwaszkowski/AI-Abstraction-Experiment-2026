@@ -1,0 +1,367 @@
+{
+  "team": "T04",
+  "approach": "Model",
+  "source_filename": "Change of Employment Conditions Form-history.json",
+  "source_format": ".json",
+  "source_sha256": "743bc367226b8ff6c2b0681b0bef8d034ff828ec33038687f7eb1116083ceee0",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Change of Employment Conditions",
+    "exportedAt": "2026-04-01T10:18:34.220Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Create a form based on the description from attached file.",
+        "timestamp": "2026-04-01T10:17:55.783Z",
+        "files": [
+          "Change of Employment Conditions Data.docx"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "I have structured the form into three cards corresponding to the process data categories: Application Data for user input, Routing Data for internal system variables, and Process Status for administrative reviews and decision tracking.",
+        "timestamp": "2026-04-01T10:17:59.467Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "Change of Employment Conditions",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1"
+              }
+            },
+            "applicationData": {
+              "title": "Application Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employee_name": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "proposed_conditions": {
+                      "type": "string",
+                      "label": "Proposed Conditions",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "change_justification": {
+                      "type": "string",
+                      "label": "Change Justification",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "change_effective_date": {
+                      "type": "string",
+                      "label": "Change Effective Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "routingData": {
+              "title": "Routing Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "is_academic_teacher": {
+                      "type": "boolean",
+                      "label": "Is an Academic Teacher?",
+                      "component": "switch",
+                      "layout": {
+                        "cols": 12,
+                        "component": "switch"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "processStatus": {
+              "title": "Process Status and Decisions",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "head_of_ou_review_status": {
+                      "type": "string",
+                      "label": "Head of O.U. Review Status",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "pd_review_status": {
+                      "type": "string",
+                      "label": "PD Review Status",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "kwe_financial_opinion": {
+                      "type": "string",
+                      "label": "KWE Financial Opinion",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "prk_opinion": {
+                      "type": "string",
+                      "label": "PRK Opinion",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "prn_opinion": {
+                      "type": "string",
+                      "label": "PRN Opinion",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "final_decision": {
+                      "type": "string",
+                      "label": "Final Decision",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": []
+        }
+      },
+      {
+        "role": "user",
+        "content": "Use lists of values when possible.",
+        "timestamp": "2026-04-01T10:18:30.007Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have converted the 'Head of O.U. Review Status' and 'Final Decision' fields from simple text fields into structured selection components (select and radio-button, respectively) to ensure consistent data input.",
+        "timestamp": "2026-04-01T10:18:32.220Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "Change of Employment Conditions",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1",
+                "cols": 12
+              }
+            },
+            "applicationData": {
+              "title": "Application Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employee_name": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "proposed_conditions": {
+                      "type": "string",
+                      "label": "Proposed Conditions",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "change_justification": {
+                      "type": "string",
+                      "label": "Change Justification",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "change_effective_date": {
+                      "type": "string",
+                      "label": "Change Effective Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "routingData": {
+              "title": "Routing Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "is_academic_teacher": {
+                      "type": "boolean",
+                      "label": "Is an Academic Teacher?",
+                      "component": "switch",
+                      "layout": {
+                        "cols": 12,
+                        "component": "switch"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "processStatus": {
+              "title": "Process Status and Decisions",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "head_of_ou_review_status": {
+                      "type": "string",
+                      "label": "Head of O.U. Review Status",
+                      "component": "select",
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Pending",
+                            "value": "pending",
+                            "title": "Pending"
+                          },
+                          {
+                            "label": "Approved",
+                            "value": "approved",
+                            "title": "Approved"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    },
+                    "pd_review_status": {
+                      "type": "string",
+                      "label": "PD Review Status",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "kwe_financial_opinion": {
+                      "type": "string",
+                      "label": "KWE Financial Opinion",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "prk_opinion": {
+                      "type": "string",
+                      "label": "PRK Opinion",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "prn_opinion": {
+                      "type": "string",
+                      "label": "PRN Opinion",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "final_decision": {
+                      "type": "string",
+                      "label": "Final Decision",
+                      "component": "radio-button",
+                      "layout": {
+                        "cols": 12,
+                        "component": "radio-button"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Approve",
+                            "value": "approve",
+                            "title": "Approve"
+                          },
+                          {
+                            "label": "Reject",
+                            "value": "reject",
+                            "title": "Reject"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": []
+        }
+      }
+    ]
+  }
+}

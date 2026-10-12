@@ -1,0 +1,51 @@
+{
+  "team": "T04",
+  "approach": "Model",
+  "source_filename": "Leave Request Process Diagram-history.json",
+  "source_format": ".json",
+  "source_sha256": "24dd9ae10d2511bd960ab7506e81ab459351c9e2dc47f75c88a2db872966cc9c",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Leave Request Process",
+    "exportedAt": "2026-04-01T10:38:43.310Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Prepare a process diagram based on the model from the attachment.",
+        "timestamp": "2026-04-01T10:30:35.613Z",
+        "files": [
+          "Leave Request.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "A workflow for processing leave requests, distinguishing between academic teachers and non-academic employees to determine the approval path.",
+        "timestamp": "2026-04-01T10:30:41.310Z"
+      },
+      {
+        "role": "user",
+        "content": "Testing the application in the runtime platform",
+        "timestamp": "2026-04-01T10:38:41.310Z",
+        "verification_evidence": {
+          "execution_window_minutes": 8.0,
+          "runtime_platform": "Aurea 2026.01.0",
+          "tested_processes": [
+            "Leave Request",
+            "Change of Employment Conditions",
+            "Decorations and Medals"
+          ],
+          "scenario_manifest": "Scenario Manifest 1.0",
+          "scenarios_passed": [
+            "Leave Request Test Scenario 1.0 (8/8 steps)",
+            "Change of Employment Conditions Test Scenario 1.0 (10/10 steps)",
+            "Decorations and Medals Test Scenario 1.0 (10/10 steps)"
+          ],
+          "runtime_execution_errors": 0,
+          "developer_repairs_needed": 0,
+          "post_eval_corrections_required": 0,
+          "completion_status": "FUNCTIONALLY_COMPLETE_AND_ACCEPTED"
+        }
+      }
+    ]
+  }
+}

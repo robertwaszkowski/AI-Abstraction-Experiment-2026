@@ -1,0 +1,13 @@
+{
+  "classification_version": "P6-IT-classification-2026-10-02",
+  "basis": "P2 canonical 163-ID IT matrix; 209 contextual catalogue IDs; explicit SK113 exception",
+  "source_sha256": {
+    "catalogue_sets.csv": "2c3d9dd9eda16901969b210efbf2977e16763e6043b4e453a10d5c463b226ae9",
+    "platform_skill_matrix.csv": "0aad4783b0a0f18082098962d5edd5723e8a57abf4979ba9bd2784b53999d997"
+  },
+  "mapping_sha256": "bf77729a69542c53a0dec0053842279f38a93c1e9c5f16ff8a9b10421155f120",
+  "IT_ids": 163,
+  "domain_ids": 46,
+  "annotation_changes": false,
+  "source_availability": "Framework-derived mapping is distributed as p2_category_mapping.csv; original catalogue/matrix hashes identify retained framework sources."
+}

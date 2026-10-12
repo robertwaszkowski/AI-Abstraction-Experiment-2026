@@ -1,0 +1,210 @@
+﻿Skill_ID,Project_Stage,Project_Task,Skill,Usage_Intensity,Difficulty_of_Acquisition,Synthetic_Weight,Final_Weight_Source,n_experts,Consensus_Level,Synthetic_Weight_Definition,workbook_row
+SK001,Design,Workflow model,+BPMN Process Model,4.4,2.266666666666667,9.8,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,2
+SK002,Design,Workflow model,Custom Process Model,3.933333333333333,3.533333333333333,13.93333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,3
+SK003,Design,Database model,+Business Data Types,4.466666666666667,1.6,7.333333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,4
+SK004,Design,Database model,+Form-based Data,3.933333333333333,1.8,7.2,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,5
+SK005,Design,Database model,+Item-Detail,3.4,2.2,7,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,6
+SK006,Design,Database model,+Lookup/Drop-down,3.533333333333333,1.933333333333333,6,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,7
+SK007,Design,Database model,+Predefined Entities,3.2,1.666666666666667,5.533333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,8
+SK008,Design,Database model,Domain Model,3.933333333333333,3.266666666666667,13,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,9
+SK009,Design,Database model,Conditional Expressions,4.066666666666666,2.533333333333333,10,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,10
+SK010,Design,Database model,Constraints,3.6,3,10.73333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,11
+SK011,Design,Database model,Data Structure,3.866666666666666,3.466666666666667,13.6,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,12
+SK012,Design,Database model,IT Data Types,2.733333333333333,3.466666666666667,9.266666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,13
+SK013,Design,Database model,Denormalization,2.133333333333333,4.333333333333333,8.8,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,14
+SK014,Design,Database model,Entity Diagrams,3.2,2.866666666666667,9,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,15
+SK015,Design,Database model,Enumerations,3.4,3.133333333333333,10.66666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,16
+SK016,Design,Database model,Expressions,3.466666666666667,3.533333333333333,11.86666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,17
+SK017,Design,Database model,Relational Database,3.2,3.266666666666667,10.93333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,18
+SK018,Design,Database model,XML/XPath,2.666666666666667,4.466666666666667,11.86666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,19
+SK019,Design,UI model,+App templates,4.066666666666666,1.666666666666667,6.6,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,20
+SK020,Design,UI model,+Business Data Types,4.066666666666666,2,8.133333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,21
+SK021,Design,UI model,+Screen Templates,3.933333333333333,1.6,6,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,22
+SK022,Design,UI model,+UI Branding,3.2,1.866666666666667,5.733333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,23
+SK023,Design,UI model,+View Types,4.4,1.6,6.933333333333334,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,24
+SK024,Design,UI model,Expressions,4.066666666666666,3.333333333333333,13.6,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,25
+SK025,Design,UI model,IT Data Types,3.466666666666667,3.2,10.66666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,26
+SK026,Design,UI model,Functions,3.533333333333333,3.6,12.73333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,27
+SK027,Design,UI model,Model-driven Apps,3.866666666666666,3.4,13.26666666666667,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,28
+SK028,Design,UI model,Reactive Web App,3.666666666666667,3.533333333333333,13.13333333333333,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,29
+SK029,Design,UI model,Responsive Web Design,3.8,3.533333333333333,13.6,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,30
+SK030,Design,UI model,Variables,3.866666666666666,3.066666666666667,11.06666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,31
+SK031,Design,Validations,+Business Rules,4.266666666666667,2.333333333333333,9.666666666666666,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,32
+SK032,Design,Validations,+Lookup/Drop-down,4.466666666666667,2.133333333333333,9.4,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,33
+SK033,Design,Validations,Expressions,4,3.266666666666667,13.2,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,34
+SK034,Design,Validations,Enumerations,3.133333333333333,2.8,8.466666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,35
+SK035,Design,Validations,JavaScript,2.8,4.533333333333333,12.26666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,36
+SK036,Design,Validations,Scripts,2.866666666666667,4.466666666666667,12.8,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,37
+SK037,Design,Validations,Transactions,3.133333333333333,3.733333333333333,11.8,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,38
+SK038,Design,Application logic,+Actions,3.933333333333333,2.4,8.666666666666666,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,39
+SK039,Design,Application logic,+Graphical actions,4.133333333333334,1.933333333333333,7.733333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,40
+SK040,Design,Application logic,+NLP,3.266666666666667,2.4,7.4,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,41
+SK041,Design,Application logic,+Custom Language,3.533333333333333,2.733333333333333,8.933333333333334,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,42
+SK042,Design,Application logic,+Predefined Tasks,4.266666666666667,1.866666666666667,7.8,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,43
+SK043,Design,Application logic,UML,3.2,3.6,11.8,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,44
+SK044,Design,Application logic,Algorithms,3.133333333333333,3.333333333333333,9.8,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,45
+SK045,Design,Application logic,Expressions,4.266666666666667,2.466666666666667,10.26666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,46
+SK046,Design,Application logic,Control Structures,3.533333333333333,3.066666666666667,10.66666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,47
+SK047,Design,Application logic,IT Data Types,3.933333333333333,3.266666666666667,12.6,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,48
+SK048,Design,Application logic,Events,3.533333333333333,2.933333333333333,10.2,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,49
+SK049,Design,Application logic,Formulas,4.266666666666667,3.2,13.6,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,50
+SK050,Design,Application logic,Functions,3.733333333333333,3.466666666666667,13.33333333333333,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,51
+SK051,Design,Application logic,Java,2.6,4.8,12.4,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,52
+SK052,Design,Application logic,JavaScript,2.866666666666667,4.8,13.73333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,53
+SK053,Design,Application logic,Microservices,2.8,4.533333333333333,12.66666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,54
+SK054,Design,Application logic,SQL,3.266666666666667,4.666666666666667,15.33333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,55
+SK055,Design,Application logic,Variables,4.2,3,12.53333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,56
+SK056,Development,Workflow design and development,+BPMN Process Model,3.733333333333333,2.533333333333333,9.066666666666666,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,57
+SK057,Development,Workflow design and development,Expressions,4.066666666666666,3.133333333333333,12.8,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,58
+SK058,Development,Workflow design and development,Custom Process Model,3.4,3.533333333333333,11.73333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,59
+SK059,Development,Workflow design and development,Events,3.2,2.733333333333333,8.733333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,60
+SK060,Development,Workflow design and development,Java API,2.8,4.733333333333333,13.06666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,61
+SK061,Development,Workflow design and development,JavaScript,2.866666666666667,4.8,13.73333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,62
+SK062,Development,Workflow design and development,REST API,3,4.533333333333333,13.33333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,63
+SK063,Development,Workflow design and development,Triggers,3.4,3.2,10.53333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,64
+SK064,Development,Database design,+Business Data Types,4.733333333333333,2.066666666666667,9.866666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,65
+SK065,Development,Database design,+Custom Database Model,4.333333333333333,2.733333333333333,11.8,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,66
+SK066,Development,Database design,+References,4.266666666666667,2.133333333333333,8.933333333333334,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,67
+SK067,Development,Database design,+Slices,3.8,2.266666666666667,8.6,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,68
+SK068,Development,Database design,Actions,3.733333333333333,2.8,10.26666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,69
+SK069,Development,Database design,Expressions,3.6,3.133333333333333,11.06666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,70
+SK070,Development,Database design,Relational Database,3.533333333333333,4.333333333333333,15.13333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,71
+SK071,Development,Database design,Entity Diagrams,3.466666666666667,3.266666666666667,11.26666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,72
+SK072,Development,Database design,Functions,3.266666666666667,3.866666666666666,12.46666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,73
+SK073,Development,Database design,SQL,3,4.533333333333333,13.53333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,74
+SK074,Development,Database design,IT Data Types,3.733333333333333,3.466666666666667,12.6,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,75
+SK075,Development,Database design,Web API,2.666666666666667,4.533333333333333,12.06666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,76
+SK076,Development,Fetching data,.NET,2.133333333333333,4.733333333333333,9.866666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,77
+SK077,Development,Fetching data,+Cloud-based Spreadsheets,3.733333333333333,2.4,9.066666666666666,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,78
+SK078,Development,Fetching data,+GUI Queries,4.066666666666666,2.266666666666667,9.2,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,79
+SK079,Development,Fetching data,+Human Language,3,1.666666666666667,5.133333333333334,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,80
+SK080,Development,Fetching data,+Integrated Data Sources,4.133333333333334,2,8.466666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,81
+SK081,Development,Fetching data,Cloud Services,2.533333333333333,3.466666666666667,8.6,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,82
+SK082,Development,Fetching data,Custom Query Language,2,4,7.466666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,83
+SK083,Development,Fetching data,Data Source Integration,2.666666666666667,3.933333333333333,10.2,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,84
+SK084,Development,Fetching data,Formulas,2.933333333333333,2.733333333333333,7.533333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,85
+SK085,Development,Fetching data,Local Storage,2.266666666666667,2.933333333333333,6.666666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,86
+SK086,Development,Fetching data,OAuth,2.2,4.2,8.866666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,87
+SK087,Development,Fetching data,REST API,2.466666666666667,4.2,10.2,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,88
+SK088,Development,Fetching data,SDK,2,4.266666666666667,8.133333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,89
+SK089,Development,Fetching data,SQL,2.333333333333333,4.533333333333333,10.4,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,90
+SK090,Development,Fetching data,URL,2.533333333333333,2.4,5.733333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,91
+SK091,Development,Fetching data,Web API,2.466666666666667,4.133333333333334,10.13333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,92
+SK092,Development,GUI design and development,+AI Support,3.2,2,6,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,93
+SK093,Development,GUI design and development,+Business Data Types,4.333333333333333,1.866666666666667,8.2,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,94
+SK094,Development,GUI design and development,+Conditional Formatting,4.4,1.733333333333333,7.733333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,95
+SK095,Development,GUI design and development,+GUI Style Editor,4.533333333333333,1.666666666666667,7.666666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,96
+SK096,Development,GUI design and development,+Templatized Formulas,4.4,1.866666666666667,8.2,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,97
+SK097,Development,GUI design and development,+UI Branding,3,1.8,5.266666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,98
+SK098,Development,GUI design and development,+View Types,4.2,1.733333333333333,7.133333333333334,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,99
+SK099,Development,GUI design and development,+WYSIWYG,4.266666666666667,1.533333333333333,6.2,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,100
+SK100,Development,GUI design and development,CSS/SCSS,2.133333333333333,3.666666666666667,7.533333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,101
+SK101,Development,GUI design and development,Event Propagation,2.8,3.6,9.866666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,102
+SK102,Development,GUI design and development,Responsive Web Design,3.466666666666667,3.2,10.8,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,103
+SK103,Development,GUI design and development,HTML,2.933333333333333,3.533333333333333,10,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,104
+SK104,Development,GUI design and development,IT Data Types,3.933333333333333,3.2,12.26666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,105
+SK105,Development,GUI design and development,JavaScript,2.533333333333333,4.6,11.4,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,106
+SK106,Development,GUI design and development,Master Detail,3.933333333333333,2.533333333333333,9.666666666666666,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,107
+SK107,Development,GUI design and development,Programming Functions,3.466666666666667,3.866666666666666,13.73333333333333,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,108
+SK108,Development,GUI design and development,Scripts,3.133333333333333,4.066666666666666,12.33333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,109
+SK109,Development,GUI design and development,Snippets,3.066666666666667,3.666666666666667,11.33333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,110
+SK110,Development,GUI design and development,Variables,4.333333333333333,2.866666666666667,12.33333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,111
+SK111,Development,GUI design and development,XML,2.933333333333333,3.6,10.53333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,112
+SK112,Development,Data validation development,+Business Rules,4.2,2.333333333333333,9.933333333333334,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,113
+SK113,Development,Data validation development,+Column Expressions,4.133333333333334,2.266666666666667,9.266666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,114
+SK114,Development,Data validation development,Expressions,4.066666666666666,2.933333333333333,11.86666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,115
+SK115,Development,Data validation development,Data Fields,4.133333333333334,2.933333333333333,12.13333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,116
+SK116,Development,Data validation development,Domain Model,4.266666666666667,3.333333333333333,14.4,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,117
+SK117,Development,Data validation development,Scripts,2.8,3.933333333333333,10.53333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,118
+SK118,Development,Actions design and development,+AI Assisted Development,3.133333333333333,2.066666666666667,6.4,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,119
+SK119,Development,Actions design and development,+Automations,4.2,2.333333333333333,9.533333333333331,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,120
+SK120,Development,Actions design and development,+Built-in Connectors,4.2,1.8,7.533333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,121
+SK121,Development,Actions design and development,API,2.8,4.266666666666667,11.46666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,122
+SK122,Development,Actions design and development,Expressions,4.333333333333333,3.2,13.93333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,123
+SK123,Development,Actions design and development,Functions,3.866666666666666,3.4,13.53333333333333,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,124
+SK124,Development,Actions design and development,Java,2.866666666666667,4.666666666666667,13.26666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,125
+SK125,Development,Actions design and development,JavaScript,2.666666666666667,4.866666666666666,12.93333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,126
+SK126,Development,Actions design and development,Object Model,2.933333333333333,3.6,10.33333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,127
+SK127,Development,Actions design and development,Scripts,2.733333333333333,4,10.6,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,128
+SK128,Development,Actions design and development,SOAP,2.333333333333333,4.6,10.6,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,129
+SK129,Development,Programming,.NET,2.2,4.4,9.266666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,130
+SK130,Development,Programming,+Visual Programming,4.466666666666667,2.4,10.53333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,131
+SK131,Development,Programming,Expressions,4.4,3.266666666666667,14.6,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,132
+SK132,Development,Programming,CLI,2.066666666666667,4.133333333333334,7.933333333333334,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,133
+SK133,Development,Programming,IT Data Types,3.933333333333333,3.266666666666667,12.73333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,134
+SK134,Development,Programming,Eclipse,2.466666666666667,3.8,8.866666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,135
+SK135,Development,Programming,Emulators,2,3.933333333333333,7.533333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,136
+SK136,Development,Programming,Entity Types,4.133333333333334,2.933333333333333,12,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,137
+SK137,Development,Programming,Enumerations,3.733333333333333,3,10.93333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,138
+SK138,Development,Programming,Functions,3.333333333333333,3.466666666666667,11.26666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,139
+SK139,Development,Programming,HTML,2.133333333333333,3.6,7.466666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,140
+SK140,Development,Programming,SDK/IDE,2.066666666666667,4.133333333333334,8,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,141
+SK141,Development,Programming,Iteration Statements,3.4,3,10,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,142
+SK142,Development,Programming,Java,1.933333333333333,4.6,8.466666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,143
+SK143,Development,Programming,Java API,2.133333333333333,4.533333333333333,9.066666666666666,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,144
+SK144,Development,Programming,JavaScript,2.066666666666667,4.6,9.2,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,145
+SK145,Development,Programming,JSON,3.066666666666667,3.266666666666667,9.8,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,146
+SK146,Development,Programming,Markup Language,2.933333333333333,2.8,7.733333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,147
+SK147,Development,Programming,Metadata,3.733333333333333,3.066666666666667,11.4,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,148
+SK148,Development,Programming,Native Mobile App,3.133333333333333,3.733333333333333,11.4,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,149
+SK149,Development,Programming,node.js,2.8,4.2,11.66666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,150
+SK150,Development,Programming,PWA,2.133333333333333,4.066666666666666,8.2,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,151
+SK151,Development,Programming,Query Functions,3.2,3.466666666666667,10.6,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,152
+SK152,Development,Programming,Scripts,2.666666666666667,4.2,10.86666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,153
+SK153,Development,Programming,Snippets,2.6,3.666666666666667,9.4,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,154
+SK154,Development,Programming,TypeScript,2.333333333333333,4.733333333333333,10.93333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,155
+SK155,Development,Programming,Web API,2.466666666666667,4.4,10.2,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,156
+SK156,Development,Programming,XML,2.733333333333333,3.666666666666667,9.133333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,157
+SK157,Implementation,Runtime server installation,+Cloud Based Environment,4.2,3,12.66666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,158
+SK158,Implementation,Runtime server installation,API,2.133333333333333,4.533333333333333,9.466666666666669,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,159
+SK159,Implementation,Runtime server installation,Compiler Service,2.466666666666667,4.133333333333334,9.866666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,160
+SK160,Implementation,Runtime server installation,Database Synchronization,3,4.133333333333334,11.86666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,161
+SK161,Implementation,Runtime server installation,Deployment Controller Service,2.666666666666667,4,10.06666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,162
+SK162,Implementation,Runtime server installation,Email Server (SMTP),2.933333333333333,3.733333333333333,10.86666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,163
+SK163,Implementation,Runtime server installation,File Storage,3.333333333333333,3.266666666666667,10.73333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,164
+SK164,Implementation,Runtime server installation,HTTPS Server,3.066666666666667,3.933333333333333,12,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,165
+SK165,Implementation,Runtime server installation,Java,2.866666666666667,4.333333333333333,12.26666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,166
+SK166,Implementation,Runtime server installation,Load Balancing,2.266666666666667,3.866666666666666,8,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,167
+SK167,Implementation,Runtime server installation,Log Service,2.4,3.4,8,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,168
+SK168,Implementation,Runtime server installation,Mobile App,3.266666666666667,3.2,9.866666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,169
+SK169,Implementation,Runtime server installation,OQL,2.6,4,9.933333333333334,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,170
+SK170,Implementation,Runtime server installation,Proxy server,2.933333333333333,3.8,10.33333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,171
+SK171,Implementation,Runtime server installation,Relational Database,3.866666666666666,4,15.2,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,172
+SK172,Implementation,Runtime server installation,REST API,3.133333333333333,4.2,12.73333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,173
+SK173,Implementation,Runtime server installation,SAML Authentication,3.2,4.133333333333334,13.4,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,174
+SK174,Implementation,Runtime server installation,Scheduler Service,2.8,3.666666666666667,10.06666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,175
+SK175,Implementation,Runtime server installation,Shared Libraries,2.866666666666667,3.8,10.4,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,176
+SK176,Implementation,Runtime server installation,SOAP,2.866666666666667,4.466666666666667,12.8,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,177
+SK177,Implementation,Runtime server installation,SSL Certificates,2.8,3.933333333333333,10.66666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,178
+SK178,Implementation,Runtime server installation,Swagger,2.6,3.866666666666666,9.866666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,179
+SK179,Implementation,Runtime server installation,WSDL,2.6,4.2,10.46666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,180
+SK180,Implementation,Runtime server installation,XML/XPath,2.933333333333333,3.866666666666666,11.06666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,181
+SK181,Implementation,Database installation,+Embedded Database,3.8,2.4,9.266666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,182
+SK182,Implementation,Database installation,File Storage,3.266666666666667,3.066666666666667,9.733333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,183
+SK183,Implementation,Database installation,Relational Database,3.866666666666666,4.133333333333334,16,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,184
+SK184,Implementation,Database installation,REST API,2.533333333333333,4.066666666666666,10.13333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,185
+SK185,Implementation,Client module installation,.NET Framework,2.8,4.2,11.73333333333333,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,186
+SK186,Implementation,Client module installation,+Mobile App,3.866666666666666,2.8,10.73333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,187
+SK187,Implementation,Client module installation,+Web Browser,4.4,1.333333333333333,5.533333333333333,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,188
+SK188,Implementation,Client module installation,API,2.666666666666667,3.866666666666666,9.866666666666667,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,189
+SK189,Implementation,Client module installation,Binaries,2.8,3.4,8.666666666666666,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,190
+SK190,Implementation,Client module installation,HTTPS Server,3.066666666666667,3.666666666666667,10.86666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,191
+SK191,Implementation,Client module installation,URL Configuration,3.2,2.8,8.8,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,192
+SK192,Implementation,Client module installation,Web Services,2.6,3.933333333333333,10,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,193
+SK193,Implementation,Deployment,+App Gallery,4.066666666666666,1.6,6.266666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,194
+SK194,Implementation,Deployment,+Software as a Service,3.933333333333333,1.8,6.666666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,195
+SK195,Implementation,Deployment,Application IDE,3,3.4,9.666666666666666,final_consensus_weights_after_round2.csv,15,High,mean of expert-level Usage x Difficulty after Round 2,196
+SK196,Implementation,Deployment,CI/CD,3.4,4.533333333333333,15.53333333333333,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,197
+SK197,Implementation,Deployment,Cloud Computing,3.266666666666667,3.666666666666667,11.73333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,198
+SK198,Implementation,Deployment,Cloud Services,3.2,3.6,11.33333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,199
+SK199,Implementation,Deployment,Docker,3.133333333333333,4.2,13.13333333333333,final_consensus_weights_after_round2.csv,15,Low,mean of expert-level Usage x Difficulty after Round 2,200
+SK200,Implementation,Deployment,Import/Export,3.8,2.733333333333333,10,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,201
+SK201,Implementation,Deployment,Kubernetes,2.933333333333333,4.2,12.2,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,202
+SK202,Implementation,Deployment,On-Premise,3.266666666666667,3.2,10.06666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,203
+SK203,Implementation,Deployment,On-premises Data Gateway,3.2,3.933333333333333,12.13333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,204
+SK204,Implementation,Deployment,REST API,2.866666666666667,4.133333333333334,11.53333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,205
+SK205,Implementation,Deployment,Scripts,3.266666666666667,4.066666666666666,12.93333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,206
+SK206,Implementation,Deployment,SOAP,2.8,4.2,11.46666666666667,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,207
+SK207,Implementation,Version control,Code Repository Concept,3.6,3.533333333333333,12.4,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,208
+SK208,Implementation,Version control,Custom Version Control,3.4,3.6,12,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,209
+SK209,Implementation,Version control,Git,3.6,3.8,13.33333333333333,final_consensus_weights_after_round2.csv,15,Moderate,mean of expert-level Usage x Difficulty after Round 2,210

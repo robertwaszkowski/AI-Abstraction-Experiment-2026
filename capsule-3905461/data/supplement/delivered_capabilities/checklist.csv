@@ -1,0 +1,16 @@
+capability_id,dimension,capability,definition
+F01,User functionality,Initiate and progress the three workflows,Forms and task decisions implement the three prescribed processes; retain acceptance provenance separately.
+F02,User functionality,Find tasks and current status,User-facing queue/registry identifies work or current state; filtering is not proof of authorization.
+F03,User functionality,Preview a process diagram,"Additional requirement, outside the original common task. An actual diagram renderer or display is connected to the application; a copied BPMN file alone is insufficient."
+F04,User functionality,Inspect chronological process history,User can inspect earlier actions; a stored history field or current-status list alone is partial evidence.
+F05,User functionality,Search or filter process/task records,"User-selectable search/filter controls, beyond automatic filtering for the active role."
+F06,User functionality,Manage task attachments,Upload/download and associate files with a task or request; bundled task specifications do not count.
+F07,User functionality,Receive task/event notifications,Application delivers event notifications; toast acknowledgments and a manual inform-person task do not count.
+O01,Operational readiness,Persist application records,Implementation writes application state to a database or persistent file; durability under failure is not inferred.
+O02,Operational readiness,Install or deploy from supplied assets,Instructions or automation identify startup/deployment; reproducibility is untested in this review.
+O03,Operational readiness,Automated application regression checks,Retained executable application/scenario or reused-runtime regression-test assets; record the supplier. Source presence does not mean passed tests.
+O04,Operational readiness,Back up and restore application data,Explicit backup/restore tooling or procedure; use of a database alone is insufficient.
+S01,Security,Authenticate end-user identity,Identity is established through an enforcing service rather than selecting a persona or trusting browser state.
+S02,Security,Enforce task/object authorization,"Trusted service checks caller permissions for data and operations. ASVS 5.0.0 V8.2.1, V8.2.2, V8.3.1."
+S03,Security,Maintain an enforced authenticated session,Server checks session/token on protected operations; token generation or local UI login alone is insufficient.
+S04,Security,Enforce business-input validation,"Check business values/structure at a trusted boundary. ASVS 5.0.0 V2.2.1 and V2.2.2; selected source paths only, not full compliance."

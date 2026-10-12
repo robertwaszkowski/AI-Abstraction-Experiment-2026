@@ -1,0 +1,396 @@
+{
+  "team": "T07",
+  "approach": "Model",
+  "source_filename": "Decorations and Medals Registration-history.json",
+  "source_format": ".json",
+  "source_sha256": "1a1f565faf07e347f5fd09c6299c2831fb16a2ff6fc0bbd18e9a82b848cedf84",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Decorations and Medals",
+    "exportedAt": "2026-04-13T13:16:37.343Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Generate a business process data form based on the attached files.",
+        "timestamp": "2026-04-13T13:11:06.057Z"
+      },
+      {
+        "role": "ai",
+        "content": "The form is structured according to the process data requirements.",
+        "schemaSnapshot": {
+          "_formTitle": "Decorations and Medals Application",
+          "schema": [
+            {
+              "layout": "card",
+              "title": "Application Data",
+              "description": "Core information about the nomination, collected at process initiation",
+              "schema": [
+                {
+                  "component": "text-field",
+                  "name": "employee_name",
+                  "label": "Employee Name",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6,
+                  "tooltip": "Full name of the nominated employee"
+                },
+                {
+                  "component": "text-field",
+                  "name": "organizational_unit",
+                  "label": "Organizational Unit",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6,
+                  "tooltip": "Organizational unit/department of the nominated employee"
+                },
+                {
+                  "component": "select",
+                  "name": "decoration_type",
+                  "label": "Decoration Type",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6,
+                  "tooltip": "Specific state or resort-level medal/decoration being requested",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Gold Medal for Long Service",
+                        "value": "Gold Medal for Long Service"
+                      },
+                      {
+                        "label": "Silver Medal for Long Service",
+                        "value": "Silver Medal for Long Service"
+                      },
+                      {
+                        "label": "Bronze Medal for Long Service",
+                        "value": "Bronze Medal for Long Service"
+                      },
+                      {
+                        "label": "Medal for Merit to the University",
+                        "value": "Medal for Merit to the University"
+                      },
+                      {
+                        "label": "Other State Decoration",
+                        "value": "Other State Decoration"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "component": "text-area",
+                  "name": "application_justification",
+                  "label": "Application Justification",
+                  "type": "text",
+                  "required": true,
+                  "cols": 12,
+                  "rows": 4,
+                  "tooltip": "Detailed reasons and achievements justifying the award nomination"
+                }
+              ]
+            },
+            {
+              "layout": "card",
+              "title": "Process Review & Routing",
+              "description": "Data generated during process execution for approvals and routing decisions",
+              "schema": [
+                {
+                  "component": "text-area",
+                  "name": "reviewer_opinion",
+                  "label": "PRK/Chancellor Opinion",
+                  "type": "string",
+                  "cols": 12,
+                  "rows": 3,
+                  "tooltip": "Opinion provided during 'Review applications and forward to PD' task",
+                  "readonly": true
+                },
+                {
+                  "component": "radio-button",
+                  "name": "rkr_decision",
+                  "label": "Rector (RKR) Decision",
+                  "type": "string",
+                  "cols": 6,
+                  "tooltip": "Final decision made by the Rector during 'Make decision' task",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Accepted",
+                        "value": "Accepted"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      }
+                    ]
+                  },
+                  "readonly": true
+                },
+                {
+                  "component": "date-picker",
+                  "name": "award_grant_date",
+                  "label": "Award Grant Date",
+                  "type": "date",
+                  "cols": 6,
+                  "tooltip": "Official date the award was granted, entered during 'Enter decoration into register' task",
+                  "readonly": true
+                }
+              ]
+            },
+            {
+              "layout": "card",
+              "title": "Process Status",
+              "description": "Final outcome and tracking information",
+              "schema": [
+                {
+                  "component": "select",
+                  "name": "process_outcome",
+                  "label": "Process Outcome",
+                  "type": "string",
+                  "cols": 6,
+                  "tooltip": "Final status of the process instance",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Completed",
+                        "value": "Completed"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      },
+                      {
+                        "label": "In Progress",
+                        "value": "In Progress"
+                      }
+                    ]
+                  },
+                  "defaultValue": "In Progress",
+                  "readonly": true
+                },
+                {
+                  "component": "text-field",
+                  "name": "process_instance_id",
+                  "label": "Process Instance ID",
+                  "type": "string",
+                  "cols": 6,
+                  "tooltip": "Unique identifier for this process instance",
+                  "readonly": true
+                },
+                {
+                  "component": "date-picker",
+                  "name": "process_start_date",
+                  "label": "Process Start Date",
+                  "type": "date",
+                  "cols": 6,
+                  "defaultValue": "today",
+                  "tooltip": "Date when the process was initiated",
+                  "readonly": true
+                },
+                {
+                  "component": "date-picker",
+                  "name": "process_end_date",
+                  "label": "Process End Date",
+                  "type": "date",
+                  "cols": 6,
+                  "tooltip": "Date when the process was completed or rejected",
+                  "readonly": true
+                }
+              ]
+            }
+          ]
+        },
+        "timestamp": "2026-04-13T13:11:10.465Z"
+      },
+      {
+        "role": "user",
+        "content": "Add value lists for fields that have enumerated values. Use the data from the attached files.",
+        "timestamp": "2026-04-13T13:16:30.967Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have updated the form: Add value lists for fields that have enumerated va...",
+        "schemaSnapshot": {
+          "_formTitle": "Decorations and Medals Application",
+          "schema": [
+            {
+              "layout": "card",
+              "title": "Application Data",
+              "description": "Core information about the nomination, collected at process initiation",
+              "schema": [
+                {
+                  "component": "text-field",
+                  "name": "employee_name",
+                  "label": "Employee Name",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6,
+                  "tooltip": "Full name of the nominated employee"
+                },
+                {
+                  "component": "text-field",
+                  "name": "organizational_unit",
+                  "label": "Organizational Unit",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6,
+                  "tooltip": "Organizational unit/department of the nominated employee"
+                },
+                {
+                  "component": "select",
+                  "name": "decoration_type",
+                  "label": "Decoration Type",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6,
+                  "tooltip": "Specific state or resort-level medal/decoration being requested",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Gold Medal for Long Service",
+                        "value": "Gold Medal for Long Service"
+                      },
+                      {
+                        "label": "Silver Medal for Long Service",
+                        "value": "Silver Medal for Long Service"
+                      },
+                      {
+                        "label": "Bronze Medal for Long Service",
+                        "value": "Bronze Medal for Long Service"
+                      },
+                      {
+                        "label": "Medal for Merit to the University",
+                        "value": "Medal for Merit to the University"
+                      },
+                      {
+                        "label": "Other State Decoration",
+                        "value": "Other State Decoration"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "component": "text-area",
+                  "name": "application_justification",
+                  "label": "Application Justification",
+                  "type": "text",
+                  "required": true,
+                  "cols": 12,
+                  "rows": 4,
+                  "tooltip": "Detailed reasons and achievements justifying the award nomination"
+                }
+              ]
+            },
+            {
+              "layout": "card",
+              "title": "Process Review & Routing",
+              "description": "Data generated during process execution for approvals and routing decisions",
+              "schema": [
+                {
+                  "component": "text-area",
+                  "name": "reviewer_opinion",
+                  "label": "PRK/Chancellor Opinion",
+                  "type": "string",
+                  "cols": 12,
+                  "rows": 3,
+                  "tooltip": "Opinion provided during 'Review applications and forward to PD' task",
+                  "readonly": true
+                },
+                {
+                  "component": "radio-button",
+                  "name": "rkr_decision",
+                  "label": "Rector (RKR) Decision",
+                  "type": "string",
+                  "cols": 6,
+                  "tooltip": "Final decision made by the Rector during 'Make decision' task",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Accepted",
+                        "value": "Accepted"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      }
+                    ]
+                  },
+                  "readonly": true
+                },
+                {
+                  "component": "date-picker",
+                  "name": "award_grant_date",
+                  "label": "Award Grant Date",
+                  "type": "date",
+                  "cols": 6,
+                  "tooltip": "Official date the award was granted, entered during 'Enter decoration into register' task",
+                  "readonly": true
+                }
+              ]
+            },
+            {
+              "layout": "card",
+              "title": "Process Status",
+              "description": "Final outcome and tracking information",
+              "schema": [
+                {
+                  "component": "select",
+                  "name": "process_outcome",
+                  "label": "Process Outcome",
+                  "type": "string",
+                  "cols": 6,
+                  "tooltip": "Final status of the process instance",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Completed",
+                        "value": "Completed"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      },
+                      {
+                        "label": "In Progress",
+                        "value": "In Progress"
+                      }
+                    ]
+                  },
+                  "defaultValue": "In Progress",
+                  "readonly": true
+                },
+                {
+                  "component": "text-field",
+                  "name": "process_instance_id",
+                  "label": "Process Instance ID",
+                  "type": "string",
+                  "cols": 6,
+                  "tooltip": "Unique identifier for this process instance",
+                  "readonly": true
+                },
+                {
+                  "component": "date-picker",
+                  "name": "process_start_date",
+                  "label": "Process Start Date",
+                  "type": "date",
+                  "cols": 6,
+                  "defaultValue": "today",
+                  "tooltip": "Date when the process was initiated",
+                  "readonly": true
+                },
+                {
+                  "component": "date-picker",
+                  "name": "process_end_date",
+                  "label": "Process End Date",
+                  "type": "date",
+                  "cols": 6,
+                  "tooltip": "Date when the process was completed or rejected",
+                  "readonly": true
+                }
+              ]
+            }
+          ]
+        },
+        "timestamp": "2026-04-13T13:16:35.343Z"
+      }
+    ]
+  }
+}

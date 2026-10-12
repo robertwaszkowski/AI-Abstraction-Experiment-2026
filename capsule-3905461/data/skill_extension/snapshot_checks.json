@@ -1,0 +1,230 @@
+[
+  {
+    "team": "T01",
+    "source": "model_generation/model_01/prompt/Change of Employment Conditions-history.json",
+    "snapshot_indices": [
+      1,
+      3
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 1,
+    "first_last_equal": false
+  },
+  {
+    "team": "T01",
+    "source": "model_generation/model_01/prompt/Decorations and Medals Registration-history.json",
+    "snapshot_indices": [
+      1,
+      3
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 1,
+    "first_last_equal": false
+  },
+  {
+    "team": "T01",
+    "source": "model_generation/model_01/prompt/Leave Request Form-history.json",
+    "snapshot_indices": [
+      3,
+      5,
+      9,
+      11,
+      13
+    ],
+    "adjacent_transitions": 4,
+    "changed_adjacent_snapshots": 4,
+    "first_last_equal": false
+  },
+  {
+    "team": "T02",
+    "source": "model_generation/model_02/prompt/Change of Employment Conditions-history.json",
+    "snapshot_indices": [
+      3,
+      5
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 1,
+    "first_last_equal": false
+  },
+  {
+    "team": "T02",
+    "source": "model_generation/model_02/prompt/Decorations and Medals Application-history.json",
+    "snapshot_indices": [
+      1
+    ],
+    "adjacent_transitions": 0,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": null
+  },
+  {
+    "team": "T02",
+    "source": "model_generation/model_02/prompt/Leave Request Process Form-history.json",
+    "snapshot_indices": [
+      1,
+      3
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 1,
+    "first_last_equal": false
+  },
+  {
+    "team": "T03",
+    "source": "model_generation/model_03/prompt/Academic Teacher Leave Request-history.json",
+    "snapshot_indices": [
+      1
+    ],
+    "adjacent_transitions": 0,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": null
+  },
+  {
+    "team": "T03",
+    "source": "model_generation/model_03/prompt/Change of Employment Conditions Form-history.json",
+    "snapshot_indices": [
+      1,
+      3
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 1,
+    "first_last_equal": false
+  },
+  {
+    "team": "T03",
+    "source": "model_generation/model_03/prompt/Decorations and Medals Request-history.json",
+    "snapshot_indices": [
+      1
+    ],
+    "adjacent_transitions": 0,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": null
+  },
+  {
+    "team": "T04",
+    "source": "model_generation/model_04/prompt/Change of Employment Conditions Form-history.json",
+    "snapshot_indices": [
+      1,
+      3
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 1,
+    "first_last_equal": false
+  },
+  {
+    "team": "T04",
+    "source": "model_generation/model_04/prompt/Decorations and Medals Application Form-history.json",
+    "snapshot_indices": [
+      1
+    ],
+    "adjacent_transitions": 0,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": null
+  },
+  {
+    "team": "T04",
+    "source": "model_generation/model_04/prompt/Employee Leave Request Form-history.json",
+    "snapshot_indices": [
+      1
+    ],
+    "adjacent_transitions": 0,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": null
+  },
+  {
+    "team": "T05",
+    "source": "model_generation/model_05/prompt/Change of Employment Conditions Form-history.json",
+    "snapshot_indices": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "adjacent_transitions": 4,
+    "changed_adjacent_snapshots": 4,
+    "first_last_equal": false
+  },
+  {
+    "team": "T05",
+    "source": "model_generation/model_05/prompt/Decorations and Medals Process Form-history.json",
+    "snapshot_indices": [
+      1
+    ],
+    "adjacent_transitions": 0,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": null
+  },
+  {
+    "team": "T05",
+    "source": "model_generation/model_05/prompt/Leave Request Process Form-history.json",
+    "snapshot_indices": [
+      1
+    ],
+    "adjacent_transitions": 0,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": null
+  },
+  {
+    "team": "T06",
+    "source": "model_generation/model_06/prompt/Change of Employment Conditions Form-history.json",
+    "snapshot_indices": [
+      1,
+      3
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 1,
+    "first_last_equal": false
+  },
+  {
+    "team": "T06",
+    "source": "model_generation/model_06/prompt/Decorations and Medals Application Form-history.json",
+    "snapshot_indices": [
+      1
+    ],
+    "adjacent_transitions": 0,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": null
+  },
+  {
+    "team": "T06",
+    "source": "model_generation/model_06/prompt/Leave Request Process Form-history.json",
+    "snapshot_indices": [
+      1
+    ],
+    "adjacent_transitions": 0,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": null
+  },
+  {
+    "team": "T07",
+    "source": "model_generation/model_07/prompt/Change of Employment Conditions-history.json",
+    "snapshot_indices": [
+      1,
+      3
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": true
+  },
+  {
+    "team": "T07",
+    "source": "model_generation/model_07/prompt/Decorations and Medals Registration-history.json",
+    "snapshot_indices": [
+      1,
+      3
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": true
+  },
+  {
+    "team": "T07",
+    "source": "model_generation/model_07/prompt/Leave Request-history.json",
+    "snapshot_indices": [
+      1,
+      5
+    ],
+    "adjacent_transitions": 1,
+    "changed_adjacent_snapshots": 0,
+    "first_last_equal": true
+  }
+]

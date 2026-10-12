@@ -1,0 +1,43 @@
+{
+  "version": "TSE-models-vs-code-2026-10-12-r11",
+  "tests_passed": 34,
+  "paired_statistics_match": true,
+  "skill_profiles_match": true,
+  "threshold_sensitivity_match": true,
+  "paired_plot_match": true,
+  "acceptance_transcriptions_match": true,
+  "category_evidence_matrix_match": true,
+  "n_pairs": 7,
+  "time_median": 209.55,
+  "IT_counts": {
+    "Code": [
+      20,
+      25,
+      22,
+      17,
+      18,
+      21,
+      18
+    ],
+    "Model": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "capsule_version": "TSE-models-vs-code-2026-10-12-r11",
+  "manifest_sha256": "e764ec9bb4f069571fb2a0099599cb2754e371b68d335be65d70ba7aa5cf422a",
+  "files_verified": 223,
+  "acceptance_reports": 14,
+  "raw_history_extraction_performed": false,
+  "application_reexecution_performed": false,
+  "reviewer_access_verified_by_run": false,
+  "raw_extraction": false,
+  "independent_semantic_validation": false,
+  "comparison_policy": "CSV rows and JSON values match exactly; SVG and Markdown text match exactly after universal newline decoding.",
+  "scope": "Paired statistics, gap-threshold and maximum-observation sensitivities from distributed measurements and intervals, category profiles, paired plot and author-report transcriptions. No independent recoding, application re-execution or security validation."
+}

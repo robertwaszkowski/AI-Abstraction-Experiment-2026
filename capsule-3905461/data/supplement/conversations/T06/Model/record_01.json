@@ -1,0 +1,27 @@
+{
+  "team": "T06",
+  "approach": "Model",
+  "source_filename": "Change of Employment Conditions Diagram-history.json",
+  "source_format": ".json",
+  "source_sha256": "baf87e2814dd539fb01d5e8f1b8ff39cd0cb95e39b7425051ff47fd31e52165a",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Change of Employment Conditions Process",
+    "exportedAt": "2026-04-02T11:25:01.959Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Generate a business process diagram based on the attached BPMN file.",
+        "timestamp": "2026-04-02T11:24:54.885Z",
+        "files": [
+          "Change of Employment Conditions.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Models the workflow for changing employee conditions, involving departmental review, academic teacher verification, and multi-level decision making based on employee status.",
+        "timestamp": "2026-04-02T11:24:59.959Z"
+      }
+    ]
+  }
+}

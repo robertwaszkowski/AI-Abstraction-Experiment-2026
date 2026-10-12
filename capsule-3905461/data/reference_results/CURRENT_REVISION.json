@@ -1,0 +1,8 @@
+{
+  "revision": "P9-recorded-development-time-2026-09-30",
+  "independent_unit": "two-person team",
+  "n_pairs": 7,
+  "construct": "Recorded development time to functional completion",
+  "break_rule": "Exclude gaps equal to or longer than 45 minutes in full; include review gaps shorter than 45 minutes",
+  "t04_recorded_minutes": 438.0
+}

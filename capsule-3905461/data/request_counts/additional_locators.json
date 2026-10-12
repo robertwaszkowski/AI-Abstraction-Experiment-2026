@@ -1,0 +1,812 @@
+[
+  {
+    "run_id": "code_02",
+    "selector": "P226",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P510",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P890",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P916",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P941",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P966",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1001",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1118",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1138",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1191",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1252",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1371",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1423",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1498",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1569",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1602",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1772",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P1887",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P2237",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P2285",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P2524",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P2569",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P2781",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P2862",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P2994",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3047",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3164",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3283",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3314",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3366",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3413",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3529",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3673",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3790",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P3907",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P4046",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P4178",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P4389",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P4464",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P4567",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P4638",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P4759",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5002",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5081",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5201",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5293",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5360",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5399",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5483",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5582",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5657",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5811",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P5949",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6002",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6057",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6125",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6182",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6326",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6388",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6470",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6537",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6612",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6691",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6778",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6848",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P6959",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P7180",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P7272",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P7446",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "code_02",
+    "selector": "P7553",
+    "kind": "narrative submission heading",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Change of Employment Conditions Process-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Change of Employment Conditions-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Change of Employment Conditions-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Decorations and Medals Process-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Decorations and Medals Registration-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Decorations and Medals Registration-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Leave Request Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Leave Request Form-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Leave Request Form-history.json/conversation/4",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Leave Request Form-history.json/conversation/6",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Leave Request Form-history.json/conversation/8",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Leave Request Form-history.json/conversation/10",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Leave Request Form-history.json/conversation/12",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_01",
+    "selector": "model_generation/model_01/prompt/Leave Request Process-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Change of Employment Conditions Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Change of Employment Conditions-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Change of Employment Conditions-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Change of Employment Conditions-history.json/conversation/4",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Decorations and Medals Application-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Decorations and Medals Process-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Decorations and Medals Process-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Leave Request Process Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Leave Request Process Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_02",
+    "selector": "model_generation/model_02/prompt/Leave Request Process Form-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_03",
+    "selector": "model_generation/model_03/prompt/Academic Teacher Leave Request-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_03",
+    "selector": "model_generation/model_03/prompt/Change of Employment Conditions Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_03",
+    "selector": "model_generation/model_03/prompt/Change of Employment Conditions Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_03",
+    "selector": "model_generation/model_03/prompt/Change of Employment Conditions Form-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_03",
+    "selector": "model_generation/model_03/prompt/Decorations and Medals Process Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_03",
+    "selector": "model_generation/model_03/prompt/Decorations and Medals Request-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_03",
+    "selector": "model_generation/model_03/prompt/Leave Request Process Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_04",
+    "selector": "model_generation/model_04/prompt/Change of Employment Conditions Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_04",
+    "selector": "model_generation/model_04/prompt/Change of Employment Conditions Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_04",
+    "selector": "model_generation/model_04/prompt/Change of Employment Conditions Form-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_04",
+    "selector": "model_generation/model_04/prompt/Decorations and Medals Application Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_04",
+    "selector": "model_generation/model_04/prompt/Decorations and Medals Process Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_04",
+    "selector": "model_generation/model_04/prompt/Employee Leave Request Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_04",
+    "selector": "model_generation/model_04/prompt/Leave Request Process Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Change of Employment Conditions Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Change of Employment Conditions Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Change of Employment Conditions Form-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Change of Employment Conditions Form-history.json/conversation/4",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Change of Employment Conditions Form-history.json/conversation/6",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Change of Employment Conditions Form-history.json/conversation/8",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Decorations and Medals Process Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Decorations and Medals Process Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Leave Request Process Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_05",
+    "selector": "model_generation/model_05/prompt/Leave Request Process Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_06",
+    "selector": "model_generation/model_06/prompt/Change of Employment Conditions Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_06",
+    "selector": "model_generation/model_06/prompt/Change of Employment Conditions Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_06",
+    "selector": "model_generation/model_06/prompt/Change of Employment Conditions Form-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_06",
+    "selector": "model_generation/model_06/prompt/Decorations and Medals Application Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_06",
+    "selector": "model_generation/model_06/prompt/Decorations and Medals Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_06",
+    "selector": "model_generation/model_06/prompt/Leave Request Diagram-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_06",
+    "selector": "model_generation/model_06/prompt/Leave Request Process Form-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Change of Employment Conditions Process-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Change of Employment Conditions-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Change of Employment Conditions-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Decorations and Medals Process-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Decorations and Medals Registration-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Decorations and Medals Registration-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Leave Request Process-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Leave Request-history.json/conversation/0",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Leave Request-history.json/conversation/2",
+    "kind": "submitted request",
+    "adjudicated": true
+  },
+  {
+    "run_id": "model_07",
+    "selector": "model_generation/model_07/prompt/Leave Request-history.json/conversation/4",
+    "kind": "submitted request",
+    "adjudicated": true
+  }
+]

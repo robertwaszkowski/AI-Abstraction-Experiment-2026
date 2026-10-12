@@ -1,0 +1,5 @@
+run_id,issue,observation,interpretation
+code_01,request evidence,19 requests identified from retained user-message boundaries.,Summary totals are not request-count inputs.
+code_04,response-inferred requests,34 directly recorded and two response-inferred requests.,One request is inferred per distinct response with a missing user message; exact message text is unavailable.
+code_05,retrospective evidence and aggregate time,19 quoted request occurrences include starter adaptation; the 240-minute total is not disaggregated by application.,Repeated wording alone is not deduplicated. Raw-turn identities are not independently verified. Existing whole-pair time sensitivity retained.
+all,recording completeness,"DOCX, Markdown and JSON records differ in evidence quality and coverage.","A common request-count rule does not establish equal completeness, complexity or effort. Legacy parser counts in timing evidence are provenance fields, not the request measure."

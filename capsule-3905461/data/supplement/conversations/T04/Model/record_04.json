@@ -1,0 +1,27 @@
+{
+  "team": "T04",
+  "approach": "Model",
+  "source_filename": "Decorations and Medals Process Diagram-history.json",
+  "source_format": ".json",
+  "source_sha256": "89cff81f6ba4161e6821786eef7c5e3d37c4e9bc01f0edd5b47871e84379f816",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Decorations and Medals Process",
+    "exportedAt": "2026-04-01T10:28:30.903Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Prepare a process diagram based on the model from the attachment.",
+        "timestamp": "2026-04-01T10:28:24.104Z",
+        "files": [
+          "Decorations and Medals.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Models the formal application, review, and decision workflow for military decorations and medals.",
+        "timestamp": "2026-04-01T10:28:28.903Z"
+      }
+    ]
+  }
+}

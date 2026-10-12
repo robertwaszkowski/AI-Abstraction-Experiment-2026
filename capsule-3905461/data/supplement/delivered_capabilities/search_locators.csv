@@ -1,0 +1,111 @@
+run_id,category,path,lines
+code_01,preview,code_generation/code_01/code/README.md,24
+code_01,preview,code_generation/code_01/code/role-call-code/README.md,24
+code_01,history,code_generation/code_01/code/role-call-code/src/actions/process.ts,15;35;55
+code_01,tests,code_generation/code_01/code/role-call-code/src/ai/flows/generate-user-avatar.ts,17;25
+code_01,tests,code_generation/code_01/code/role-call-code/src/ai/genkit.ts,4
+code_01,history,code_generation/code_01/code/role-call-code/src/app/dashboard/page.tsx,133
+code_01,tests,code_generation/code_01/code/role-call-code/src/app/login/page.tsx,60;93
+code_01,tests,code_generation/code_01/code/role-call-code/src/components/layout/Header.tsx,53
+code_01,history,code_generation/code_01/code/role-call-code/src/context/ProcessContext.tsx,53;95;96
+code_01,preview,code_generation/code_01/code/role-call-code/src/lib/types/processes.ts,14;19
+code_01,history,code_generation/code_01/code/role-call-code/src/lib/types/processes.ts,127
+code_01,preview,code_generation/code_01/code/role-call-code/src/lib/workflows.ts,15;138
+code_02,tests,code_generation/code_02/code/Mipb/backend/app/db/init_db.py,39
+code_02,preview,code_generation/code_02/code/Mipb/backend/app/db/models.py,31
+code_02,history,code_generation/code_02/code/Mipb/backend/app/db/models.py,25;44;45;55
+code_02,history,code_generation/code_02/code/Mipb/backend/app/routers/process.py,5;31;77;78;79
+code_02,history,code_generation/code_02/code/Mipb/backend/app/services/process_engine.py,3;21;22;54;55;78;85;192
+code_02,tests,code_generation/code_02/code/Mipb/backend/app/services/process_engine.py,39;63
+code_02,history,code_generation/code_02/code/Mipb/frontend/src/App.tsx,7;43
+code_02,history,code_generation/code_02/code/Mipb/frontend/src/pages/Archive.tsx,60
+code_02,history,code_generation/code_02/code/Mipb/frontend/src/pages/ProcessHistory.tsx,9;12;21;27;72
+code_02,history,code_generation/code_02/code/Mipb/frontend/src/pages/TaskForm.tsx,5;113;848
+code_02,tests,code_generation/code_02/code/Mipb/frontend/src/pages/TaskForm.tsx,122;826;827;834;839;840
+code_02,preview,code_generation/code_02/code/Mipb/walkthrough.md,47
+code_02,history,code_generation/code_02/code/README.md,27
+code_03,history,code_generation/code_03/code/MiPB/AplikacjaSystemu/models/Request.js,33;34
+code_03,history,code_generation/code_03/code/MiPB/AplikacjaSystemu/public/app.js,372;410;411;436;459
+code_03,tests,code_generation/code_03/code/MiPB/AplikacjaSystemu/public/app.js,83;86;370
+code_03,tests,code_generation/code_03/code/MiPB/AplikacjaSystemu/routes/auth.js,16;96
+code_03,history,code_generation/code_03/code/MiPB/AplikacjaSystemu/routes/processes.js,17;28;33
+code_03,tests,code_generation/code_03/code/MiPB/AplikacjaSystemu/server.js,51
+code_03,history,code_generation/code_03/code/MiPB/AplikacjaSystemu/test_decorations.js,137
+code_03,tests,code_generation/code_03/code/MiPB/AplikacjaSystemu/test_decorations.js,135
+code_03,history,code_generation/code_03/code/MiPB/AplikacjaSystemu/test_employment.js,121
+code_03,tests,code_generation/code_03/code/MiPB/AplikacjaSystemu/test_employment.js,119
+code_03,notifications,code_generation/code_03/code/MiPB/AplikacjaSystemu/test_scenario_execution.js,211;212
+code_03,history,code_generation/code_03/code/MiPB/AplikacjaSystemu/test_scenario_execution.js,114
+code_03,tests,code_generation/code_03/code/MiPB/AplikacjaSystemu/test_scenario_execution.js,112
+code_03,preview,code_generation/code_03/code/MiPB/ProjectDocs/implementation_plan_final.md,9
+code_03,tests,code_generation/code_03/code/MiPB/ProjectDocs/implementation_plan_final.md,45
+code_03,tests,code_generation/code_03/code/MiPB/ProjectDocs/walkthrough.md,120;121;122
+code_03,history,code_generation/code_03/code/MiPB/README.md,55
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/public/index.html,13;58;73
+code_04,tests,code_generation/code_04/code/role-call-code_with_processes/src/ai/flows/generate-user-avatar.ts,17;25
+code_04,tests,code_generation/code_04/code/role-call-code_with_processes/src/ai/genkit.ts,4
+code_04,tests,code_generation/code_04/code/role-call-code_with_processes/src/app/dashboard/page.tsx,19
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/app/flows/leave-request/start/page.tsx,5
+code_04,tests,code_generation/code_04/code/role-call-code_with_processes/src/app/flows/leave-request/start/page.tsx,25;38
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/app/flows/leave-request/task/[id]/page.tsx,8
+code_04,history,code_generation/code_04/code/role-call-code_with_processes/src/app/flows/leave-request/task/[id]/page.tsx,16;18;32;126
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/app/flows/leave-request/task/page.tsx,6
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/app/head-approval/page.tsx,9;40;66;77
+code_04,tests,code_generation/code_04/code/role-call-code_with_processes/src/app/login/page.tsx,60;93
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/app/tasks/[id]/page.tsx,7
+code_04,history,code_generation/code_04/code/role-call-code_with_processes/src/app/tasks/[id]/page.tsx,19;53;297
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/app/tasks/page.tsx,6
+code_04,tests,code_generation/code_04/code/role-call-code_with_processes/src/components/layout/Header.tsx,53
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/firebase.ts,3;23
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/lib/actions-change-employment.ts,8
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/lib/actions-leave.ts,2;97
+code_04,history,code_generation/code_04/code/role-call-code_with_processes/src/lib/actions-leave.ts,23
+code_04,recovery,code_generation/code_04/code/role-call-code_with_processes/src/lib/actions.ts,8
+code_05,preview,code_generation/code_05/code/Change of Employment Conditions/Change_of_Employment_Conditions.md,5;10;19
+code_05,tests,code_generation/code_05/code/Change of Employment Conditions/database.py,53;69;93
+code_05,history,code_generation/code_05/code/Change of Employment Conditions/main.py,300
+code_05,preview,code_generation/code_05/code/Change of Employment Conditions/process.py,73
+code_05,tests,code_generation/code_05/code/Change of Employment Conditions/test_employment.py,4;8;22;23;24;28;43;46;47;49;51;57;69;78;79;84;88;89;91;93;112;115;123;126;127;130;138;141;142;143;147;155;159;160;163;171;174;175;178;186;189;190;193;201;204;205;208;216;219;222;230;233;234;235;253;261;264;272;276;277;280;288;291;310;314;316;319;325;333;338;341;359;371;374;377;380;383;452;459;465;466;467;469
+code_05,history,code_generation/code_05/code/Decorations and Medals/app.py,130;131;852;853;854;856;858;937;938;939;941
+code_05,preview,code_generation/code_05/code/Decorations and Medals/database.py,35;47
+code_05,history,code_generation/code_05/code/Decorations and Medals/database.py,7;125;180;184;383;385;495;512;537;539;549;552;554;560;566
+code_05,tests,code_generation/code_05/code/Decorations and Medals/database.py,200;203;209;227;235;241;280;397;544
+code_05,preview,code_generation/code_05/code/Decorations and Medals/DecorationsAndMedals.md,6;28;30;47;51;198
+code_05,history,code_generation/code_05/code/Decorations and Medals/DecorationsAndMedals.md,94;123
+code_05,tests,code_generation/code_05/code/Decorations and Medals/DecorationsAndMedals.md,154;155;156
+code_05,history,code_generation/code_05/code/Decorations and Medals/test_decorations.py,34;134;135;136;138;139;140;141;427;428;436;440;441;443
+code_05,tests,code_generation/code_05/code/Decorations and Medals/test_decorations.py,4;8;22;23;24;28;53;55;57;60;63;77;80;83;96;106;107;113;117;118;120;125;130;134;138;139;165;173;176;177;180;189;192;193;197;204;207;208;211;219;222;223;227;234;237;238;241;248;251;254;261;264;267;275;278;279;303;310;313;321;324;325;326;349;355;358;363;366;378;385;389;390;391;392;396;408;423;427;440;485;491;496;497;498;500
+code_05,preview,code_generation/code_05/code/Decorations and Medals/workflow.py,5;70
+code_05,preview,code_generation/code_05/code/Leave Request/app.py,10
+code_05,history,code_generation/code_05/code/Leave Request/app.py,33;126;127;135;483;485;627;630;643;656;657;659;663;665;668;775;803;804
+code_05,tests,code_generation/code_05/code/Leave Request/app.py,408
+code_05,history,code_generation/code_05/code/Leave Request/database.py,9;156;159;320;438;469;485;499
+code_05,tests,code_generation/code_05/code/Leave Request/database.py,198;221;329;427;478
+code_05,preview,code_generation/code_05/code/Leave Request/Leave_Request_App.md,19;21;41;46;54;194
+code_05,history,code_generation/code_05/code/Leave Request/Leave_Request_App.md,91;141
+code_05,history,code_generation/code_05/code/Leave Request/test_leave_request.py,164;165;168;250;253;254;256;264;271;272;274;275;277;285;286
+code_05,tests,code_generation/code_05/code/Leave Request/test_leave_request.py,13;33;40;60;63;65;68;70;72;74;76;78;80;82;84;86;88;90;92;94;96;102;104;106;108;110;112;114;116;118;120;130;133;136;139;146;153;155;162;164;171;177;180;182;186;188;192;198;208;209;211;222;223;225;228;230;244;247;253;271;272;274;286;292;295;297;300;302;305;315;318;320;323;325;328;330;333;335;338;340;346;348;354;360;365;366;368;373;375;380;381;383;388;389;391;396;397;399;404;405;407;412;413;415;420;421;423;428;430;435;441;444;445;447;450;451;457;464;466;482;484;501;505;515;517;523
+code_05,preview,code_generation/code_05/code/Leave Request/workflow.py,104;149
+code_05,history,code_generation/code_05/code/Leave Request/workflow.py,24;299
+code_06,history,code_generation/code_06/code/db.js,88
+code_06,preview,code_generation/code_06/code/public/app.js,706;753;805;840;843;844;851;998;1011
+code_06,notifications,code_generation/code_06/code/public/app.js,39;42;46;147;149;152;170;378;398;402;405;430;450;696;698;701;810;1260
+code_06,history,code_generation/code_06/code/public/app.js,808;1139;1140;1141;1142;1158
+code_06,tests,code_generation/code_06/code/public/app.js,29;30;31;643;669;1080;1294;1395
+code_06,preview,code_generation/code_06/code/public/index.html,18;54;128;269;272;273;384;388;393;399;400;401
+code_06,notifications,code_generation/code_06/code/public/index.html,418
+code_06,history,code_generation/code_06/code/public/index.html,396;414;415
+code_06,history,code_generation/code_06/code/server.js,123;140
+code_06,history,code_generation/code_06/code/workflowEngine.js,29;32;88;111;133;165
+code_06,tests,code_generation/code_06/code/workflowEngine.js,71;72;75
+code_07,preview,code_generation/code_07/code/public/app.js,9;529;530;819;820;963;973;1113;1114;1122;1123;1125;1134;1138;1139;1144;1145;1158;1159;1163;1165;1200;1204;1205;1224
+code_07,notifications,code_generation/code_07/code/public/app.js,806
+code_07,recovery,code_generation/code_07/code/public/app.js,1010;1174;1186
+code_07,history,code_generation/code_07/code/public/app.js,55;63;375;552;553;866;869;870;874;875;877;884;900;905;907;908;909;911;913;960;961
+code_07,tests,code_generation/code_07/code/public/app.js,146;198;425;515;520;524;729;831;946;1218;1232
+code_07,preview,code_generation/code_07/code/public/index.html,11;12;13;14;34;367;368;370;378;424;426;434;435;437;445;491;492;494;502;512
+code_07,history,code_generation/code_07/code/public/index.html,302;414;424;425;426;427;428;480;482;483;484;485
+code_07,preview,code_generation/code_07/code/server.js,25;456;457;461;462;463;472
+code_07,history,code_generation/code_07/code/server.js,342;411;412;421;429
+code_07,notifications,code_generation/code_07/code/test_scenarios.js,321
+code_07,tests,code_generation/code_07/code/test_scenarios.js,1;45;54;63;73;82;91;100;114;127;128;132;133;134;135;136;137;138;139;154;168;177;186;195;205;214;223;232;241;245;246;247;248;249;273;282;292;301;310;319;328;337;341;342;343;344;345;346;347;356

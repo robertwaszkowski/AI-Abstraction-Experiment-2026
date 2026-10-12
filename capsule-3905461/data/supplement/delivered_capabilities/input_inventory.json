@@ -1,0 +1,2257 @@
+[
+  {
+    "path": "code_generation/code_01/code/package-lock.json",
+    "bytes": 89,
+    "sha256": "26a52c20307317fd06a792c66cdb109ffeff6082d1d8507eeac900c5757302c6"
+  },
+  {
+    "path": "code_generation/code_01/code/README.md",
+    "bytes": 1214,
+    "sha256": "4eeccd6e217e66acd077d513a95cdb87c60c20071d00698f9ad3fc9c488cd58f"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/.gitignore",
+    "bytes": 559,
+    "sha256": "f5eccc3992bbe481baee29a53d8606363444326714cd11e87a1a5684237aadff"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/.idx/dev.nix",
+    "bytes": 1324,
+    "sha256": "6afa6315ae977d78c21562f10b75e3c05539d673040b9e6c5fc9ab99341cb746"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/.idx/icon.png",
+    "bytes": 27438,
+    "sha256": "ae9546f4ae2d6b33a1165574a6f680038444e77edde03f35e0edddd9d94880ed"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/apphosting.yaml",
+    "bytes": 277,
+    "sha256": "e9686720c79aa2506954bc202bc11cf75f8dc35f3ef85276d4cc472a6451c441"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/components.json",
+    "bytes": 467,
+    "sha256": "30d320ac4aa3698ff061d6a98d5ec133b3e09652c33e2ac6e17f99c86c822dff"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/docker-compose.yml",
+    "bytes": 356,
+    "sha256": "265a2227d32e219f038f0b00759f85d027dcdbf78036fddc4966b3c3b3d68ffe"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/docs/blueprint.md",
+    "bytes": 982,
+    "sha256": "5fc4a13c5b16a71a0245ebaa959af37b94eeee93b877dbaa28ed8d467eabb8ce"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/next.config.ts",
+    "bytes": 680,
+    "sha256": "e157297f06ef4cf8e927993614cb1ee71b32b77bb3a79474a5383c7091ae64f9"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/package-lock.json",
+    "bytes": 500747,
+    "sha256": "5fb82a5c5b6bdce52eb479d7ac71b3f8522c3df916bc0176c06679c2711f1599"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/package.json",
+    "bytes": 2260,
+    "sha256": "4c3042628e22dc5d5638f18abd209ff7c2a82ced8d9b9fd434d5e25b05b58230"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/postcss.config.mjs",
+    "bytes": 143,
+    "sha256": "da1e5e8147fb42cbc582a60607fea0df35171ae60bd5617846c841568bbe2272"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/prisma/schema.prisma",
+    "bytes": 419,
+    "sha256": "c570fb9220942c3144e502419a3bc3609369cf1c06b6460c467dfea12c5e9fa3"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/README.md",
+    "bytes": 1214,
+    "sha256": "4eeccd6e217e66acd077d513a95cdb87c60c20071d00698f9ad3fc9c488cd58f"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/setup-env.js",
+    "bytes": 221,
+    "sha256": "d960614af36f3b6424c2f24ea4743adb21eb4ca5eb1f5d40d21316253e44c58b"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/actions/process.ts",
+    "bytes": 2000,
+    "sha256": "2c4484f6181c6b8836637aaaeed42eb6dfe2df6f29112196b0a5b2ecc19b846d"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/ai/dev.ts",
+    "bytes": 91,
+    "sha256": "3afd37cad46fe2d1536b3097a39982577b97bc953109be88536e681350d6697a"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/ai/flows/generate-user-avatar.ts",
+    "bytes": 1843,
+    "sha256": "7ba86c838c1939f41b495fffa9e2869005e178f3c74fdea60385e81e7a9b9a25"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/ai/genkit.ts",
+    "bytes": 183,
+    "sha256": "8e1c89e63ea8adf074eb26bbe48c70af5b815cb5719865c754ce929dd6182d84"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/app/actions.ts",
+    "bytes": 612,
+    "sha256": "34f0368663e61e7d7f8a609e8f2ef98dd9940cb57d2c3477fd371b1bbb7695eb"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/app/dashboard/layout.tsx",
+    "bytes": 454,
+    "sha256": "a939f4c19d0a54c7becbe393523d4de591a5d3fc505ba73bd9967ab184c62f31"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/app/dashboard/page.tsx",
+    "bytes": 7571,
+    "sha256": "89453db79cfdde3cf279ffc5b16d59823d2c3c77b5dd46bc1e5a049b072b3fdf"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/app/favicon.ico",
+    "bytes": 15086,
+    "sha256": "5c56c5e3c4c59c06e0ba3fdb0f551bc1161564e716a614159e57d18077fcfae0"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/app/globals.css",
+    "bytes": 1838,
+    "sha256": "b5e987bf427dcdc47bd170f4d25eabd79f72a81c53fc92336bfb59a098318c75"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/app/layout.tsx",
+    "bytes": 1137,
+    "sha256": "2bc60eb97225b1395c5817eef825eea6eb9a50d574dc1a901eeda4c4320f9100"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/app/login/page.tsx",
+    "bytes": 4603,
+    "sha256": "767436d9ffb6c99a6d1180d11d75d2b0d29f73f9b4ea84dc611ab7bfb5f7e1f5"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/app/page.tsx",
+    "bytes": 652,
+    "sha256": "6589eabcaa114a965a70b760f7f873c34881183d0e9b5cd64170fd5730534800"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/auth/ProtectedRoute.tsx",
+    "bytes": 737,
+    "sha256": "78e940dbbe24b4863b370405458a2937379b833c9a10c041eb52cf8e17121cb6"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/layout/Header.tsx",
+    "bytes": 3499,
+    "sha256": "60bcedc00ca54fb94877b64af32b5cf4132b4fbcd545b3cacffd2706fe75e95d"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/process/ProcessStartForm.tsx",
+    "bytes": 9512,
+    "sha256": "5f64393109ffb24e641f388ebf7fa79611e1396e1a00ade19cbff6dcd93d3258"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/process/TaskExecuteForm.tsx",
+    "bytes": 16936,
+    "sha256": "150601f05f94bf54e592eb13552643c73c31264609bf339c24ca0e8212acfce2"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/accordion.tsx",
+    "bytes": 2049,
+    "sha256": "0e1f5372cd65108a50619aa34b4f9f388c00533af1b994d4766e57a20d9fd378"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/alert-dialog.tsx",
+    "bytes": 4575,
+    "sha256": "7ad6b7b4089e7d534b493cc26b69a9deaf452c40b72c394e658573727b863f82"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/alert.tsx",
+    "bytes": 1643,
+    "sha256": "1aaba23c7a1095f7abea7c9f6ce12a43c22bb8f97e957c9cae222666e0c8be83"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/avatar.tsx",
+    "bytes": 1469,
+    "sha256": "4ee6fbff6d693bf5b76f1b30e4cd55de6c6343c46a51e636c3e3b8a911fa7ec0"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/badge.tsx",
+    "bytes": 1164,
+    "sha256": "563824ae3f6b0a5de408c13e58fe2a195808ff57cb09698fcaf2e875434bfb98"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/button.tsx",
+    "bytes": 1957,
+    "sha256": "376e7a3c1f6efe5bec442d24106cfb9da6aacc8ccf6fc4b859dfa776949eec41"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/calendar.tsx",
+    "bytes": 2779,
+    "sha256": "ed6999eabf57ef9daab166751533fb1d41cfd14d01524fa7b4c92eed8333c8f6"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/card.tsx",
+    "bytes": 1937,
+    "sha256": "1bceacbfe1abb403def6cb76df0ae0c2a898177b8d394c05280825a9f5e803b9"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/carousel.tsx",
+    "bytes": 6486,
+    "sha256": "3dc7708dc950eb3ce339a4e76d10a7364edc00070131239b3d7dc200c3302e26"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/chart.tsx",
+    "bytes": 10844,
+    "sha256": "c654146055177a4b80ec130cfeb94c27a95ed743f6c0fa1b2b6f75c4a186f049"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/checkbox.tsx",
+    "bytes": 1100,
+    "sha256": "0b70a8021e2b8550119b1f21cfeda834fee40181eaffa92d124e24ef0703ee12"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/collapsible.tsx",
+    "bytes": 340,
+    "sha256": "bc854800960ef4129d4679a7c4a6b5091e7038adc03698e4529d0c9b5af0d831"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/dialog.tsx",
+    "bytes": 3970,
+    "sha256": "fcfbab9497211911a8bb854983bf3975bfcc19ff4cb1ca0b136a445438f06ccf"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/dropdown-menu.tsx",
+    "bytes": 7633,
+    "sha256": "48b2fb278b3b639bc96186b88c4d1f1da9dc4fd5af1a1edc35135745fd8ad057"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/form.tsx",
+    "bytes": 4298,
+    "sha256": "a80b39038485dff70cd9a7c2287676d8122a033784e851d958dee2020fc54efc"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/input.tsx",
+    "bytes": 841,
+    "sha256": "f56d76c83583269842b794463ff58badb509350afcafa5e150923cb8ecc76747"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/label.tsx",
+    "bytes": 750,
+    "sha256": "8253ee4179284de5d037eee03b55f4499b04ff41ddfa60b3176ea28d4bdc301c"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/menubar.tsx",
+    "bytes": 8761,
+    "sha256": "c6f8eae71b4c298d5defde6a6ab1eb98fff8e0714fda8a0d3c3f320880885dfe"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/popover.tsx",
+    "bytes": 1275,
+    "sha256": "fa3051cfd0196eaf41de55bb8b385c6cb32078edad8dbf59062d551347e80457"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/progress.tsx",
+    "bytes": 819,
+    "sha256": "db85995906f690fd4ba684608effd177522cfbdce80cb9a501aed16e5a13f72f"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/radio-group.tsx",
+    "bytes": 1525,
+    "sha256": "f3cef3b16f7de803bae0413e7b67818c3b94240d962a3cc17b2720122fa81ae9"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/scroll-area.tsx",
+    "bytes": 1704,
+    "sha256": "3efa46a50eaa57e62c746479ecc9347add5297afe8f63fc02dbee53e56076771"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/select.tsx",
+    "bytes": 5789,
+    "sha256": "32bbe2f038e3f5632377069c75217039e27fa19b985dac49808fe8374c34e292"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/separator.tsx",
+    "bytes": 801,
+    "sha256": "d2dec642afe71c74e76f2f3ee8a2a30fde5743ef7c5d1c30ee21d4ec23d574e8"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/sheet.tsx",
+    "bytes": 4421,
+    "sha256": "c02a18d6c73b21078ca394465b819b4cebeef60778c3bdcd3e1f818522981f0f"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/skeleton.tsx",
+    "bytes": 276,
+    "sha256": "90badf0dcd440128b81554c06d56c4f01b1ccf03748ca3adf7e4a41d611acddd"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/slider.tsx",
+    "bytes": 1119,
+    "sha256": "58a376350339a866b1b24d4425f3b0526e92dcd94a400112944dc6cfdc7b926e"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/switch.tsx",
+    "bytes": 1182,
+    "sha256": "e536d07f3bb344983c7fccfdb61567954ab04a4e72e49e3e12b84c2216173136"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/table.tsx",
+    "bytes": 2882,
+    "sha256": "54bfa4489e6dc84dceb294b63023bb352c6c446c019c67230ce6f1dac76e3713"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/tabs.tsx",
+    "bytes": 1952,
+    "sha256": "93eb37094e3604daa8f4c8b2dbe5eb88eef3798566a8e54aee2455fb46489783"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/textarea.tsx",
+    "bytes": 758,
+    "sha256": "b1f3b1100b8a797f54387b34b5466db2cb69a80c7b262928589482b91b12aac3"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/toast.tsx",
+    "bytes": 4988,
+    "sha256": "e4a0fc226cc072a6ed5712fea824462f3a45f41188fe627e9ec2c85366ecbefd"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/toaster.tsx",
+    "bytes": 821,
+    "sha256": "8d358fb5a3411c29e842c8aee0ba68c0c85a9b1dcf080dba6555fcf17165ebc3"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/components/ui/tooltip.tsx",
+    "bytes": 1189,
+    "sha256": "63255ea6219e9fe283854e1364aa38e0a33b69263cb74055d911ec380211a324"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/context/AuthContext.tsx",
+    "bytes": 2098,
+    "sha256": "9f6f83e61188d4dccbb9013e82ec65cd2e7cbd1743461675e07292b340c85c3d"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/context/ProcessContext.tsx",
+    "bytes": 4915,
+    "sha256": "2f4148a55a255bf34a60394844be417c419e6c589024fe38030af18368ab9db6"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/hooks/use-toast.ts",
+    "bytes": 4142,
+    "sha256": "dfc2ee5d2da75fbbdb3665ed1a6969405c8246200aeca11199a10a0b786c7a11"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/hooks/useAuth.ts",
+    "bytes": 315,
+    "sha256": "f3b1b88fb9b4157bb65da8720912ba1d0555ff0e94612a4cc020aa9b0ab32388"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/lib/auth.ts",
+    "bytes": 1385,
+    "sha256": "e82c08a03cbe1b6c8d2cc934ef9d6881fd4f8288a8b7df02e0a9ceaf32381022"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/lib/db.ts",
+    "bytes": 315,
+    "sha256": "723d3ca46d5636b91b3a6ca3c40ca4774f270dba92d803958b9f802164e284a7"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/lib/placeholder-images.json",
+    "bytes": 31,
+    "sha256": "1fc3d0c0c479a0a5cf41e5cc7eff4c203cc68459dca2f964be20b2a5b00cd31c"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/lib/placeholder-images.ts",
+    "bytes": 249,
+    "sha256": "e754b8f012141ee15bfb150e1e8559af95a3a96b9f96a764935a36597845b35a"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/lib/types/index.ts",
+    "bytes": 62,
+    "sha256": "a664709352bc175b66f5895eccd2caf7f3b8df26391c2cb4402cc570e6430da7"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/lib/types/processes.ts",
+    "bytes": 4992,
+    "sha256": "1cb3db180f3b6349efa05b0f0deb368d952cfc5b66f9b0d2b0a9abdcbb47360e"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/lib/types.ts",
+    "bytes": 117,
+    "sha256": "8164b7fe2441604917455125aa7a261a8c3aa742a71e95f723d48b0e141dc417"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/lib/utils.ts",
+    "bytes": 172,
+    "sha256": "74a147991a119f1c4cdc25a4d9b22713632fa32eb136e55ab6939b006d71b9d6"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/src/lib/workflows.ts",
+    "bytes": 12516,
+    "sha256": "f2dda362fe6d5fd73b5655e398df813f366e31b307100a0c8012b938583dfdc9"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/tailwind.config.ts",
+    "bytes": 2583,
+    "sha256": "3403b4f675e5faf41533eaca3d47337ff20af130c06fc683106e0d88cfe74333"
+  },
+  {
+    "path": "code_generation/code_01/code/role-call-code/tsconfig.json",
+    "bytes": 629,
+    "sha256": "172c71e5b3e27ff690fa63a1b74598be508bef99b18f001e6d48c2bdf4fb9eff"
+  },
+  {
+    "path": "code_generation/code_01/prompt/team01-prompting-logs.docx",
+    "bytes": 33108,
+    "sha256": "06a2657317019907b5763593915c8face788c1e09344ed3cc537f4764a318afd"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/app/db/init_db.py",
+    "bytes": 1933,
+    "sha256": "28716b5d1fa5e7a1a7b96c5f81f84d162a9a2332e23950c4382eb948ced60001"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/app/db/models.py",
+    "bytes": 2541,
+    "sha256": "f243f6532948bd1b8db04c48b331cadd15d929b57cfdd9e86a71ae66b2b2ed2a"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/app/db/session.py",
+    "bytes": 457,
+    "sha256": "4cc9e66ab43d7a14e80e8fbfc94af73fe2348a75598dea7cbb0a815360feb74c"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/app/main.py",
+    "bytes": 872,
+    "sha256": "d9f9b089828bedabd8f532232dda5735b56d55df16eac6f437ef0bd74baa9fa2"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/app/routers/auth.py",
+    "bytes": 487,
+    "sha256": "9cbeba822ecac5323de79d54ad0dfc44bcb3c1ab2b7998d4d8cdff7f79326578"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/app/routers/process.py",
+    "bytes": 3464,
+    "sha256": "b751aba1d99360d45399445bcd9c1129e1f22ade26bcff2a642f9b9c86bd58ff"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/app/services/process_engine.py",
+    "bytes": 10306,
+    "sha256": "760fc4b03c253fcc0803916690b680d45152ec146052986914a79ac25c9370c2"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/decorations_scenario.docx",
+    "bytes": 21732,
+    "sha256": "b7159dccae7002ad6d491ed8ef8a6abea7f56a7f6c12c34c67001392485ab92a"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/Dockerfile",
+    "bytes": 218,
+    "sha256": "50cd7e182c7d951536eebd21c2d613758dcf35673d4c3921a12d756cecc5dc4c"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/extract.py",
+    "bytes": 897,
+    "sha256": "c3558815045b615ea4319484fdd86de9433bd25d10e62d954e84c0707cac1e95"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/leave_scenario.docx",
+    "bytes": 21777,
+    "sha256": "9a81b16faa2da8056c75ffdad1f076d7507e7cd6b7c98eb00339f24a788fd857"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/requirements.txt",
+    "bytes": 149,
+    "sha256": "b0d60e6efd60ae80289f2ab180d2e2dfaddec942afd22a218e54ae9dd82a4986"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/backend/scenario.docx",
+    "bytes": 22172,
+    "sha256": "1c1c1e3db9a96e97e4e8e69e29343a38d23e76536aa11b67b4174ad70cc6dda6"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Change of Employment Conditions Data.docx",
+    "bytes": 18059,
+    "sha256": "b9f10cfadb1b36007608ea05e344e248bc90fc76667f4958bbaae79881e44c69"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Change of Employment Conditions Test Scenario.docx",
+    "bytes": 22172,
+    "sha256": "1c1c1e3db9a96e97e4e8e69e29343a38d23e76536aa11b67b4174ad70cc6dda6"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Change of Employment Conditions.bpmn",
+    "bytes": 16882,
+    "sha256": "d7ee6efde9e6e1c3cf95b88a86db3d0b210f57652cd9919f515eab1ba973ff40"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Decorations and Medals Data.docx",
+    "bytes": 17432,
+    "sha256": "662709e596f8a069424588450c4bf6d4ecaceebb43cfff04a7ab4d795d2bab4d"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Decorations and Medals Test Scenario.docx",
+    "bytes": 21732,
+    "sha256": "b7159dccae7002ad6d491ed8ef8a6abea7f56a7f6c12c34c67001392485ab92a"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Decorations and Medals.bpmn",
+    "bytes": 14676,
+    "sha256": "33abb929f303155d02e9d3275e639f9514555448f8c1722711faed286ef84d23"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/docker-compose.yml",
+    "bytes": 1017,
+    "sha256": "e045fae7635139b3806b9a0e8af88a6c95c7e56d4d45ee736d235e54baadf6a8"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/extract_docx_to_console.py",
+    "bytes": 897,
+    "sha256": "c3558815045b615ea4319484fdd86de9433bd25d10e62d954e84c0707cac1e95"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/extract_missing_docx.py",
+    "bytes": 996,
+    "sha256": "d2763a15e63f226a9d34e2b994fc1b58f06b6a0778a53af8f307301d6acdf57a"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/extract_remaining_docx.py",
+    "bytes": 1146,
+    "sha256": "9cdbecfc0ffb19491de3d3dc43c48b6fc0a1705a1dbfa0cb175f79abb81dca0b"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/Dockerfile",
+    "bytes": 162,
+    "sha256": "43870c0a8426e0f203d9cb7d671936d9d9ef0f91ccff3bae0c2bac43fe098837"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/index.html",
+    "bytes": 325,
+    "sha256": "7bab7f365034e32c2cf2b91ec3807795e3a4f615c53fad4d1791e05224b07649"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/package.json",
+    "bytes": 600,
+    "sha256": "2cbba5f9dc2b3dbf1694417e467a23b191c9fdadf1666b0c983082ff8e41fe08"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/src/App.tsx",
+    "bytes": 2454,
+    "sha256": "b2f4bc670489560806b1f57b0fc6d7ecf77a6d42bf996156b9c7060270615cbb"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/src/index.css",
+    "bytes": 1184,
+    "sha256": "d144a7c160c3b7272eb446513edd5434e012e4a52a7578a1b605a8ed942b4786"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/src/main.tsx",
+    "bytes": 256,
+    "sha256": "c04589bd2c9b61fe872175fb67f921fd48fe44bcfe4a97d9de2e0797afa53ff4"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/src/pages/Archive.tsx",
+    "bytes": 2800,
+    "sha256": "21086c7958ac2cc206b0aba62af5d3f5d6c34bf7bed403a60b7c146e8084c8bd"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/src/pages/Login.tsx",
+    "bytes": 2340,
+    "sha256": "ff8fb2513f33abfa43059149b5bfc7d3bc89df781a2d14270388061877f15ef0"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/src/pages/ProcessHistory.tsx",
+    "bytes": 4620,
+    "sha256": "61c699273643e651727ceb00814da0a8f573e504917f86249c4e05209d76cc8c"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/src/pages/StartProcess.tsx",
+    "bytes": 7832,
+    "sha256": "a91e95fa148a70ed571702b8d3324ca9d8b3e666100b95ef3701887e4b6025b0"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/src/pages/TaskForm.tsx",
+    "bytes": 56191,
+    "sha256": "864edd5afe1f73a709a47a110a424bed747a3636132a08cd112fca4baae62327"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/src/pages/Worklist.tsx",
+    "bytes": 3122,
+    "sha256": "64ec1a2aa0bfbf7df8e744fb2dd5a26ed3a0335c4eadcfb8c5090e14940c3c97"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/frontend/vite.config.ts",
+    "bytes": 238,
+    "sha256": "878972a8b397b23e4929de7bb910527e97b98fc67ac9e2c66c4ee75b489663c7"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Leave Request Data.docx",
+    "bytes": 18186,
+    "sha256": "0a43e23938bda81932aac284ab16bece0e8278fdb570bc8dd17128f801a5daec"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Leave Request Test Scenario.docx",
+    "bytes": 21777,
+    "sha256": "9a81b16faa2da8056c75ffdad1f076d7507e7cd6b7c98eb00339f24a788fd857"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Leave Request.bpmn",
+    "bytes": 14280,
+    "sha256": "0c235d6c3519d6521dd7866db1b2603d4b6e84c8a5dc9a3f93080fcbb4ced43e"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/Process to Roles Mapping.docx",
+    "bytes": 16599,
+    "sha256": "413690c1d66334673ddb5919c6da307a5bdd39c77510db80def36118d08be6ee"
+  },
+  {
+    "path": "code_generation/code_02/code/Mipb/walkthrough.md",
+    "bytes": 4243,
+    "sha256": "79fd45be0c9086061bcd78fd43e1d853436d5fe831ec81ae8fb9a4ad77a2f8f0"
+  },
+  {
+    "path": "code_generation/code_02/code/README.md",
+    "bytes": 3228,
+    "sha256": "b02bbc402e42302d24a29c65bf6edacd4fcb5dbc283fdb628c2e758c2e3dd8ff"
+  },
+  {
+    "path": "code_generation/code_02/prompt/team02-prompting-logs.docx",
+    "bytes": 1275276,
+    "sha256": "2f3d2606383f0d8ca44c48a857380f812f47165646367fcef47bd324a4dae16e"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/.gitignore",
+    "bytes": 62,
+    "sha256": "f53e33861f1a639dc52456588ce34595a471e7423eeab1f53f1f7a49fa368f28"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/database.js",
+    "bytes": 267,
+    "sha256": "b8ce457bddba3b1897a5e2820dc067be5623dd255e15a2f9128a35573f1cda11"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/models/Request.js",
+    "bytes": 997,
+    "sha256": "06799fea3ff48e7649a7558fc37c4a1e0a6b4d308188b90aa0dcf471fe2b740b"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/models/User.js",
+    "bytes": 949,
+    "sha256": "94b51fb7a85faf9cac314e6eb5d5010b72448f0cbe2316653491428c10938ab8"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/package-lock.json",
+    "bytes": 104857,
+    "sha256": "63c5728d3f333c574ed0b00f47af30a5e55029da222c2ad5a0e3921888960a65"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/package.json",
+    "bytes": 423,
+    "sha256": "bfbbfc8696e3bfd13117d3d1ba1c7764ad8b931d7a300b7e1fbdb889a18a2003"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/public/app.js",
+    "bytes": 36096,
+    "sha256": "b7ad585a8d539b9cc2452b17a462890a32930dea10bfe89b9cf0de4468ae15f8"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/public/index.html",
+    "bytes": 10704,
+    "sha256": "25ad4f896824cc1eb84306df04620f29ba9e953e9db083214c26284a0903156d"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/public/style.css",
+    "bytes": 5444,
+    "sha256": "d8eeeed82fd0dd4493db40a981238babf3cbc85aa6bd9efa5f95e6c2dc15ede1"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/routes/auth.js",
+    "bytes": 5013,
+    "sha256": "9d56e2d87acc5e7cdb2169db5248a929ad93737f3403073109c41ca3d22c7bdc"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/routes/processes.js",
+    "bytes": 2257,
+    "sha256": "b55584716a95b07d0bd69fd8944e5f0a3bb4aaf231c1636a3b004e905ae8a17c"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/server.js",
+    "bytes": 3701,
+    "sha256": "e4903f4918ef5d737606f95f1e5c80908df9f7109a60baa794cee3517ae8341d"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/test_decorations.js",
+    "bytes": 8386,
+    "sha256": "79e99f3a05f0907cca4105588ecc52a39474f41107fc9fe9e5aeacce076ec2a7"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/test_employment.js",
+    "bytes": 8026,
+    "sha256": "57a1aa52771ff18d33c536a73271f8b0dc152e5d224334e6a32b6437ac4df2b4"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/test_scenario_execution.js",
+    "bytes": 8946,
+    "sha256": "7ff22ac61e0974cabf90136963c321b210bf0a5781b80dce334fab4e3967bead"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/AplikacjaSystemu/USER_ROLES.md",
+    "bytes": 1807,
+    "sha256": "05c9b048ac90186089461a379d96bca9f91c91b7afb22c54547d56703654de9e"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/co_zrobic.txt",
+    "bytes": 102,
+    "sha256": "e21b2459ab726889f5df74fadb0e8e29d8655ace6e6a9c34af56685200d31e24"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Change of Employment Conditions Data.docx",
+    "bytes": 18059,
+    "sha256": "b9f10cfadb1b36007608ea05e344e248bc90fc76667f4958bbaae79881e44c69"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Change of Employment Conditions Test Scenario.docx",
+    "bytes": 22172,
+    "sha256": "1c1c1e3db9a96e97e4e8e69e29343a38d23e76536aa11b67b4174ad70cc6dda6"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Change of Employment Conditions.bpmn",
+    "bytes": 16882,
+    "sha256": "d7ee6efde9e6e1c3cf95b88a86db3d0b210f57652cd9919f515eab1ba973ff40"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Decorations and Medals Data.docx",
+    "bytes": 17432,
+    "sha256": "662709e596f8a069424588450c4bf6d4ecaceebb43cfff04a7ab4d795d2bab4d"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Decorations and Medals Test Scenario.docx",
+    "bytes": 21732,
+    "sha256": "b7159dccae7002ad6d491ed8ef8a6abea7f56a7f6c12c34c67001392485ab92a"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Decorations and Medals.bpmn",
+    "bytes": 14676,
+    "sha256": "33abb929f303155d02e9d3275e639f9514555448f8c1722711faed286ef84d23"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/extract_docx.py",
+    "bytes": 1225,
+    "sha256": "4824993ef40e90358b7b30ed127a62088a3ddaa49bcf2b0e23e57918e50f6a1d"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Leave Request Data.docx",
+    "bytes": 18186,
+    "sha256": "0a43e23938bda81932aac284ab16bece0e8278fdb570bc8dd17128f801a5daec"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Leave Request Test Scenario.docx",
+    "bytes": 21777,
+    "sha256": "9a81b16faa2da8056c75ffdad1f076d7507e7cd6b7c98eb00339f24a788fd857"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Leave Request.bpmn",
+    "bytes": 14280,
+    "sha256": "0c235d6c3519d6521dd7866db1b2603d4b6e84c8a5dc9a3f93080fcbb4ced43e"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/Materialy_Pomocnicze/Process to Roles Mapping.docx",
+    "bytes": 16599,
+    "sha256": "413690c1d66334673ddb5919c6da307a5bdd39c77510db80def36118d08be6ee"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/ProjectDocs/AntigravityLog.docx",
+    "bytes": 260151,
+    "sha256": "c7da11273ad909d7fa4e90d192b7a5fbf4136cd3199a4d410878a19362e6957e"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/ProjectDocs/implementation_plan_final.md",
+    "bytes": 1947,
+    "sha256": "22ece75106a754229ae43695b967364eed510f27c8845b9faeaa21218f03aa95"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/ProjectDocs/walkthrough.md",
+    "bytes": 5354,
+    "sha256": "ced5b2f5c7817ade90c0b0ba84a4d9ad3f2e4c2c5f02c67ea8d4e85ae4f0dc9f"
+  },
+  {
+    "path": "code_generation/code_03/code/MiPB/README.md",
+    "bytes": 2943,
+    "sha256": "b24e07551c9824c6f12884d6d30c86c9f63117ebba3df4757a0bf0eb20b294ee"
+  },
+  {
+    "path": "code_generation/code_03/prompt/team04-prompting-logs.docx",
+    "bytes": 260151,
+    "sha256": "c7da11273ad909d7fa4e90d192b7a5fbf4136cd3199a4d410878a19362e6957e"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/.github/workflows/firebase-hosting-merge.yml",
+    "bytes": 783,
+    "sha256": "209067d6690a710c623510bb5acf1588df5c5ecd4bfe25aea243c78926f83e2c"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/.github/workflows/firebase-hosting-pull-request.yml",
+    "bytes": 701,
+    "sha256": "44411ec5f3fbc5ca892cc91e79b58167899954f171315f2ab4419024c447aff4"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/.gitignore",
+    "bytes": 548,
+    "sha256": "e0924d2dc023b9cbcef940a2e7b59bd383643673c66a41bcbb9b3e1b3aabb72a"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/.idx/dev.nix",
+    "bytes": 1324,
+    "sha256": "6afa6315ae977d78c21562f10b75e3c05539d673040b9e6c5fc9ab99341cb746"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/.idx/icon.png",
+    "bytes": 27438,
+    "sha256": "ae9546f4ae2d6b33a1165574a6f680038444e77edde03f35e0edddd9d94880ed"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/components.json",
+    "bytes": 467,
+    "sha256": "30d320ac4aa3698ff061d6a98d5ec133b3e09652c33e2ac6e17f99c86c822dff"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/docs/blueprint.md",
+    "bytes": 982,
+    "sha256": "5fc4a13c5b16a71a0245ebaa959af37b94eeee93b877dbaa28ed8d467eabb8ce"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/firebase.json",
+    "bytes": 207,
+    "sha256": "56fe5dfbbd9bda631f1d6e38edc2c1197d01415142a5f9a8aed134079f634fb5"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/next.config.js",
+    "bytes": 126,
+    "sha256": "e73c70832f53444db32bd5bc5dfeb98224a985ebb22a7213c5ccc1e6bf342e73"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/next.config.ts",
+    "bytes": 680,
+    "sha256": "e157297f06ef4cf8e927993614cb1ee71b32b77bb3a79474a5383c7091ae64f9"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/package-lock.json",
+    "bytes": 478917,
+    "sha256": "9425ad1c372e602c3e881154b8613196e49e5120fe9c405f760927a3e3558208"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/package.json",
+    "bytes": 2237,
+    "sha256": "9ee5373d8cdbc1779a7ca46022150a3bdd475dcfe8e893a381fb274cb2252bb0"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/postcss.config.mjs",
+    "bytes": 143,
+    "sha256": "da1e5e8147fb42cbc582a60607fea0df35171ae60bd5617846c841568bbe2272"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/public/index.html",
+    "bytes": 4695,
+    "sha256": "ff0b18bd9eacc15c8a40557770026501f4fbf235a3160a3bd361ae8d38fdae3f"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/README.md",
+    "bytes": 489,
+    "sha256": "b299623cdf5ff60696abb63518a63ac6cd21198dd29b0c29e705d704af5b1e14"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/ai/dev.ts",
+    "bytes": 91,
+    "sha256": "3afd37cad46fe2d1536b3097a39982577b97bc953109be88536e681350d6697a"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/ai/flows/generate-user-avatar.ts",
+    "bytes": 1843,
+    "sha256": "7ba86c838c1939f41b495fffa9e2869005e178f3c74fdea60385e81e7a9b9a25"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/ai/genkit.ts",
+    "bytes": 183,
+    "sha256": "8e1c89e63ea8adf074eb26bbe48c70af5b815cb5719865c754ce929dd6182d84"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/actions.ts",
+    "bytes": 612,
+    "sha256": "34f0368663e61e7d7f8a609e8f2ef98dd9940cb57d2c3477fd371b1bbb7695eb"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/dashboard/layout.tsx",
+    "bytes": 454,
+    "sha256": "a939f4c19d0a54c7becbe393523d4de591a5d3fc505ba73bd9967ab184c62f31"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/dashboard/page.tsx",
+    "bytes": 3418,
+    "sha256": "fa5e422c264938c6b823d9dafbd50bee4905ead6ca7333cbea840aa25a26de30"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/favicon.ico",
+    "bytes": 15086,
+    "sha256": "5c56c5e3c4c59c06e0ba3fdb0f551bc1161564e716a614159e57d18077fcfae0"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/flows/change-of-employment/start/page.tsx",
+    "bytes": 2578,
+    "sha256": "e8d7a0f77c12faea4da1c981717e1ab96b6a3fe72ada505cad3b153513767855"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/flows/decorations-and-medals/start/page.tsx",
+    "bytes": 2488,
+    "sha256": "f21921c95c3b056b99e8ef146a75c94cf4b53774c81cfff74e4c7d70b3d295af"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/flows/leave-request/start/page.tsx",
+    "bytes": 4299,
+    "sha256": "8eb03cb6f4c1f5308e178b9d1abc62bc18a43b64f74711595152d7b921da0635"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/flows/leave-request/task/[id]/page.tsx",
+    "bytes": 6829,
+    "sha256": "693704d7c9ff3189de1901cbaf1003b0f015e61eafc2f1ab9420638dd0d6a5e6"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/flows/leave-request/task/page.tsx",
+    "bytes": 3673,
+    "sha256": "c4782bcf56e8ef45cae87555d995656fc6e11fb5e25eada5986081d6cb32c52d"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/globals.css",
+    "bytes": 1838,
+    "sha256": "b5e987bf427dcdc47bd170f4d25eabd79f72a81c53fc92336bfb59a098318c75"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/head-approval/page.tsx",
+    "bytes": 3593,
+    "sha256": "2e3108210ea280f78e49815daf6063f61af47f79a377098ddeeb169c666f4f31"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/layout.tsx",
+    "bytes": 1013,
+    "sha256": "5dcd64581f32f04f001f59b47e6e994756e39ab1b8148d1ab4e88a3b7061d8b6"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/login/page.tsx",
+    "bytes": 4603,
+    "sha256": "767436d9ffb6c99a6d1180d11d75d2b0d29f73f9b4ea84dc611ab7bfb5f7e1f5"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/page.tsx",
+    "bytes": 652,
+    "sha256": "6589eabcaa114a965a70b760f7f873c34881183d0e9b5cd64170fd5730534800"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/tasks/[id]/page.tsx",
+    "bytes": 9922,
+    "sha256": "1ca3bbf229cec86bee5bebcb69f74cfb12969b5ee8e064c4d519bbcaa7776821"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/app/tasks/page.tsx",
+    "bytes": 2493,
+    "sha256": "b5299981adc5ac787ca172b1e9c5213b12d114fc9a200c1712e052b4df6e3cf9"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/auth/ProtectedRoute.tsx",
+    "bytes": 737,
+    "sha256": "78e940dbbe24b4863b370405458a2937379b833c9a10c041eb52cf8e17121cb6"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/layout/Header.tsx",
+    "bytes": 3499,
+    "sha256": "60bcedc00ca54fb94877b64af32b5cf4132b4fbcd545b3cacffd2706fe75e95d"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/accordion.tsx",
+    "bytes": 2049,
+    "sha256": "0e1f5372cd65108a50619aa34b4f9f388c00533af1b994d4766e57a20d9fd378"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/alert-dialog.tsx",
+    "bytes": 4575,
+    "sha256": "7ad6b7b4089e7d534b493cc26b69a9deaf452c40b72c394e658573727b863f82"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/alert.tsx",
+    "bytes": 1643,
+    "sha256": "1aaba23c7a1095f7abea7c9f6ce12a43c22bb8f97e957c9cae222666e0c8be83"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/avatar.tsx",
+    "bytes": 1469,
+    "sha256": "4ee6fbff6d693bf5b76f1b30e4cd55de6c6343c46a51e636c3e3b8a911fa7ec0"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/badge.tsx",
+    "bytes": 1164,
+    "sha256": "563824ae3f6b0a5de408c13e58fe2a195808ff57cb09698fcaf2e875434bfb98"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/button.tsx",
+    "bytes": 1957,
+    "sha256": "376e7a3c1f6efe5bec442d24106cfb9da6aacc8ccf6fc4b859dfa776949eec41"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/calendar.tsx",
+    "bytes": 2779,
+    "sha256": "ed6999eabf57ef9daab166751533fb1d41cfd14d01524fa7b4c92eed8333c8f6"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/card.tsx",
+    "bytes": 1937,
+    "sha256": "1bceacbfe1abb403def6cb76df0ae0c2a898177b8d394c05280825a9f5e803b9"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/carousel.tsx",
+    "bytes": 6486,
+    "sha256": "3dc7708dc950eb3ce339a4e76d10a7364edc00070131239b3d7dc200c3302e26"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/chart.tsx",
+    "bytes": 10844,
+    "sha256": "c654146055177a4b80ec130cfeb94c27a95ed743f6c0fa1b2b6f75c4a186f049"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/checkbox.tsx",
+    "bytes": 1100,
+    "sha256": "0b70a8021e2b8550119b1f21cfeda834fee40181eaffa92d124e24ef0703ee12"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/collapsible.tsx",
+    "bytes": 340,
+    "sha256": "bc854800960ef4129d4679a7c4a6b5091e7038adc03698e4529d0c9b5af0d831"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/dialog.tsx",
+    "bytes": 3970,
+    "sha256": "fcfbab9497211911a8bb854983bf3975bfcc19ff4cb1ca0b136a445438f06ccf"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/dropdown-menu.tsx",
+    "bytes": 7633,
+    "sha256": "48b2fb278b3b639bc96186b88c4d1f1da9dc4fd5af1a1edc35135745fd8ad057"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/form.tsx",
+    "bytes": 4298,
+    "sha256": "a80b39038485dff70cd9a7c2287676d8122a033784e851d958dee2020fc54efc"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/input.tsx",
+    "bytes": 841,
+    "sha256": "f56d76c83583269842b794463ff58badb509350afcafa5e150923cb8ecc76747"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/label.tsx",
+    "bytes": 750,
+    "sha256": "8253ee4179284de5d037eee03b55f4499b04ff41ddfa60b3176ea28d4bdc301c"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/menubar.tsx",
+    "bytes": 8761,
+    "sha256": "c6f8eae71b4c298d5defde6a6ab1eb98fff8e0714fda8a0d3c3f320880885dfe"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/popover.tsx",
+    "bytes": 1275,
+    "sha256": "fa3051cfd0196eaf41de55bb8b385c6cb32078edad8dbf59062d551347e80457"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/progress.tsx",
+    "bytes": 819,
+    "sha256": "db85995906f690fd4ba684608effd177522cfbdce80cb9a501aed16e5a13f72f"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/radio-group.tsx",
+    "bytes": 1525,
+    "sha256": "f3cef3b16f7de803bae0413e7b67818c3b94240d962a3cc17b2720122fa81ae9"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/scroll-area.tsx",
+    "bytes": 1704,
+    "sha256": "3efa46a50eaa57e62c746479ecc9347add5297afe8f63fc02dbee53e56076771"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/select.tsx",
+    "bytes": 5789,
+    "sha256": "32bbe2f038e3f5632377069c75217039e27fa19b985dac49808fe8374c34e292"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/separator.tsx",
+    "bytes": 801,
+    "sha256": "d2dec642afe71c74e76f2f3ee8a2a30fde5743ef7c5d1c30ee21d4ec23d574e8"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/sheet.tsx",
+    "bytes": 4421,
+    "sha256": "c02a18d6c73b21078ca394465b819b4cebeef60778c3bdcd3e1f818522981f0f"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/skeleton.tsx",
+    "bytes": 276,
+    "sha256": "90badf0dcd440128b81554c06d56c4f01b1ccf03748ca3adf7e4a41d611acddd"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/slider.tsx",
+    "bytes": 1119,
+    "sha256": "58a376350339a866b1b24d4425f3b0526e92dcd94a400112944dc6cfdc7b926e"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/switch.tsx",
+    "bytes": 1182,
+    "sha256": "e536d07f3bb344983c7fccfdb61567954ab04a4e72e49e3e12b84c2216173136"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/table.tsx",
+    "bytes": 2882,
+    "sha256": "54bfa4489e6dc84dceb294b63023bb352c6c446c019c67230ce6f1dac76e3713"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/tabs.tsx",
+    "bytes": 1952,
+    "sha256": "93eb37094e3604daa8f4c8b2dbe5eb88eef3798566a8e54aee2455fb46489783"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/textarea.tsx",
+    "bytes": 758,
+    "sha256": "b1f3b1100b8a797f54387b34b5466db2cb69a80c7b262928589482b91b12aac3"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/toast.tsx",
+    "bytes": 4988,
+    "sha256": "e4a0fc226cc072a6ed5712fea824462f3a45f41188fe627e9ec2c85366ecbefd"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/toaster.tsx",
+    "bytes": 821,
+    "sha256": "8d358fb5a3411c29e842c8aee0ba68c0c85a9b1dcf080dba6555fcf17165ebc3"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/components/ui/tooltip.tsx",
+    "bytes": 1189,
+    "sha256": "63255ea6219e9fe283854e1364aa38e0a33b69263cb74055d911ec380211a324"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/context/AuthContext.tsx",
+    "bytes": 3066,
+    "sha256": "c20b4fb55718794f62b6bf1ec1c049368d6f23f8295960abbbef5d2f943f0520"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/firebase.ts",
+    "bytes": 1118,
+    "sha256": "f09211fdc037635c369cd6fb8b67f94a527c6593090931cc585155a1ed464000"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/hooks/use-toast.ts",
+    "bytes": 4142,
+    "sha256": "dfc2ee5d2da75fbbdb3665ed1a6969405c8246200aeca11199a10a0b786c7a11"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/hooks/useAuth.ts",
+    "bytes": 315,
+    "sha256": "f3b1b88fb9b4157bb65da8720912ba1d0555ff0e94612a4cc020aa9b0ab32388"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/lib/actions-change-employment.ts",
+    "bytes": 4240,
+    "sha256": "4c494038acaf5a2ccdac2443708c87189da4d751d01fb5ecc9cc2ff7000293e5"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/lib/actions-leave.ts",
+    "bytes": 2811,
+    "sha256": "79f5362f102edd9d74f27c56f6c427853da462285e031d11670587fcab27a156"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/lib/actions.ts",
+    "bytes": 3702,
+    "sha256": "e6f2c28e81c89ae3d04f4a3eae8bf24a936aca589d7dc922bc966fcdb180b667"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/lib/auth.ts",
+    "bytes": 1385,
+    "sha256": "e82c08a03cbe1b6c8d2cc934ef9d6881fd4f8288a8b7df02e0a9ceaf32381022"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/lib/placeholder-images.json",
+    "bytes": 31,
+    "sha256": "1fc3d0c0c479a0a5cf41e5cc7eff4c203cc68459dca2f964be20b2a5b00cd31c"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/lib/placeholder-images.ts",
+    "bytes": 249,
+    "sha256": "e754b8f012141ee15bfb150e1e8559af95a3a96b9f96a764935a36597845b35a"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/lib/types.ts",
+    "bytes": 117,
+    "sha256": "8164b7fe2441604917455125aa7a261a8c3aa742a71e95f723d48b0e141dc417"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/src/lib/utils.ts",
+    "bytes": 172,
+    "sha256": "74a147991a119f1c4cdc25a4d9b22713632fa32eb136e55ab6939b006d71b9d6"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/tailwind.config.ts",
+    "bytes": 2583,
+    "sha256": "3403b4f675e5faf41533eaca3d47337ff20af130c06fc683106e0d88cfe74333"
+  },
+  {
+    "path": "code_generation/code_04/code/role-call-code_with_processes/tsconfig.json",
+    "bytes": 629,
+    "sha256": "172c71e5b3e27ff690fa63a1b74598be508bef99b18f001e6d48c2bdf4fb9eff"
+  },
+  {
+    "path": "code_generation/code_04/prompt/team05-prompting-logs-integration.docx",
+    "bytes": 6097190,
+    "sha256": "ffc71b6115eb36fdab821a28a20a238097783b4d0ce90c9f87aa1d446c103176"
+  },
+  {
+    "path": "code_generation/code_04/prompt/team05-prompting-logs-results.docx",
+    "bytes": 4176871,
+    "sha256": "722898243ceb92c359232e5c512d0e80bedfaf4b6fe0a8ff5318edf1f469c299"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/Change of Employment Conditions Data.docx",
+    "bytes": 18059,
+    "sha256": "b9f10cfadb1b36007608ea05e344e248bc90fc76667f4958bbaae79881e44c69"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/Change of Employment Conditions Test Scenario.docx",
+    "bytes": 22172,
+    "sha256": "1c1c1e3db9a96e97e4e8e69e29343a38d23e76536aa11b67b4174ad70cc6dda6"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/Change of Employment Conditions.bpmn",
+    "bytes": 16882,
+    "sha256": "d7ee6efde9e6e1c3cf95b88a86db3d0b210f57652cd9919f515eab1ba973ff40"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/Change_of_Employment_Conditions.md",
+    "bytes": 2387,
+    "sha256": "a4cbd8056a8b04e6346d75800304e7a20c93d73c5082bd0b44c6d10e67787237"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/database.py",
+    "bytes": 3770,
+    "sha256": "49cc51e4441fe703b3e2391ef132bb94244e47472d1b9c2f50f74370bbfa9762"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/debug_read.py",
+    "bytes": 210,
+    "sha256": "9a099880d6d729a2efca07d8ab5fe75498a589cc6712d21afa0411ab18e6c31a"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/docx_content.txt",
+    "bytes": 8065,
+    "sha256": "eec3fbd1a0be4f351fef5c37322f5e5112ecc80f712b25249ca5505bc0c22e69"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/docx_content_v2.txt",
+    "bytes": 8099,
+    "sha256": "c249f58c4015a1c7f8b4338b61a6bab249e293c61bd0c5fe754e6701952e784c"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/extract_docx.py",
+    "bytes": 1181,
+    "sha256": "9db52479b101acebbc66372b1c3339f66fb8db42ed72c990c8daf19ff491fcb0"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/extract_docx_v2.py",
+    "bytes": 1272,
+    "sha256": "5dbfc6e5225fc3790e64d788bad976a3c45813395899c0e628ee824c385af8c3"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/inspect_docx.py",
+    "bytes": 661,
+    "sha256": "fc985a75d84c1db3911ea12dd88cf56d6fc10fcd57028c3c56bc20187c20d333"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/main.py",
+    "bytes": 12791,
+    "sha256": "4c864f74f58bc293dd01cdb864b762a12d74f462372036994d3c76d05645f8bf"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/process.py",
+    "bytes": 5466,
+    "sha256": "b9db61dacf96e112992e77be7e392ef829d814d5afc0ad48394449a99c0b6697"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/requirements.txt",
+    "bytes": 680,
+    "sha256": "ceef47d00b54caccd3b22d4e2d41997033dcce5179fa055434a5dafa129f4a23"
+  },
+  {
+    "path": "code_generation/code_05/code/Change of Employment Conditions/test_employment.py",
+    "bytes": 18535,
+    "sha256": "c45c70ba5be686a03400495da3476345137e67212bc04197f319f04703993d24"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/app.py",
+    "bytes": 37609,
+    "sha256": "6b408e1ddee3400565e05106866f3fbe4f906b3c5cd5a866e6e6d4c227817cab"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/database.py",
+    "bytes": 22262,
+    "sha256": "9f40be72f70b4c744c86dae8f69aa50b80cc6a9afc0add07f3ddf51d8c4c1ea4"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/Decorations and Medals Data.docx",
+    "bytes": 17432,
+    "sha256": "662709e596f8a069424588450c4bf6d4ecaceebb43cfff04a7ab4d795d2bab4d"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/Decorations and Medals Test Scenario.docx",
+    "bytes": 21732,
+    "sha256": "b7159dccae7002ad6d491ed8ef8a6abea7f56a7f6c12c34c67001392485ab92a"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/Decorations and Medals.bpmn",
+    "bytes": 14676,
+    "sha256": "33abb929f303155d02e9d3275e639f9514555448f8c1722711faed286ef84d23"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/DecorationsAndMedals.md",
+    "bytes": 6392,
+    "sha256": "e1ea37d18e6fe590da5cf4dcddb4c9f9648d049ca998ab76144c319c24cc9833"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/docs_content.txt",
+    "bytes": 7397,
+    "sha256": "1412f421c26753f9a91b0b1c31beb5b974c34fe6679f235a6f9254fbc449e73e"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/extract_docs.py",
+    "bytes": 1120,
+    "sha256": "af3a5962e549be364f287effebee2318d4932d0980aed608cfab4f1667e6a2f1"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/read_any.py",
+    "bytes": 521,
+    "sha256": "a9719cbd381892a239faba0e6fd52882c3df9d3d1d4ce918c3576604cc651f31"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/requirements.txt",
+    "bytes": 680,
+    "sha256": "a04e3497d6a940b0ff7953bbcc23099db7935eb08a08fc57169b0656718ccb58"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/test_decorations.py",
+    "bytes": 20521,
+    "sha256": "f54ac8efa2fc4df2352164fccdfce4164132da91ec4370baeacf0283acd3d93b"
+  },
+  {
+    "path": "code_generation/code_05/code/Decorations and Medals/workflow.py",
+    "bytes": 15816,
+    "sha256": "1ac07c53c4f1698c1d5ee2120cfee879b6adefc8ef9d65b579790c24508b3b38"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/app.py",
+    "bytes": 28837,
+    "sha256": "8ece250116a49581b9ec4c2f71dc4347e2b0772cc6d0d530897da9954f2f81e9"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/database.py",
+    "bytes": 20103,
+    "sha256": "f1fcb60cbee9b0ca135ad3cd34b7207b72629f6291c0771b11c29f95defdb903"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/extract_docs.py",
+    "bytes": 1021,
+    "sha256": "0d451bf830e57d87f08d9cee2048f951205f81e9e7611083f410ca745941eaa6"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/extracted_content.txt",
+    "bytes": 9016,
+    "sha256": "49e2591b11f5c97026446a9668638c073f88c59dfc811d8872955c0b099ca873"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/Leave Request Data.docx",
+    "bytes": 18186,
+    "sha256": "0a43e23938bda81932aac284ab16bece0e8278fdb570bc8dd17128f801a5daec"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/Leave Request Test Scenario.docx",
+    "bytes": 21777,
+    "sha256": "9a81b16faa2da8056c75ffdad1f076d7507e7cd6b7c98eb00339f24a788fd857"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/Leave Request-rozmowa.txt",
+    "bytes": 25018,
+    "sha256": "5c58f55e3b8ea5d5ee1e9e13ccb13803d23b83056b37441e0a4032d543ed1ece"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/Leave Request.bpmn",
+    "bytes": 14280,
+    "sha256": "0c235d6c3519d6521dd7866db1b2603d4b6e84c8a5dc9a3f93080fcbb4ced43e"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/Leave_Request_App.md",
+    "bytes": 6294,
+    "sha256": "97391500fc5ec40da780b5a11e9b25ff621c58132eebee04644027bb0aef56ec"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/requirements.txt",
+    "bytes": 680,
+    "sha256": "a04e3497d6a940b0ff7953bbcc23099db7935eb08a08fc57169b0656718ccb58"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/test_leave_request.py",
+    "bytes": 21344,
+    "sha256": "5f124f423c1afa0cf99f783d12f4c2641840affb31b5cb4d0250e51d69496ed6"
+  },
+  {
+    "path": "code_generation/code_05/code/Leave Request/workflow.py",
+    "bytes": 13934,
+    "sha256": "87eec520146fb716bfc4fdd68a006f96cca7efbb998d463398e525bdd4f30ed0"
+  },
+  {
+    "path": "code_generation/code_05/prompt/team06-prompting-logs-full-audit.docx",
+    "bytes": 74271,
+    "sha256": "d3094a56c32a84daa7b7bc5bd80bc2f030379a32f912e13fa4ccfa701a53c1c7"
+  },
+  {
+    "path": "code_generation/code_05/prompt/team06-prompting-logs-full-audit.md",
+    "bytes": 114359,
+    "sha256": "bdce9b5de5f4479038b3a9de2725e0c50f60657687db75d683b167c58c9c2713"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/all_docx_text.txt",
+    "bytes": 24894,
+    "sha256": "cd757a0f441f24991599a02c3d17855435e016e65526da47262d1c93487a9c52"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Change of Employment Conditions Data.docx",
+    "bytes": 18059,
+    "sha256": "b9f10cfadb1b36007608ea05e344e248bc90fc76667f4958bbaae79881e44c69"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Change of Employment Conditions Test Scenario.docx",
+    "bytes": 22172,
+    "sha256": "1c1c1e3db9a96e97e4e8e69e29343a38d23e76536aa11b67b4174ad70cc6dda6"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Change of Employment Conditions.bpmn",
+    "bytes": 16594,
+    "sha256": "3ff6714213aab20b0d1be5232d8b1a1e5e193fd61ef29e9cf2de46a7ac9e5080"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Decorations and Medals Data.docx",
+    "bytes": 17432,
+    "sha256": "662709e596f8a069424588450c4bf6d4ecaceebb43cfff04a7ab4d795d2bab4d"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Decorations and Medals Test Scenario 2.docx",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Decorations and Medals Test Scenario.docx",
+    "bytes": 21732,
+    "sha256": "b7159dccae7002ad6d491ed8ef8a6abea7f56a7f6c12c34c67001392485ab92a"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Decorations and Medals.bpmn",
+    "bytes": 14434,
+    "sha256": "6a376b7250cf6a775698403110927b10a4d97433b4f5b892993ce3a3283d6100"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Leave Request 2.bpmn",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Leave Request Data 2.docx",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Leave Request Data.docx",
+    "bytes": 18186,
+    "sha256": "0a43e23938bda81932aac284ab16bece0e8278fdb570bc8dd17128f801a5daec"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Leave Request Test Scenario.docx",
+    "bytes": 21777,
+    "sha256": "9a81b16faa2da8056c75ffdad1f076d7507e7cd6b7c98eb00339f24a788fd857"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Leave Request.bpmn",
+    "bytes": 14040,
+    "sha256": "dc35b171284b310d39c12411a77fa154e87b0f00f43449068c9cc3de9faf78f7"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Process to Roles Mapping 2.docx",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/Process to Roles Mapping.docx",
+    "bytes": 16599,
+    "sha256": "413690c1d66334673ddb5919c6da307a5bdd39c77510db80def36118d08be6ee"
+  },
+  {
+    "path": "code_generation/code_06/_Project_tasks/project_task.txt",
+    "bytes": 953,
+    "sha256": "8b579a6fdfa6408d2c3714db23f7932e2f61c828a9024e211c6205b006afccaf"
+  },
+  {
+    "path": "code_generation/code_06/code/db.js",
+    "bytes": 3717,
+    "sha256": "1b8443a94f24f54af8b2bdfccc6e55cc240e001a3b1081c17c84ec04acb041ec"
+  },
+  {
+    "path": "code_generation/code_06/code/package-lock.json",
+    "bytes": 55475,
+    "sha256": "2a0daad75f9649adf0d66c41b86e13f15c771ec90d969d6e771dd94a517b4c8c"
+  },
+  {
+    "path": "code_generation/code_06/code/package.json",
+    "bytes": 336,
+    "sha256": "390872a39f0053d6b1afa7ce53f2ada62edf004f99a73a456edad85ec0651a6c"
+  },
+  {
+    "path": "code_generation/code_06/code/public/app.js",
+    "bytes": 59789,
+    "sha256": "7b9a84d3a126eeeebd66d29ac0d17800601121f2960d828eaa9565d2a7d1adb7"
+  },
+  {
+    "path": "code_generation/code_06/code/public/index.html",
+    "bytes": 19256,
+    "sha256": "7f2a30181652cf73800a014ac46aadf6bfe0e11153bd429b6f980330462d2e04"
+  },
+  {
+    "path": "code_generation/code_06/code/public/style.css",
+    "bytes": 21652,
+    "sha256": "7b50296289939b0d52efca4830a7f49dbd4b74bacb6f5e95ef4cf54aff08b515"
+  },
+  {
+    "path": "code_generation/code_06/code/server.js",
+    "bytes": 7644,
+    "sha256": "cc4a00dfc2e660d9a14d0a633044cc8d3acc4ef4ef56fc3d46fdaf3917b00bb0"
+  },
+  {
+    "path": "code_generation/code_06/code/test_runner.js",
+    "bytes": 3883,
+    "sha256": "831d2d5aed1165b47b139556794dd37f2c17cc21dfe1c3d11a95b83dd0fc45d9"
+  },
+  {
+    "path": "code_generation/code_06/code/workflowEngine.js",
+    "bytes": 13371,
+    "sha256": "50f08549d0cf958296fae4dd05925ec38cd161727a725f5980106204adf5eb27"
+  },
+  {
+    "path": "code_generation/code_06/prompt/prompts_and_responses.md",
+    "bytes": 7791,
+    "sha256": "86b24f5d7eb7751de9d76d7c770ccaf72017aec14a501ff82af9c365db6f6439"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/all_docx_text.txt",
+    "bytes": 24894,
+    "sha256": "cd757a0f441f24991599a02c3d17855435e016e65526da47262d1c93487a9c52"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Change of Employment Conditions Data.docx",
+    "bytes": 18059,
+    "sha256": "b9f10cfadb1b36007608ea05e344e248bc90fc76667f4958bbaae79881e44c69"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Change of Employment Conditions Test Scenario.docx",
+    "bytes": 22172,
+    "sha256": "1c1c1e3db9a96e97e4e8e69e29343a38d23e76536aa11b67b4174ad70cc6dda6"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Change of Employment Conditions.bpmn",
+    "bytes": 16594,
+    "sha256": "3ff6714213aab20b0d1be5232d8b1a1e5e193fd61ef29e9cf2de46a7ac9e5080"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Decorations and Medals Data.docx",
+    "bytes": 17432,
+    "sha256": "662709e596f8a069424588450c4bf6d4ecaceebb43cfff04a7ab4d795d2bab4d"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Decorations and Medals Test Scenario.docx",
+    "bytes": 21732,
+    "sha256": "b7159dccae7002ad6d491ed8ef8a6abea7f56a7f6c12c34c67001392485ab92a"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Decorations and Medals.bpmn",
+    "bytes": 14434,
+    "sha256": "6a376b7250cf6a775698403110927b10a4d97433b4f5b892993ce3a3283d6100"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Leave Request Data.docx",
+    "bytes": 18186,
+    "sha256": "0a43e23938bda81932aac284ab16bece0e8278fdb570bc8dd17128f801a5daec"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Leave Request Test Scenario.docx",
+    "bytes": 21777,
+    "sha256": "9a81b16faa2da8056c75ffdad1f076d7507e7cd6b7c98eb00339f24a788fd857"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Leave Request.bpmn",
+    "bytes": 14040,
+    "sha256": "dc35b171284b310d39c12411a77fa154e87b0f00f43449068c9cc3de9faf78f7"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/Process to Roles Mapping.docx",
+    "bytes": 16599,
+    "sha256": "413690c1d66334673ddb5919c6da307a5bdd39c77510db80def36118d08be6ee"
+  },
+  {
+    "path": "code_generation/code_07/_Project_tasks/project_task.txt",
+    "bytes": 1152,
+    "sha256": "62bb8dbeca5c6e4856269ec9b1d9ad877829f99cafbdb49ebe21b47f2196fa52"
+  },
+  {
+    "path": "code_generation/code_07/code/db.js",
+    "bytes": 2689,
+    "sha256": "83e039e2d7e1541beea5c81d22fec0872016718847ee2ce2b73cc1f48b054871"
+  },
+  {
+    "path": "code_generation/code_07/code/package-lock.json",
+    "bytes": 29358,
+    "sha256": "da9cba795dfa421909301f1c7dc7022709b2c02f270fbec4826a2a56375e29e3"
+  },
+  {
+    "path": "code_generation/code_07/code/package.json",
+    "bytes": 266,
+    "sha256": "c38e50d9ca0af99406083124c77d798e5b023697585f5b56de2dbd69ae151c6e"
+  },
+  {
+    "path": "code_generation/code_07/code/public/app.js",
+    "bytes": 48316,
+    "sha256": "f75863cda5a83d754e11d7fcd985a2e47f534090860bdbf6d6ce83685b4410b5"
+  },
+  {
+    "path": "code_generation/code_07/code/public/index.html",
+    "bytes": 32323,
+    "sha256": "f6bba666c030e820fb9913050e41407ede03245abb3f813134ba65385151292d"
+  },
+  {
+    "path": "code_generation/code_07/code/public/style.css",
+    "bytes": 28849,
+    "sha256": "102e7576ad079f188cc196d365f732e7562aede7c4242e3b6e525ff96b218cc3"
+  },
+  {
+    "path": "code_generation/code_07/code/server.js",
+    "bytes": 13686,
+    "sha256": "4c6350070bba2d0b423f286fd4548748b69584ad64a825c54324e76204ad8ced"
+  },
+  {
+    "path": "code_generation/code_07/code/test_scenarios.js",
+    "bytes": 14724,
+    "sha256": "ffbf94db6bc7c7e4d3913b45f78f7a3cd6cc5e9639f4cd6ca01d9edef6e96060"
+  },
+  {
+    "path": "code_generation/code_07/prompt/log.md",
+    "bytes": 30759,
+    "sha256": "6b726e7c97fe499f821c8314f1911f4fe08e2eea3c79f67e67ed9c947d0a30bf"
+  },
+  {
+    "path": "experiments.csv",
+    "bytes": 1764,
+    "sha256": "dab94cc5b3581bfa5f0306988a80c000e88c70ae344f03a4bc0da6f0b330c275"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 18652,
+    "sha256": "945fbcb37deca05bccd7c3ca0e261679f1f5373515504fdbad68f6f3cf6f49b9"
+  },
+  {
+    "path": "model_generation/model_01/code/Change of Employment Conditions Process.bpmn",
+    "bytes": 10499,
+    "sha256": "3f787f9688d42e8febf3273fb346fd3d819313eb755f7102ac4798fe5b55af85"
+  },
+  {
+    "path": "model_generation/model_01/code/Change of Employment Conditions Process.json",
+    "bytes": 3473,
+    "sha256": "0dda5b2e9870aecd3ca54db1f646a9ace9bca903db27c2dd3ee713ffdacb5dca"
+  },
+  {
+    "path": "model_generation/model_01/code/Change of Employment Conditions.json",
+    "bytes": 5647,
+    "sha256": "71f2372a8b648e1c66b105adb445172dfd4fa9e776e1b744d4e9a9e7b316e793"
+  },
+  {
+    "path": "model_generation/model_01/code/Decorations and Medals Process.bpmn",
+    "bytes": 10170,
+    "sha256": "ebd4f89035b0e1de20b7d0d06569faacad2b65c326abed3b280cb3b14c07ba07"
+  },
+  {
+    "path": "model_generation/model_01/code/Decorations and Medals Process.json",
+    "bytes": 3415,
+    "sha256": "44ab33f0f2ecf45b4dd8436cde37379630dc54380431711fde7585a59f351760"
+  },
+  {
+    "path": "model_generation/model_01/code/Decorations and Medals Registration.json",
+    "bytes": 3787,
+    "sha256": "38dcda1805a5720a0117097c1da5b67660b6007eda9dd1287a676eb91efc3ec6"
+  },
+  {
+    "path": "model_generation/model_01/code/Leave Request Process.bpmn",
+    "bytes": 9818,
+    "sha256": "b23628268cc5ffab1634b7adfe48492549877fdb2e0f7eb4a8b2360ae4406d64"
+  },
+  {
+    "path": "model_generation/model_01/code/Leave Request Process.json",
+    "bytes": 3189,
+    "sha256": "72ed56b7b8fb0e2c5287f1571419ecefbc443355d49fddd940b8cbc985e6290a"
+  },
+  {
+    "path": "model_generation/model_01/code/Leave Request.json",
+    "bytes": 7115,
+    "sha256": "1b133125a49305699684ef963df48eed9a7ae0cd0e3be8c8c32af5719a29d2b7"
+  },
+  {
+    "path": "model_generation/model_01/prompt/Change of Employment Conditions Process-history.json",
+    "bytes": 622,
+    "sha256": "4163e7b36113f1de9efa5a363f368e26fd2c46860ab9966e369601a3f247555f"
+  },
+  {
+    "path": "model_generation/model_01/prompt/Change of Employment Conditions-history.json",
+    "bytes": 13278,
+    "sha256": "6d2b160d7cf56b27a92505036324061395e3710d85376378dd38acbae8baa93a"
+  },
+  {
+    "path": "model_generation/model_01/prompt/Decorations and Medals Process-history.json",
+    "bytes": 563,
+    "sha256": "1c74d70e8075177c17ff009864deadec7a013797d3bb34b2a7a3287106559faa"
+  },
+  {
+    "path": "model_generation/model_01/prompt/Decorations and Medals Registration-history.json",
+    "bytes": 10346,
+    "sha256": "e09c93cea199563de78ce3c3de042947ab271b37182d41ccebd95b7fa8936d4d"
+  },
+  {
+    "path": "model_generation/model_01/prompt/Leave Request Form-history.json",
+    "bytes": 25538,
+    "sha256": "f08754f845e4eb8bf9a83315f1015e7327541b1f146e0f8b2ea5fee27351dcb0"
+  },
+  {
+    "path": "model_generation/model_01/prompt/Leave Request Process-history.json",
+    "bytes": 699,
+    "sha256": "aff73717d42cbb79c73946566f2a2aa07c01250cda2b906ce7ad1ee86bbf8e1f"
+  },
+  {
+    "path": "model_generation/model_02/code/Change of Employment Conditions Diagram.json",
+    "bytes": 3477,
+    "sha256": "6b3bbfb9a32e557d809a7e84678d719240f014dfbee28a0ad2de776ee5167d3d"
+  },
+  {
+    "path": "model_generation/model_02/code/Change of Employment Conditions.bpmn",
+    "bytes": 10449,
+    "sha256": "ba91f29bca7e6ee5a0dde6f79957fb4264a429616de000e3a4bc242b7303e2da"
+  },
+  {
+    "path": "model_generation/model_02/code/Change of Employment Conditions.json",
+    "bytes": 5740,
+    "sha256": "850eb034e4da632cb910cfe42023727377644f2f7c5084acfdebff7e1968efef"
+  },
+  {
+    "path": "model_generation/model_02/code/Decorations and Medals Application.json",
+    "bytes": 3746,
+    "sha256": "040f8dc89819155b44fb7f7b1eacb749d6da2361cd1f9e0da7fd3f1652bc696a"
+  },
+  {
+    "path": "model_generation/model_02/code/Decorations and Medals Process.bpmn",
+    "bytes": 10162,
+    "sha256": "d714a351d6b3efbbf52640220cc3e0187573b21b5f2d88400a9357d9b5847665"
+  },
+  {
+    "path": "model_generation/model_02/code/Decorations and Medals Process.json",
+    "bytes": 3645,
+    "sha256": "a9855e6ed3aaea72ba7961d777f4509afd2d4d6b53db96e54e47b20ecf8ece0b"
+  },
+  {
+    "path": "model_generation/model_02/code/Leave Request Process Diagram.bpmn",
+    "bytes": 9776,
+    "sha256": "fba1132725fb445865a0e064007d32a0c0a6bb70f3b3b960206b9be682d9cf6a"
+  },
+  {
+    "path": "model_generation/model_02/code/Leave Request Process Diagram.json",
+    "bytes": 3177,
+    "sha256": "3bd96e499348f5abdb90ca7f0647f21c8a68d357532ec0ade7aeeb8ff8336315"
+  },
+  {
+    "path": "model_generation/model_02/code/Leave Request Process Form.json",
+    "bytes": 7585,
+    "sha256": "e35e91743993b6c60e0010339a423a6c34a901d0b342c3ea2ced8cbab7a44d4e"
+  },
+  {
+    "path": "model_generation/model_02/prompt/Change of Employment Conditions Diagram-history.json",
+    "bytes": 693,
+    "sha256": "d19411cfed5b6d2d905e191d9922e04b61cd736b0659be48dbda71d934336e6c"
+  },
+  {
+    "path": "model_generation/model_02/prompt/Change of Employment Conditions-history.json",
+    "bytes": 13721,
+    "sha256": "ee17f6816c59bff5d8165d61e3bc31dd111e63063424d59b76a1fc08a299d45b"
+  },
+  {
+    "path": "model_generation/model_02/prompt/Decorations and Medals Application-history.json",
+    "bytes": 5263,
+    "sha256": "dd41c77f65a51e996ac570051b1ad2d38d553311689a2c077278b5187a922a33"
+  },
+  {
+    "path": "model_generation/model_02/prompt/Decorations and Medals Process-history.json",
+    "bytes": 969,
+    "sha256": "24668f01c9aa1390a1d4361e3323ac4d0fa4da4beb83571fb7f2f23ea42e6550"
+  },
+  {
+    "path": "model_generation/model_02/prompt/Leave Request Process Diagram-history.json",
+    "bytes": 736,
+    "sha256": "d705de5c6f7eaf49a3a1a1eb28add1b46daf5cb5f3bead25d55337edf0f2cbc1"
+  },
+  {
+    "path": "model_generation/model_02/prompt/Leave Request Process Form-history.json",
+    "bytes": 19494,
+    "sha256": "775d911382c0c4bb0dbeefddbacd7a559d2b869e5597c205b28a4968af93d828"
+  },
+  {
+    "path": "model_generation/model_03/code/Academic Teacher Leave Request.json",
+    "bytes": 6982,
+    "sha256": "2951a23f99fb2ef2fb0dac951910e13f8a523f678cf741258115902d6a9d81ae"
+  },
+  {
+    "path": "model_generation/model_03/code/Change of Employment Conditions Diagram.bpmn",
+    "bytes": 10702,
+    "sha256": "b7b8ed6d504e39cc6a1e5cad01948849179fa3fba52fe32c7759c174fa5d27bd"
+  },
+  {
+    "path": "model_generation/model_03/code/Change of Employment Conditions Diagram.json",
+    "bytes": 3591,
+    "sha256": "7c3b21629643b3d34fd71b8dd32d2b16071b983e2cbb009568dee1af4e2982bf"
+  },
+  {
+    "path": "model_generation/model_03/code/Change of Employment Conditions Form.json",
+    "bytes": 5037,
+    "sha256": "d63bb637f50125eb6758abf4760d4a0d59c479c7f5ce978e3572341ca94e293b"
+  },
+  {
+    "path": "model_generation/model_03/code/Decorations and Medals Process Diagram.bpmn",
+    "bytes": 10170,
+    "sha256": "07c609c9e7688d14148206d22aa210ab2c1510e543d05133720735d4f3018f8b"
+  },
+  {
+    "path": "model_generation/model_03/code/Decorations and Medals Process Diagram.json",
+    "bytes": 3746,
+    "sha256": "76abf07555b06e8f72708bc213580f13eed6ed97729424c8c15e36bc54d6772f"
+  },
+  {
+    "path": "model_generation/model_03/code/Decorations and Medals Request.json",
+    "bytes": 3791,
+    "sha256": "9d5d5fbcb0cb9270cd4f267d65a17032c988cc7126ab4d4a08188d802c105c2d"
+  },
+  {
+    "path": "model_generation/model_03/code/Leave Request Process Diagram.bpmn",
+    "bytes": 9767,
+    "sha256": "6664d3ef096ebd523b5d56d18c8a4c971394419f5f1a1e10eb5bc5d4c3e121d1"
+  },
+  {
+    "path": "model_generation/model_03/code/Leave Request Process Diagram.json",
+    "bytes": 3117,
+    "sha256": "377dadd80f10fd66182f40c93d352636c8699d4ed386dd509485988cf7f03f44"
+  },
+  {
+    "path": "model_generation/model_03/prompt/Academic Teacher Leave Request-history.json",
+    "bytes": 9164,
+    "sha256": "f05bf41f259a362eb837f468b328786949ba1d7cfaf785e9bc8b78c050d04b09"
+  },
+  {
+    "path": "model_generation/model_03/prompt/Change of Employment Conditions Diagram-history.json",
+    "bytes": 636,
+    "sha256": "493971fa95e944d8df825efd68c037cd81dfac377d0d4ac57a3ce9605d47a9e9"
+  },
+  {
+    "path": "model_generation/model_03/prompt/Change of Employment Conditions Form-history.json",
+    "bytes": 14735,
+    "sha256": "fa45c8c7fed1f8c8372ce8c71b437d8b0aa4f702c2f189b1673274d37b7af218"
+  },
+  {
+    "path": "model_generation/model_03/prompt/Decorations and Medals Process Diagram-history.json",
+    "bytes": 640,
+    "sha256": "0f22f94d79570badff99f3bbae88a1db96dd4b5d1bc468ce8a0ca7301f13e0f7"
+  },
+  {
+    "path": "model_generation/model_03/prompt/Decorations and Medals Request-history.json",
+    "bytes": 5517,
+    "sha256": "e66e3618526fd0f5aee19c1f6302d7ad4a8e937709cde16b6de4c47782684608"
+  },
+  {
+    "path": "model_generation/model_03/prompt/Leave Request Process Diagram-history.json",
+    "bytes": 692,
+    "sha256": "2ca72109d26437fff13f70f40aa17bd1e9c43e03db17ce67d720a9b66f1b0bc9"
+  },
+  {
+    "path": "model_generation/model_04/code/Change of Employment Conditions Diagram.bpmn",
+    "bytes": 10549,
+    "sha256": "01bff181bdddc4f988872b6621909f0b3cd4d97a3bf92702e6292c4587159208"
+  },
+  {
+    "path": "model_generation/model_04/code/Change of Employment Conditions Diagram.json",
+    "bytes": 3475,
+    "sha256": "b45762009d2dccb82bfd556e29a447e77fbf3b26896a32ec2eb4343a85f30908"
+  },
+  {
+    "path": "model_generation/model_04/code/Change of Employment Conditions Form.json",
+    "bytes": 5002,
+    "sha256": "321b5910600f6e65a4e54460551416efd8928d07077ac77781889a2c0d4de4ca"
+  },
+  {
+    "path": "model_generation/model_04/code/Decorations and Medals Application Form.json",
+    "bytes": 3741,
+    "sha256": "2708251f8fd4629a78b6acd2645dde84b0af213ea6b3f327ca4f884a72957bdf"
+  },
+  {
+    "path": "model_generation/model_04/code/Decorations and Medals Process Diagram.bpmn",
+    "bytes": 10162,
+    "sha256": "13fd7499580cdd2dad0046abd3225378669bad3136250b590612c8b5dd04b2f4"
+  },
+  {
+    "path": "model_generation/model_04/code/Decorations and Medals Process Diagram.json",
+    "bytes": 3643,
+    "sha256": "b28a6633c989a192ae9139b6014815316b33bc99969dc42fdcc316ab4dca333d"
+  },
+  {
+    "path": "model_generation/model_04/code/Employee Leave Request Form.json",
+    "bytes": 6919,
+    "sha256": "6f3b5d3cacd2976c703adc07370bbad7cf648f1b9899917da83c17444d76d105"
+  },
+  {
+    "path": "model_generation/model_04/code/Leave Request Process Diagram.bpmn",
+    "bytes": 9699,
+    "sha256": "1d21dcc43c9a463d7d10b9d7420e35e554adfe7cdca69abf3211dc89c9e1b192"
+  },
+  {
+    "path": "model_generation/model_04/code/Leave Request Process Diagram.json",
+    "bytes": 3095,
+    "sha256": "671c46ec1fd7a54a58fa4ad38ec66471dcf3dc2f1d376a186281f07cdcbc7243"
+  },
+  {
+    "path": "model_generation/model_04/prompt/Change of Employment Conditions Diagram-history.json",
+    "bytes": 629,
+    "sha256": "f239bf39900258fbc11480b9c47a08ea1758e15798d39898536c96fe9a5a5328"
+  },
+  {
+    "path": "model_generation/model_04/prompt/Change of Employment Conditions Form-history.json",
+    "bytes": 12167,
+    "sha256": "743bc367226b8ff6c2b0681b0bef8d034ff828ec33038687f7eb1116083ceee0"
+  },
+  {
+    "path": "model_generation/model_04/prompt/Decorations and Medals Application Form-history.json",
+    "bytes": 5291,
+    "sha256": "7a25b6e4069cb3025f148ff93504972899328ddb19b57125116cc746ea4e05ee"
+  },
+  {
+    "path": "model_generation/model_04/prompt/Decorations and Medals Process Diagram-history.json",
+    "bytes": 543,
+    "sha256": "89cff81f6ba4161e6821786eef7c5e3d37c4e9bc01f0edd5b47871e84379f816"
+  },
+  {
+    "path": "model_generation/model_04/prompt/Employee Leave Request Form-history.json",
+    "bytes": 9109,
+    "sha256": "cad0b0332dcd6acdf83dd02baba07fbffb82f3b822739049cce1dfe985738439"
+  },
+  {
+    "path": "model_generation/model_04/prompt/Leave Request Process Diagram-history.json",
+    "bytes": 718,
+    "sha256": "24dd9ae10d2511bd960ab7506e81ab459351c9e2dc47f75c88a2db872966cc9c"
+  },
+  {
+    "path": "model_generation/model_05/code/Change of Employment Conditions Diagram.bpmn",
+    "bytes": 10452,
+    "sha256": "2e0b66efeae16be02930d9de3562d49bbfb2b0626b83a84dfc4333c31a1b5ab2"
+  },
+  {
+    "path": "model_generation/model_05/code/Change of Employment Conditions Diagram.json",
+    "bytes": 3480,
+    "sha256": "96fabba5795ecd914423437e09614ace301367c6fa3d695dd94dfa9c8a3b64f9"
+  },
+  {
+    "path": "model_generation/model_05/code/Change of Employment Conditions Form.json",
+    "bytes": 5452,
+    "sha256": "c10a500ecc22ce30fa5cad01b4de6aa2a048408e47bee17d816359eec90bc221"
+  },
+  {
+    "path": "model_generation/model_05/code/Decorations and Medals Process Diagram.bpmn",
+    "bytes": 10157,
+    "sha256": "5cb21a87bb7e12dcf35d73f67d9248d165ad62050019833b05564d9cc449397d"
+  },
+  {
+    "path": "model_generation/model_05/code/Decorations and Medals Process Diagram.json",
+    "bytes": 3729,
+    "sha256": "9d6395a40a9838265cec340d8bcf82cf65fc91bfa75fe4a4b1ea9b55ab7026f8"
+  },
+  {
+    "path": "model_generation/model_05/code/Decorations and Medals Process Form.json",
+    "bytes": 3737,
+    "sha256": "1abfe58f7516da5c189493fab5d4711883430c44bb3e3102aa1cd9e75b1986c0"
+  },
+  {
+    "path": "model_generation/model_05/code/Leave Request Process Diagram.bpmn",
+    "bytes": 9804,
+    "sha256": "9bb578a4544cc963a62e27c0dd53a95777c014eeeb1f3be22bf91ed1a90a61e9"
+  },
+  {
+    "path": "model_generation/model_05/code/Leave Request Process Diagram.json",
+    "bytes": 3161,
+    "sha256": "ebe1d83d92586656344868a1e68b1c9b8728b47925ccbc6230a2a109f1351f47"
+  },
+  {
+    "path": "model_generation/model_05/code/Leave Request Process Form.json",
+    "bytes": 6969,
+    "sha256": "557bf793ccb29c0eec2c3ea5b1659ba13faed219729aa8511add04a84c67f68d"
+  },
+  {
+    "path": "model_generation/model_05/prompt/Change of Employment Conditions Diagram-history.json",
+    "bytes": 18283,
+    "sha256": "47a0cbb67a50ec12055d2aae301d59c98b7b0d53d54ea2f839a3d5a86787ab89"
+  },
+  {
+    "path": "model_generation/model_05/prompt/Change of Employment Conditions Form-history.json",
+    "bytes": 43464,
+    "sha256": "583cabf2c391e4b02e8d028596f894138cd8af737fd72b133b87f61af8a2d7b7"
+  },
+  {
+    "path": "model_generation/model_05/prompt/Decorations and Medals Process Diagram-history.json",
+    "bytes": 15918,
+    "sha256": "03bace352f79e02dfc81aff31b82d9cab6e91e98c989ee9d7a49244f71178673"
+  },
+  {
+    "path": "model_generation/model_05/prompt/Decorations and Medals Process Form-history.json",
+    "bytes": 7009,
+    "sha256": "23209d1f294450d2afb9dd20d1f3a536ec550a93819c7247e1a6bbdd7be3a606"
+  },
+  {
+    "path": "model_generation/model_05/prompt/Leave Request Process Diagram-history.json",
+    "bytes": 15608,
+    "sha256": "a703c6183e4c9e0e557e25d54dc5c2de26ea836424265ad7828578cb4967966f"
+  },
+  {
+    "path": "model_generation/model_05/prompt/Leave Request Process Form-history.json",
+    "bytes": 12400,
+    "sha256": "73df3ed94d0e937bf78c03dbd6ed05919fcd047f39abce1929e099318f185c4f"
+  },
+  {
+    "path": "model_generation/model_06/code/Change of Employment Conditions Diagram.bpmn",
+    "bytes": 10564,
+    "sha256": "3954067314723551c79711e9fec952503a98af67739bc254c65c66ba4b87d8ea"
+  },
+  {
+    "path": "model_generation/model_06/code/Change of Employment Conditions Diagram.json",
+    "bytes": 3492,
+    "sha256": "29eeda42a5e5fe92f84d643fb6b1743b27e95ad28d5b72ba01840ff9b594520e"
+  },
+  {
+    "path": "model_generation/model_06/code/Change of Employment Conditions Form.json",
+    "bytes": 5574,
+    "sha256": "76369fef7a024c7947ee3bf41dd3826ed693e0e8004aaf44bc56fbfb86cfeb74"
+  },
+  {
+    "path": "model_generation/model_06/code/Decorations and Medals Application Form.json",
+    "bytes": 3741,
+    "sha256": "2708251f8fd4629a78b6acd2645dde84b0af213ea6b3f327ca4f884a72957bdf"
+  },
+  {
+    "path": "model_generation/model_06/code/Decorations and Medals Diagram.bpmn",
+    "bytes": 10176,
+    "sha256": "a1677d15d0784d85fd3b9d991fd9ce73ccff5fe547ca93d7d8cf69b96c59e45a"
+  },
+  {
+    "path": "model_generation/model_06/code/Decorations and Medals Diagram.json",
+    "bytes": 3423,
+    "sha256": "bba894cafeabc2120055a3aafe31d14a959223e03bfd0a8a7bde88be68736e46"
+  },
+  {
+    "path": "model_generation/model_06/code/Leave Request Diagram.bpmn",
+    "bytes": 9760,
+    "sha256": "ca462fab198c03eea07d1812475697d75d79f71036ef4d7c7f8002aaa7e294b1"
+  },
+  {
+    "path": "model_generation/model_06/code/Leave Request Diagram.json",
+    "bytes": 3120,
+    "sha256": "3d57ca36a6e4277c69f16b8c71eedfd4e28814e3826f3257e14838328c6383d6"
+  },
+  {
+    "path": "model_generation/model_06/code/Leave Request Process Form.json",
+    "bytes": 7538,
+    "sha256": "c3b8eb57374715bc1cb027e47d367c245d40916772b838499beba4c1fa61e720"
+  },
+  {
+    "path": "model_generation/model_06/prompt/Change of Employment Conditions Diagram-history.json",
+    "bytes": 640,
+    "sha256": "baf87e2814dd539fb01d5e8f1b8ff39cd0cb95e39b7425051ff47fd31e52165a"
+  },
+  {
+    "path": "model_generation/model_06/prompt/Change of Employment Conditions Form-history.json",
+    "bytes": 13044,
+    "sha256": "db9d9f4ec46ceb5dd0bcfa5dd94e8e53d6034aea809ec01eedee7381a80837e0"
+  },
+  {
+    "path": "model_generation/model_06/prompt/Decorations and Medals Application Form-history.json",
+    "bytes": 5325,
+    "sha256": "55c611c668588820cae379c886d8f9c95101853b20f624f30e82ede906adc3af"
+  },
+  {
+    "path": "model_generation/model_06/prompt/Decorations and Medals Diagram-history.json",
+    "bytes": 606,
+    "sha256": "a5c17adfac21c1086414ff9137516a9fd1797bfdcf8a5c7c3f349a36a66b9643"
+  },
+  {
+    "path": "model_generation/model_06/prompt/Leave Request Diagram-history.json",
+    "bytes": 703,
+    "sha256": "b947f93b0a4f965a7844be06a88d35f40ed5d99609acd993fd9fad39789f8f97"
+  },
+  {
+    "path": "model_generation/model_06/prompt/Leave Request Process Form-history.json",
+    "bytes": 9872,
+    "sha256": "e254d86387b76e160d2cebd348a54eea8e074086a36d8548e34c9583bfc56925"
+  },
+  {
+    "path": "model_generation/model_07/code/Change of Employment Conditions Process.bpmn",
+    "bytes": 16594,
+    "sha256": "3ff6714213aab20b0d1be5232d8b1a1e5e193fd61ef29e9cf2de46a7ac9e5080"
+  },
+  {
+    "path": "model_generation/model_07/code/Change of Employment Conditions Process.json",
+    "bytes": 3343,
+    "sha256": "0988f7d6e95d683efd1304e973a8fc003e8b7d81e87965b246340a1c6321bf96"
+  },
+  {
+    "path": "model_generation/model_07/code/Change of Employment Conditions.json",
+    "bytes": 3581,
+    "sha256": "1115767fc5a9564a6462f2da0e708b9da896afe587a68b408cad5809c0e16128"
+  },
+  {
+    "path": "model_generation/model_07/code/Decorations and Medals Process.bpmn",
+    "bytes": 14434,
+    "sha256": "6a376b7250cf6a775698403110927b10a4d97433b4f5b892993ce3a3283d6100"
+  },
+  {
+    "path": "model_generation/model_07/code/Decorations and Medals Process.json",
+    "bytes": 2856,
+    "sha256": "ddc65a4276be1a46de46e1d095e746e004bc5d8c1bcfb18dcbc9d5dc0c76d8a2"
+  },
+  {
+    "path": "model_generation/model_07/code/Decorations and Medals Registration.json",
+    "bytes": 3303,
+    "sha256": "2973ddd0ebc654f4f43c35cdfff14b1aa2d9b75cb7a243411f0b801b0be97907"
+  },
+  {
+    "path": "model_generation/model_07/code/Leave Request Process.bpmn",
+    "bytes": 14040,
+    "sha256": "dc35b171284b310d39c12411a77fa154e87b0f00f43449068c9cc3de9faf78f7"
+  },
+  {
+    "path": "model_generation/model_07/code/Leave Request Process.json",
+    "bytes": 2899,
+    "sha256": "58436c722e0ff1e455e891e32f7b22f52cc3a51bcff196bdadb9435dc3cdfbd4"
+  },
+  {
+    "path": "model_generation/model_07/code/Leave Request.json",
+    "bytes": 4693,
+    "sha256": "7fc994460e538e292d16c71630fb885220727311843a9023fe2e933f6d170807"
+  },
+  {
+    "path": "model_generation/model_07/prompt/Change of Employment Conditions Process-history.json",
+    "bytes": 724,
+    "sha256": "32e15ac3f0591004c43372392c131864ca4d9c7fdcbe03a2449d225b9ac97a17"
+  },
+  {
+    "path": "model_generation/model_07/prompt/Change of Employment Conditions-history.json",
+    "bytes": 16891,
+    "sha256": "da91df8c4298cf010743617cabe2027738b7edfd7ad13d04d3eb9a35b7ae0398"
+  },
+  {
+    "path": "model_generation/model_07/prompt/Decorations and Medals Process-history.json",
+    "bytes": 614,
+    "sha256": "2f9637e78200bb4a99fed945fe981593ae9a2fbf5cdfb5f98c5001b3b82c9447"
+  },
+  {
+    "path": "model_generation/model_07/prompt/Decorations and Medals Registration-history.json",
+    "bytes": 13910,
+    "sha256": "1a1f565faf07e347f5fd09c6299c2831fb16a2ff6fc0bbd18e9a82b848cedf84"
+  },
+  {
+    "path": "model_generation/model_07/prompt/Leave Request Process-history.json",
+    "bytes": 715,
+    "sha256": "e3ad2d7a7229f4a0945d7c31221a9dbb659b001f44b7820e6a78f4ab5247f623"
+  },
+  {
+    "path": "model_generation/model_07/prompt/Leave Request-history.json",
+    "bytes": 21158,
+    "sha256": "552d9cc54a43f5edcf820d624e67c613efce6ff0ff9c37f52cbd10a0829df4af"
+  },
+  {
+    "path": "task_protocol/Condition_Order_Assignment.csv",
+    "bytes": 1258,
+    "sha256": "b60fe0c8411852987c966957d1c79fe88b9cc6d544313e4b103644e8eafcecf3"
+  },
+  {
+    "path": "task_protocol/Evaluation_Procedure.csv",
+    "bytes": 1627,
+    "sha256": "e0eb8cb8b037e0b2925d960b61a7a4d4aa702ab9437b839318ab1994e27e9de0"
+  },
+  {
+    "path": "task_protocol/Executed_Experiment_Protocol_EN.pdf",
+    "bytes": 263050,
+    "sha256": "8c55637ef56bc974217a7e2ef624de35d2519e137f868ab14fe28d38a7f0f728"
+  },
+  {
+    "path": "task_protocol/Executed_Experiment_Protocol_EN.tex",
+    "bytes": 20742,
+    "sha256": "c87ada16e3e2d804e80c1a80d8be6902c9a3a48103361f4eb74d5c9a6619ce5f"
+  },
+  {
+    "path": "task_protocol/Participant_and_Team_Metadata.csv",
+    "bytes": 10063,
+    "sha256": "0f868f2e41fc7acf15d667b674b6e7f56d8a795d144a9c2238e54123154c3b67"
+  },
+  {
+    "path": "task_protocol/Participant_Task_Instructions_EN.pdf",
+    "bytes": 200337,
+    "sha256": "972e1a8c1dd8791e4fe35eb17299897a99ff31694559e8615122e9246ed87906"
+  },
+  {
+    "path": "task_protocol/Participant_Task_Instructions_EN.tex",
+    "bytes": 12140,
+    "sha256": "e9517b4ed7fbdfde69a1ba2cb9f0c832b546c302fba952a3507540ca2e2dd6d0"
+  },
+  {
+    "path": "task_protocol/Per_Run_Acceptance_Evidence.csv",
+    "bytes": 12269,
+    "sha256": "b246aed69d2863342a6ba33c71b07311f4068baa04f55a74332df1c7c2e72ccc"
+  },
+  {
+    "path": "task_protocol/Protocol_Deviations.csv",
+    "bytes": 6634,
+    "sha256": "19e0075768ce966163323e5cd5c536a1e157cad017a8d9a63d2c4d70d00fa7cd"
+  },
+  {
+    "path": "task_protocol/README.md",
+    "bytes": 1610,
+    "sha256": "842d37b86074cadb6909aeea3d6f3f239f973c543b0cad745a29dae96accc250"
+  },
+  {
+    "path": "task_protocol/Scenario_Version_Manifest.csv",
+    "bytes": 4634,
+    "sha256": "eddacb82a7457fc8f17030f24b706a52519f4982fa929d68e8626c84d3d3ce2a"
+  },
+  {
+    "path": "task_protocol/SHA256SUMS",
+    "bytes": 982,
+    "sha256": "50f7414cfb01ec7086544c61efd58112f5caa7c8e006137be0fdaaf31db51a9d"
+  }
+]

@@ -1,0 +1,622 @@
+{
+  "team": "T07",
+  "approach": "Model",
+  "source_filename": "Leave Request-history.json",
+  "source_format": ".json",
+  "source_sha256": "552d9cc54a43f5edcf820d624e67c613efce6ff0ff9c37f52cbd10a0829df4af",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Leave Request",
+    "exportedAt": "2026-04-13T13:09:31.012Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Generate a business process data form based on the attached files.",
+        "timestamp": "2026-04-13T12:52:40.764Z"
+      },
+      {
+        "role": "ai",
+        "content": "The form is structured according to the process data requirements.",
+        "schemaSnapshot": {
+          "_formTitle": "Leave Request Process Data Form",
+          "schema": [
+            {
+              "layout": "card",
+              "title": "1. Request Initiation Data (Form Druk 23/DPE)",
+              "description": "Core data submitted by the employee initiating the process",
+              "schema": [
+                {
+                  "component": "text-field",
+                  "name": "employee_name",
+                  "label": "Employee Name",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6
+                },
+                {
+                  "component": "text-field",
+                  "name": "employee_position",
+                  "label": "Employee Position",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6
+                },
+                {
+                  "component": "select",
+                  "name": "leave_type",
+                  "label": "Leave Type",
+                  "type": "string",
+                  "required": true,
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Recreational",
+                        "value": "Recreational"
+                      },
+                      {
+                        "label": "Childcare",
+                        "value": "Childcare"
+                      },
+                      {
+                        "label": "Exceptional Circumstance",
+                        "value": "Exceptional Circumstance"
+                      },
+                      {
+                        "label": "Sick Leave",
+                        "value": "Sick Leave"
+                      },
+                      {
+                        "label": "Maternity/Paternity",
+                        "value": "Maternity/Paternity"
+                      },
+                      {
+                        "label": "Study Leave",
+                        "value": "Study Leave"
+                      }
+                    ]
+                  },
+                  "cols": 6
+                },
+                {
+                  "component": "date-picker",
+                  "name": "leave_start_date",
+                  "label": "Leave Start Date",
+                  "type": "string",
+                  "required": true,
+                  "description": "First day of requested leave",
+                  "cols": 6
+                },
+                {
+                  "component": "date-picker",
+                  "name": "leave_end_date",
+                  "label": "Leave End Date",
+                  "type": "string",
+                  "required": true,
+                  "description": "Last day of requested leave",
+                  "cols": 6
+                },
+                {
+                  "component": "text-field",
+                  "name": "leave_duration_days",
+                  "label": "Leave Duration (Days)",
+                  "type": "string",
+                  "required": true,
+                  "description": "Total number of days requested",
+                  "cols": 6
+                },
+                {
+                  "component": "text-field",
+                  "name": "leave_substitute",
+                  "label": "Leave Substitute (Optional)",
+                  "type": "string",
+                  "required": false,
+                  "description": "Name of person covering for the employee",
+                  "cols": 6
+                },
+                {
+                  "component": "date-picker",
+                  "name": "request_date",
+                  "label": "Request Date",
+                  "type": "date",
+                  "required": true,
+                  "defaultValue": "today",
+                  "description": "Date the employee submitted the form",
+                  "cols": 6
+                }
+              ]
+            },
+            {
+              "layout": "card",
+              "title": "2. Contextual and Routing Data (Internal System Data)",
+              "description": "Data retrieved from internal MUT (WAT) systems for routing and decision making",
+              "schema": [
+                {
+                  "component": "switch",
+                  "name": "is_academic_teacher",
+                  "label": "Is an Academic Teacher?",
+                  "type": "boolean",
+                  "defaultValue": true,
+                  "description": "Routing variable: Determines whether request goes to Chancellor (KAN) or Vice-Rectors/Rector chain",
+                  "cols": 6
+                },
+                {
+                  "component": "text-field",
+                  "name": "employee_leave_entitlement_balance",
+                  "label": "Employee Leave Entitlement Balance",
+                  "type": "number",
+                  "defaultValue": 26,
+                  "description": "Number of leave days the employee has remaining",
+                  "cols": 6
+                }
+              ]
+            },
+            {
+              "layout": "card",
+              "title": "3. Process-Generated Data (Decisions and Statuses)",
+              "description": "Data created during the process as users complete tasks",
+              "schema": [
+                {
+                  "component": "radio-button",
+                  "name": "head_ou_decision",
+                  "label": "Head O.U. Decision",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Approved",
+                        "value": "Approved"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      }
+                    ]
+                  },
+                  "description": "Outcome of 'Review and approve leave request' task",
+                  "cols": 6
+                },
+                {
+                  "component": "radio-button",
+                  "name": "pd_review_status",
+                  "label": "PD Review Status",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Entitlement Confirmed",
+                        "value": "Entitlement Confirmed"
+                      },
+                      {
+                        "label": "Entitlement Exceeded",
+                        "value": "Entitlement Exceeded"
+                      }
+                    ]
+                  },
+                  "description": "Outcome of 'Review leave request (check entitlement)' task",
+                  "cols": 6
+                },
+                {
+                  "component": "text-area",
+                  "name": "lss_opinion_notes",
+                  "label": "LSS Opinion Notes",
+                  "type": "string",
+                  "required": false,
+                  "description": "Feedback from the legal team, if applicable",
+                  "cols": 12,
+                  "rows": 3
+                },
+                {
+                  "component": "select",
+                  "name": "prk_review_status",
+                  "label": "PRK Review Status",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Approved",
+                        "value": "Approved"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      },
+                      {
+                        "label": "Pending",
+                        "value": "Pending"
+                      },
+                      {
+                        "label": "Needs Revision",
+                        "value": "Needs Revision"
+                      }
+                    ]
+                  },
+                  "description": "Outcome of review by Vice-Rector for Education",
+                  "cols": 6
+                },
+                {
+                  "component": "select",
+                  "name": "prn_review_status",
+                  "label": "PRN Review Status",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Approved",
+                        "value": "Approved"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      },
+                      {
+                        "label": "Pending",
+                        "value": "Pending"
+                      },
+                      {
+                        "label": "Needs Revision",
+                        "value": "Needs Revision"
+                      }
+                    ]
+                  },
+                  "description": "Outcome of review by Vice-Rector for Scientific Affairs",
+                  "cols": 6
+                },
+                {
+                  "component": "radio-button",
+                  "name": "final_decision",
+                  "label": "Final Decision",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Approved",
+                        "value": "Approved"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      }
+                    ]
+                  },
+                  "description": "Final approval status set by Chancellor or Rector",
+                  "cols": 6
+                },
+                {
+                  "component": "select",
+                  "name": "final_decision_maker",
+                  "label": "Final Decision Maker",
+                  "type": "string",
+                  "defaultValue": "Rector",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Rector (RKR)",
+                        "value": "Rector"
+                      },
+                      {
+                        "label": "Chancellor (KAN)",
+                        "value": "Chancellor"
+                      }
+                    ]
+                  },
+                  "description": "Person who made the final decision",
+                  "cols": 6
+                }
+              ]
+            }
+          ]
+        },
+        "timestamp": "2026-04-13T12:52:45.590Z"
+      },
+      {
+        "role": "user",
+        "content": "Please refine the form: add value lists where possible.",
+        "timestamp": "2026-04-13T13:00:35.103Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have updated the form accordingly.",
+        "timestamp": "2026-04-13T13:00:39.638Z"
+      },
+      {
+        "role": "user",
+        "content": "Please refine the form: add value lists where possible.",
+        "timestamp": "2026-04-13T13:09:25.085Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have updated the form accordingly.",
+        "timestamp": "2026-04-13T13:09:29.012Z",
+        "schemaSnapshot": {
+          "_formTitle": "Leave Request Process Data Form",
+          "schema": [
+            {
+              "layout": "card",
+              "title": "1. Request Initiation Data (Form Druk 23/DPE)",
+              "description": "Core data submitted by the employee initiating the process",
+              "schema": [
+                {
+                  "component": "text-field",
+                  "name": "employee_name",
+                  "label": "Employee Name",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6
+                },
+                {
+                  "component": "text-field",
+                  "name": "employee_position",
+                  "label": "Employee Position",
+                  "type": "string",
+                  "required": true,
+                  "cols": 6
+                },
+                {
+                  "component": "select",
+                  "name": "leave_type",
+                  "label": "Leave Type",
+                  "type": "string",
+                  "required": true,
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Recreational",
+                        "value": "Recreational"
+                      },
+                      {
+                        "label": "Childcare",
+                        "value": "Childcare"
+                      },
+                      {
+                        "label": "Exceptional Circumstance",
+                        "value": "Exceptional Circumstance"
+                      },
+                      {
+                        "label": "Sick Leave",
+                        "value": "Sick Leave"
+                      },
+                      {
+                        "label": "Maternity/Paternity",
+                        "value": "Maternity/Paternity"
+                      },
+                      {
+                        "label": "Study Leave",
+                        "value": "Study Leave"
+                      }
+                    ]
+                  },
+                  "cols": 6
+                },
+                {
+                  "component": "date-picker",
+                  "name": "leave_start_date",
+                  "label": "Leave Start Date",
+                  "type": "string",
+                  "required": true,
+                  "description": "First day of requested leave",
+                  "cols": 6
+                },
+                {
+                  "component": "date-picker",
+                  "name": "leave_end_date",
+                  "label": "Leave End Date",
+                  "type": "string",
+                  "required": true,
+                  "description": "Last day of requested leave",
+                  "cols": 6
+                },
+                {
+                  "component": "text-field",
+                  "name": "leave_duration_days",
+                  "label": "Leave Duration (Days)",
+                  "type": "string",
+                  "required": true,
+                  "description": "Total number of days requested",
+                  "cols": 6
+                },
+                {
+                  "component": "text-field",
+                  "name": "leave_substitute",
+                  "label": "Leave Substitute (Optional)",
+                  "type": "string",
+                  "required": false,
+                  "description": "Name of person covering for the employee",
+                  "cols": 6
+                },
+                {
+                  "component": "date-picker",
+                  "name": "request_date",
+                  "label": "Request Date",
+                  "type": "date",
+                  "required": true,
+                  "defaultValue": "today",
+                  "description": "Date the employee submitted the form",
+                  "cols": 6
+                }
+              ]
+            },
+            {
+              "layout": "card",
+              "title": "2. Contextual and Routing Data (Internal System Data)",
+              "description": "Data retrieved from internal MUT (WAT) systems for routing and decision making",
+              "schema": [
+                {
+                  "component": "switch",
+                  "name": "is_academic_teacher",
+                  "label": "Is an Academic Teacher?",
+                  "type": "boolean",
+                  "defaultValue": true,
+                  "description": "Routing variable: Determines whether request goes to Chancellor (KAN) or Vice-Rectors/Rector chain",
+                  "cols": 6
+                },
+                {
+                  "component": "text-field",
+                  "name": "employee_leave_entitlement_balance",
+                  "label": "Employee Leave Entitlement Balance",
+                  "type": "number",
+                  "defaultValue": 26,
+                  "description": "Number of leave days the employee has remaining",
+                  "cols": 6
+                }
+              ]
+            },
+            {
+              "layout": "card",
+              "title": "3. Process-Generated Data (Decisions and Statuses)",
+              "description": "Data created during the process as users complete tasks",
+              "schema": [
+                {
+                  "component": "radio-button",
+                  "name": "head_ou_decision",
+                  "label": "Head O.U. Decision",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Approved",
+                        "value": "Approved"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      }
+                    ]
+                  },
+                  "description": "Outcome of 'Review and approve leave request' task",
+                  "cols": 6
+                },
+                {
+                  "component": "radio-button",
+                  "name": "pd_review_status",
+                  "label": "PD Review Status",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Entitlement Confirmed",
+                        "value": "Entitlement Confirmed"
+                      },
+                      {
+                        "label": "Entitlement Exceeded",
+                        "value": "Entitlement Exceeded"
+                      }
+                    ]
+                  },
+                  "description": "Outcome of 'Review leave request (check entitlement)' task",
+                  "cols": 6
+                },
+                {
+                  "component": "text-area",
+                  "name": "lss_opinion_notes",
+                  "label": "LSS Opinion Notes",
+                  "type": "string",
+                  "required": false,
+                  "description": "Feedback from the legal team, if applicable",
+                  "cols": 12,
+                  "rows": 3
+                },
+                {
+                  "component": "select",
+                  "name": "prk_review_status",
+                  "label": "PRK Review Status",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Approved",
+                        "value": "Approved"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      },
+                      {
+                        "label": "Pending",
+                        "value": "Pending"
+                      },
+                      {
+                        "label": "Needs Revision",
+                        "value": "Needs Revision"
+                      }
+                    ]
+                  },
+                  "description": "Outcome of review by Vice-Rector for Education",
+                  "cols": 6
+                },
+                {
+                  "component": "select",
+                  "name": "prn_review_status",
+                  "label": "PRN Review Status",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Approved",
+                        "value": "Approved"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      },
+                      {
+                        "label": "Pending",
+                        "value": "Pending"
+                      },
+                      {
+                        "label": "Needs Revision",
+                        "value": "Needs Revision"
+                      }
+                    ]
+                  },
+                  "description": "Outcome of review by Vice-Rector for Scientific Affairs",
+                  "cols": 6
+                },
+                {
+                  "component": "radio-button",
+                  "name": "final_decision",
+                  "label": "Final Decision",
+                  "type": "string",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Approved",
+                        "value": "Approved"
+                      },
+                      {
+                        "label": "Rejected",
+                        "value": "Rejected"
+                      }
+                    ]
+                  },
+                  "description": "Final approval status set by Chancellor or Rector",
+                  "cols": 6
+                },
+                {
+                  "component": "select",
+                  "name": "final_decision_maker",
+                  "label": "Final Decision Maker",
+                  "type": "string",
+                  "defaultValue": "Rector",
+                  "source": {
+                    "items": [
+                      {
+                        "label": "Rector (RKR)",
+                        "value": "Rector"
+                      },
+                      {
+                        "label": "Chancellor (KAN)",
+                        "value": "Chancellor"
+                      }
+                    ]
+                  },
+                  "description": "Person who made the final decision",
+                  "cols": 6
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

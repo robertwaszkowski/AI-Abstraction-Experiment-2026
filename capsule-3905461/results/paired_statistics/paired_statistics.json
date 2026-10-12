@@ -1,0 +1,491 @@
+{
+  "design": {
+    "independent_unit": "two-person team",
+    "n_pairs": 7
+  },
+  "difference_direction": "Code minus Model",
+  "quartiles": "Hyndman-Fan Type 7",
+  "bootstrap": {
+    "resamples": 100000,
+    "seed": 20260805
+  },
+  "primary_session_threshold_minutes": 45,
+  "sensitivity_threshold_minutes": [
+    15,
+    30,
+    45,
+    60
+  ],
+  "measures": {
+    "source_observed_minutes": {
+      "label": "Source-specific log-observed time (minutes)",
+      "code_values": [
+        150.0,
+        445.0,
+        412.0,
+        438.0,
+        240.0,
+        96.0,
+        137.05
+      ],
+      "model_values": [
+        26.37,
+        29.53,
+        15.41,
+        20.76,
+        30.45,
+        19.46,
+        38.42
+      ],
+      "differences_code_minus_model": [
+        123.63,
+        415.47,
+        396.59,
+        417.24,
+        209.55,
+        76.53999999999999,
+        98.63000000000001
+      ],
+      "ratios_code_over_model": [
+        5.688282138794084,
+        15.069420927869961,
+        26.73588578844906,
+        21.098265895953755,
+        7.8817733990147785,
+        4.933196300102774,
+        3.567152524726705
+      ],
+      "descriptive": {
+        "Code": {
+          "n": 7,
+          "mean": 274.00714285714287,
+          "standard_deviation": 153.92222177821776,
+          "median": 240.0,
+          "q1_type7": 143.525,
+          "q3_type7": 425.0,
+          "iqr_type7": 281.475,
+          "minimum": 96.0,
+          "maximum": 445.0
+        },
+        "Model": {
+          "n": 7,
+          "mean": 25.771428571428572,
+          "standard_deviation": 7.838667889744678,
+          "median": 26.37,
+          "q1_type7": 20.11,
+          "q3_type7": 29.990000000000002,
+          "iqr_type7": 9.880000000000003,
+          "minimum": 15.41,
+          "maximum": 38.42
+        },
+        "Code_minus_Model": {
+          "n": 7,
+          "mean": 248.2357142857143,
+          "standard_deviation": 156.7499099263051,
+          "median": 209.55,
+          "q1_type7": 111.13,
+          "q3_type7": 406.03,
+          "iqr_type7": 294.9,
+          "minimum": 76.53999999999999,
+          "maximum": 417.24
+        }
+      },
+      "paired_effect": {
+        "measure": "source_observed_minutes",
+        "measure_label": "Source-specific log-observed time (minutes)",
+        "n_pairs": 7,
+        "positive_differences": 7,
+        "negative_differences": 0,
+        "zero_differences": 0,
+        "mean_difference_code_minus_model": "248.2357142857143",
+        "mean_difference_bootstrap_95_low": "143.42714285714285",
+        "mean_difference_bootstrap_95_high": "359.4657142857142",
+        "median_difference_code_minus_model": "209.55",
+        "median_difference_bootstrap_95_low": "98.63000000000001",
+        "median_difference_bootstrap_95_high": "415.47",
+        "matched_pairs_rank_biserial": "1.0",
+        "exact_sign_flip_two_sided_p_exploratory": "0.015625",
+        "median_code_over_model_ratio": "7.8817733990147785",
+        "geometric_mean_code_over_model_ratio": "9.445246429832892",
+        "geometric_mean_ratio_bootstrap_95_low": "5.608244588268644",
+        "geometric_mean_ratio_bootstrap_95_high": "16.10728491929998"
+      }
+    },
+    "recorded_ai_requests": {
+      "label": "Recorded requests to AI",
+      "code_values": [
+        19.0,
+        70.0,
+        45.0,
+        36.0,
+        19.0,
+        13.0,
+        23.0
+      ],
+      "model_values": [
+        14.0,
+        10.0,
+        7.0,
+        7.0,
+        10.0,
+        7.0,
+        10.0
+      ],
+      "differences_code_minus_model": [
+        5.0,
+        60.0,
+        38.0,
+        29.0,
+        9.0,
+        6.0,
+        13.0
+      ],
+      "ratios_code_over_model": [
+        1.3571428571428572,
+        7.0,
+        6.428571428571429,
+        5.142857142857143,
+        1.9,
+        1.8571428571428572,
+        2.3
+      ],
+      "descriptive": {
+        "Code": {
+          "n": 7,
+          "mean": 32.142857142857146,
+          "standard_deviation": 20.036870775552515,
+          "median": 23.0,
+          "q1_type7": 19.0,
+          "q3_type7": 40.5,
+          "iqr_type7": 21.5,
+          "minimum": 13.0,
+          "maximum": 70.0
+        },
+        "Model": {
+          "n": 7,
+          "mean": 9.285714285714286,
+          "standard_deviation": 2.563479777846623,
+          "median": 10.0,
+          "q1_type7": 7.0,
+          "q3_type7": 10.0,
+          "iqr_type7": 3.0,
+          "minimum": 7.0,
+          "maximum": 14.0
+        },
+        "Code_minus_Model": {
+          "n": 7,
+          "mean": 22.857142857142858,
+          "standard_deviation": 20.57043648401407,
+          "median": 13.0,
+          "q1_type7": 7.5,
+          "q3_type7": 33.5,
+          "iqr_type7": 26.0,
+          "minimum": 5.0,
+          "maximum": 60.0
+        }
+      },
+      "paired_effect": {
+        "measure": "recorded_ai_requests",
+        "measure_label": "Recorded requests to AI",
+        "n_pairs": 7,
+        "positive_differences": 7,
+        "negative_differences": 0,
+        "zero_differences": 0,
+        "mean_difference_code_minus_model": "22.857142857142858",
+        "mean_difference_bootstrap_95_low": "10.142857142857142",
+        "mean_difference_bootstrap_95_high": "38.142857142857146",
+        "median_difference_code_minus_model": "13.0",
+        "median_difference_bootstrap_95_low": "6.0",
+        "median_difference_bootstrap_95_high": "38.0",
+        "matched_pairs_rank_biserial": "1.0",
+        "exact_sign_flip_two_sided_p_exploratory": "0.015625",
+        "median_code_over_model_ratio": "2.3",
+        "geometric_mean_code_over_model_ratio": "3.066367365199751",
+        "geometric_mean_ratio_bootstrap_95_low": "1.9513483789821089",
+        "geometric_mean_ratio_bootstrap_95_high": "4.886161346843346"
+      }
+    },
+    "application_specific_files": {
+      "label": "Marginal application-specific files",
+      "code_values": [
+        65.0,
+        17.0,
+        12.0,
+        69.0,
+        12.0,
+        7.0,
+        6.0
+      ],
+      "model_values": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "differences_code_minus_model": [
+        56.0,
+        8.0,
+        3.0,
+        60.0,
+        3.0,
+        -2.0,
+        -3.0
+      ],
+      "ratios_code_over_model": [
+        7.222222222222222,
+        1.8888888888888888,
+        1.3333333333333333,
+        7.666666666666667,
+        1.3333333333333333,
+        0.7777777777777778,
+        0.6666666666666666
+      ],
+      "descriptive": {
+        "Code": {
+          "n": 7,
+          "mean": 26.857142857142858,
+          "standard_deviation": 27.685306400258433,
+          "median": 12.0,
+          "q1_type7": 9.5,
+          "q3_type7": 41.0,
+          "iqr_type7": 31.5,
+          "minimum": 6.0,
+          "maximum": 69.0
+        },
+        "Model": {
+          "n": 7,
+          "mean": 9.0,
+          "standard_deviation": 0.0,
+          "median": 9.0,
+          "q1_type7": 9.0,
+          "q3_type7": 9.0,
+          "iqr_type7": 0.0,
+          "minimum": 9.0,
+          "maximum": 9.0
+        },
+        "Code_minus_Model": {
+          "n": 7,
+          "mean": 17.857142857142858,
+          "standard_deviation": 27.685306400258433,
+          "median": 3.0,
+          "q1_type7": 0.5,
+          "q3_type7": 32.0,
+          "iqr_type7": 31.5,
+          "minimum": -3.0,
+          "maximum": 60.0
+        }
+      },
+      "paired_effect": {
+        "measure": "application_specific_files",
+        "measure_label": "Marginal application-specific files",
+        "n_pairs": 7,
+        "positive_differences": 5,
+        "negative_differences": 2,
+        "zero_differences": 0,
+        "mean_difference_code_minus_model": "17.857142857142858",
+        "mean_difference_bootstrap_95_low": "0.7142857142857143",
+        "mean_difference_bootstrap_95_high": "36.285714285714285",
+        "median_difference_code_minus_model": "3.0",
+        "median_difference_bootstrap_95_low": "-2.0",
+        "median_difference_bootstrap_95_high": "56.0",
+        "matched_pairs_rank_biserial": "0.7142857142857143",
+        "exact_sign_flip_two_sided_p_exploratory": "0.125",
+        "median_code_over_model_ratio": "1.3333333333333333",
+        "geometric_mean_code_over_model_ratio": "1.920642400320317",
+        "geometric_mean_ratio_bootstrap_95_low": "1.0127207498304396",
+        "geometric_mean_ratio_bootstrap_95_high": "3.900665139804229"
+      }
+    },
+    "application_specific_lines": {
+      "label": "Marginal application-specific text lines",
+      "code_values": [
+        5017.0,
+        1951.0,
+        2322.0,
+        5695.0,
+        5868.0,
+        3739.0,
+        4152.0
+      ],
+      "model_values": [
+        1514.0,
+        1528.0,
+        1484.0,
+        1484.0,
+        1498.0,
+        1522.0,
+        778.0
+      ],
+      "differences_code_minus_model": [
+        3503.0,
+        423.0,
+        838.0,
+        4211.0,
+        4370.0,
+        2217.0,
+        3374.0
+      ],
+      "ratios_code_over_model": [
+        3.3137384412153237,
+        1.2768324607329844,
+        1.564690026954178,
+        3.8376010781671157,
+        3.917222963951936,
+        2.4566360052562417,
+        5.336760925449871
+      ],
+      "descriptive": {
+        "Code": {
+          "n": 7,
+          "mean": 4106.285714285715,
+          "standard_deviation": 1550.428512195442,
+          "median": 4152.0,
+          "q1_type7": 3030.5,
+          "q3_type7": 5356.0,
+          "iqr_type7": 2325.5,
+          "minimum": 1951.0,
+          "maximum": 5868.0
+        },
+        "Model": {
+          "n": 7,
+          "mean": 1401.142857142857,
+          "standard_deviation": 275.3346016343439,
+          "median": 1498.0,
+          "q1_type7": 1484.0,
+          "q3_type7": 1518.0,
+          "iqr_type7": 34.0,
+          "minimum": 778.0,
+          "maximum": 1528.0
+        },
+        "Code_minus_Model": {
+          "n": 7,
+          "mean": 2705.1428571428573,
+          "standard_deviation": 1584.0866378422854,
+          "median": 3374.0,
+          "q1_type7": 1527.5,
+          "q3_type7": 3857.0,
+          "iqr_type7": 2329.5,
+          "minimum": 423.0,
+          "maximum": 4370.0
+        }
+      },
+      "paired_effect": {
+        "measure": "application_specific_lines",
+        "measure_label": "Marginal application-specific text lines",
+        "n_pairs": 7,
+        "positive_differences": 7,
+        "negative_differences": 0,
+        "zero_differences": 0,
+        "mean_difference_code_minus_model": "2705.1428571428573",
+        "mean_difference_bootstrap_95_low": "1582.0",
+        "mean_difference_bootstrap_95_high": "3746.5714285714284",
+        "median_difference_code_minus_model": "3374.0",
+        "median_difference_bootstrap_95_low": "838.0",
+        "median_difference_bootstrap_95_high": "4211.0",
+        "matched_pairs_rank_biserial": "1.0",
+        "exact_sign_flip_two_sided_p_exploratory": "0.015625",
+        "median_code_over_model_ratio": "3.3137384412153237",
+        "geometric_mean_code_over_model_ratio": "2.7866134798498416",
+        "geometric_mean_ratio_bootstrap_95_low": "1.925569629421755",
+        "geometric_mean_ratio_bootstrap_95_high": "3.9026959040617575"
+      }
+    },
+    "application_specific_bytes": {
+      "label": "Marginal application-specific bytes",
+      "code_values": [
+        220017.0,
+        101184.0,
+        90786.0,
+        217482.0,
+        220988.0,
+        129312.0,
+        140587.0
+      ],
+      "model_values": [
+        57113.0,
+        57757.0,
+        56903.0,
+        56285.0,
+        56941.0,
+        57388.0,
+        65743.0
+      ],
+      "differences_code_minus_model": [
+        162904.0,
+        43427.0,
+        33883.0,
+        161197.0,
+        164047.0,
+        71924.0,
+        74844.0
+      ],
+      "ratios_code_over_model": [
+        3.8523103321485475,
+        1.7518915456135187,
+        1.595451909389663,
+        3.8639424358177132,
+        3.880999631197204,
+        2.2532933714365373,
+        2.1384329890634746
+      ],
+      "descriptive": {
+        "Code": {
+          "n": 7,
+          "mean": 160050.85714285713,
+          "standard_deviation": 58014.73407226987,
+          "median": 140587.0,
+          "q1_type7": 115248.0,
+          "q3_type7": 218749.5,
+          "iqr_type7": 103501.5,
+          "minimum": 90786.0,
+          "maximum": 220988.0
+        },
+        "Model": {
+          "n": 7,
+          "mean": 58304.28571428572,
+          "standard_deviation": 3311.4044711313313,
+          "median": 57113.0,
+          "q1_type7": 56922.0,
+          "q3_type7": 57572.5,
+          "iqr_type7": 650.5,
+          "minimum": 56285.0,
+          "maximum": 65743.0
+        },
+        "Code_minus_Model": {
+          "n": 7,
+          "mean": 101746.57142857143,
+          "standard_deviation": 58844.00108438453,
+          "median": 74844.0,
+          "q1_type7": 57675.5,
+          "q3_type7": 162050.5,
+          "iqr_type7": 104375.0,
+          "minimum": 33883.0,
+          "maximum": 164047.0
+        }
+      },
+      "paired_effect": {
+        "measure": "application_specific_bytes",
+        "measure_label": "Marginal application-specific bytes",
+        "n_pairs": 7,
+        "positive_differences": 7,
+        "negative_differences": 0,
+        "zero_differences": 0,
+        "mean_difference_code_minus_model": "101746.57142857143",
+        "mean_difference_bootstrap_95_low": "62418.571428571435",
+        "mean_difference_bootstrap_95_high": "144148.0",
+        "median_difference_code_minus_model": "74844.0",
+        "median_difference_bootstrap_95_low": "43427.0",
+        "median_difference_bootstrap_95_high": "162904.0",
+        "matched_pairs_rank_biserial": "1.0",
+        "exact_sign_flip_two_sided_p_exploratory": "0.015625",
+        "median_code_over_model_ratio": "2.2532933714365373",
+        "geometric_mean_code_over_model_ratio": "2.588212774072278",
+        "geometric_mean_ratio_bootstrap_95_low": "1.9843917296403182",
+        "geometric_mean_ratio_bootstrap_95_high": "3.405953696159269"
+      }
+    }
+  }
+}

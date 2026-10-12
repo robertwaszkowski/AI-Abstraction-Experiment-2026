@@ -1,0 +1,81 @@
+{
+  "files": [
+    {
+      "file": "project_task.txt",
+      "sha256": "8b579a6fdfa6408d2c3714db23f7932e2f61c828a9024e211c6205b006afccaf",
+      "artifact_role": "assignment",
+      "process": "All processes",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Process to Roles Mapping.docx",
+      "sha256": "413690c1d66334673ddb5919c6da307a5bdd39c77510db80def36118d08be6ee",
+      "artifact_role": "role mapping",
+      "process": "All processes",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Leave Request.bpmn.xml",
+      "sha256": "dc35b171284b310d39c12411a77fa154e87b0f00f43449068c9cc3de9faf78f7",
+      "artifact_role": "reference process",
+      "process": "Leave Request",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Leave Request Data.docx",
+      "sha256": "0a43e23938bda81932aac284ab16bece0e8278fdb570bc8dd17128f801a5daec",
+      "artifact_role": "data specification",
+      "process": "Leave Request",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Leave Request Test Scenario.docx",
+      "sha256": "9a81b16faa2da8056c75ffdad1f076d7507e7cd6b7c98eb00339f24a788fd857",
+      "artifact_role": "acceptance scenario",
+      "process": "Leave Request",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Change of Employment Conditions.bpmn.xml",
+      "sha256": "3ff6714213aab20b0d1be5232d8b1a1e5e193fd61ef29e9cf2de46a7ac9e5080",
+      "artifact_role": "reference process",
+      "process": "Change of Employment Conditions",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Change of Employment Conditions Data.docx",
+      "sha256": "b9f10cfadb1b36007608ea05e344e248bc90fc76667f4958bbaae79881e44c69",
+      "artifact_role": "data specification",
+      "process": "Change of Employment Conditions",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Change of Employment Conditions Test Scenario.docx",
+      "sha256": "1c1c1e3db9a96e97e4e8e69e29343a38d23e76536aa11b67b4174ad70cc6dda6",
+      "artifact_role": "acceptance scenario",
+      "process": "Change of Employment Conditions",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Decorations and Medals.bpmn.xml",
+      "sha256": "6a376b7250cf6a775698403110927b10a4d97433b4f5b892993ce3a3283d6100",
+      "artifact_role": "reference process",
+      "process": "Decorations and Medals",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Decorations and Medals Data.docx",
+      "sha256": "662709e596f8a069424588450c4bf6d4ecaceebb43cfff04a7ab4d795d2bab4d",
+      "artifact_role": "data specification",
+      "process": "Decorations and Medals",
+      "manifest_version": "1.0"
+    },
+    {
+      "file": "Decorations and Medals Test Scenario.docx",
+      "sha256": "b7159dccae7002ad6d491ed8ef8a6abea7f56a7f6c12c34c67001392485ab92a",
+      "artifact_role": "acceptance scenario",
+      "process": "Decorations and Medals",
+      "manifest_version": "1.0"
+    }
+  ]
+}

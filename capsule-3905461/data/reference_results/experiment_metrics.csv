@@ -1,0 +1,15 @@
+experiment_id,condition,source_observed_minutes,turn_count,documented_success,artifact_complete,artifact_files,source_files,source_lines,artifact_bytes,source_bytes,prompt_files,runtime_test_markers,technology,time_method,turn_method,bpmn_files,json_artifacts
+code_01,Code,150.0,19,True,True,81,72,5294,733762,185109,1,0,Next.js + Prisma + PostgreSQL,reported_total,timestamp_lines,0,0
+code_02,Code,445.0,70,True,True,42,24,2162,362451,106975,1,0,React/Vite + FastAPI + PostgreSQL,duration_rows,duration_rows,0,0
+code_03,Code,412.0,45,True,True,32,14,2379,651452,92434,1,0,Node.js/Express + SQLite + browser JavaScript,duration_rows,duration_rows,0,0
+code_04,Code,438.0,33,True,True,85,77,6015,708685,183514,2,0,Next.js + Firebase/Firestore,sessionized_docx,timestamp_lines,0,0
+code_05,Code,240.0,17,True,True,39,19,6058,466878,226974,1,0,Python + Streamlit + SQLite,reported_total,user_headings,0,0
+code_06,Code,96.0,14,True,True,9,8,3757,185123,129648,1,0,Node.js + Express + SQLite,sessionized_text,markdown_user,0,0
+code_07,Code,137.05,24,True,True,8,7,4165,170211,140853,1,0,Node.js + Express + JSON persistence,sessionized_text,markdown_user,0,0
+model_01,Model,26.37,15,True,True,9,9,1514,57113,57113,6,1,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,json_user_event,3,6
+model_02,Model,29.53,11,True,True,9,9,1528,57757,57757,6,1,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,json_user_event,3,6
+model_03,Model,15.41,8,True,True,9,9,1484,56903,56903,6,1,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,json_user_event,3,6
+model_04,Model,20.76,8,True,True,9,9,1484,56285,56285,6,1,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,json_user_event,3,6
+model_05,Model,30.45,11,True,True,9,9,1498,56941,56941,6,1,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,json_user_event,3,6
+model_06,Model,19.46,8,True,True,9,9,1522,57388,57388,6,1,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,json_user_event,3,6
+model_07,Model,38.42,11,True,True,9,9,778,65743,65743,6,1,BPMN 2.0 + JSON + Aurea 2026.01.0,team_elapsed_to_runtime_test_json,json_user_event,3,6

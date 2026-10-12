@@ -1,0 +1,2 @@
+# Preserve the capsule's byte-level checksums across operating systems.
+capsule-3905461/** -text

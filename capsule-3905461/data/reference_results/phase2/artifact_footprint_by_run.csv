@@ -1,0 +1,15 @@
+experiment_id,team_id,condition,primary_application_specific_files,primary_application_specific_text_lines,primary_application_specific_bytes,all_retained_artifact_files,all_retained_artifact_text_lines,all_retained_artifact_bytes,dependencies_and_build_output_in_primary,runtime_data_in_primary,reusable_runtime_platform_in_primary
+code_01,T01,Code,65,5017,220017,81,18608,733762,No,No,No
+code_02,T02,Code,17,1951,101184,42,3112,362451,No,No,No
+code_03,T03,Code,12,2322,90786,32,6209,651452,No,No,No
+code_04,T04,Code,69,5695,217482,85,18595,708685,No,No,No
+code_05,T05,Code,12,5868,220988,39,8262,466878,No,No,No
+code_06,T06,Code,7,3739,129312,9,5340,185123,No,No,No
+code_07,T07,Code,6,4152,140587,8,4993,170211,No,No,No
+model_01,T01,Model,9,1514,57113,9,1514,57113,No,No,No
+model_02,T02,Model,9,1528,57757,9,1528,57757,No,No,No
+model_03,T03,Model,9,1484,56903,9,1484,56903,No,No,No
+model_04,T04,Model,9,1484,56285,9,1484,56285,No,No,No
+model_05,T05,Model,9,1498,56941,9,1498,56941,No,No,No
+model_06,T06,Model,9,1522,57388,9,1522,57388,No,No,No
+model_07,T07,Model,9,778,65743,9,778,65743,No,No,No

@@ -1,0 +1,4047 @@
+{
+  "team": "T04",
+  "approach": "Code",
+  "source_filename": "team05-prompting-logs-integration.docx",
+  "source_format": ".docx",
+  "source_sha256": "ffc71b6115eb36fdab821a28a20a238097783b4d0ce90c9f87aa1d446c103176",
+  "embedded_media_files_omitted": 134,
+  "content": {
+    "paragraphs": [
+      {
+        "paragraph_index": 0,
+        "text": "13.12.2025 r.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 1,
+        "text": "Firebase application 1 : ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 2,
+        "text": "Addition of three business processes: Leave Request, Change of Employment, Awards and Medals",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 3,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 4,
+        "text": "Start Firebase: [URL_REDACTED] ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 5,
+        "text": "Sign in with your Google account.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 6,
+        "text": "Open Firebase Studio and add reposiotry from Github",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 7,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 8,
+        "text": "Press Button:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 9,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 10,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 11,
+        "text": "Attach files with your configuration from Firebase Data Center and Hostiing",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 12,
+        "text": "Example: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 13,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 14,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 15,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 16,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 17,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 18,
+        "text": "These files will be added automatically when configuring the app in Firebase, this is what the correct configuration should look like",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 19,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 20,
+        "text": "We need to define clear rules for Agneta Ai so that he knows that he should only add our functionalities without disturbing the existing ones in the application",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 21,
+        "text": "Prompt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 22,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 23,
+        "text": "I am working on an existing Next.js application (App Router) integrated with Firebase Firestore.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 24,
+        "text": "Firebase is already configured and initialized in src/firebase.ts.\nThis file already exists and MUST NOT be modified, duplicated, or replaced.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 25,
+        "text": "Assume that NO business processes currently exist in the application.\nAll three processes must be implemented from scratch.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 26,
+        "text": "You MUST NOT refactor or break any existing working code.\nYou may ONLY ADD new files, pages, and Firestore logic required for the processes.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 27,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 28,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 29,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 30,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 31,
+        "text": "14:08",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 32,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 33,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 34,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 35,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 36,
+        "text": "GENERAL RULES FOR ALL PROCESSES",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 37,
+        "text": "GENERAL RULES:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 38,
+        "text": "Do NOT modify firebase.ts",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 39,
+        "text": "Do NOT create another Firebase config",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 40,
+        "text": "Do NOT refactor existing components",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 41,
+        "text": "Use Firestore as the process state storage",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 42,
+        "text": "Each process must be role-based",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 43,
+        "text": "Each step must be handled as a task",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 44,
+        "text": "Tasks must be opened from a common Tasks view",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 45,
+        "text": "Routes should follow /flows/<process-name>/task/[id]",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 46,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 47,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 48,
+        "text": "14: 27",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 49,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 50,
+        "text": "Prompt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 51,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 52,
+        "text": "ROLE MODEL ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 53,
+        "text": "Key decision makers:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 54,
+        "text": "- Rector (RKR): Adam Rector",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 55,
+        "text": "- Vice-Rector for Education (PRK): Paula VREdu",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 56,
+        "text": "- Vice-Rector for Scientific Affairs (PRN): Peter VRSci",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 57,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 58,
+        "text": "Department roles:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 59,
+        "text": "- Head of O.U.: Holly Head",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 60,
+        "text": "- Personnel Department (PD): Penny Personnel",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 61,
+        "text": "- Quartermaster (KWE): Quentin Quartermaster",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 62,
+        "text": "- Military Personnel Department (MPD): Mike MPD",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 63,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 64,
+        "text": "Employees:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 65,
+        "text": "- Academic Teacher: Alice Academic",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 66,
+        "text": "- Non-academic employee: Nancy NonAcademic",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 67,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 68,
+        "text": "Routing logic MUST depend on:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 69,
+        "text": "- Whether the employee is an academic teacher",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 70,
+        "text": "- Decisions taken in previous tasks",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 71,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 72,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 73,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 74,
+        "text": "14: 36",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 75,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 76,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 77,
+        "text": "LEAVE REQUEST",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 78,
+        "text": "Prompt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 79,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 80,
+        "text": "Create the full \"Leave Request\" business process from scratch.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 81,
+        "text": "Process name: leave-request  ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 82,
+        "text": "Firestore collection: processInstances  ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 83,
+        "text": "processType value: \"leave-request\"",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 84,
+        "text": "Process logic:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 85,
+        "text": "1) Employee submits leave request",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 86,
+        "text": "   - Data: employee name, position, leave type, start date, end date, duration, request date",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 87,
+        "text": "   - Create process instance",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 88,
+        "text": "   - Assign first task to role: Head of O.U.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 89,
+        "text": "2) Head of O.U. approval",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 90,
+        "text": "   - Decision: Approved / Rejected",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 91,
+        "text": "   - If Rejected → process ends",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 92,
+        "text": "   - If Approved → forward to Personnel Department (PD)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 93,
+        "text": "3) Personnel Department review",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 94,
+        "text": "   - Check leave entitlement",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 95,
+        "text": "   - Set variable: isAcademicTeacher (true/false)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 96,
+        "text": "4) Decision gateway:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 97,
+        "text": "   - If academic teacher:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 98,
+        "text": "       PD → PRK → PRN → Rector → PD → Register → End",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 99,
+        "text": "   - If non-academic:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 100,
+        "text": "       PD → Rector → PD → Register → End",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 101,
+        "text": "5) Every task:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 102,
+        "text": "   - Has its own UI page under `/flows/leave-request/task/[id]`",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 103,
+        "text": "   - Reads and updates Firestore",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 104,
+        "text": "   - Updates `currentTask`, `currentAssigneeRole`, and process variables",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 105,
+        "text": "6) Add a visible Process Timeline component showing all steps and the current step.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 106,
+        "text": "7) Final state:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 107,
+        "text": "   - Process marked as Completed",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 108,
+        "text": "   - Leave registered by PD",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 109,
+        "text": "Follow BPMN logic exactly. Do NOT simplify.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 110,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 111,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 112,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 113,
+        "text": "14:18",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 114,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 115,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 116,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 117,
+        "text": "Press update file",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 118,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 119,
+        "text": "Veryfication: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 120,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 121,
+        "text": "import type { User } from './types';",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 122,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 123,
+        "text": "// In a real app, this would be a database and passwords would be securely hashed.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 124,
+        "text": "// This is a mock database for demonstration purposes.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 125,
+        "text": "export const usersData: Record<string, Omit<User, 'username'>> = {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 126,
+        "text": "  'adamrector': { id: '1', name: 'Adam Rector', role: 'Rector', roleCode: 'RKR' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 127,
+        "text": "  'carlchancellor': { id: '2', name: 'Carl Chancellor', role: 'Chancellor', roleCode: 'KAN' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 128,
+        "text": "  'paulavredu': { id: '3', name: 'Paula VREdu', role: 'Vice-Rector for Education', roleCode: 'PRK' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 129,
+        "text": "  'petervrsci': { id: '4', name: 'Peter VRSci', role: 'Vice-Rector for Scientific Affairs', roleCode: 'PRN' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 130,
+        "text": "  'hollyhead': { id: '5', name: 'Holly Head', role: 'Head of O.U.', roleCode: 'Head of O.U.' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 131,
+        "text": "  'pennypersonnel': { id: '6', name: 'Penny Personnel', role: 'Personnel Department', roleCode: 'PD' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 132,
+        "text": "  'quentinquartermaster': { id: '7', name: 'Quentin Quartermaster', role: 'Quartermaster', roleCode: 'KWE' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 133,
+        "text": "  'mikempd': { id: '8', name: 'Mike MPD', role: 'Military Personnel Dept.', roleCode: 'MPD/WKW' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 134,
+        "text": "  'aliceacademic': { id: '9', name: 'Alice Academic', role: 'Academic Teacher', roleCode: 'AT' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 135,
+        "text": "  'nancynonacademic': { id: '10', name: 'Nancy NonAcademic', role: 'Non-Academic Employee', roleCode: 'NAE' },",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 136,
+        "text": "};",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 137,
+        "text": "// For demo purposes, all users share the same simple password.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 138,
+        "text": "export const ALL_USERS_PASSWORD = '[VALUE_REDACTED]';",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 139,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 140,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 141,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 142,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 143,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 144,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 145,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 146,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 147,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 148,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 149,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 150,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 151,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 152,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 153,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 154,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 155,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 156,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 157,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 158,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 159,
+        "text": "How to test if you did it correctly?",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 160,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 161,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 162,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 163,
+        "text": "15:03",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 164,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 165,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 166,
+        "text": "we need to solve several problems, this is one of them: [{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 167,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/api/flows/leave-request/submit/route.ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 168,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 169,
+        "text": "\"code\": \"2307\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 170,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 171,
+        "text": "\"message\": \"Cannot find module '../../../../flows/leave-request/utils' or its corresponding type declarations.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 172,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 173,
+        "text": "\"startLineNumber\": 3,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 174,
+        "text": "\"startColumn\": 47,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 175,
+        "text": "\"endLineNumber\": 3,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 176,
+        "text": "\"endColumn\": 86",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 177,
+        "text": "}]",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 178,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 179,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 180,
+        "text": "15:14",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 181,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 182,
+        "text": "Prompt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 183,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 184,
+        "text": "Still I have 9 problems: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 185,
+        "text": "Jpg",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 186,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 187,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 188,
+        "text": "15:30",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 189,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 190,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 191,
+        "text": "Some changes you have to solve myself, because agent can destroy effect of your work ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 192,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 193,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 194,
+        "text": "Prompt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 195,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 196,
+        "text": "Solve theses problems: // src/app/api/flows/leave-request/task/[id]/complete/route.ts",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 197,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 198,
+        "text": "import { NextResponse } from \"next/server\";",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 199,
+        "text": "import { getProcessInstance, updateProcessInstance } from \"../../../../../../lib/firestore\";",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 200,
+        "text": "import { determineNextLeaveRequestStep, LeaveRequestTask } from \"../../../../../../flows/leave-request/utils\";",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 201,
+        "text": "import type { ProcessInstance, ProcessInstanceTimelineEntry } from \"../../../../../../lib/types\";",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 202,
+        "text": "import { ROLE_CODES_MAP, ROLE_USERS } from \"../../../../../../lib/roles\"; // Corrected path",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 203,
+        "text": "import { usersData } from \"../../../../../../lib/auth\"; // Added import",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 204,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 205,
+        "text": "export async function POST(request: Request, { params }: { params: { id: string } }) {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 206,
+        "text": "  const processInstanceId = params.id;",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 207,
+        "text": "  const { decision, isAcademicTeacher }: { decision?: \"approved\" | \"rejected\"; isAcademicTeacher?: boolean } = await request.json();",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 208,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 209,
+        "text": "  if (!processInstanceId) {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 210,
+        "text": "    return NextResponse.json({ error: \"Process instance ID is required\" }, { status: 400 });",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 211,
+        "text": "  }",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 212,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 213,
+        "text": "  try {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 214,
+        "text": "    let processInstance = await getProcessInstance(processInstanceId);",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 215,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 216,
+        "text": "    if (!processInstance) {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 217,
+        "text": "      return NextResponse.json({ error: \"Process instance not found\" }, { status: 404 });",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 218,
+        "text": "    }",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 219,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 220,
+        "text": "    if (processInstance.status === \"Completed\" || processInstance.status === \"Rejected\") {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 221,
+        "text": "      return NextResponse.json({ error: \"Process is already concluded\" }, { status: 400 });",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 222,
+        "text": "    }",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 223,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 224,
+        "text": "    // Determine the next step based on the current task and decision",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 225,
+        "text": "    const { nextTask, nextAssigneeRole, timelineEntry } = determineNextLeaveRequestStep( // Corrected function name",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 226,
+        "text": "      processInstance.currentTask as LeaveRequestTask,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 227,
+        "text": "      decision || null,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 228,
+        "text": "      isAcademicTeacher || false",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 229,
+        "text": "    );",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 230,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 231,
+        "text": "    const updatedTimeline: ProcessInstanceTimelineEntry[] = [...processInstance.timeline, { ...timelineEntry, timestamp: new Date().toISOString() }];",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 232,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 233,
+        "text": "    let updatedStatus = processInstance.status;",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 234,
+        "text": "    let nextAssigneeId = ''; // Initialize to empty string",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 235,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 236,
+        "text": "    if (nextTask === LeaveRequestTask.PROCESS_ENDED) {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 237,
+        "text": "      updatedStatus = decision === \"rejected\" ? \"Rejected\" : \"Completed\";",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 238,
+        "text": "      nextAssigneeId = \"\"; // No assignee when process ends",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 239,
+        "text": "    } else {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 240,
+        "text": "      // Find the ID of the next assignee by matching the role with usersData",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 241,
+        "text": "      const assigneeUser = Object.values(usersData).find(user => user.role === nextAssigneeRole);",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 242,
+        "text": "      nextAssigneeId = assigneeUser?.id || '';",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 243,
+        "text": "    }",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 244,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 245,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 246,
+        "text": "    const updates: Partial<ProcessInstance> = {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 247,
+        "text": "      status: updatedStatus,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 248,
+        "text": "      currentTask: nextTask,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 249,
+        "text": "      currentAssigneeRole: nextAssigneeRole,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 250,
+        "text": "      currentAssigneeId: nextAssigneeId,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 251,
+        "text": "      timeline: updatedTimeline,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 252,
+        "text": "    };",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 253,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 254,
+        "text": "    const updatedProcessInstance = await updateProcessInstance(processInstanceId, updates);",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 255,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 256,
+        "text": "    return NextResponse.json({ message: \"Task completed successfully\", processInstance: updatedProcessInstance });",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 257,
+        "text": "  } catch (error: any) {",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 258,
+        "text": "    console.error(\"Error completing task:\", error);",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 259,
+        "text": "    return NextResponse.json({ error: error.message || \"Failed to complete task\" }, { status: 500 });",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 260,
+        "text": "  }",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 261,
+        "text": "}",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 262,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 263,
+        "text": "16:02",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 264,
+        "text": "Propmt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 265,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 266,
+        "text": "I don’t have any buttom to start proces",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 267,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 268,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 269,
+        "text": "16:28",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 270,
+        "text": "Prompt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 271,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 272,
+        "text": "Does this process work according to this documentation?",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 273,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 274,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 275,
+        "text": "16:34",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 276,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 277,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 278,
+        "text": "No task passed to hollyhead",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 279,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 280,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 281,
+        "text": "16:49",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 282,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 283,
+        "text": "17:15",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 284,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 285,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 286,
+        "text": "What exactly do I need to fix to make it work?",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 287,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 288,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 289,
+        "text": "17:24",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 290,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 291,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 292,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 293,
+        "text": "Fix these problems",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 294,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 295,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 296,
+        "text": "17:30",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 297,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 298,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 299,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 300,
+        "text": "Do I have it? ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 301,
+        "text": "Technical constraints:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 302,
+        "text": "- Use existing Firebase config (`src/firebase.ts`)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 303,
+        "text": "- Do NOT create a new Firebase config file",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 304,
+        "text": "- Use Firestore only",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 305,
+        "text": "- No backend server",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 306,
+        "text": "- All logic inside Next.js app router",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 307,
+        "text": "- Client components only for task pages",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 308,
+        "text": "- Use `useParams()` for task IDs",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 309,
+        "text": "- Routing pattern must be consistent across all processes",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 310,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 311,
+        "text": "17:36",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 312,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 313,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 314,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 315,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 316,
+        "text": "Finally, let’s run a test together: describe to me step by step the Academic Teacher Leave Request – Approved scenario, going through the roles Alice → Holly → Penny → PRK → PRN → Rector → Penny (inform OU, register) and checking in Firestore that the process status is Completed, and all decisions have the value Approved and is_academic_teacher = true.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 317,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 318,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 319,
+        "text": "17:48",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 320,
+        "text": "CHANGE OF EMPLOYMENT",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 321,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 322,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 323,
+        "text": "Create the full \"Change of Employment Conditions\" process from scratch.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 324,
+        "text": "processType: \"change-of-employment\"",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 325,
+        "text": "Process logic:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 326,
+        "text": "1) Employee submits change request",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 327,
+        "text": "2) Head of O.U. review",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 328,
+        "text": "3) Personnel Department review",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 329,
+        "text": "   - Set variable: isAcademicTeacher",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 330,
+        "text": "4) If academic teacher:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 331,
+        "text": "   PD → KWE → PRK → PRN → Rector → PD → End",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 332,
+        "text": "5) If non-academic:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 333,
+        "text": "   PD → KWE → Rector → PD → End",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 334,
+        "text": "Each step must:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 335,
+        "text": "- Be implemented as a task UI",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 336,
+        "text": "- Persist decisions in Firestore",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 337,
+        "text": "- Follow the same task routing mechanism as Leave Request",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 338,
+        "text": "- Be visible in the existing Tasks list",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 339,
+        "text": "Include Process Timeline UI. ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 340,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 341,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 342,
+        "text": "18:00",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 343,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 344,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 345,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 346,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 347,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 348,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 349,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 350,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 351,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 352,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 353,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 354,
+        "text": "We have to solve these problems:[{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 355,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/api/flows/change-of-employment/task/[id]/complete/route.ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 356,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 357,
+        "text": "\"code\": \"2307\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 358,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 359,
+        "text": "\"message\": \"Cannot find module '../../../../../../lib/firestore' or its corresponding type declarations.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 360,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 361,
+        "text": "\"startLineNumber\": 3,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 362,
+        "text": "\"startColumn\": 59,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 363,
+        "text": "\"endLineNumber\": 3,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 364,
+        "text": "\"endColumn\": 92",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 365,
+        "text": "},{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 366,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/api/flows/change-of-employment/task/[id]/complete/route.ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 367,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 368,
+        "text": "\"code\": \"2307\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 369,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 370,
+        "text": "\"message\": \"Cannot find module '../../../../../../flows/change-of-employment/utils' or its corresponding type declarations.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 371,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 372,
+        "text": "\"startLineNumber\": 4,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 373,
+        "text": "\"startColumn\": 101,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 374,
+        "text": "\"endLineNumber\": 4,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 375,
+        "text": "\"endColumn\": 153",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 376,
+        "text": "},{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 377,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/api/flows/change-of-employment/task/[id]/complete/route.ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 378,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 379,
+        "text": "\"code\": \"2307\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 380,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 381,
+        "text": "\"message\": \"Cannot find module '../../../../../../lib/types' or its corresponding type declarations.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 382,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 383,
+        "text": "\"startLineNumber\": 5,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 384,
+        "text": "\"startColumn\": 74,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 385,
+        "text": "\"endLineNumber\": 5,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 386,
+        "text": "\"endColumn\": 103",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 387,
+        "text": "},{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 388,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/api/flows/change-of-employment/task/[id]/complete/route.ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 389,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 390,
+        "text": "\"code\": \"2307\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 391,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 392,
+        "text": "\"message\": \"Cannot find module '../../../../../../lib/roles' or its corresponding type declarations.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 393,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 394,
+        "text": "\"startLineNumber\": 6,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 395,
+        "text": "\"startColumn\": 27,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 396,
+        "text": "\"endLineNumber\": 6,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 397,
+        "text": "\"endColumn\": 56",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 398,
+        "text": "},{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 399,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/api/flows/change-of-employment/task/[id]/complete/route.ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 400,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 401,
+        "text": "\"code\": \"2769\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 402,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 403,
+        "text": "\"message\": \"No overload matches this call.\\n  Overload 1 of 2, '(predicate: (value: unknown, index: number, obj: unknown[]) => value is unknown, thisArg?: any): unknown', gave the following error.\\n    Argument of type '(user: Omit<User, \\\"username\\\">) => boolean' is not assignable to parameter of type '(value: unknown, index: number, obj: unknown[]) => value is unknown'.\\n      Types of parameters 'user' and 'value' are incompatible.\\n        Type 'unknown' is not assignable to type 'Omit<User, \\\"username\\\">'.\\n  Overload 2 of 2, '(predicate: (value: unknown, index: number, obj: unknown[]) => unknown, thisArg?: any): unknown', gave the following error.\\n    Argument of type '(user: Omit<User, \\\"username\\\">) => boolean' is not assignable to parameter of type '(value: unknown, index: number, obj: unknown[]) => unknown'.\\n      Types of parameters 'user' and 'value' are incompatible.\\n        Type 'unknown' is not assignable to type 'Omit<User, \\\"username\\\">'.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 404,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 405,
+        "text": "\"startLineNumber\": 42,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 406,
+        "text": "\"startColumn\": 58,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 407,
+        "text": "\"endLineNumber\": 42,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 408,
+        "text": "\"endColumn\": 122",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 409,
+        "text": "},{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 410,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/api/flows/change-of-employment/task/[id]/complete/route.ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 411,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 412,
+        "text": "\"code\": \"2339\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 413,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 414,
+        "text": "\"message\": \"Property 'id' does not exist on type '{}'.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 415,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 416,
+        "text": "\"startLineNumber\": 43,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 417,
+        "text": "\"startColumn\": 38,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 418,
+        "text": "\"endLineNumber\": 43,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 419,
+        "text": "\"endColumn\": 40",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 420,
+        "text": "}]",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 421,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 422,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 423,
+        "text": "18:20",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 424,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 425,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 426,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 427,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 428,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 429,
+        "text": "Add a button to start this process and also an option to return to the Dashboard after submitting the form",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 430,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 431,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 432,
+        "text": "18:14",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 433,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 434,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 435,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 436,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 437,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 438,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 439,
+        "text": "The person who should receive the task for acceptance does not have it, check why he does not receive it even though the application was created correctly and is in the database",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 440,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 441,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 442,
+        "text": "18:20",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 443,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 444,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 445,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 446,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 447,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 448,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 449,
+        "text": "18:32",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 450,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 451,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 452,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 453,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 454,
+        "text": "Propmt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 455,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 456,
+        "text": "Fix accepting files and forwarding them according to the path",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 457,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 458,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 459,
+        "text": "18:50",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 460,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 461,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 462,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 463,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 464,
+        "text": "Prompt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 465,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 466,
+        "text": "Does the application work according to the documentation below?",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 467,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 468,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 469,
+        "text": "19:14",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 470,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 471,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 472,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 473,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 474,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 475,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 476,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 477,
+        "text": "19:24",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 478,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 479,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 480,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 481,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 482,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 483,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 484,
+        "text": "Help me fix these problems: [{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 485,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/flows/change-of-employment/dashboard/page.tsx\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 486,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 487,
+        "text": "\"code\": \"2322\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 488,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 489,
+        "text": "\"message\": \"Type '\\\"default\\\" | \\\"destructive\\\" | \\\"success\\\"' is not assignable to type '\\\"default\\\" | \\\"secondary\\\" | \\\"destructive\\\" | \\\"outline\\\" | null | undefined'.\\n  Type '\\\"success\\\"' is not assignable to type '\\\"default\\\" | \\\"secondary\\\" | \\\"destructive\\\" | \\\"outline\\\" | null | undefined'.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 490,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 491,
+        "text": "\"startLineNumber\": 91,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 492,
+        "text": "\"startColumn\": 52,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 493,
+        "text": "\"endLineNumber\": 91,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 494,
+        "text": "\"endColumn\": 59,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 495,
+        "text": "\"relatedInformation\": [",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 496,
+        "text": "{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 497,
+        "text": "\"startLineNumber\": 10,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 498,
+        "text": "\"startColumn\": 7,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 499,
+        "text": "\"endLineNumber\": 18,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 500,
+        "text": "\"endColumn\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 501,
+        "text": "\"message\": \"The expected type comes from property 'variant' which is declared here on type 'IntrinsicAttributes & BadgeProps'\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 502,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/components/ui/badge.tsx\"",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 503,
+        "text": "}",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 504,
+        "text": "]",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 505,
+        "text": "},{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 506,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/flows/change-of-employment/dashboard/page.tsx\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 507,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 508,
+        "text": "\"code\": \"2304\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 509,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 510,
+        "text": "\"message\": \"Cannot find name 'Button'.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 511,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 512,
+        "text": "\"startLineNumber\": 111,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 513,
+        "text": "\"startColumn\": 12,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 514,
+        "text": "\"endLineNumber\": 111,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 515,
+        "text": "\"endColumn\": 18",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 516,
+        "text": "},{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 517,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/flows/change-of-employment/dashboard/page.tsx\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 518,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 519,
+        "text": "\"code\": \"2304\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 520,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 521,
+        "text": "\"message\": \"Cannot find name 'Button'.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 522,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 523,
+        "text": "\"startLineNumber\": 111,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 524,
+        "text": "\"startColumn\": 46,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 525,
+        "text": "\"endLineNumber\": 111,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 526,
+        "text": "\"endColumn\": 52",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 527,
+        "text": "}] and another which are in jpg file",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 528,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 529,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 530,
+        "text": "19:36",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 531,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 532,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 533,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 534,
+        "text": "Give me all codes I change it manually, because I i do not want your comments in code",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 535,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 536,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 537,
+        "text": "19:40",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 538,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 539,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 540,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 541,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 542,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 543,
+        "text": "Decorations and Medals",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 544,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 545,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 546,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 547,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 548,
+        "text": "Create the full \"Decorations and Medals\" business process strictly according to the provided BPMN diagram.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 549,
+        "text": "Process name: decorations-and-medals  ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 550,
+        "text": "Firestore collection: processInstances  ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 551,
+        "text": "processType value: \"decorations-and-medals\"",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 552,
+        "text": "Roles involved:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 553,
+        "text": "- Head of O.U.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 554,
+        "text": "- Personnel Department (PD)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 555,
+        "text": "- Vice-Rector / Chancellor (PRK)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 556,
+        "text": "- Rector (RKR)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 557,
+        "text": "- Military Personnel Department (MPD)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 558,
+        "text": "Process flow (DO NOT CHANGE ORDER):",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 559,
+        "text": "1) Head of O.U. — Submit application for distinction",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 560,
+        "text": "   - Creates a new process instance",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 561,
+        "text": "   - Stores employee data, organizational unit, decoration type, justification",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 562,
+        "text": "   - Assigns task to Personnel Department (PD)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 563,
+        "text": "2) Personnel Department (PD) — Present applications for acceptance to PRK / Chancellor",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 564,
+        "text": "   - Task visible only to PD",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 565,
+        "text": "   - No decision taken here",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 566,
+        "text": "   - Forwards application to PRK",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 567,
+        "text": "3) PRK / Chancellor — Review applications and forward to PD",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 568,
+        "text": "   - PRK reviews the application",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 569,
+        "text": "   - Adds opinion / remarks",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 570,
+        "text": "   - Forwards reviewed application back to PD",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 571,
+        "text": "4) Personnel Department (PD) — Present reviewed applications to Rector",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 572,
+        "text": "   - PD forwards the reviewed application to Rector (RKR)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 573,
+        "text": "5) Rector (RKR) — Make decision",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 574,
+        "text": "   - Decision gateway: Application accepted? (XOR)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 575,
+        "text": "   - Decision stored in Firestore",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 576,
+        "text": "6) XOR Gateway — Application accepted?",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 577,
+        "text": "   - If NO:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 578,
+        "text": "       - Process ends immediately with status = Rejected",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 579,
+        "text": "   - If YES:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 580,
+        "text": "       - Forward accepted application to MPD",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 581,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 582,
+        "text": "7) Military Personnel Department (MPD) — Handle applications (external transfer)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 583,
+        "text": "   - MPD processes the accepted decoration externally",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 584,
+        "text": "   - Forwards result back to Personnel Department (PD)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 585,
+        "text": "8) Personnel Department (PD) — Receive decision on award",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 586,
+        "text": "   - PD receives the decision from MPD",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 587,
+        "text": "9) Personnel Department (PD) — Enter decoration into register",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 588,
+        "text": "   - Final registration of the decoration",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 589,
+        "text": "   - Process ends with status = Completed",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 590,
+        "text": "Technical requirements:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 591,
+        "text": "- Each step MUST have its own task UI",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 592,
+        "text": "- Each task MUST update:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 593,
+        "text": "    - currentTask",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 594,
+        "text": "    - currentAssigneeRole",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 595,
+        "text": "    - process variables",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 596,
+        "text": "- All routing MUST be role-based",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 597,
+        "text": "- Tasks MUST appear in the existing Tasks list",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 598,
+        "text": "- Task pages MUST be under:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 599,
+        "text": "    /flows/decorations-and-medals/task/[id]",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 600,
+        "text": "UI requirements:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 601,
+        "text": "- Show a Process Timeline component reflecting exactly the BPMN steps",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 602,
+        "text": "- Clearly mark the current step",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 603,
+        "text": "- Completed steps should be visually marked",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 604,
+        "text": "Do NOT simplify the process.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 605,
+        "text": "Do NOT merge steps.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 606,
+        "text": "Follow the BPMN diagram exactly.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 607,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 608,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 609,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 610,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 611,
+        "text": "20:10",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 612,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 613,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 614,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 615,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 616,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 617,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 618,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 619,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 620,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 621,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 622,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 623,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 624,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 625,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 626,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 627,
+        "text": "Prompt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 628,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 629,
+        "text": "Please help me solve the following errors",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 630,
+        "text": "[{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 631,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/api/flows/decorations-and-medals/task/[id]/complete/route.ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 632,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 633,
+        "text": "\"code\": \"2322\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 634,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 635,
+        "text": "\"message\": \"Type '\\\"Completed\\\" | \\\"Rejected\\\"' is not assignable to type '\\\"Pending\\\"'.\\n  Type '\\\"Completed\\\"' is not assignable to type '\\\"Pending\\\"'.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 636,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 637,
+        "text": "\"startLineNumber\": 47,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 638,
+        "text": "\"startColumn\": 7,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 639,
+        "text": "\"endLineNumber\": 47,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 640,
+        "text": "\"endColumn\": 20",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 641,
+        "text": "}] [{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 642,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/flows/decorations-and-medals/TaskApprovalForm.tsx\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 643,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 644,
+        "text": "\"code\": \"2322\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 645,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 646,
+        "text": "\"message\": \"Type '\\\"rejected\\\" | \\\"accepted\\\" | null' is not assignable to type '\\\"rejected\\\" | \\\"accepted\\\" | undefined'.\\n  Type 'null' is not assignable to type '\\\"rejected\\\" | \\\"accepted\\\" | undefined'.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 647,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 648,
+        "text": "\"startLineNumber\": 56,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 649,
+        "text": "\"startColumn\": 9,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 650,
+        "text": "\"endLineNumber\": 56,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 651,
+        "text": "\"endColumn\": 31",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 652,
+        "text": "}]",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 653,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 654,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 655,
+        "text": "20:25",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 656,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 657,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 658,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 659,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 660,
+        "text": "Now I have another problem: [{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 661,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/api/flows/decorations-and-medals/task/[id]/complete/route.ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 662,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 663,
+        "text": "\"code\": \"2345\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 664,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 665,
+        "text": "\"message\": \"Argument of type 'string | undefined' is not assignable to parameter of type '\\\"rejected\\\" | \\\"approved\\\" | null'.\\n  Type 'undefined' is not assignable to type '\\\"rejected\\\" | \\\"approved\\\" | null'.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 666,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 667,
+        "text": "\"startLineNumber\": 30,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 668,
+        "text": "\"startColumn\": 7,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 669,
+        "text": "\"endLineNumber\": 30,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 670,
+        "text": "\"endColumn\": 17",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 671,
+        "text": "}]",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 672,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 673,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 674,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 675,
+        "text": "20:30",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 676,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 677,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 678,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 679,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 680,
+        "text": "Give me all code I will change this manually, because i do not want your comment in code, wchich have given more erros",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 681,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 682,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 683,
+        "text": "20:33",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 684,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 685,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 686,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 687,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 688,
+        "text": "After completing the implementation of this process, reorganize ALL generated files so that:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 689,
+        "text": "1) Every file related to this process is placed ONLY inside ONE dedicated folder:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 690,
+        "text": "   /src/app/flows/<process-name>/",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 691,
+        "text": "   Where <process-name> is exactly:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 692,
+        "text": "   - leave-request",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 693,
+        "text": "   - change-of-employment",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 694,
+        "text": "   - decorations-and-medals",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 695,
+        "text": "2) Inside this folder, use the following REQUIRED structure:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 696,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 697,
+        "text": "   /src/app/flows/<process-name>/",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 698,
+        "text": "   ├── page.tsx                     // process start / submit form",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 699,
+        "text": "   ├── task/",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 700,
+        "text": "   │   └── [id]/",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 701,
+        "text": "   │       └── page.tsx             // task handling UI",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 702,
+        "text": "   ├── components/",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 703,
+        "text": "   │   ├── ProcessTimeline.tsx",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 704,
+        "text": "   │   └── (any other process-specific UI components)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 705,
+        "text": "   ├── actions.ts                   // process-specific Firestore logic",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 706,
+        "text": "   └── types.ts                     // process-specific types (if needed)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 707,
+        "text": "3) DO NOT place any process-related files outside this folder.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 708,
+        "text": "   - No files in /tasks",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 709,
+        "text": "   - No files in /lib (except shared utilities already existing)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 710,
+        "text": "   - No files in /components (unless explicitly shared across processes)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 711,
+        "text": "4) Update ALL imports inside the process files so that:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 712,
+        "text": "   - Relative imports correctly point to the new folder structure",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 713,
+        "text": "   - Shared imports (e.g. useAuth, firebase, UI components) remain unchanged",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 714,
+        "text": "5) DO NOT modify:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 715,
+        "text": "   - firebase.ts",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 716,
+        "text": "   - authentication logic",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 717,
+        "text": "   - existing shared components",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 718,
+        "text": "   - existing processes",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 719,
+        "text": "6) The process MUST remain fully functional after relocation.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 720,
+        "text": "   All routing, Firestore access, and UI navigation must continue to work.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 721,
+        "text": "7) At the end, OUTPUT:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 722,
+        "text": "   - The final folder tree for this process",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 723,
+        "text": "   - The FULL CONTENT of every file inside the process folder",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 724,
+        "text": "   - No partial snippets, no omissions",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 725,
+        "text": "This reorganization is MANDATORY and must be done before finishing.",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 726,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 727,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 728,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 729,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 730,
+        "text": "21:00",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 731,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 732,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 733,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 734,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 735,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 736,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 737,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 738,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 739,
+        "text": "Solve me this problem:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 740,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 741,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 742,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 743,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 744,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 745,
+        "text": "21:23",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 746,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 747,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 748,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 749,
+        "text": "Prompt: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 750,
+        "text": "„ ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 751,
+        "text": "Solve me these problems: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 752,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 753,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 754,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 755,
+        "text": "21:40",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 756,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 757,
+        "text": "I have closed packages which were deleted and solve some problems with Agent and this is my result: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 758,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 759,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 760,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 761,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 762,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 763,
+        "text": "Help me solve this problem, give me code and i put this manually",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 764,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 765,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 766,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 767,
+        "text": "21:50",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 768,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 769,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 770,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 771,
+        "text": "Prompt:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 772,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 773,
+        "text": "Now help me solve this problems:[{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 774,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/flows/decorations-and-medals/new/page.tsx\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 775,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 776,
+        "text": "\"code\": \"2307\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 777,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 778,
+        "text": "\"message\": \"Cannot find module './SubmitApplicationForm' or its corresponding type declarations.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 779,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 780,
+        "text": "\"startLineNumber\": 5,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 781,
+        "text": "\"startColumn\": 35,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 782,
+        "text": "\"endLineNumber\": 5,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 783,
+        "text": "\"endColumn\": 60",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 784,
+        "text": "}][{",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 785,
+        "text": "\"resource\": \"/[LOCAL_USER_REDACTED]/role-call-code/src/app/flows/decorations-and-medals/task/[id]/page.tsx\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 786,
+        "text": "\"owner\": \"typescript\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 787,
+        "text": "\"code\": \"2307\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 788,
+        "text": "\"severity\": 8,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 789,
+        "text": "\"message\": \"Cannot find module '../../components/TaskApprovalForm' or its corresponding type declarations.\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 790,
+        "text": "\"source\": \"ts\",",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 791,
+        "text": "\"startLineNumber\": 11,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 792,
+        "text": "\"startColumn\": 30,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 793,
+        "text": "\"endLineNumber\": 11,",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 794,
+        "text": "\"endColumn\": 65",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 795,
+        "text": "}]",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 796,
+        "text": "„",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 797,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 798,
+        "text": "22:05",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 799,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 800,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 801,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 802,
+        "text": "After these changes, the application is ready for testing",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 803,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 804,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 805,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 806,
+        "text": "",
+        "drawing_elements": 0
+      }
+    ]
+  }
+}

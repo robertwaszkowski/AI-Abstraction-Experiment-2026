@@ -1,0 +1,9 @@
+measure,scenario,excluded_teams,n_pairs,positive_differences,mean_difference_code_minus_model,median_difference_code_minus_model,matched_pairs_rank_biserial,exact_sign_flip_two_sided_p_exploratory
+source_observed_minutes,full_sample,None,7,7,248.2357142857143,209.55,1.0,0.015625
+source_observed_minutes,exclude_team_with_code_maximum,T02,6,6,220.36333333333334,166.59,1.0,0.03125
+source_observed_minutes,exclude_team_with_model_maximum,T07,6,6,273.17,303.07,1.0,0.03125
+source_observed_minutes,exclude_union_of_condition_maximum_teams,T02;T07,5,5,244.70999999999998,209.55,1.0,0.0625
+recorded_ai_requests,full_sample,None,7,7,22.857142857142858,13.0,1.0,0.015625
+recorded_ai_requests,exclude_team_with_code_maximum,T02,6,6,16.666666666666668,11.0,1.0,0.03125
+recorded_ai_requests,exclude_team_with_model_maximum,T01,6,6,25.833333333333332,21.0,1.0,0.03125
+recorded_ai_requests,exclude_union_of_condition_maximum_teams,T01;T02,5,5,19.0,13.0,1.0,0.0625

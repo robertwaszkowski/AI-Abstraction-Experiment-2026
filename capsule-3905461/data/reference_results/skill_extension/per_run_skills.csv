@@ -1,0 +1,211 @@
+﻿team,strategy,status,category,skill,skill_ids,users,evidence_ids
+T01,Code,observed use,taxonomy,Docker,SK199,human,A005
+T01,Code,observed use,taxonomy,IT Data Types,SK104,AI,A003
+T01,Code,observed use,taxonomy,TypeScript,SK154,AI,"A002, A007"
+T01,Code,observed use,gap,Application validation / diagnosis (boundary unresolved),GAP01,human,A004
+T01,Code,observed use,gap,Dependency/version integration (mapping unresolved),GAP03,AI,"A001, A008"
+T01,Code,supported requirement,taxonomy,+Lookup/Drop-down,SK032,AI,A196
+T01,Code,supported requirement,taxonomy,CLI,SK132,uncertain,A296
+T01,Code,supported requirement,taxonomy,Constraints,SK010,AI,A202
+T01,Code,supported requirement,taxonomy,Control Structures,SK046,AI,A187
+T01,Code,supported requirement,taxonomy,Custom Process Model,SK058,AI,A188
+T01,Code,supported requirement,taxonomy,Data Fields,SK115,AI,A195
+T01,Code,supported requirement,taxonomy,Data Source Integration,SK083,AI,A198
+T01,Code,supported requirement,taxonomy,Data Structure,SK011,AI,A190
+T01,Code,supported requirement,taxonomy,Entity Types,SK136,AI,A191
+T01,Code,supported requirement,taxonomy,Enumerations,SK137,AI,A192
+T01,Code,supported requirement,taxonomy,Expressions,SK131,AI,A186
+T01,Code,supported requirement,taxonomy,Functions,SK138,AI,A185
+T01,Code,supported requirement,taxonomy,HTML,SK103,AI,A194
+T01,Code,supported requirement,taxonomy,IT Data Types,SK133,AI,A189
+T01,Code,supported requirement,taxonomy,Iteration Statements,SK141,AI,A199
+T01,Code,supported requirement,taxonomy,JSON,SK145,AI,A201
+T01,Code,supported requirement,taxonomy,Query Functions,SK151,AI,A197
+T01,Code,supported requirement,taxonomy,Relational Database,SK070,"AI, uncertain","A006, A200"
+T01,Code,supported requirement,taxonomy,Variables,SK110,AI,A193
+T01,Model,observed use,taxonomy,+BPMN Process Model,SK056,AI,"A088, A089, A090"
+T01,Model,observed use,taxonomy,+Lookup/Drop-down,SK032,"human, AI","A091, A301"
+T01,Model,observed use,taxonomy,Data Fields,SK115,AI,"A081, A084, A087"
+T01,Model,observed use,taxonomy,Data Structure,SK011,AI,A302
+T01,Model,observed use,taxonomy,IT Data Types,SK104,AI,"A080, A083, A086"
+T01,Model,supported requirement,taxonomy,Control Structures,SK046,AI,A303
+T02,Code,observed use,taxonomy,+BPMN Process Model,SK001,AI,A009
+T02,Code,observed use,taxonomy,CLI,SK132,"human, AI","A010, A018"
+T02,Code,observed use,taxonomy,Docker,SK199,"human, AI","A012, A016, A017"
+T02,Code,observed use,taxonomy,Relational Database,SK070,AI,A013
+T02,Code,observed use,taxonomy,TypeScript,SK154,AI,A015
+T02,Code,observed use,taxonomy,XML,SK156,AI,A329
+T02,Code,observed use,gap,Application validation / diagnosis (boundary unresolved),GAP01,human,A019
+T02,Code,observed use,gap,Python application/helper programming (proposed taxonomy extension),GAP04,AI,"A011, A014"
+T02,Code,supported requirement,taxonomy,+Lookup/Drop-down,SK032,AI,A293
+T02,Code,supported requirement,taxonomy,Constraints,SK010,AI,A212
+T02,Code,supported requirement,taxonomy,Control Structures,SK046,AI,A205
+T02,Code,supported requirement,taxonomy,CSS/SCSS,SK100,AI,A221
+T02,Code,supported requirement,taxonomy,Custom Process Model,SK058,AI,A206
+T02,Code,supported requirement,taxonomy,Data Fields,SK115,AI,A219
+T02,Code,supported requirement,taxonomy,Data Source Integration,SK083,AI,A217
+T02,Code,supported requirement,taxonomy,Data Structure,SK011,AI,A210
+T02,Code,supported requirement,taxonomy,Entity Types,SK136,AI,A211
+T02,Code,supported requirement,taxonomy,Expressions,SK131,AI,A204
+T02,Code,supported requirement,taxonomy,Functions,SK138,AI,A203
+T02,Code,supported requirement,taxonomy,HTML,SK103,AI,A220
+T02,Code,supported requirement,taxonomy,IT Data Types,SK133,AI,A209
+T02,Code,supported requirement,taxonomy,Iteration Statements,SK141,AI,A216
+T02,Code,supported requirement,taxonomy,JSON,SK145,AI,A213
+T02,Code,supported requirement,taxonomy,Object Model,SK126,AI,A207
+T02,Code,supported requirement,taxonomy,Query Functions,SK151,AI,A215
+T02,Code,supported requirement,taxonomy,REST API,SK062,AI,A214
+T02,Code,supported requirement,taxonomy,Transactions,SK037,AI,A208
+T02,Code,supported requirement,taxonomy,URL Configuration,SK191,AI,A222
+T02,Code,supported requirement,taxonomy,Variables,SK110,AI,A218
+T02,Model,observed use,taxonomy,+BPMN Process Model,SK056,AI,"A102, A103, A104"
+T02,Model,observed use,taxonomy,+Lookup/Drop-down,SK032,"human, AI","A105, A305"
+T02,Model,observed use,taxonomy,Data Fields,SK115,AI,"A095, A098, A101"
+T02,Model,observed use,taxonomy,Data Structure,SK011,AI,A306
+T02,Model,observed use,taxonomy,IT Data Types,SK104,AI,"A094, A097, A100"
+T02,Model,supported requirement,taxonomy,Control Structures,SK046,AI,A307
+T03,Code,observed use,taxonomy,+BPMN Process Model,SK001,AI,A020
+T03,Code,observed use,taxonomy,CSS/SCSS,SK100,AI,A024
+T03,Code,observed use,taxonomy,HTML,SK103,AI,A023
+T03,Code,observed use,taxonomy,JavaScript,SK061,AI,A022
+T03,Code,observed use,taxonomy,node.js,SK149,AI,A027
+T03,Code,observed use,taxonomy,Relational Database,SK070,AI,A028
+T03,Code,observed use,gap,Application validation / diagnosis (boundary unresolved),GAP01,"human, AI","A025, A026, A029"
+T03,Code,observed use,gap,Python application/helper programming (proposed taxonomy extension),GAP04,AI,A021
+T03,Code,supported requirement,taxonomy,+Lookup/Drop-down,SK032,AI,A227
+T03,Code,supported requirement,taxonomy,CLI,SK132,uncertain,A297
+T03,Code,supported requirement,taxonomy,Constraints,SK010,AI,A235
+T03,Code,supported requirement,taxonomy,Control Structures,SK046,AI,A228
+T03,Code,supported requirement,taxonomy,Custom Process Model,SK058,AI,A223
+T03,Code,supported requirement,taxonomy,Data Fields,SK115,AI,A226
+T03,Code,supported requirement,taxonomy,Data Source Integration,SK083,AI,A239
+T03,Code,supported requirement,taxonomy,Data Structure,SK011,AI,A232
+T03,Code,supported requirement,taxonomy,Entity Types,SK136,AI,A234
+T03,Code,supported requirement,taxonomy,Expressions,SK131,AI,A224
+T03,Code,supported requirement,taxonomy,Formulas,SK049,AI,A231
+T03,Code,supported requirement,taxonomy,Functions,SK138,AI,A225
+T03,Code,supported requirement,taxonomy,IT Data Types,SK133,AI,A233
+T03,Code,supported requirement,taxonomy,Iteration Statements,SK141,AI,A229
+T03,Code,supported requirement,taxonomy,JSON,SK145,AI,A236
+T03,Code,supported requirement,taxonomy,Query Functions,SK151,AI,A238
+T03,Code,supported requirement,taxonomy,REST API,SK062,AI,A237
+T03,Code,supported requirement,taxonomy,Variables,SK110,AI,A230
+T03,Model,observed use,taxonomy,+BPMN Process Model,SK056,AI,"A116, A117, A118"
+T03,Model,observed use,taxonomy,+Lookup/Drop-down,SK032,AI,A309
+T03,Model,observed use,taxonomy,Data Fields,SK115,AI,"A109, A112, A115"
+T03,Model,observed use,taxonomy,Data Structure,SK011,AI,A310
+T03,Model,observed use,taxonomy,IT Data Types,SK104,AI,"A108, A111, A114"
+T03,Model,supported requirement,taxonomy,Control Structures,SK046,AI,A311
+T04,Code,observed use,taxonomy,Data Source Integration,SK083,"human, AI","A030, A179"
+T04,Code,observed use,taxonomy,Enumerations,SK137,AI,A182
+T04,Code,observed use,taxonomy,Functions,SK138,AI,A183
+T04,Code,observed use,taxonomy,IT Data Types,SK133,AI,A177
+T04,Code,observed use,taxonomy,REST API,SK062,AI,A181
+T04,Code,observed use,taxonomy,TypeScript,SK154,"human, AI","A036, A178"
+T04,Code,observed use,gap,Application validation / diagnosis (boundary unresolved),GAP01,human,A034
+T04,Code,observed use,gap,Dependency/version integration (mapping unresolved),GAP03,human,A035
+T04,Code,observed use,gap,Role/access binding and configuration (mapping unresolved),GAP02,"human, AI","A031, A180"
+T04,Code,supported requirement,taxonomy,+Lookup/Drop-down,SK032,uncertain,A249
+T04,Code,supported requirement,taxonomy,CLI,SK132,uncertain,A298
+T04,Code,supported requirement,taxonomy,Control Structures,SK046,uncertain,A242
+T04,Code,supported requirement,taxonomy,Custom Process Model,SK058,uncertain,A243
+T04,Code,supported requirement,taxonomy,Data Fields,SK115,uncertain,A248
+T04,Code,supported requirement,taxonomy,Data Structure,SK011,uncertain,A244
+T04,Code,supported requirement,taxonomy,Expressions,SK131,uncertain,A241
+T04,Code,supported requirement,taxonomy,Formulas,SK049,uncertain,A246
+T04,Code,supported requirement,taxonomy,Functions,SK138,uncertain,A240
+T04,Code,supported requirement,taxonomy,HTML,SK103,uncertain,A247
+T04,Code,supported requirement,taxonomy,Iteration Statements,SK141,uncertain,A251
+T04,Code,supported requirement,taxonomy,Query Functions,SK151,uncertain,A250
+T04,Code,supported requirement,taxonomy,TypeScript,SK154,uncertain,"A032, A059"
+T04,Code,supported requirement,taxonomy,Variables,SK110,uncertain,A245
+T04,Model,observed use,taxonomy,+BPMN Process Model,SK056,AI,"A130, A131, A132"
+T04,Model,observed use,taxonomy,+Lookup/Drop-down,SK032,"human, AI","A133, A313"
+T04,Model,observed use,taxonomy,Data Fields,SK115,AI,"A123, A126, A129"
+T04,Model,observed use,taxonomy,Data Structure,SK011,AI,A314
+T04,Model,observed use,taxonomy,IT Data Types,SK104,AI,"A122, A125, A128"
+T04,Model,supported requirement,taxonomy,Control Structures,SK046,AI,A315
+T05,Code,observed use,taxonomy,CLI,SK132,"human, AI","A042, A300"
+T05,Code,observed use,taxonomy,Relational Database,SK070,AI,A040
+T05,Code,observed use,taxonomy,SQL,SK073,AI,A039
+T05,Code,observed use,gap,Application validation / diagnosis (boundary unresolved),GAP01,"human, AI","A038, A045"
+T05,Code,observed use,gap,Python application/helper programming (proposed taxonomy extension),GAP04,AI,"A037, A041, A043, A044"
+T05,Code,supported requirement,taxonomy,+Lookup/Drop-down,SK032,AI,A266
+T05,Code,supported requirement,taxonomy,Constraints,SK010,AI,A258
+T05,Code,supported requirement,taxonomy,Control Structures,SK046,AI,A254
+T05,Code,supported requirement,taxonomy,CSS/SCSS,SK100,AI,A261
+T05,Code,supported requirement,taxonomy,Custom Process Model,SK058,AI,A255
+T05,Code,supported requirement,taxonomy,Data Fields,SK115,AI,A265
+T05,Code,supported requirement,taxonomy,Data Source Integration,SK083,AI,A260
+T05,Code,supported requirement,taxonomy,Data Structure,SK011,AI,A257
+T05,Code,supported requirement,taxonomy,Expressions,SK131,AI,A253
+T05,Code,supported requirement,taxonomy,Formulas,SK049,AI,A267
+T05,Code,supported requirement,taxonomy,Functions,SK138,AI,A252
+T05,Code,supported requirement,taxonomy,HTML,SK103,AI,A262
+T05,Code,supported requirement,taxonomy,IT Data Types,SK133,AI,A256
+T05,Code,supported requirement,taxonomy,Iteration Statements,SK141,AI,A264
+T05,Code,supported requirement,taxonomy,Query Functions,SK151,AI,A259
+T05,Code,supported requirement,taxonomy,Variables,SK110,AI,A263
+T05,Model,observed use,taxonomy,+BPMN Process Model,SK056,AI,"A144, A145, A146"
+T05,Model,observed use,taxonomy,+Lookup/Drop-down,SK032,"human, AI","A147, A317"
+T05,Model,observed use,taxonomy,Data Fields,SK115,AI,"A137, A140, A143"
+T05,Model,observed use,taxonomy,Data Structure,SK011,AI,A318
+T05,Model,observed use,taxonomy,IT Data Types,SK104,AI,"A136, A139, A142"
+T05,Model,supported requirement,taxonomy,Control Structures,SK046,AI,A319
+T06,Code,observed use,taxonomy,CSS/SCSS,SK100,AI,"A049, A050"
+T06,Code,observed use,taxonomy,HTML,SK103,AI,A058
+T06,Code,observed use,taxonomy,JavaScript,SK144,AI,A054
+T06,Code,observed use,taxonomy,JSON,SK145,AI,A056
+T06,Code,observed use,taxonomy,node.js,SK149,AI,A057
+T06,Code,observed use,taxonomy,Relational Database,SK070,AI,A047
+T06,Code,observed use,taxonomy,REST API,SK087,AI,A048
+T06,Code,observed use,taxonomy,SQL,SK073,AI,A055
+T06,Code,observed use,gap,Application validation / diagnosis (boundary unresolved),GAP01,"human, AI","A051, A052"
+T06,Code,supported requirement,taxonomy,+Lookup/Drop-down,SK032,AI,A279
+T06,Code,supported requirement,taxonomy,Constraints,SK010,AI,A277
+T06,Code,supported requirement,taxonomy,Control Structures,SK046,AI,A271
+T06,Code,supported requirement,taxonomy,Custom Process Model,SK058,AI,A273
+T06,Code,supported requirement,taxonomy,Data Fields,SK115,AI,A278
+T06,Code,supported requirement,taxonomy,Data Source Integration,SK083,AI,A275
+T06,Code,supported requirement,taxonomy,Data Structure,SK011,AI,A276
+T06,Code,supported requirement,taxonomy,Expressions,SK131,AI,A269
+T06,Code,supported requirement,taxonomy,Formulas,SK049,AI,A295
+T06,Code,supported requirement,taxonomy,Functions,SK138,AI,A268
+T06,Code,supported requirement,taxonomy,IT Data Types,SK133,AI,A270
+T06,Code,supported requirement,taxonomy,Iteration Statements,SK141,AI,A272
+T06,Code,supported requirement,taxonomy,Query Functions,SK151,AI,A274
+T06,Code,supported requirement,taxonomy,Variables,SK055,AI,A280
+T06,Model,observed use,taxonomy,+BPMN Process Model,SK056,AI,"A158, A159, A160"
+T06,Model,observed use,taxonomy,+Lookup/Drop-down,SK032,"human, AI","A161, A321"
+T06,Model,observed use,taxonomy,Data Fields,SK115,AI,"A151, A154, A157"
+T06,Model,observed use,taxonomy,Data Structure,SK011,AI,A322
+T06,Model,observed use,taxonomy,IT Data Types,SK104,AI,"A150, A153, A156"
+T06,Model,supported requirement,taxonomy,Control Structures,SK046,AI,A323
+T07,Code,observed use,taxonomy,CLI,SK132,human,A071
+T07,Code,observed use,taxonomy,CSS/SCSS,SK100,AI,A066
+T07,Code,observed use,taxonomy,HTML,SK103,AI,"A063, A067"
+T07,Code,observed use,taxonomy,JavaScript,"SK061, SK105, SK144",AI,"A060, A064, A069"
+T07,Code,observed use,taxonomy,JSON,SK145,AI,A061
+T07,Code,observed use,taxonomy,node.js,SK149,AI,A062
+T07,Code,observed use,gap,Application validation / diagnosis (boundary unresolved),GAP01,"human, AI, joint","A065, A070, A075, A076"
+T07,Code,observed use,gap,Role/access binding and configuration (mapping unresolved),GAP02,AI,A078
+T07,Code,supported requirement,taxonomy,+Lookup/Drop-down,SK032,AI,A294
+T07,Code,supported requirement,taxonomy,CLI,SK132,uncertain,A299
+T07,Code,supported requirement,taxonomy,Control Structures,SK046,AI,A283
+T07,Code,supported requirement,taxonomy,Custom Process Model,SK058,AI,A284
+T07,Code,supported requirement,taxonomy,Data Fields,SK115,AI,A291
+T07,Code,supported requirement,taxonomy,Data Structure,SK011,AI,A287
+T07,Code,supported requirement,taxonomy,Expressions,SK131,AI,A282
+T07,Code,supported requirement,taxonomy,File Storage,SK163,AI,A288
+T07,Code,supported requirement,taxonomy,Formulas,SK049,AI,A285
+T07,Code,supported requirement,taxonomy,Functions,SK138,AI,A281
+T07,Code,supported requirement,taxonomy,IT Data Types,SK133,AI,A290
+T07,Code,supported requirement,taxonomy,Iteration Statements,SK141,AI,A292
+T07,Code,supported requirement,taxonomy,REST API,SK087,AI,A289
+T07,Code,supported requirement,taxonomy,Variables,SK055,AI,A286
+T07,Model,observed use,taxonomy,+BPMN Process Model,SK056,AI,"A172, A173, A174"
+T07,Model,observed use,taxonomy,+Lookup/Drop-down,SK032,"human, AI","A175, A325"
+T07,Model,observed use,taxonomy,Data Fields,SK115,AI,"A165, A168, A171"
+T07,Model,observed use,taxonomy,Data Structure,SK011,AI,A326
+T07,Model,observed use,taxonomy,IT Data Types,SK104,AI,"A164, A167, A170"
+T07,Model,supported requirement,taxonomy,Control Structures,SK046,AI,A327

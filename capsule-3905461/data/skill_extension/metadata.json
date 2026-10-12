@@ -1,0 +1,18 @@
+{
+  "protocol_version": "0.5 artifact-facet correction",
+  "teams": 7,
+  "conditions": 14,
+  "annotation_rows": 329,
+  "analysis_purpose": "Describe skills involved and user allocation in these 14 runs; AI is classified as an application-creating user under the same taxonomy as humans.",
+  "independent_coding": false,
+  "complete_repertoires": false,
+  "human_necessity_established": false,
+  "source_coding": "explicit source mappings; same-coder log, image and implementation-facet review",
+  "statuses": {
+    "observed use": 163,
+    "supported requirement": 125,
+    "excluded": 41
+  },
+  "taxonomy_weight_use": "none",
+  "media_entries_reviewed": 20
+}

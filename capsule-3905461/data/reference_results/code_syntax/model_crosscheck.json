@@ -1,0 +1,121 @@
+[
+  {
+    "team_id": "T01",
+    "bpmn_parsed": 3,
+    "json_parsed": 6,
+    "bpmn_structure_and_same_stem_matches": 3,
+    "inputs_sha256": {
+      "Change of Employment Conditions Process.bpmn": "3f787f9688d42e8febf3273fb346fd3d819313eb755f7102ac4798fe5b55af85",
+      "Decorations and Medals Process.bpmn": "ebd4f89035b0e1de20b7d0d06569faacad2b65c326abed3b280cb3b14c07ba07",
+      "Leave Request Process.bpmn": "b23628268cc5ffab1634b7adfe48492549877fdb2e0f7eb4a8b2360ae4406d64",
+      "Change of Employment Conditions Process.json": "0dda5b2e9870aecd3ca54db1f646a9ace9bca903db27c2dd3ee713ffdacb5dca",
+      "Change of Employment Conditions.json": "71f2372a8b648e1c66b105adb445172dfd4fa9e776e1b744d4e9a9e7b316e793",
+      "Decorations and Medals Process.json": "44ab33f0f2ecf45b4dd8436cde37379630dc54380431711fde7585a59f351760",
+      "Decorations and Medals Registration.json": "38dcda1805a5720a0117097c1da5b67660b6007eda9dd1287a676eb91efc3ec6",
+      "Leave Request Process.json": "72ed56b7b8fb0e2c5287f1571419ecefbc443355d49fddd940b8cbc985e6290a",
+      "Leave Request.json": "1b133125a49305699684ef963df48eed9a7ae0cd0e3be8c8c32af5719a29d2b7"
+    }
+  },
+  {
+    "team_id": "T02",
+    "bpmn_parsed": 3,
+    "json_parsed": 6,
+    "bpmn_structure_and_same_stem_matches": 3,
+    "inputs_sha256": {
+      "Change of Employment Conditions.bpmn": "ba91f29bca7e6ee5a0dde6f79957fb4264a429616de000e3a4bc242b7303e2da",
+      "Decorations and Medals Process.bpmn": "d714a351d6b3efbbf52640220cc3e0187573b21b5f2d88400a9357d9b5847665",
+      "Leave Request Process Diagram.bpmn": "fba1132725fb445865a0e064007d32a0c0a6bb70f3b3b960206b9be682d9cf6a",
+      "Change of Employment Conditions Diagram.json": "6b3bbfb9a32e557d809a7e84678d719240f014dfbee28a0ad2de776ee5167d3d",
+      "Change of Employment Conditions.json": "850eb034e4da632cb910cfe42023727377644f2f7c5084acfdebff7e1968efef",
+      "Decorations and Medals Application.json": "040f8dc89819155b44fb7f7b1eacb749d6da2361cd1f9e0da7fd3f1652bc696a",
+      "Decorations and Medals Process.json": "a9855e6ed3aaea72ba7961d777f4509afd2d4d6b53db96e54e47b20ecf8ece0b",
+      "Leave Request Process Diagram.json": "3bd96e499348f5abdb90ca7f0647f21c8a68d357532ec0ade7aeeb8ff8336315",
+      "Leave Request Process Form.json": "e35e91743993b6c60e0010339a423a6c34a901d0b342c3ea2ced8cbab7a44d4e"
+    }
+  },
+  {
+    "team_id": "T03",
+    "bpmn_parsed": 3,
+    "json_parsed": 6,
+    "bpmn_structure_and_same_stem_matches": 3,
+    "inputs_sha256": {
+      "Change of Employment Conditions Diagram.bpmn": "b7b8ed6d504e39cc6a1e5cad01948849179fa3fba52fe32c7759c174fa5d27bd",
+      "Decorations and Medals Process Diagram.bpmn": "07c609c9e7688d14148206d22aa210ab2c1510e543d05133720735d4f3018f8b",
+      "Leave Request Process Diagram.bpmn": "6664d3ef096ebd523b5d56d18c8a4c971394419f5f1a1e10eb5bc5d4c3e121d1",
+      "Academic Teacher Leave Request.json": "2951a23f99fb2ef2fb0dac951910e13f8a523f678cf741258115902d6a9d81ae",
+      "Change of Employment Conditions Diagram.json": "7c3b21629643b3d34fd71b8dd32d2b16071b983e2cbb009568dee1af4e2982bf",
+      "Change of Employment Conditions Form.json": "d63bb637f50125eb6758abf4760d4a0d59c479c7f5ce978e3572341ca94e293b",
+      "Decorations and Medals Process Diagram.json": "76abf07555b06e8f72708bc213580f13eed6ed97729424c8c15e36bc54d6772f",
+      "Decorations and Medals Request.json": "9d5d5fbcb0cb9270cd4f267d65a17032c988cc7126ab4d4a08188d802c105c2d",
+      "Leave Request Process Diagram.json": "377dadd80f10fd66182f40c93d352636c8699d4ed386dd509485988cf7f03f44"
+    }
+  },
+  {
+    "team_id": "T04",
+    "bpmn_parsed": 3,
+    "json_parsed": 6,
+    "bpmn_structure_and_same_stem_matches": 3,
+    "inputs_sha256": {
+      "Change of Employment Conditions Diagram.bpmn": "01bff181bdddc4f988872b6621909f0b3cd4d97a3bf92702e6292c4587159208",
+      "Decorations and Medals Process Diagram.bpmn": "13fd7499580cdd2dad0046abd3225378669bad3136250b590612c8b5dd04b2f4",
+      "Leave Request Process Diagram.bpmn": "1d21dcc43c9a463d7d10b9d7420e35e554adfe7cdca69abf3211dc89c9e1b192",
+      "Change of Employment Conditions Diagram.json": "b45762009d2dccb82bfd556e29a447e77fbf3b26896a32ec2eb4343a85f30908",
+      "Change of Employment Conditions Form.json": "321b5910600f6e65a4e54460551416efd8928d07077ac77781889a2c0d4de4ca",
+      "Decorations and Medals Application Form.json": "2708251f8fd4629a78b6acd2645dde84b0af213ea6b3f327ca4f884a72957bdf",
+      "Decorations and Medals Process Diagram.json": "b28a6633c989a192ae9139b6014815316b33bc99969dc42fdcc316ab4dca333d",
+      "Employee Leave Request Form.json": "6f3b5d3cacd2976c703adc07370bbad7cf648f1b9899917da83c17444d76d105",
+      "Leave Request Process Diagram.json": "671c46ec1fd7a54a58fa4ad38ec66471dcf3dc2f1d376a186281f07cdcbc7243"
+    }
+  },
+  {
+    "team_id": "T05",
+    "bpmn_parsed": 3,
+    "json_parsed": 6,
+    "bpmn_structure_and_same_stem_matches": 3,
+    "inputs_sha256": {
+      "Change of Employment Conditions Diagram.bpmn": "2e0b66efeae16be02930d9de3562d49bbfb2b0626b83a84dfc4333c31a1b5ab2",
+      "Decorations and Medals Process Diagram.bpmn": "5cb21a87bb7e12dcf35d73f67d9248d165ad62050019833b05564d9cc449397d",
+      "Leave Request Process Diagram.bpmn": "9bb578a4544cc963a62e27c0dd53a95777c014eeeb1f3be22bf91ed1a90a61e9",
+      "Change of Employment Conditions Diagram.json": "96fabba5795ecd914423437e09614ace301367c6fa3d695dd94dfa9c8a3b64f9",
+      "Change of Employment Conditions Form.json": "c10a500ecc22ce30fa5cad01b4de6aa2a048408e47bee17d816359eec90bc221",
+      "Decorations and Medals Process Diagram.json": "9d6395a40a9838265cec340d8bcf82cf65fc91bfa75fe4a4b1ea9b55ab7026f8",
+      "Decorations and Medals Process Form.json": "1abfe58f7516da5c189493fab5d4711883430c44bb3e3102aa1cd9e75b1986c0",
+      "Leave Request Process Diagram.json": "ebe1d83d92586656344868a1e68b1c9b8728b47925ccbc6230a2a109f1351f47",
+      "Leave Request Process Form.json": "557bf793ccb29c0eec2c3ea5b1659ba13faed219729aa8511add04a84c67f68d"
+    }
+  },
+  {
+    "team_id": "T06",
+    "bpmn_parsed": 3,
+    "json_parsed": 6,
+    "bpmn_structure_and_same_stem_matches": 3,
+    "inputs_sha256": {
+      "Change of Employment Conditions Diagram.bpmn": "3954067314723551c79711e9fec952503a98af67739bc254c65c66ba4b87d8ea",
+      "Decorations and Medals Diagram.bpmn": "a1677d15d0784d85fd3b9d991fd9ce73ccff5fe547ca93d7d8cf69b96c59e45a",
+      "Leave Request Diagram.bpmn": "ca462fab198c03eea07d1812475697d75d79f71036ef4d7c7f8002aaa7e294b1",
+      "Change of Employment Conditions Diagram.json": "29eeda42a5e5fe92f84d643fb6b1743b27e95ad28d5b72ba01840ff9b594520e",
+      "Change of Employment Conditions Form.json": "76369fef7a024c7947ee3bf41dd3826ed693e0e8004aaf44bc56fbfb86cfeb74",
+      "Decorations and Medals Application Form.json": "2708251f8fd4629a78b6acd2645dde84b0af213ea6b3f327ca4f884a72957bdf",
+      "Decorations and Medals Diagram.json": "bba894cafeabc2120055a3aafe31d14a959223e03bfd0a8a7bde88be68736e46",
+      "Leave Request Diagram.json": "3d57ca36a6e4277c69f16b8c71eedfd4e28814e3826f3257e14838328c6383d6",
+      "Leave Request Process Form.json": "c3b8eb57374715bc1cb027e47d367c245d40916772b838499beba4c1fa61e720"
+    }
+  },
+  {
+    "team_id": "T07",
+    "bpmn_parsed": 3,
+    "json_parsed": 6,
+    "bpmn_structure_and_same_stem_matches": 3,
+    "inputs_sha256": {
+      "Change of Employment Conditions Process.bpmn": "3ff6714213aab20b0d1be5232d8b1a1e5e193fd61ef29e9cf2de46a7ac9e5080",
+      "Decorations and Medals Process.bpmn": "6a376b7250cf6a775698403110927b10a4d97433b4f5b892993ce3a3283d6100",
+      "Leave Request Process.bpmn": "dc35b171284b310d39c12411a77fa154e87b0f00f43449068c9cc3de9faf78f7",
+      "Change of Employment Conditions Process.json": "0988f7d6e95d683efd1304e973a8fc003e8b7d81e87965b246340a1c6321bf96",
+      "Change of Employment Conditions.json": "1115767fc5a9564a6462f2da0e708b9da896afe587a68b408cad5809c0e16128",
+      "Decorations and Medals Process.json": "ddc65a4276be1a46de46e1d095e746e004bc5d8c1bcfb18dcbc9d5dc0c76d8a2",
+      "Decorations and Medals Registration.json": "2973ddd0ebc654f4f43c35cdfff14b1aa2d9b75cb7a243411f0b801b0be97907",
+      "Leave Request Process.json": "58436c722e0ff1e455e891e32f7b22f52cc3a51bcff196bdadb9435dc3cdfbd4",
+      "Leave Request.json": "7fc994460e538e292d16c71630fb885220727311843a9023fe2e933f6d170807"
+    }
+  }
+]

@@ -1,0 +1,827 @@
+{
+  "team": "T04",
+  "approach": "Code",
+  "source_filename": "team05-prompting-logs-results.docx",
+  "source_format": ".docx",
+  "source_sha256": "722898243ceb92c359232e5c512d0e80bedfaf4b6fe0a8ff5318edf1f469c299",
+  "embedded_media_files_omitted": 121,
+  "content": {
+    "paragraphs": [
+      {
+        "paragraph_index": 0,
+        "text": "Tests:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 1,
+        "text": "if there is no change in login, the task is still performed by the same person",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 2,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 3,
+        "text": "Leave Requests:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 4,
+        "text": "Step1:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 5,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 6,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 7,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 8,
+        "text": "Step2:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 9,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 10,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 11,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 12,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 13,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 14,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 15,
+        "text": "Step3:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 16,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 17,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 18,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 19,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 20,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 21,
+        "text": "Step4:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 22,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 23,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 24,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 25,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 26,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 27,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 28,
+        "text": "Step5: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 29,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 30,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 31,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 32,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 33,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 34,
+        "text": "Step6:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 35,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 36,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 37,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 38,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 39,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 40,
+        "text": "Step7:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 41,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 42,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 43,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 44,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 45,
+        "text": "After complete:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 46,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 47,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 48,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 49,
+        "text": "From database: ",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 50,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 51,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 52,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 53,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 54,
+        "text": "Decorations and Medals:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 55,
+        "text": "Step1:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 56,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 57,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 58,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 59,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 60,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 61,
+        "text": "Step2:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 62,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 63,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 64,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 65,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 66,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 67,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 68,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 69,
+        "text": "Step3:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 70,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 71,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 72,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 73,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 74,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 75,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 76,
+        "text": "Step4:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 77,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 78,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 79,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 80,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 81,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 82,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 83,
+        "text": "Step5:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 84,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 85,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 86,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 87,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 88,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 89,
+        "text": "Step6:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 90,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 91,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 92,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 93,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 94,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 95,
+        "text": "Step7:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 96,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 97,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 98,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 99,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 100,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 101,
+        "text": "Step8:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 102,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 103,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 104,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 105,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 106,
+        "text": "After complete task:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 107,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 108,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 109,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 110,
+        "text": "From database:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 111,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 112,
+        "text": "",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 113,
+        "text": "Change of Employment:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 114,
+        "text": "Step1:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 115,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 116,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 117,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 118,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 119,
+        "text": "Step2:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 120,
+        "text": "After submitted:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 121,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 122,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 123,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 124,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 125,
+        "text": "Step3:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 126,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 127,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 128,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 129,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 130,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 131,
+        "text": "Step4:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 132,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 133,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 134,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 135,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 136,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 137,
+        "text": "Step5:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 138,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 139,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 140,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 141,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 142,
+        "text": "Step6:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 143,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 144,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 145,
+        "text": " ",
+        "drawing_elements": 2
+      },
+      {
+        "paragraph_index": 146,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 147,
+        "text": "Step7:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 148,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 149,
+        "text": " ",
+        "drawing_elements": 2
+      },
+      {
+        "paragraph_index": 150,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 151,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 152,
+        "text": "Step8:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 153,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 154,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 155,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 156,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 157,
+        "text": "After complete: (Step9)",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 158,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 159,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 160,
+        "text": "",
+        "drawing_elements": 1
+      },
+      {
+        "paragraph_index": 161,
+        "text": "From Database:",
+        "drawing_elements": 0
+      },
+      {
+        "paragraph_index": 162,
+        "text": "",
+        "drawing_elements": 1
+      }
+    ]
+  }
+}

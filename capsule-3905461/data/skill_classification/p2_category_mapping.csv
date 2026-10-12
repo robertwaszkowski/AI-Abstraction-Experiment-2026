@@ -1,0 +1,210 @@
+﻿Skill_ID,source_label,category
+SK001,+BPMN Process Model,domain
+SK002,Custom Process Model,IT
+SK003,+Business Data Types,domain
+SK004,+Form-based Data,domain
+SK005,+Item-Detail,domain
+SK006,+Lookup/Drop-down,domain
+SK007,+Predefined Entities,domain
+SK008,Domain Model,IT
+SK009,Conditional Expressions,IT
+SK010,Constraints,IT
+SK011,Data Structure,IT
+SK012,IT Data Types,IT
+SK013,Denormalization,IT
+SK014,Entity Diagrams,IT
+SK015,Enumerations,IT
+SK016,Expressions,IT
+SK017,Relational Database,IT
+SK018,XML/XPath,IT
+SK019,+App templates,domain
+SK020,+Business Data Types,domain
+SK021,+Screen Templates,domain
+SK022,+UI Branding,domain
+SK023,+View Types,domain
+SK024,Expressions,IT
+SK025,IT Data Types,IT
+SK026,Functions,IT
+SK027,Model-driven Apps,IT
+SK028,Reactive Web App,IT
+SK029,Responsive Web Design,IT
+SK030,Variables,IT
+SK031,+Business Rules,domain
+SK032,+Lookup/Drop-down,domain
+SK033,Expressions,IT
+SK034,Enumerations,IT
+SK035,JavaScript,IT
+SK036,Scripts,IT
+SK037,Transactions,IT
+SK038,+Actions,domain
+SK039,+Graphical actions,domain
+SK040,+NLP,domain
+SK041,+Custom Language,domain
+SK042,+Predefined Tasks,domain
+SK043,UML,IT
+SK044,Algorithms,IT
+SK045,Expressions,IT
+SK046,Control Structures,IT
+SK047,IT Data Types,IT
+SK048,Events,IT
+SK049,Formulas,IT
+SK050,Functions,IT
+SK051,Java,IT
+SK052,JavaScript,IT
+SK053,Microservices,IT
+SK054,SQL,IT
+SK055,Variables,IT
+SK056,+BPMN Process Model,domain
+SK057,Expressions,IT
+SK058,Custom Process Model,IT
+SK059,Events,IT
+SK060,Java API,IT
+SK061,JavaScript,IT
+SK062,REST API,IT
+SK063,Triggers,IT
+SK064,+Business Data Types,domain
+SK065,+Custom Database Model,domain
+SK066,+References,domain
+SK067,+Slices,domain
+SK068,Actions,IT
+SK069,Expressions,IT
+SK070,Relational Database,IT
+SK071,Entity Diagrams,IT
+SK072,Functions,IT
+SK073,SQL,IT
+SK074,IT Data Types,IT
+SK075,Web API,IT
+SK076,.NET,IT
+SK077,+Cloud-based Spreadsheets,domain
+SK078,+GUI Queries,domain
+SK079,+Human Language,domain
+SK080,+Integrated Data Sources,domain
+SK081,Cloud Services,IT
+SK082,Custom Query Language,IT
+SK083,Data Source Integration,IT
+SK084,Formulas,IT
+SK085,Local Storage,IT
+SK086,OAuth,IT
+SK087,REST API,IT
+SK088,SDK,IT
+SK089,SQL,IT
+SK090,URL,IT
+SK091,Web API,IT
+SK092,+AI Support,domain
+SK093,+Business Data Types,domain
+SK094,+Conditional Formatting,domain
+SK095,+GUI Style Editor,domain
+SK096,+Templatized Formulas,domain
+SK097,+UI Branding,domain
+SK098,+View Types,domain
+SK099,+WYSIWYG,domain
+SK100,CSS/SCSS,IT
+SK101,Event Propagation,IT
+SK102,Responsive Web Design,IT
+SK103,HTML,IT
+SK104,IT Data Types,IT
+SK105,JavaScript,IT
+SK106,Master Detail,IT
+SK107,Programming Functions,IT
+SK108,Scripts,IT
+SK109,Snippets,IT
+SK110,Variables,IT
+SK111,XML,IT
+SK112,+Business Rules,domain
+SK113,+Column Expressions,IT
+SK114,Expressions,IT
+SK115,Data Fields,IT
+SK116,Domain Model,IT
+SK117,Scripts,IT
+SK118,+AI Assisted Development,domain
+SK119,+Automations,domain
+SK120,+Built-in Connectors,domain
+SK121,API,IT
+SK122,Expressions,IT
+SK123,Functions,IT
+SK124,Java,IT
+SK125,JavaScript,IT
+SK126,Object Model,IT
+SK127,Scripts,IT
+SK128,SOAP,IT
+SK129,.NET,IT
+SK130,+Visual Programming,domain
+SK131,Expressions,IT
+SK132,CLI,IT
+SK133,IT Data Types,IT
+SK134,Eclipse,IT
+SK135,Emulators,IT
+SK136,Entity Types,IT
+SK137,Enumerations,IT
+SK138,Functions,IT
+SK139,HTML,IT
+SK140,SDK/IDE,IT
+SK141,Iteration Statements,IT
+SK142,Java,IT
+SK143,Java API,IT
+SK144,JavaScript,IT
+SK145,JSON,IT
+SK146,Markup Language,IT
+SK147,Metadata,IT
+SK148,Native Mobile App,IT
+SK149,node.js,IT
+SK150,PWA,IT
+SK151,Query Functions,IT
+SK152,Scripts,IT
+SK153,Snippets,IT
+SK154,TypeScript,IT
+SK155,Web API,IT
+SK156,XML,IT
+SK157,+Cloud Based Environment,domain
+SK158,API,IT
+SK159,Compiler Service,IT
+SK160,Database Synchronization,IT
+SK161,Deployment Controller Service,IT
+SK162,Email Server (SMTP),IT
+SK163,File Storage,IT
+SK164,HTTPS Server,IT
+SK165,Java,IT
+SK166,Load Balancing,IT
+SK167,Log Service,IT
+SK168,Mobile App,IT
+SK169,OQL,IT
+SK170,Proxy server,IT
+SK171,Relational Database,IT
+SK172,REST API,IT
+SK173,SAML Authentication,IT
+SK174,Scheduler Service,IT
+SK175,Shared Libraries,IT
+SK176,SOAP,IT
+SK177,SSL Certificates,IT
+SK178,Swagger,IT
+SK179,WSDL,IT
+SK180,XML/XPath,IT
+SK181,+Embedded Database,domain
+SK182,File Storage,IT
+SK183,Relational Database,IT
+SK184,REST API,IT
+SK185,.NET Framework,IT
+SK186,+Mobile App,domain
+SK187,+Web Browser,domain
+SK188,API,IT
+SK189,Binaries,IT
+SK190,HTTPS Server,IT
+SK191,URL Configuration,IT
+SK192,Web Services,IT
+SK193,+App Gallery,domain
+SK194,+Software as a Service,domain
+SK195,Application IDE,IT
+SK196,CI/CD,IT
+SK197,Cloud Computing,IT
+SK198,Cloud Services,IT
+SK199,Docker,IT
+SK200,Import/Export,IT
+SK201,Kubernetes,IT
+SK202,On-Premise,IT
+SK203,On-premises Data Gateway,IT
+SK204,REST API,IT
+SK205,Scripts,IT
+SK206,SOAP,IT
+SK207,Code Repository Concept,IT
+SK208,Custom Version Control,IT
+SK209,Git,IT

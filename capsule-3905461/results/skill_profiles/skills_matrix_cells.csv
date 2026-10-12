@@ -1,0 +1,519 @@
+﻿row_label,category,contextual_skill_ids,team,strategy,symbol,state,actors,evidence_ids
++BPMN Process Model,taxonomy,"SK001, SK056",T01,Code,?,not established / unknown,,
++BPMN Process Model,taxonomy,"SK001, SK056",T01,Model,O:A,observed and/or implementation-supported,AI,A088;A089;A090
++BPMN Process Model,taxonomy,"SK001, SK056",T02,Code,O:A,observed and/or implementation-supported,AI,A009
++BPMN Process Model,taxonomy,"SK001, SK056",T02,Model,O:A,observed and/or implementation-supported,AI,A102;A103;A104
++BPMN Process Model,taxonomy,"SK001, SK056",T03,Code,O:A,observed and/or implementation-supported,AI,A020
++BPMN Process Model,taxonomy,"SK001, SK056",T03,Model,O:A,observed and/or implementation-supported,AI,A116;A117;A118
++BPMN Process Model,taxonomy,"SK001, SK056",T04,Code,?,not established / unknown,,
++BPMN Process Model,taxonomy,"SK001, SK056",T04,Model,O:A,observed and/or implementation-supported,AI,A130;A131;A132
++BPMN Process Model,taxonomy,"SK001, SK056",T05,Code,?,not established / unknown,,
++BPMN Process Model,taxonomy,"SK001, SK056",T05,Model,O:A,observed and/or implementation-supported,AI,A144;A145;A146
++BPMN Process Model,taxonomy,"SK001, SK056",T06,Code,?,not established / unknown,,
++BPMN Process Model,taxonomy,"SK001, SK056",T06,Model,O:A,observed and/or implementation-supported,AI,A158;A159;A160
++BPMN Process Model,taxonomy,"SK001, SK056",T07,Code,?,not established / unknown,,
++BPMN Process Model,taxonomy,"SK001, SK056",T07,Model,O:A,observed and/or implementation-supported,AI,A172;A173;A174
++Lookup/Drop-down,taxonomy,SK032,T01,Code,R:A,observed and/or implementation-supported,AI,A196
++Lookup/Drop-down,taxonomy,SK032,T01,Model,O:HA,observed and/or implementation-supported,human;AI,A091;A301
++Lookup/Drop-down,taxonomy,SK032,T02,Code,R:A,observed and/or implementation-supported,AI,A293
++Lookup/Drop-down,taxonomy,SK032,T02,Model,O:HA,observed and/or implementation-supported,human;AI,A105;A305
++Lookup/Drop-down,taxonomy,SK032,T03,Code,R:A,observed and/or implementation-supported,AI,A227
++Lookup/Drop-down,taxonomy,SK032,T03,Model,O:A,observed and/or implementation-supported,AI,A309
++Lookup/Drop-down,taxonomy,SK032,T04,Code,R:U,observed and/or implementation-supported,uncertain,A249
++Lookup/Drop-down,taxonomy,SK032,T04,Model,O:HA,observed and/or implementation-supported,human;AI,A133;A313
++Lookup/Drop-down,taxonomy,SK032,T05,Code,R:A,observed and/or implementation-supported,AI,A266
++Lookup/Drop-down,taxonomy,SK032,T05,Model,O:HA,observed and/or implementation-supported,human;AI,A147;A317
++Lookup/Drop-down,taxonomy,SK032,T06,Code,R:A,observed and/or implementation-supported,AI,A279
++Lookup/Drop-down,taxonomy,SK032,T06,Model,O:HA,observed and/or implementation-supported,human;AI,A161;A321
++Lookup/Drop-down,taxonomy,SK032,T07,Code,R:A,observed and/or implementation-supported,AI,A294
++Lookup/Drop-down,taxonomy,SK032,T07,Model,O:HA,observed and/or implementation-supported,human;AI,A175;A325
+CLI,taxonomy,SK132,T01,Code,R:U,observed and/or implementation-supported,uncertain,A296
+CLI,taxonomy,SK132,T01,Model,?,not established / unknown,,
+CLI,taxonomy,SK132,T02,Code,O:HA,observed and/or implementation-supported,human;AI,A010;A018
+CLI,taxonomy,SK132,T02,Model,?,not established / unknown,,
+CLI,taxonomy,SK132,T03,Code,R:U,observed and/or implementation-supported,uncertain,A297
+CLI,taxonomy,SK132,T03,Model,?,not established / unknown,,
+CLI,taxonomy,SK132,T04,Code,R:U,observed and/or implementation-supported,uncertain,A298
+CLI,taxonomy,SK132,T04,Model,?,not established / unknown,,
+CLI,taxonomy,SK132,T05,Code,O:HA,observed and/or implementation-supported,human;AI,A042;A300
+CLI,taxonomy,SK132,T05,Model,?,not established / unknown,,
+CLI,taxonomy,SK132,T06,Code,?,not established / unknown,,
+CLI,taxonomy,SK132,T06,Model,?,not established / unknown,,
+CLI,taxonomy,SK132,T07,Code,O:H/R:U,observed and/or implementation-supported,human;uncertain,A071;A299
+CLI,taxonomy,SK132,T07,Model,?,not established / unknown,,
+Constraints,taxonomy,SK010,T01,Code,R:A,observed and/or implementation-supported,AI,A202
+Constraints,taxonomy,SK010,T01,Model,?,not established / unknown,,
+Constraints,taxonomy,SK010,T02,Code,R:A,observed and/or implementation-supported,AI,A212
+Constraints,taxonomy,SK010,T02,Model,?,not established / unknown,,
+Constraints,taxonomy,SK010,T03,Code,R:A,observed and/or implementation-supported,AI,A235
+Constraints,taxonomy,SK010,T03,Model,?,not established / unknown,,
+Constraints,taxonomy,SK010,T04,Code,?,not established / unknown,,
+Constraints,taxonomy,SK010,T04,Model,?,not established / unknown,,
+Constraints,taxonomy,SK010,T05,Code,R:A,observed and/or implementation-supported,AI,A258
+Constraints,taxonomy,SK010,T05,Model,?,not established / unknown,,
+Constraints,taxonomy,SK010,T06,Code,R:A,observed and/or implementation-supported,AI,A277
+Constraints,taxonomy,SK010,T06,Model,?,not established / unknown,,
+Constraints,taxonomy,SK010,T07,Code,?,not established / unknown,,
+Constraints,taxonomy,SK010,T07,Model,?,not established / unknown,,
+Control Structures,taxonomy,SK046,T01,Code,R:A,observed and/or implementation-supported,AI,A187
+Control Structures,taxonomy,SK046,T01,Model,R:A,observed and/or implementation-supported,AI,A303
+Control Structures,taxonomy,SK046,T02,Code,R:A,observed and/or implementation-supported,AI,A205
+Control Structures,taxonomy,SK046,T02,Model,R:A,observed and/or implementation-supported,AI,A307
+Control Structures,taxonomy,SK046,T03,Code,R:A,observed and/or implementation-supported,AI,A228
+Control Structures,taxonomy,SK046,T03,Model,R:A,observed and/or implementation-supported,AI,A311
+Control Structures,taxonomy,SK046,T04,Code,R:U,observed and/or implementation-supported,uncertain,A242
+Control Structures,taxonomy,SK046,T04,Model,R:A,observed and/or implementation-supported,AI,A315
+Control Structures,taxonomy,SK046,T05,Code,R:A,observed and/or implementation-supported,AI,A254
+Control Structures,taxonomy,SK046,T05,Model,R:A,observed and/or implementation-supported,AI,A319
+Control Structures,taxonomy,SK046,T06,Code,R:A,observed and/or implementation-supported,AI,A271
+Control Structures,taxonomy,SK046,T06,Model,R:A,observed and/or implementation-supported,AI,A323
+Control Structures,taxonomy,SK046,T07,Code,R:A,observed and/or implementation-supported,AI,A283
+Control Structures,taxonomy,SK046,T07,Model,R:A,observed and/or implementation-supported,AI,A327
+CSS/SCSS,taxonomy,SK100,T01,Code,?,not established / unknown,,
+CSS/SCSS,taxonomy,SK100,T01,Model,?,not established / unknown,,
+CSS/SCSS,taxonomy,SK100,T02,Code,R:A,observed and/or implementation-supported,AI,A221
+CSS/SCSS,taxonomy,SK100,T02,Model,?,not established / unknown,,
+CSS/SCSS,taxonomy,SK100,T03,Code,O:A,observed and/or implementation-supported,AI,A024
+CSS/SCSS,taxonomy,SK100,T03,Model,?,not established / unknown,,
+CSS/SCSS,taxonomy,SK100,T04,Code,?,not established / unknown,,
+CSS/SCSS,taxonomy,SK100,T04,Model,?,not established / unknown,,
+CSS/SCSS,taxonomy,SK100,T05,Code,R:A,observed and/or implementation-supported,AI,A261
+CSS/SCSS,taxonomy,SK100,T05,Model,?,not established / unknown,,
+CSS/SCSS,taxonomy,SK100,T06,Code,O:A,observed and/or implementation-supported,AI,A049;A050
+CSS/SCSS,taxonomy,SK100,T06,Model,?,not established / unknown,,
+CSS/SCSS,taxonomy,SK100,T07,Code,O:A,observed and/or implementation-supported,AI,A066
+CSS/SCSS,taxonomy,SK100,T07,Model,?,not established / unknown,,
+Custom Process Model,taxonomy,SK058,T01,Code,R:A,observed and/or implementation-supported,AI,A188
+Custom Process Model,taxonomy,SK058,T01,Model,?,not established / unknown,,
+Custom Process Model,taxonomy,SK058,T02,Code,R:A,observed and/or implementation-supported,AI,A206
+Custom Process Model,taxonomy,SK058,T02,Model,?,not established / unknown,,
+Custom Process Model,taxonomy,SK058,T03,Code,R:A,observed and/or implementation-supported,AI,A223
+Custom Process Model,taxonomy,SK058,T03,Model,?,not established / unknown,,
+Custom Process Model,taxonomy,SK058,T04,Code,R:U,observed and/or implementation-supported,uncertain,A243
+Custom Process Model,taxonomy,SK058,T04,Model,?,not established / unknown,,
+Custom Process Model,taxonomy,SK058,T05,Code,R:A,observed and/or implementation-supported,AI,A255
+Custom Process Model,taxonomy,SK058,T05,Model,?,not established / unknown,,
+Custom Process Model,taxonomy,SK058,T06,Code,R:A,observed and/or implementation-supported,AI,A273
+Custom Process Model,taxonomy,SK058,T06,Model,?,not established / unknown,,
+Custom Process Model,taxonomy,SK058,T07,Code,R:A,observed and/or implementation-supported,AI,A284
+Custom Process Model,taxonomy,SK058,T07,Model,?,not established / unknown,,
+Data Fields,taxonomy,SK115,T01,Code,R:A,observed and/or implementation-supported,AI,A195
+Data Fields,taxonomy,SK115,T01,Model,O:A,observed and/or implementation-supported,AI,A081;A084;A087
+Data Fields,taxonomy,SK115,T02,Code,R:A,observed and/or implementation-supported,AI,A219
+Data Fields,taxonomy,SK115,T02,Model,O:A,observed and/or implementation-supported,AI,A095;A098;A101
+Data Fields,taxonomy,SK115,T03,Code,R:A,observed and/or implementation-supported,AI,A226
+Data Fields,taxonomy,SK115,T03,Model,O:A,observed and/or implementation-supported,AI,A109;A112;A115
+Data Fields,taxonomy,SK115,T04,Code,R:U,observed and/or implementation-supported,uncertain,A248
+Data Fields,taxonomy,SK115,T04,Model,O:A,observed and/or implementation-supported,AI,A123;A126;A129
+Data Fields,taxonomy,SK115,T05,Code,R:A,observed and/or implementation-supported,AI,A265
+Data Fields,taxonomy,SK115,T05,Model,O:A,observed and/or implementation-supported,AI,A137;A140;A143
+Data Fields,taxonomy,SK115,T06,Code,R:A,observed and/or implementation-supported,AI,A278
+Data Fields,taxonomy,SK115,T06,Model,O:A,observed and/or implementation-supported,AI,A151;A154;A157
+Data Fields,taxonomy,SK115,T07,Code,R:A,observed and/or implementation-supported,AI,A291
+Data Fields,taxonomy,SK115,T07,Model,O:A,observed and/or implementation-supported,AI,A165;A168;A171
+Data Source Integration,taxonomy,SK083,T01,Code,R:A,observed and/or implementation-supported,AI,A198
+Data Source Integration,taxonomy,SK083,T01,Model,?,not established / unknown,,
+Data Source Integration,taxonomy,SK083,T02,Code,R:A,observed and/or implementation-supported,AI,A217
+Data Source Integration,taxonomy,SK083,T02,Model,?,not established / unknown,,
+Data Source Integration,taxonomy,SK083,T03,Code,R:A,observed and/or implementation-supported,AI,A239
+Data Source Integration,taxonomy,SK083,T03,Model,?,not established / unknown,,
+Data Source Integration,taxonomy,SK083,T04,Code,O:HA,observed and/or implementation-supported,human;AI,A030;A179
+Data Source Integration,taxonomy,SK083,T04,Model,?,not established / unknown,,
+Data Source Integration,taxonomy,SK083,T05,Code,R:A,observed and/or implementation-supported,AI,A260
+Data Source Integration,taxonomy,SK083,T05,Model,?,not established / unknown,,
+Data Source Integration,taxonomy,SK083,T06,Code,R:A,observed and/or implementation-supported,AI,A275
+Data Source Integration,taxonomy,SK083,T06,Model,?,not established / unknown,,
+Data Source Integration,taxonomy,SK083,T07,Code,?,not established / unknown,,
+Data Source Integration,taxonomy,SK083,T07,Model,?,not established / unknown,,
+Data Structure,taxonomy,SK011,T01,Code,R:A,observed and/or implementation-supported,AI,A190
+Data Structure,taxonomy,SK011,T01,Model,O:A,observed and/or implementation-supported,AI,A302
+Data Structure,taxonomy,SK011,T02,Code,R:A,observed and/or implementation-supported,AI,A210
+Data Structure,taxonomy,SK011,T02,Model,O:A,observed and/or implementation-supported,AI,A306
+Data Structure,taxonomy,SK011,T03,Code,R:A,observed and/or implementation-supported,AI,A232
+Data Structure,taxonomy,SK011,T03,Model,O:A,observed and/or implementation-supported,AI,A310
+Data Structure,taxonomy,SK011,T04,Code,R:U,observed and/or implementation-supported,uncertain,A244
+Data Structure,taxonomy,SK011,T04,Model,O:A,observed and/or implementation-supported,AI,A314
+Data Structure,taxonomy,SK011,T05,Code,R:A,observed and/or implementation-supported,AI,A257
+Data Structure,taxonomy,SK011,T05,Model,O:A,observed and/or implementation-supported,AI,A318
+Data Structure,taxonomy,SK011,T06,Code,R:A,observed and/or implementation-supported,AI,A276
+Data Structure,taxonomy,SK011,T06,Model,O:A,observed and/or implementation-supported,AI,A322
+Data Structure,taxonomy,SK011,T07,Code,R:A,observed and/or implementation-supported,AI,A287
+Data Structure,taxonomy,SK011,T07,Model,O:A,observed and/or implementation-supported,AI,A326
+Docker,taxonomy,SK199,T01,Code,O:H,observed and/or implementation-supported,human,A005
+Docker,taxonomy,SK199,T01,Model,?,not established / unknown,,
+Docker,taxonomy,SK199,T02,Code,O:HA,observed and/or implementation-supported,human;AI,A012;A016;A017
+Docker,taxonomy,SK199,T02,Model,?,not established / unknown,,
+Docker,taxonomy,SK199,T03,Code,?,not established / unknown,,
+Docker,taxonomy,SK199,T03,Model,?,not established / unknown,,
+Docker,taxonomy,SK199,T04,Code,?,not established / unknown,,
+Docker,taxonomy,SK199,T04,Model,?,not established / unknown,,
+Docker,taxonomy,SK199,T05,Code,?,not established / unknown,,
+Docker,taxonomy,SK199,T05,Model,?,not established / unknown,,
+Docker,taxonomy,SK199,T06,Code,?,not established / unknown,,
+Docker,taxonomy,SK199,T06,Model,?,not established / unknown,,
+Docker,taxonomy,SK199,T07,Code,?,not established / unknown,,
+Docker,taxonomy,SK199,T07,Model,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T01,Code,R:A,observed and/or implementation-supported,AI,A191
+Entity Types,taxonomy,SK136,T01,Model,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T02,Code,R:A,observed and/or implementation-supported,AI,A211
+Entity Types,taxonomy,SK136,T02,Model,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T03,Code,R:A,observed and/or implementation-supported,AI,A234
+Entity Types,taxonomy,SK136,T03,Model,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T04,Code,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T04,Model,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T05,Code,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T05,Model,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T06,Code,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T06,Model,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T07,Code,?,not established / unknown,,
+Entity Types,taxonomy,SK136,T07,Model,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T01,Code,R:A,observed and/or implementation-supported,AI,A192
+Enumerations,taxonomy,SK137,T01,Model,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T02,Code,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T02,Model,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T03,Code,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T03,Model,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T04,Code,O:A,observed and/or implementation-supported,AI,A182
+Enumerations,taxonomy,SK137,T04,Model,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T05,Code,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T05,Model,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T06,Code,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T06,Model,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T07,Code,?,not established / unknown,,
+Enumerations,taxonomy,SK137,T07,Model,?,not established / unknown,,
+Expressions,taxonomy,SK131,T01,Code,R:A,observed and/or implementation-supported,AI,A186
+Expressions,taxonomy,SK131,T01,Model,?,not established / unknown,,
+Expressions,taxonomy,SK131,T02,Code,R:A,observed and/or implementation-supported,AI,A204
+Expressions,taxonomy,SK131,T02,Model,?,not established / unknown,,
+Expressions,taxonomy,SK131,T03,Code,R:A,observed and/or implementation-supported,AI,A224
+Expressions,taxonomy,SK131,T03,Model,?,not established / unknown,,
+Expressions,taxonomy,SK131,T04,Code,R:U,observed and/or implementation-supported,uncertain,A241
+Expressions,taxonomy,SK131,T04,Model,?,not established / unknown,,
+Expressions,taxonomy,SK131,T05,Code,R:A,observed and/or implementation-supported,AI,A253
+Expressions,taxonomy,SK131,T05,Model,?,not established / unknown,,
+Expressions,taxonomy,SK131,T06,Code,R:A,observed and/or implementation-supported,AI,A269
+Expressions,taxonomy,SK131,T06,Model,?,not established / unknown,,
+Expressions,taxonomy,SK131,T07,Code,R:A,observed and/or implementation-supported,AI,A282
+Expressions,taxonomy,SK131,T07,Model,?,not established / unknown,,
+File Storage,taxonomy,SK163,T01,Code,?,not established / unknown,,
+File Storage,taxonomy,SK163,T01,Model,?,not established / unknown,,
+File Storage,taxonomy,SK163,T02,Code,?,not established / unknown,,
+File Storage,taxonomy,SK163,T02,Model,?,not established / unknown,,
+File Storage,taxonomy,SK163,T03,Code,?,not established / unknown,,
+File Storage,taxonomy,SK163,T03,Model,?,not established / unknown,,
+File Storage,taxonomy,SK163,T04,Code,?,not established / unknown,,
+File Storage,taxonomy,SK163,T04,Model,?,not established / unknown,,
+File Storage,taxonomy,SK163,T05,Code,?,not established / unknown,,
+File Storage,taxonomy,SK163,T05,Model,?,not established / unknown,,
+File Storage,taxonomy,SK163,T06,Code,?,not established / unknown,,
+File Storage,taxonomy,SK163,T06,Model,?,not established / unknown,,
+File Storage,taxonomy,SK163,T07,Code,R:A,observed and/or implementation-supported,AI,A288
+File Storage,taxonomy,SK163,T07,Model,?,not established / unknown,,
+Formulas,taxonomy,SK049,T01,Code,?,not established / unknown,,
+Formulas,taxonomy,SK049,T01,Model,?,not established / unknown,,
+Formulas,taxonomy,SK049,T02,Code,?,not established / unknown,,
+Formulas,taxonomy,SK049,T02,Model,?,not established / unknown,,
+Formulas,taxonomy,SK049,T03,Code,R:A,observed and/or implementation-supported,AI,A231
+Formulas,taxonomy,SK049,T03,Model,?,not established / unknown,,
+Formulas,taxonomy,SK049,T04,Code,R:U,observed and/or implementation-supported,uncertain,A246
+Formulas,taxonomy,SK049,T04,Model,?,not established / unknown,,
+Formulas,taxonomy,SK049,T05,Code,R:A,observed and/or implementation-supported,AI,A267
+Formulas,taxonomy,SK049,T05,Model,?,not established / unknown,,
+Formulas,taxonomy,SK049,T06,Code,R:A,observed and/or implementation-supported,AI,A295
+Formulas,taxonomy,SK049,T06,Model,?,not established / unknown,,
+Formulas,taxonomy,SK049,T07,Code,R:A,observed and/or implementation-supported,AI,A285
+Formulas,taxonomy,SK049,T07,Model,?,not established / unknown,,
+Functions,taxonomy,SK138,T01,Code,R:A,observed and/or implementation-supported,AI,A185
+Functions,taxonomy,SK138,T01,Model,?,not established / unknown,,
+Functions,taxonomy,SK138,T02,Code,R:A,observed and/or implementation-supported,AI,A203
+Functions,taxonomy,SK138,T02,Model,?,not established / unknown,,
+Functions,taxonomy,SK138,T03,Code,R:A,observed and/or implementation-supported,AI,A225
+Functions,taxonomy,SK138,T03,Model,?,not established / unknown,,
+Functions,taxonomy,SK138,T04,Code,O:A/R:U,observed and/or implementation-supported,AI;uncertain,A183;A240
+Functions,taxonomy,SK138,T04,Model,?,not established / unknown,,
+Functions,taxonomy,SK138,T05,Code,R:A,observed and/or implementation-supported,AI,A252
+Functions,taxonomy,SK138,T05,Model,?,not established / unknown,,
+Functions,taxonomy,SK138,T06,Code,R:A,observed and/or implementation-supported,AI,A268
+Functions,taxonomy,SK138,T06,Model,?,not established / unknown,,
+Functions,taxonomy,SK138,T07,Code,R:A,observed and/or implementation-supported,AI,A281
+Functions,taxonomy,SK138,T07,Model,?,not established / unknown,,
+HTML,taxonomy,SK103,T01,Code,R:A,observed and/or implementation-supported,AI,A194
+HTML,taxonomy,SK103,T01,Model,?,not established / unknown,,
+HTML,taxonomy,SK103,T02,Code,R:A,observed and/or implementation-supported,AI,A220
+HTML,taxonomy,SK103,T02,Model,?,not established / unknown,,
+HTML,taxonomy,SK103,T03,Code,O:A,observed and/or implementation-supported,AI,A023
+HTML,taxonomy,SK103,T03,Model,?,not established / unknown,,
+HTML,taxonomy,SK103,T04,Code,R:U,observed and/or implementation-supported,uncertain,A247
+HTML,taxonomy,SK103,T04,Model,?,not established / unknown,,
+HTML,taxonomy,SK103,T05,Code,R:A,observed and/or implementation-supported,AI,A262
+HTML,taxonomy,SK103,T05,Model,?,not established / unknown,,
+HTML,taxonomy,SK103,T06,Code,O:A,observed and/or implementation-supported,AI,A058
+HTML,taxonomy,SK103,T06,Model,?,not established / unknown,,
+HTML,taxonomy,SK103,T07,Code,O:A,observed and/or implementation-supported,AI,A063;A067
+HTML,taxonomy,SK103,T07,Model,?,not established / unknown,,
+IT Data Types,taxonomy,"SK104, SK133",T01,Code,O:A/R:A,observed and/or implementation-supported,AI,A003;A189
+IT Data Types,taxonomy,"SK104, SK133",T01,Model,O:A,observed and/or implementation-supported,AI,A080;A083;A086
+IT Data Types,taxonomy,"SK104, SK133",T02,Code,R:A,observed and/or implementation-supported,AI,A209
+IT Data Types,taxonomy,"SK104, SK133",T02,Model,O:A,observed and/or implementation-supported,AI,A094;A097;A100
+IT Data Types,taxonomy,"SK104, SK133",T03,Code,R:A,observed and/or implementation-supported,AI,A233
+IT Data Types,taxonomy,"SK104, SK133",T03,Model,O:A,observed and/or implementation-supported,AI,A108;A111;A114
+IT Data Types,taxonomy,"SK104, SK133",T04,Code,O:A,observed and/or implementation-supported,AI,A177
+IT Data Types,taxonomy,"SK104, SK133",T04,Model,O:A,observed and/or implementation-supported,AI,A122;A125;A128
+IT Data Types,taxonomy,"SK104, SK133",T05,Code,R:A,observed and/or implementation-supported,AI,A256
+IT Data Types,taxonomy,"SK104, SK133",T05,Model,O:A,observed and/or implementation-supported,AI,A136;A139;A142
+IT Data Types,taxonomy,"SK104, SK133",T06,Code,R:A,observed and/or implementation-supported,AI,A270
+IT Data Types,taxonomy,"SK104, SK133",T06,Model,O:A,observed and/or implementation-supported,AI,A150;A153;A156
+IT Data Types,taxonomy,"SK104, SK133",T07,Code,R:A,observed and/or implementation-supported,AI,A290
+IT Data Types,taxonomy,"SK104, SK133",T07,Model,O:A,observed and/or implementation-supported,AI,A164;A167;A170
+Iteration Statements,taxonomy,SK141,T01,Code,R:A,observed and/or implementation-supported,AI,A199
+Iteration Statements,taxonomy,SK141,T01,Model,?,not established / unknown,,
+Iteration Statements,taxonomy,SK141,T02,Code,R:A,observed and/or implementation-supported,AI,A216
+Iteration Statements,taxonomy,SK141,T02,Model,?,not established / unknown,,
+Iteration Statements,taxonomy,SK141,T03,Code,R:A,observed and/or implementation-supported,AI,A229
+Iteration Statements,taxonomy,SK141,T03,Model,?,not established / unknown,,
+Iteration Statements,taxonomy,SK141,T04,Code,R:U,observed and/or implementation-supported,uncertain,A251
+Iteration Statements,taxonomy,SK141,T04,Model,?,not established / unknown,,
+Iteration Statements,taxonomy,SK141,T05,Code,R:A,observed and/or implementation-supported,AI,A264
+Iteration Statements,taxonomy,SK141,T05,Model,?,not established / unknown,,
+Iteration Statements,taxonomy,SK141,T06,Code,R:A,observed and/or implementation-supported,AI,A272
+Iteration Statements,taxonomy,SK141,T06,Model,?,not established / unknown,,
+Iteration Statements,taxonomy,SK141,T07,Code,R:A,observed and/or implementation-supported,AI,A292
+Iteration Statements,taxonomy,SK141,T07,Model,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T01,Code,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T01,Model,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T02,Code,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T02,Model,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T03,Code,O:A,observed and/or implementation-supported,AI,A022
+JavaScript,taxonomy,"SK061, SK105, SK144",T03,Model,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T04,Code,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T04,Model,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T05,Code,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T05,Model,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T06,Code,O:A,observed and/or implementation-supported,AI,A054
+JavaScript,taxonomy,"SK061, SK105, SK144",T06,Model,?,not established / unknown,,
+JavaScript,taxonomy,"SK061, SK105, SK144",T07,Code,O:A,observed and/or implementation-supported,AI,A060;A064;A069
+JavaScript,taxonomy,"SK061, SK105, SK144",T07,Model,?,not established / unknown,,
+JSON,taxonomy,SK145,T01,Code,R:A,observed and/or implementation-supported,AI,A201
+JSON,taxonomy,SK145,T01,Model,?,not established / unknown,,
+JSON,taxonomy,SK145,T02,Code,R:A,observed and/or implementation-supported,AI,A213
+JSON,taxonomy,SK145,T02,Model,?,not established / unknown,,
+JSON,taxonomy,SK145,T03,Code,R:A,observed and/or implementation-supported,AI,A236
+JSON,taxonomy,SK145,T03,Model,?,not established / unknown,,
+JSON,taxonomy,SK145,T04,Code,?,not established / unknown,,
+JSON,taxonomy,SK145,T04,Model,?,not established / unknown,,
+JSON,taxonomy,SK145,T05,Code,?,not established / unknown,,
+JSON,taxonomy,SK145,T05,Model,?,not established / unknown,,
+JSON,taxonomy,SK145,T06,Code,O:A,observed and/or implementation-supported,AI,A056
+JSON,taxonomy,SK145,T06,Model,?,not established / unknown,,
+JSON,taxonomy,SK145,T07,Code,O:A,observed and/or implementation-supported,AI,A061
+JSON,taxonomy,SK145,T07,Model,?,not established / unknown,,
+node.js,taxonomy,SK149,T01,Code,?,not established / unknown,,
+node.js,taxonomy,SK149,T01,Model,?,not established / unknown,,
+node.js,taxonomy,SK149,T02,Code,?,not established / unknown,,
+node.js,taxonomy,SK149,T02,Model,?,not established / unknown,,
+node.js,taxonomy,SK149,T03,Code,O:A,observed and/or implementation-supported,AI,A027
+node.js,taxonomy,SK149,T03,Model,?,not established / unknown,,
+node.js,taxonomy,SK149,T04,Code,?,not established / unknown,,
+node.js,taxonomy,SK149,T04,Model,?,not established / unknown,,
+node.js,taxonomy,SK149,T05,Code,?,not established / unknown,,
+node.js,taxonomy,SK149,T05,Model,?,not established / unknown,,
+node.js,taxonomy,SK149,T06,Code,O:A,observed and/or implementation-supported,AI,A057
+node.js,taxonomy,SK149,T06,Model,?,not established / unknown,,
+node.js,taxonomy,SK149,T07,Code,O:A,observed and/or implementation-supported,AI,A062
+node.js,taxonomy,SK149,T07,Model,?,not established / unknown,,
+Object Model,taxonomy,SK126,T01,Code,?,not established / unknown,,
+Object Model,taxonomy,SK126,T01,Model,?,not established / unknown,,
+Object Model,taxonomy,SK126,T02,Code,R:A,observed and/or implementation-supported,AI,A207
+Object Model,taxonomy,SK126,T02,Model,?,not established / unknown,,
+Object Model,taxonomy,SK126,T03,Code,?,not established / unknown,,
+Object Model,taxonomy,SK126,T03,Model,?,not established / unknown,,
+Object Model,taxonomy,SK126,T04,Code,?,not established / unknown,,
+Object Model,taxonomy,SK126,T04,Model,?,not established / unknown,,
+Object Model,taxonomy,SK126,T05,Code,?,not established / unknown,,
+Object Model,taxonomy,SK126,T05,Model,?,not established / unknown,,
+Object Model,taxonomy,SK126,T06,Code,?,not established / unknown,,
+Object Model,taxonomy,SK126,T06,Model,?,not established / unknown,,
+Object Model,taxonomy,SK126,T07,Code,?,not established / unknown,,
+Object Model,taxonomy,SK126,T07,Model,?,not established / unknown,,
+Query Functions,taxonomy,SK151,T01,Code,R:A,observed and/or implementation-supported,AI,A197
+Query Functions,taxonomy,SK151,T01,Model,?,not established / unknown,,
+Query Functions,taxonomy,SK151,T02,Code,R:A,observed and/or implementation-supported,AI,A215
+Query Functions,taxonomy,SK151,T02,Model,?,not established / unknown,,
+Query Functions,taxonomy,SK151,T03,Code,R:A,observed and/or implementation-supported,AI,A238
+Query Functions,taxonomy,SK151,T03,Model,?,not established / unknown,,
+Query Functions,taxonomy,SK151,T04,Code,R:U,observed and/or implementation-supported,uncertain,A250
+Query Functions,taxonomy,SK151,T04,Model,?,not established / unknown,,
+Query Functions,taxonomy,SK151,T05,Code,R:A,observed and/or implementation-supported,AI,A259
+Query Functions,taxonomy,SK151,T05,Model,?,not established / unknown,,
+Query Functions,taxonomy,SK151,T06,Code,R:A,observed and/or implementation-supported,AI,A274
+Query Functions,taxonomy,SK151,T06,Model,?,not established / unknown,,
+Query Functions,taxonomy,SK151,T07,Code,?,not established / unknown,,
+Query Functions,taxonomy,SK151,T07,Model,?,not established / unknown,,
+Relational Database,taxonomy,SK070,T01,Code,R:AU,observed and/or implementation-supported,AI;uncertain,A006;A200
+Relational Database,taxonomy,SK070,T01,Model,?,not established / unknown,,
+Relational Database,taxonomy,SK070,T02,Code,O:A,observed and/or implementation-supported,AI,A013
+Relational Database,taxonomy,SK070,T02,Model,?,not established / unknown,,
+Relational Database,taxonomy,SK070,T03,Code,O:A,observed and/or implementation-supported,AI,A028
+Relational Database,taxonomy,SK070,T03,Model,?,not established / unknown,,
+Relational Database,taxonomy,SK070,T04,Code,?,not established / unknown,,
+Relational Database,taxonomy,SK070,T04,Model,?,not established / unknown,,
+Relational Database,taxonomy,SK070,T05,Code,O:A,observed and/or implementation-supported,AI,A040
+Relational Database,taxonomy,SK070,T05,Model,?,not established / unknown,,
+Relational Database,taxonomy,SK070,T06,Code,O:A,observed and/or implementation-supported,AI,A047
+Relational Database,taxonomy,SK070,T06,Model,?,not established / unknown,,
+Relational Database,taxonomy,SK070,T07,Code,?,not established / unknown,,
+Relational Database,taxonomy,SK070,T07,Model,?,not established / unknown,,
+REST API,taxonomy,"SK062, SK087",T01,Code,?,not established / unknown,,
+REST API,taxonomy,"SK062, SK087",T01,Model,?,not established / unknown,,
+REST API,taxonomy,"SK062, SK087",T02,Code,R:A,observed and/or implementation-supported,AI,A214
+REST API,taxonomy,"SK062, SK087",T02,Model,?,not established / unknown,,
+REST API,taxonomy,"SK062, SK087",T03,Code,R:A,observed and/or implementation-supported,AI,A237
+REST API,taxonomy,"SK062, SK087",T03,Model,?,not established / unknown,,
+REST API,taxonomy,"SK062, SK087",T04,Code,O:A,observed and/or implementation-supported,AI,A181
+REST API,taxonomy,"SK062, SK087",T04,Model,?,not established / unknown,,
+REST API,taxonomy,"SK062, SK087",T05,Code,?,not established / unknown,,
+REST API,taxonomy,"SK062, SK087",T05,Model,?,not established / unknown,,
+REST API,taxonomy,"SK062, SK087",T06,Code,O:A,observed and/or implementation-supported,AI,A048
+REST API,taxonomy,"SK062, SK087",T06,Model,?,not established / unknown,,
+REST API,taxonomy,"SK062, SK087",T07,Code,R:A,observed and/or implementation-supported,AI,A289
+REST API,taxonomy,"SK062, SK087",T07,Model,?,not established / unknown,,
+SQL,taxonomy,SK073,T01,Code,?,not established / unknown,,
+SQL,taxonomy,SK073,T01,Model,?,not established / unknown,,
+SQL,taxonomy,SK073,T02,Code,?,not established / unknown,,
+SQL,taxonomy,SK073,T02,Model,?,not established / unknown,,
+SQL,taxonomy,SK073,T03,Code,?,not established / unknown,,
+SQL,taxonomy,SK073,T03,Model,?,not established / unknown,,
+SQL,taxonomy,SK073,T04,Code,?,not established / unknown,,
+SQL,taxonomy,SK073,T04,Model,?,not established / unknown,,
+SQL,taxonomy,SK073,T05,Code,O:A,observed and/or implementation-supported,AI,A039
+SQL,taxonomy,SK073,T05,Model,?,not established / unknown,,
+SQL,taxonomy,SK073,T06,Code,O:A,observed and/or implementation-supported,AI,A055
+SQL,taxonomy,SK073,T06,Model,?,not established / unknown,,
+SQL,taxonomy,SK073,T07,Code,?,not established / unknown,,
+SQL,taxonomy,SK073,T07,Model,?,not established / unknown,,
+Transactions,taxonomy,SK037,T01,Code,?,not established / unknown,,
+Transactions,taxonomy,SK037,T01,Model,?,not established / unknown,,
+Transactions,taxonomy,SK037,T02,Code,R:A,observed and/or implementation-supported,AI,A208
+Transactions,taxonomy,SK037,T02,Model,?,not established / unknown,,
+Transactions,taxonomy,SK037,T03,Code,?,not established / unknown,,
+Transactions,taxonomy,SK037,T03,Model,?,not established / unknown,,
+Transactions,taxonomy,SK037,T04,Code,?,not established / unknown,,
+Transactions,taxonomy,SK037,T04,Model,?,not established / unknown,,
+Transactions,taxonomy,SK037,T05,Code,?,not established / unknown,,
+Transactions,taxonomy,SK037,T05,Model,?,not established / unknown,,
+Transactions,taxonomy,SK037,T06,Code,?,not established / unknown,,
+Transactions,taxonomy,SK037,T06,Model,?,not established / unknown,,
+Transactions,taxonomy,SK037,T07,Code,?,not established / unknown,,
+Transactions,taxonomy,SK037,T07,Model,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T01,Code,O:A,observed and/or implementation-supported,AI,A002;A007
+TypeScript,taxonomy,SK154,T01,Model,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T02,Code,O:A,observed and/or implementation-supported,AI,A015
+TypeScript,taxonomy,SK154,T02,Model,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T03,Code,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T03,Model,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T04,Code,O:HA/R:U,observed and/or implementation-supported,human;AI;uncertain,A032;A036;A059;A178
+TypeScript,taxonomy,SK154,T04,Model,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T05,Code,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T05,Model,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T06,Code,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T06,Model,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T07,Code,?,not established / unknown,,
+TypeScript,taxonomy,SK154,T07,Model,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T01,Code,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T01,Model,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T02,Code,R:A,observed and/or implementation-supported,AI,A222
+URL Configuration,taxonomy,SK191,T02,Model,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T03,Code,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T03,Model,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T04,Code,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T04,Model,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T05,Code,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T05,Model,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T06,Code,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T06,Model,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T07,Code,?,not established / unknown,,
+URL Configuration,taxonomy,SK191,T07,Model,?,not established / unknown,,
+Variables,taxonomy,"SK055, SK110",T01,Code,R:A,observed and/or implementation-supported,AI,A193
+Variables,taxonomy,"SK055, SK110",T01,Model,?,not established / unknown,,
+Variables,taxonomy,"SK055, SK110",T02,Code,R:A,observed and/or implementation-supported,AI,A218
+Variables,taxonomy,"SK055, SK110",T02,Model,?,not established / unknown,,
+Variables,taxonomy,"SK055, SK110",T03,Code,R:A,observed and/or implementation-supported,AI,A230
+Variables,taxonomy,"SK055, SK110",T03,Model,?,not established / unknown,,
+Variables,taxonomy,"SK055, SK110",T04,Code,R:U,observed and/or implementation-supported,uncertain,A245
+Variables,taxonomy,"SK055, SK110",T04,Model,?,not established / unknown,,
+Variables,taxonomy,"SK055, SK110",T05,Code,R:A,observed and/or implementation-supported,AI,A263
+Variables,taxonomy,"SK055, SK110",T05,Model,?,not established / unknown,,
+Variables,taxonomy,"SK055, SK110",T06,Code,R:A,observed and/or implementation-supported,AI,A280
+Variables,taxonomy,"SK055, SK110",T06,Model,?,not established / unknown,,
+Variables,taxonomy,"SK055, SK110",T07,Code,R:A,observed and/or implementation-supported,AI,A286
+Variables,taxonomy,"SK055, SK110",T07,Model,?,not established / unknown,,
+XML,taxonomy,SK156,T01,Code,?,not established / unknown,,
+XML,taxonomy,SK156,T01,Model,?,not established / unknown,,
+XML,taxonomy,SK156,T02,Code,O:A,observed and/or implementation-supported,AI,A329
+XML,taxonomy,SK156,T02,Model,?,not established / unknown,,
+XML,taxonomy,SK156,T03,Code,?,not established / unknown,,
+XML,taxonomy,SK156,T03,Model,?,not established / unknown,,
+XML,taxonomy,SK156,T04,Code,?,not established / unknown,,
+XML,taxonomy,SK156,T04,Model,?,not established / unknown,,
+XML,taxonomy,SK156,T05,Code,?,not established / unknown,,
+XML,taxonomy,SK156,T05,Model,?,not established / unknown,,
+XML,taxonomy,SK156,T06,Code,?,not established / unknown,,
+XML,taxonomy,SK156,T06,Model,?,not established / unknown,,
+XML,taxonomy,SK156,T07,Code,?,not established / unknown,,
+XML,taxonomy,SK156,T07,Model,?,not established / unknown,,
+Validation / diagnosis (gap),gap,GAP01,T01,Code,O:H,observed and/or implementation-supported,human,A004
+Validation / diagnosis (gap),gap,GAP01,T01,Model,?,not established / unknown,,
+Validation / diagnosis (gap),gap,GAP01,T02,Code,O:H,observed and/or implementation-supported,human,A019
+Validation / diagnosis (gap),gap,GAP01,T02,Model,?,not established / unknown,,
+Validation / diagnosis (gap),gap,GAP01,T03,Code,O:HA,observed and/or implementation-supported,human;AI,A025;A026;A029
+Validation / diagnosis (gap),gap,GAP01,T03,Model,?,not established / unknown,,
+Validation / diagnosis (gap),gap,GAP01,T04,Code,O:H,observed and/or implementation-supported,human,A034
+Validation / diagnosis (gap),gap,GAP01,T04,Model,?,not established / unknown,,
+Validation / diagnosis (gap),gap,GAP01,T05,Code,O:HA,observed and/or implementation-supported,human;AI,A038;A045
+Validation / diagnosis (gap),gap,GAP01,T05,Model,?,not established / unknown,,
+Validation / diagnosis (gap),gap,GAP01,T06,Code,O:HA,observed and/or implementation-supported,human;AI,A051;A052
+Validation / diagnosis (gap),gap,GAP01,T06,Model,?,not established / unknown,,
+Validation / diagnosis (gap),gap,GAP01,T07,Code,O:HAJ,observed and/or implementation-supported,human;AI;joint,A065;A070;A075;A076
+Validation / diagnosis (gap),gap,GAP01,T07,Model,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T01,Code,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T01,Model,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T02,Code,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T02,Model,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T03,Code,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T03,Model,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T04,Code,O:HA,observed and/or implementation-supported,human;AI,A031;A180
+Role / access binding (gap),gap,GAP02,T04,Model,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T05,Code,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T05,Model,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T06,Code,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T06,Model,?,not established / unknown,,
+Role / access binding (gap),gap,GAP02,T07,Code,O:A,observed and/or implementation-supported,AI,A078
+Role / access binding (gap),gap,GAP02,T07,Model,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T01,Code,O:A,observed and/or implementation-supported,AI,A001;A008
+Dependency integration (gap),gap,GAP03,T01,Model,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T02,Code,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T02,Model,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T03,Code,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T03,Model,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T04,Code,O:H,observed and/or implementation-supported,human,A035
+Dependency integration (gap),gap,GAP03,T04,Model,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T05,Code,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T05,Model,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T06,Code,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T06,Model,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T07,Code,?,not established / unknown,,
+Dependency integration (gap),gap,GAP03,T07,Model,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T01,Code,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T01,Model,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T02,Code,O:A,observed and/or implementation-supported,AI,A011;A014
+Python programming (gap),gap,GAP04,T02,Model,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T03,Code,O:A,observed and/or implementation-supported,AI,A021
+Python programming (gap),gap,GAP04,T03,Model,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T04,Code,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T04,Model,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T05,Code,O:A,observed and/or implementation-supported,AI,A037;A041;A043;A044
+Python programming (gap),gap,GAP04,T05,Model,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T06,Code,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T06,Model,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T07,Code,?,not established / unknown,,
+Python programming (gap),gap,GAP04,T07,Model,?,not established / unknown,,

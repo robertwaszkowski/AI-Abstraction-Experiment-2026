@@ -1,0 +1,48 @@
+{
+  "team": "T07",
+  "approach": "Model",
+  "source_filename": "Change of Employment Conditions Process-history.json",
+  "source_format": ".json",
+  "source_sha256": "32e15ac3f0591004c43372392c131864ca4d9c7fdcbe03a2449d225b9ac97a17",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Change of Employment Conditions Process",
+    "exportedAt": "2026-04-13T13:30:17.974Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Prepare this BPMN diagram.",
+        "timestamp": "2026-04-13T13:25:12.186Z"
+      },
+      {
+        "role": "ai",
+        "content": "A workflow for processing changes to employment conditions, involving review by multiple organizational units (Head of O.U., PD, KWE, KAN, PRK, PRN, RKR) depending on employee type, followed by implementation and archiving.",
+        "timestamp": "2026-04-13T13:25:15.974Z"
+      },
+      {
+        "role": "user",
+        "content": "Testing the application in the runtime platform",
+        "timestamp": "2026-04-13T13:30:15.974Z",
+        "verification_evidence": {
+          "execution_window_minutes": 5.0,
+          "runtime_platform": "Aurea 2026.01.0",
+          "tested_processes": [
+            "Leave Request",
+            "Change of Employment Conditions",
+            "Decorations and Medals"
+          ],
+          "scenario_manifest": "Scenario Manifest 1.0",
+          "scenarios_passed": [
+            "Leave Request Test Scenario 1.0 (8/8 steps)",
+            "Change of Employment Conditions Test Scenario 1.0 (10/10 steps)",
+            "Decorations and Medals Test Scenario 1.0 (10/10 steps)"
+          ],
+          "runtime_execution_errors": 0,
+          "developer_repairs_needed": 0,
+          "post_eval_corrections_required": 0,
+          "completion_status": "FUNCTIONALLY_COMPLETE_AND_ACCEPTED"
+        }
+      }
+    ]
+  }
+}

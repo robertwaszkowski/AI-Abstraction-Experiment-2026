@@ -1,0 +1,24 @@
+{
+  "team": "T07",
+  "approach": "Model",
+  "source_filename": "Leave Request Process-history.json",
+  "source_format": ".json",
+  "source_sha256": "e3ad2d7a7229f4a0945d7c31221a9dbb659b001f44b7820e6a78f4ab5247f623",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Leave Request Process",
+    "exportedAt": "2026-04-13T13:10:26.171Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Prepare this BPMN diagram.",
+        "timestamp": "2026-04-13T13:10:19.309Z"
+      },
+      {
+        "role": "ai",
+        "content": "A leave request approval process involving multiple organizational units: Head of O.U. reviews and forwards, Personnel Department checks entitlement, then routes to appropriate approvers based on employee type (academic vs non-academic). Academic requests go through Vice-Rectors and Rector; non-academic through Chancellor. Finally, PD informs Head of O.U. and implements changes.",
+        "timestamp": "2026-04-13T13:10:24.171Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+Instrukcje do zadania: wymagania dla obu sposobów opracowania aplikacji.
+
+Materiały do zadania "Opracowanie aplikacji do automatyzacji wybranych procesów biznesowych z wykorzystaniem narzędzi AI".
+
+- pliki *.bpmn - trzy procesy biznesowe do zbudowania trzech aplikacji,
+- pliki *Data.docx - opisy danych procesów biznesowych,
+- pliki *Test Scenario.docx - scenariusze testów, które zbudowane aplikacje powinny przejść,
+- plik Process to Roles Mapping.docx - lista użytkowników dla każdej z ról w procesach,
+
+
+Zadanie polega na wygenerowaniu trzech aplikacji obsługujących każdy z załączonych procesów biznesowych. Opracowane aplikacje muszą spełniać wymagania i przechodzić bezbłędnie załączone scenariusze testów. Dane i role procesów biznesowych opisane są w odpowiednich plikach.
+
+Wymagania aplikacji obejmują udostępnienie podglądu diagramu procesu biznesowego.
+
+Można wykorzystać istniejącą aplikację jako punkt wyjścia, np. Role Call z funkcją logowania użytkowników. Rozwój samodzielnej aplikacji Role Call nie należy do zakresu badania; jej adaptacja do trzech wymaganych procesów może być częścią realizacji zadania.
+
+Wszystkie prompty do narzędzi AI trzeba kopiować, uzupełnić o datę i godzinę i zapisywać w osobnym pliku. Będą one następnie analizowane w celu oceny skuteczności generowania aplikacji przez modele AI.
+

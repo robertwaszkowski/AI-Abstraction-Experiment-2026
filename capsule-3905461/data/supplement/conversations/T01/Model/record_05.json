@@ -1,0 +1,756 @@
+{
+  "team": "T01",
+  "approach": "Model",
+  "source_filename": "Leave Request Form-history.json",
+  "source_format": ".json",
+  "source_sha256": "f08754f845e4eb8bf9a83315f1015e7327541b1f146e0f8b2ea5fee27351dcb0",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "User Onboarding Form",
+    "exportedAt": "2026-04-02T18:59:46.572Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Prepare a form for the process data as in the attached files.",
+        "timestamp": "2026-04-02T18:55:24.351Z",
+        "files": [
+          "Leave Request Data.docx",
+          "Leave Request Test Scenario.docx",
+          "Leave Request.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Generation stopped: [GoogleGenerativeAI Error]: Error fetching from [URL_REDACTED] [503 ] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+        "timestamp": "2026-04-02T18:55:31.689Z"
+      },
+      {
+        "role": "user",
+        "content": "Proceed.",
+        "timestamp": "2026-04-02T18:55:50.052Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have initialized a standard onboarding form containing a header, a card-grouped section for personal identification, and an internal field for tracking account status as required by the system.",
+        "timestamp": "2026-04-02T18:55:52.359Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "User Onboarding Form",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1"
+              }
+            },
+            "onboardingHeader": {
+              "component": "static-content",
+              "content": "Welcome. Please complete the form below to initialize your account profile.",
+              "layout": {
+                "cols": 12,
+                "component": "static-content"
+              }
+            },
+            "personalInfo": {
+              "title": "Personal Information",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "fullName": {
+                      "type": "string",
+                      "label": "Full Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "email": {
+                      "type": "string",
+                      "label": "Email Address",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "accountStatus": {
+              "type": "string",
+              "label": "Account Status",
+              "component": "text-field",
+              "layout": {
+                "cols": 12,
+                "component": "text-field"
+              }
+            }
+          },
+          "required": []
+        }
+      },
+      {
+        "role": "user",
+        "content": "This is too few data. Analyse the Leave Request Data.docx and start over.",
+        "timestamp": "2026-04-02T18:56:32.925Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have updated the form to reflect a 'Leave Request' structure, including fields for employee details, leave type, date range, and reason.",
+        "timestamp": "2026-04-02T18:56:35.901Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "Leave Request Form",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1",
+                "cols": 12
+              }
+            },
+            "requestDetails": {
+              "title": "Request Details",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employeeName": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "leaveType": {
+                      "type": "string",
+                      "label": "Leave Type",
+                      "component": "select",
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Annual Leave",
+                            "value": "annual",
+                            "title": "Annual Leave"
+                          },
+                          {
+                            "label": "Sick Leave",
+                            "value": "sick",
+                            "title": "Sick Leave"
+                          },
+                          {
+                            "label": "Unpaid Leave",
+                            "value": "unpaid",
+                            "title": "Unpaid Leave"
+                          }
+                        ]
+                      },
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      }
+                    },
+                    "startDate": {
+                      "type": "string",
+                      "label": "Start Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    },
+                    "endDate": {
+                      "type": "string",
+                      "label": "End Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    },
+                    "reason": {
+                      "type": "string",
+                      "label": "Reason for Leave",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": [
+            "employeeName",
+            "leaveType",
+            "startDate",
+            "endDate"
+          ]
+        }
+      },
+      {
+        "role": "user",
+        "content": "Remove all fields from this form.",
+        "timestamp": "2026-04-02T18:57:05.065Z"
+      },
+      {
+        "role": "ai",
+        "content": "Generation stopped: [GoogleGenerativeAI Error]: Error fetching from [URL_REDACTED] Failed to fetch",
+        "timestamp": "2026-04-02T18:57:05.079Z"
+      },
+      {
+        "role": "user",
+        "content": "Remove all fields from this form.",
+        "timestamp": "2026-04-02T18:57:21.051Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have cleared the form of all its fields and required validation constraints.",
+        "timestamp": "2026-04-02T18:57:22.422Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "User Onboarding Form",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1"
+              }
+            }
+          },
+          "required": []
+        }
+      },
+      {
+        "role": "user",
+        "content": "Prepare a form based on the attached file.",
+        "timestamp": "2026-04-02T18:57:49.457Z",
+        "files": [
+          "Leave Request Data.docx"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "The form structure has been updated to include the Request Initiation, Contextual/Routing, and Process-Generated Data categories, each organized within its own card for better usability.",
+        "timestamp": "2026-04-02T18:57:53.889Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "User Onboarding Form",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1",
+                "cols": 12
+              }
+            },
+            "requestInitiation": {
+              "title": "Request Initiation Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employee_name": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "employee_position": {
+                      "type": "string",
+                      "label": "Employee Position",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "leave_type": {
+                      "type": "string",
+                      "label": "Leave Type",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "leave_start_date": {
+                      "type": "string",
+                      "label": "Leave Start Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    },
+                    "leave_end_date": {
+                      "type": "string",
+                      "label": "Leave End Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    },
+                    "leave_duration_days": {
+                      "type": "number",
+                      "label": "Leave Duration Days",
+                      "component": "number-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "number-field"
+                      }
+                    },
+                    "leave_substitute": {
+                      "type": "string",
+                      "label": "Leave Substitute (Optional)",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "request_date": {
+                      "type": "string",
+                      "label": "Request Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "contextualData": {
+              "title": "Contextual and Routing Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "is_academic_teacher": {
+                      "type": "boolean",
+                      "label": "Is an Academic Teacher?",
+                      "component": "switch",
+                      "default": true,
+                      "layout": {
+                        "cols": 12,
+                        "component": "switch"
+                      }
+                    },
+                    "employee_leave_entitlement_balance": {
+                      "type": "number",
+                      "label": "Employee Leave Entitlement Balance",
+                      "component": "number-field",
+                      "default": 26,
+                      "layout": {
+                        "cols": 12,
+                        "component": "number-field"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "processGeneratedData": {
+              "title": "Process-Generated Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "head_ou_decision": {
+                      "type": "string",
+                      "label": "Head O.U. Decision",
+                      "component": "select",
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Approved",
+                            "value": "Approved",
+                            "title": "Approved"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      },
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      }
+                    },
+                    "pd_review_status": {
+                      "type": "string",
+                      "label": "PD Review Status",
+                      "component": "select",
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Entitlement Confirmed",
+                            "value": "Entitlement Confirmed",
+                            "title": "Entitlement Confirmed"
+                          },
+                          {
+                            "label": "Entitlement Exceeded",
+                            "value": "Entitlement Exceeded",
+                            "title": "Entitlement Exceeded"
+                          }
+                        ]
+                      },
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      }
+                    },
+                    "lss_opinion_notes": {
+                      "type": "string",
+                      "label": "LSS Opinion Notes",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "prk_review_status": {
+                      "type": "string",
+                      "label": "PRK Review Status",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "prn_review_status": {
+                      "type": "string",
+                      "label": "PRN Review Status",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "final_decision": {
+                      "type": "string",
+                      "label": "Final Decision",
+                      "component": "select",
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Approved",
+                            "value": "Approved",
+                            "title": "Approved"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      },
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      }
+                    },
+                    "final_decision_maker": {
+                      "type": "string",
+                      "label": "Final Decision Maker",
+                      "component": "text-field",
+                      "default": "Rector",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": []
+        }
+      },
+      {
+        "role": "user",
+        "content": "Change the form name to \"Leave Request\".",
+        "timestamp": "2026-04-02T18:59:43.276Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have updated the form title to 'Leave Request'.",
+        "timestamp": "2026-04-02T18:59:44.572Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "Leave Request",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1",
+                "cols": 12
+              }
+            },
+            "requestInitiation": {
+              "title": "Request Initiation Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employee_name": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "employee_position": {
+                      "type": "string",
+                      "label": "Employee Position",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "leave_type": {
+                      "type": "string",
+                      "label": "Leave Type",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "leave_start_date": {
+                      "type": "string",
+                      "label": "Leave Start Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    },
+                    "leave_end_date": {
+                      "type": "string",
+                      "label": "Leave End Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    },
+                    "leave_duration_days": {
+                      "type": "number",
+                      "label": "Leave Duration Days",
+                      "component": "number-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "number-field"
+                      }
+                    },
+                    "leave_substitute": {
+                      "type": "string",
+                      "label": "Leave Substitute (Optional)",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "request_date": {
+                      "type": "string",
+                      "label": "Request Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "contextualData": {
+              "title": "Contextual and Routing Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "is_academic_teacher": {
+                      "type": "boolean",
+                      "label": "Is an Academic Teacher?",
+                      "component": "switch",
+                      "default": true,
+                      "layout": {
+                        "cols": 12,
+                        "component": "switch"
+                      }
+                    },
+                    "employee_leave_entitlement_balance": {
+                      "type": "number",
+                      "label": "Employee Leave Entitlement Balance",
+                      "component": "number-field",
+                      "default": 26,
+                      "layout": {
+                        "cols": 12,
+                        "component": "number-field"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "processGeneratedData": {
+              "title": "Process-Generated Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "head_ou_decision": {
+                      "type": "string",
+                      "label": "Head O.U. Decision",
+                      "component": "select",
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Approved",
+                            "value": "Approved",
+                            "title": "Approved"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      },
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      }
+                    },
+                    "pd_review_status": {
+                      "type": "string",
+                      "label": "PD Review Status",
+                      "component": "select",
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Entitlement Confirmed",
+                            "value": "Entitlement Confirmed",
+                            "title": "Entitlement Confirmed"
+                          },
+                          {
+                            "label": "Entitlement Exceeded",
+                            "value": "Entitlement Exceeded",
+                            "title": "Entitlement Exceeded"
+                          }
+                        ]
+                      },
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      }
+                    },
+                    "lss_opinion_notes": {
+                      "type": "string",
+                      "label": "LSS Opinion Notes",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "prk_review_status": {
+                      "type": "string",
+                      "label": "PRK Review Status",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "prn_review_status": {
+                      "type": "string",
+                      "label": "PRN Review Status",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "final_decision": {
+                      "type": "string",
+                      "label": "Final Decision",
+                      "component": "select",
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Approved",
+                            "value": "Approved",
+                            "title": "Approved"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      },
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      }
+                    },
+                    "final_decision_maker": {
+                      "type": "string",
+                      "label": "Final Decision Maker",
+                      "component": "text-field",
+                      "default": "Rector",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": []
+        }
+      }
+    ]
+  }
+}

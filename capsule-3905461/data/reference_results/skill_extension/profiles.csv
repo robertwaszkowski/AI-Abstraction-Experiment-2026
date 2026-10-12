@@ -1,0 +1,15 @@
+﻿team,strategy,annotation_rows,selected_observed_labels,labels,observed_gap_categories,human_observed_labels,human_necessary_skills,complete_repertoire
+T01,Code,27,3,Docker; IT Data Types; TypeScript,GAP01; GAP03,Docker,Not established,False
+T01,Model,18,5,+BPMN Process Model; +Lookup/Drop-down; Data Fields; Data Structure; IT Data Types,,+Lookup/Drop-down,Not established,False
+T02,Code,33,6,+BPMN Process Model; CLI; Docker; Relational Database; TypeScript; XML,GAP01; GAP04,CLI; Docker,Not established,False
+T02,Model,18,5,+BPMN Process Model; +Lookup/Drop-down; Data Fields; Data Structure; IT Data Types,,+Lookup/Drop-down,Not established,False
+T03,Code,28,6,+BPMN Process Model; CSS/SCSS; HTML; JavaScript; Relational Database; node.js,GAP01; GAP04,,Not established,False
+T03,Model,18,5,+BPMN Process Model; +Lookup/Drop-down; Data Fields; Data Structure; IT Data Types,,,Not established,False
+T04,Code,29,6,Data Source Integration; Enumerations; Functions; IT Data Types; REST API; TypeScript,GAP01; GAP02; GAP03,Data Source Integration; TypeScript,Not established,False
+T04,Model,18,5,+BPMN Process Model; +Lookup/Drop-down; Data Fields; Data Structure; IT Data Types,,+Lookup/Drop-down,Not established,False
+T05,Code,27,3,CLI; Relational Database; SQL,GAP01; GAP04,CLI,Not established,False
+T05,Model,18,5,+BPMN Process Model; +Lookup/Drop-down; Data Fields; Data Structure; IT Data Types,,+Lookup/Drop-down,Not established,False
+T06,Code,26,8,CSS/SCSS; HTML; JSON; JavaScript; REST API; Relational Database; SQL; node.js,GAP01,,Not established,False
+T06,Model,18,5,+BPMN Process Model; +Lookup/Drop-down; Data Fields; Data Structure; IT Data Types,,+Lookup/Drop-down,Not established,False
+T07,Code,33,6,CLI; CSS/SCSS; HTML; JSON; JavaScript; node.js,GAP01; GAP02,CLI,Not established,False
+T07,Model,18,5,+BPMN Process Model; +Lookup/Drop-down; Data Fields; Data Structure; IT Data Types,,+Lookup/Drop-down,Not established,False

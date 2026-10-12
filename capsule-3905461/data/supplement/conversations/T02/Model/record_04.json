@@ -1,0 +1,37 @@
+{
+  "team": "T02",
+  "approach": "Model",
+  "source_filename": "Decorations and Medals Process-history.json",
+  "source_format": ".json",
+  "source_sha256": "24668f01c9aa1390a1d4361e3323ac4d0fa4da4beb83571fb7f2f23ea42e6550",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Decorations and Medals Process",
+    "exportedAt": "2026-04-01T08:28:10.851Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Przygotuj diagram na podstawie załączonego pliku.",
+        "timestamp": "2026-04-01T08:26:58.324Z"
+      },
+      {
+        "role": "ai",
+        "content": "Models a simple document submission, review, and approval/rejection flow.",
+        "timestamp": "2026-04-01T08:27:01.863Z"
+      },
+      {
+        "role": "user",
+        "content": "Ten diagram jest zbyt prosty. Załączony model ma dużo więcej zadań. Utwórz diagram na podstawie załączonego modelu.",
+        "timestamp": "2026-04-01T08:28:02.418Z",
+        "files": [
+          "Decorations and Medals.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "BPMN process for military university decorations and medals, modeled as a multi-lane collaboration.",
+        "timestamp": "2026-04-01T08:28:08.851Z"
+      }
+    ]
+  }
+}

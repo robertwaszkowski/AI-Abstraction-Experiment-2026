@@ -1,0 +1,88 @@
+{
+  "reports": [
+    {
+      "file": "reports/code_01_author_acceptance_report.md",
+      "sha256": "3e3fd2f218d2fa8f0157bdb6a12359740f241beb670281c84910850277bbf70c",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/code_02_author_acceptance_report.md",
+      "sha256": "b279f513ee7bb226d6616214ca75754ee802065ae4710adf5d139b805836f94a",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/code_03_author_acceptance_report.md",
+      "sha256": "f68c8eba26ea52891fd04831d227ddb6ada0ef51cdbb51fc4fb289a09b6546ec",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/code_04_author_acceptance_report.md",
+      "sha256": "81dcd9f1ddc4a1ccb0debe4cc6260d85909fd787a69b7679643c040fded5f60c",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/code_05_author_acceptance_report.md",
+      "sha256": "fb1d730b8787311be6be0107cf5757de970b0e5882eab38179b67ef4b33e6520",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/code_06_author_acceptance_report.md",
+      "sha256": "9c28d2fc99916db6f674819f65b7b1ba7176e9dad9c35b08e2e1c1a9b9b0faa4",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/code_07_author_acceptance_report.md",
+      "sha256": "589a02e256c6500feac4e08f766bfb37bd2a18ef6cf6402b340d2da477606216",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/model_01_author_acceptance_report.md",
+      "sha256": "e17debf2a9f3fb4d00909b80ac0799d400d543bd7f3dcdedb43863eed66544b0",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/model_02_author_acceptance_report.md",
+      "sha256": "1586e06a3ad55c7bccd76441a032746b9abd246cf62024b7f04642e72ea9bd2e",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/model_03_author_acceptance_report.md",
+      "sha256": "05e709cb2e3f7578bbe90b363e440323e83a3ef083a01336f718634b20676c7e",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/model_04_author_acceptance_report.md",
+      "sha256": "23d3526c370bf7e9cb1b4b9a064771b31a491b4b3713a5bdfa33509411128caf",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/model_05_author_acceptance_report.md",
+      "sha256": "586c4ffdd66a8a0f7273d5275fe831d78cda65a85998c656905ee29ee67f68dc",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/model_06_author_acceptance_report.md",
+      "sha256": "e24b4df524750744709ea054ed41a910a93d27223ef776ea9345b79a4ddd7969",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    },
+    {
+      "file": "reports/model_07_author_acceptance_report.md",
+      "sha256": "2487c49031584dba6051ecf669c7a3d602956c56bcce59471b245b757bf0ed51",
+      "evaluator": "manuscript author",
+      "evidence_type": "author acceptance report completed during evaluation"
+    }
+  ]
+}

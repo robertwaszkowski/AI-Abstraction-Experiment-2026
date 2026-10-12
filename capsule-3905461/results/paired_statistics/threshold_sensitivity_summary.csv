@@ -1,0 +1,5 @@
+threshold_minutes,is_primary,n_pairs,positive_differences,mean_difference_code_minus_model_minutes,median_difference_code_minus_model_minutes,matched_pairs_rank_biserial,exact_sign_flip_two_sided_p_exploratory
+15,No,7,7,176.5842857142857,123.63,1.0,0.015625
+30,No,7,7,234.2357142857143,209.55,1.0,0.015625
+45,Yes,7,7,248.2357142857143,209.55,1.0,0.015625
+60,No,7,7,254.66428571428574,209.55,1.0,0.015625

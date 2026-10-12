@@ -1,0 +1,16 @@
+measure,measure_label,series,n,mean,standard_deviation,median,q1_type7,q3_type7,iqr_type7,minimum,maximum
+source_observed_minutes,Source-specific log-observed time (minutes),Code,7.0,274.00714285714287,153.92222177821776,240.0,143.525,425.0,281.475,96.0,445.0
+source_observed_minutes,Source-specific log-observed time (minutes),Model,7.0,25.771428571428572,7.838667889744678,26.37,20.11,29.990000000000002,9.880000000000003,15.41,38.42
+source_observed_minutes,Source-specific log-observed time (minutes),Code_minus_Model,7.0,248.2357142857143,156.7499099263051,209.55,111.13,406.03,294.9,76.53999999999999,417.24
+recorded_ai_requests,Recorded requests to AI,Code,7.0,32.142857142857146,20.036870775552515,23.0,19.0,40.5,21.5,13.0,70.0
+recorded_ai_requests,Recorded requests to AI,Model,7.0,9.285714285714286,2.563479777846623,10.0,7.0,10.0,3.0,7.0,14.0
+recorded_ai_requests,Recorded requests to AI,Code_minus_Model,7.0,22.857142857142858,20.57043648401407,13.0,7.5,33.5,26.0,5.0,60.0
+application_specific_files,Marginal application-specific files,Code,7.0,26.857142857142858,27.685306400258433,12.0,9.5,41.0,31.5,6.0,69.0
+application_specific_files,Marginal application-specific files,Model,7.0,9.0,0.0,9.0,9.0,9.0,0.0,9.0,9.0
+application_specific_files,Marginal application-specific files,Code_minus_Model,7.0,17.857142857142858,27.685306400258433,3.0,0.5,32.0,31.5,-3.0,60.0
+application_specific_lines,Marginal application-specific text lines,Code,7.0,4106.285714285715,1550.428512195442,4152.0,3030.5,5356.0,2325.5,1951.0,5868.0
+application_specific_lines,Marginal application-specific text lines,Model,7.0,1401.142857142857,275.3346016343439,1498.0,1484.0,1518.0,34.0,778.0,1528.0
+application_specific_lines,Marginal application-specific text lines,Code_minus_Model,7.0,2705.1428571428573,1584.0866378422854,3374.0,1527.5,3857.0,2329.5,423.0,4370.0
+application_specific_bytes,Marginal application-specific bytes,Code,7.0,160050.85714285713,58014.73407226987,140587.0,115248.0,218749.5,103501.5,90786.0,220988.0
+application_specific_bytes,Marginal application-specific bytes,Model,7.0,58304.28571428572,3311.4044711313313,57113.0,56922.0,57572.5,650.5,56285.0,65743.0
+application_specific_bytes,Marginal application-specific bytes,Code_minus_Model,7.0,101746.57142857143,58844.00108438453,74844.0,57675.5,162050.5,104375.0,33883.0,164047.0

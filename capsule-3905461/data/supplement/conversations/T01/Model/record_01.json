@@ -1,0 +1,27 @@
+{
+  "team": "T01",
+  "approach": "Model",
+  "source_filename": "Change of Employment Conditions Process-history.json",
+  "source_format": ".json",
+  "source_sha256": "4163e7b36113f1de9efa5a363f368e26fd2c46860ab9966e369601a3f247555f",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Change of Employment Conditions Process",
+    "exportedAt": "2026-04-02T18:47:25.309Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Prepare this BPMN diagram.",
+        "timestamp": "2026-04-02T18:47:18.504Z",
+        "files": [
+          "Change of Employment Conditions.bpmn"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Models the workflow for changing employment conditions, involving reviews by various departments (Head of OU, PD, KWE) and decision gates based on employment type, culminating in HR implementation.",
+        "timestamp": "2026-04-02T18:47:23.309Z"
+      }
+    ]
+  }
+}

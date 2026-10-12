@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "break_rule": "0 <= gap < threshold; gaps at or above threshold excluded in full",
+  "units": "seconds; run minutes rounded to two decimals before paired analysis",
+  "runs": [
+    {
+      "run_id": "code_01",
+      "team_id": "T01",
+      "condition": "Code",
+      "time_method": "reported_total",
+      "fixed_seconds": 9000.0,
+      "streams": []
+    },
+    {
+      "run_id": "code_02",
+      "team_id": "T02",
+      "condition": "Code",
+      "time_method": "duration_rows",
+      "fixed_seconds": 13200.0,
+      "streams": [
+        {
+          "source": "code_generation/code_02/prompt/team02-prompting-logs.docx",
+          "source_sha256": "2f3d2606383f0d8ca44c48a857380f812f47165646367fcef47bd324a4dae16e",
+          "gap_seconds": [
+            180.0,
+            5340.0,
+            60.0,
+            300.0,
+            480.0,
+            600.0,
+            360.0,
+            120.0,
+            60.0,
+            240.0,
+            540.0,
+            120.0,
+            300.0,
+            660.0,
+            240.0,
+            120.0,
+            120.0,
+            180.0,
+            0.0,
+            240.0,
+            60.0,
+            60.0,
+            2160.0,
+            120.0,
+            660.0,
+            300.0,
+            120.0,
+            60.0,
+            120.0,
+            60.0,
+            180.0,
+            120.0,
+            240.0,
+            480.0,
+            300.0,
+            120.0,
+            60.0,
+            180.0,
+            120.0,
+            120.0,
+            180.0,
+            60.0,
+            60.0,
+            120.0,
+            120.0,
+            180.0,
+            120.0,
+            60.0,
+            60.0,
+            60.0,
+            120.0,
+            180.0,
+            120.0,
+            120.0,
+            60.0,
+            120.0,
+            60.0,
+            120.0,
+            60.0,
+            60.0,
+            120.0,
+            120.0,
+            120.0,
+            120.0,
+            60.0,
+            60.0,
+            120.0,
+            60.0,
+            120.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "code_03",
+      "team_id": "T03",
+      "condition": "Code",
+      "time_method": "duration_rows",
+      "fixed_seconds": 8100.0,
+      "streams": [
+        {
+          "source": "code_generation/code_03/prompt/team04-prompting-logs.docx",
+          "source_sha256": "c7da11273ad909d7fa4e90d192b7a5fbf4136cd3199a4d410878a19362e6957e",
+          "gap_seconds": [
+            1380.0,
+            360.0,
+            0.0,
+            1020.0,
+            780.0,
+            24240.0,
+            420.0,
+            480.0,
+            1380.0,
+            300.0,
+            240.0,
+            -18600.0,
+            1440.0,
+            13380.0,
+            1020.0,
+            420.0,
+            540.0,
+            120.0,
+            240.0,
+            180.0,
+            240.0,
+            300.0,
+            240.0,
+            240.0,
+            360.0,
+            180.0,
+            180.0,
+            540.0,
+            120.0,
+            720.0,
+            300.0,
+            180.0,
+            180.0,
+            660.0,
+            -46140.0,
+            240.0,
+            120.0,
+            300.0,
+            120.0,
+            240.0,
+            660.0,
+            180.0,
+            4860.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "code_04",
+      "team_id": "T04",
+      "condition": "Code",
+      "time_method": "sessionized_docx",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "code_generation/code_04/prompt/team05-prompting-logs-integration.docx",
+          "source_sha256": "ffc71b6115eb36fdab821a28a20a238097783b4d0ce90c9f87aa1d446c103176",
+          "gap_seconds": [
+            600.0,
+            2700.0,
+            660.0,
+            960.0,
+            1920.0,
+            1560.0,
+            360.0,
+            900.0,
+            1560.0,
+            540.0,
+            360.0,
+            360.0,
+            720.0,
+            720.0,
+            1200.0,
+            86040.0,
+            360.0,
+            720.0,
+            1080.0,
+            1440.0,
+            600.0,
+            720.0,
+            240.0,
+            1800.0,
+            900.0,
+            300.0,
+            180.0,
+            1620.0,
+            1380.0,
+            1020.0,
+            600.0,
+            900.0
+          ]
+        },
+        {
+          "source": "code_generation/code_04/prompt/team05-prompting-logs-results.docx",
+          "source_sha256": "722898243ceb92c359232e5c512d0e80bedfaf4b6fe0a8ff5318edf1f469c299",
+          "gap_seconds": []
+        }
+      ]
+    },
+    {
+      "run_id": "code_05",
+      "team_id": "T05",
+      "condition": "Code",
+      "time_method": "reported_total",
+      "fixed_seconds": 14400.0,
+      "streams": []
+    },
+    {
+      "run_id": "code_06",
+      "team_id": "T06",
+      "condition": "Code",
+      "time_method": "sessionized_text",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "code_generation/code_06/prompt/prompts_and_responses.md",
+          "source_sha256": "86b24f5d7eb7751de9d76d7c770ccaf72017aec14a501ff82af9c365db6f6439",
+          "gap_seconds": [
+            516.0,
+            1793.0,
+            604.0,
+            267.0,
+            225.0,
+            516.0,
+            182.0,
+            271.0,
+            139.0,
+            357.0,
+            170.0,
+            674.0,
+            46.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "code_07",
+      "team_id": "T07",
+      "condition": "Code",
+      "time_method": "sessionized_text",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "code_generation/code_07/prompt/log.md",
+          "source_sha256": "6b726e7c97fe499f821c8314f1911f4fe08e2eea3c79f67e67ed9c947d0a30bf",
+          "gap_seconds": [
+            43.0,
+            71.0,
+            169.0,
+            214.0,
+            41.0,
+            111.0,
+            54.0,
+            156.0,
+            174.0,
+            1661.0,
+            99.0,
+            50.0,
+            35.0,
+            98.0,
+            102.0,
+            65.0,
+            95.0,
+            42.0,
+            158.0,
+            42.0,
+            213.0,
+            43.0,
+            62.0,
+            93.0,
+            57.0,
+            60.0,
+            85.0,
+            251.0,
+            84.0,
+            366.0,
+            599.0,
+            325.0,
+            120.0,
+            449.0,
+            211.0,
+            51.0,
+            189.0,
+            199.0,
+            281.0,
+            24.0,
+            31.0,
+            699.0,
+            51.0,
+            18.0,
+            57.0,
+            65.0,
+            60.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "model_01",
+      "team_id": "T01",
+      "condition": "Model",
+      "time_method": "team_elapsed_to_runtime_test_json",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "merged_six_histories",
+          "source_hashes": {
+            "model_generation/model_01/prompt/Change of Employment Conditions Process-history.json": "4163e7b36113f1de9efa5a363f368e26fd2c46860ab9966e369601a3f247555f",
+            "model_generation/model_01/prompt/Change of Employment Conditions-history.json": "6d2b160d7cf56b27a92505036324061395e3710d85376378dd38acbae8baa93a",
+            "model_generation/model_01/prompt/Decorations and Medals Process-history.json": "1c74d70e8075177c17ff009864deadec7a013797d3bb34b2a7a3287106559faa",
+            "model_generation/model_01/prompt/Decorations and Medals Registration-history.json": "e09c93cea199563de78ce3c3de042947ab271b37182d41ccebd95b7fa8936d4d",
+            "model_generation/model_01/prompt/Leave Request Form-history.json": "f08754f845e4eb8bf9a83315f1015e7327541b1f146e0f8b2ea5fee27351dcb0",
+            "model_generation/model_01/prompt/Leave Request Process-history.json": "aff73717d42cbb79c73946566f2a2aa07c01250cda2b906ce7ad1ee86bbf8e1f"
+          },
+          "gap_seconds": [
+            4.275,
+            205.13,
+            2.986,
+            193.956,
+            4.805,
+            135.292,
+            3.442,
+            127.008,
+            1.391,
+            82.734,
+            4.586,
+            126.589,
+            7.338,
+            18.363,
+            2.307,
+            40.566,
+            2.976,
+            29.164,
+            0.014,
+            15.972,
+            1.371,
+            27.035,
+            4.432,
+            109.387,
+            1.296,
+            120.543,
+            9.252,
+            300.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "model_02",
+      "team_id": "T02",
+      "condition": "Model",
+      "time_method": "team_elapsed_to_runtime_test_json",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "merged_six_histories",
+          "source_hashes": {
+            "model_generation/model_02/prompt/Change of Employment Conditions Diagram-history.json": "d19411cfed5b6d2d905e191d9922e04b61cd736b0659be48dbda71d934336e6c",
+            "model_generation/model_02/prompt/Change of Employment Conditions-history.json": "ee17f6816c59bff5d8165d61e3bc31dd111e63063424d59b76a1fc08a299d45b",
+            "model_generation/model_02/prompt/Decorations and Medals Application-history.json": "dd41c77f65a51e996ac570051b1ad2d38d553311689a2c077278b5187a922a33",
+            "model_generation/model_02/prompt/Decorations and Medals Process-history.json": "24668f01c9aa1390a1d4361e3323ac4d0fa4da4beb83571fb7f2f23ea42e6550",
+            "model_generation/model_02/prompt/Leave Request Process Diagram-history.json": "d705de5c6f7eaf49a3a1a1eb28add1b46daf5cb5f3bead25d55337edf0f2cbc1",
+            "model_generation/model_02/prompt/Leave Request Process Form-history.json": "775d911382c0c4bb0dbeefddbacd7a559d2b869e5597c205b28a4968af93d828"
+          },
+          "gap_seconds": [
+            5.172,
+            32.317,
+            6.08,
+            36.668,
+            3.282,
+            286.831,
+            3.36,
+            436.71,
+            5.92,
+            55.808,
+            1.433,
+            74.778,
+            5.381,
+            203.245,
+            3.539,
+            60.555,
+            6.433,
+            119.254,
+            4.938,
+            420.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "model_03",
+      "team_id": "T03",
+      "condition": "Model",
+      "time_method": "team_elapsed_to_runtime_test_json",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "merged_six_histories",
+          "source_hashes": {
+            "model_generation/model_03/prompt/Academic Teacher Leave Request-history.json": "f05bf41f259a362eb837f468b328786949ba1d7cfaf785e9bc8b78c050d04b09",
+            "model_generation/model_03/prompt/Change of Employment Conditions Diagram-history.json": "493971fa95e944d8df825efd68c037cd81dfac377d0d4ac57a3ce9605d47a9e9",
+            "model_generation/model_03/prompt/Change of Employment Conditions Form-history.json": "fa45c8c7fed1f8c8372ce8c71b437d8b0aa4f702c2f189b1673274d37b7af218",
+            "model_generation/model_03/prompt/Decorations and Medals Process Diagram-history.json": "0f22f94d79570badff99f3bbae88a1db96dd4b5d1bc468ce8a0ca7301f13e0f7",
+            "model_generation/model_03/prompt/Decorations and Medals Request-history.json": "e66e3618526fd0f5aee19c1f6302d7ad4a8e937709cde16b6de4c47782684608",
+            "model_generation/model_03/prompt/Leave Request Process Diagram-history.json": "2ca72109d26437fff13f70f40aa17bd1e9c43e03db17ce67d720a9b66f1b0bc9"
+          },
+          "gap_seconds": [
+            3.881,
+            97.621,
+            2.55,
+            63.153,
+            5.473,
+            115.058,
+            4.805,
+            88.755,
+            5.333,
+            93.171,
+            5.819,
+            131.315,
+            7.373,
+            300.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "model_04",
+      "team_id": "T04",
+      "condition": "Model",
+      "time_method": "team_elapsed_to_runtime_test_json",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "merged_six_histories",
+          "source_hashes": {
+            "model_generation/model_04/prompt/Change of Employment Conditions Diagram-history.json": "f239bf39900258fbc11480b9c47a08ea1758e15798d39898536c96fe9a5a5328",
+            "model_generation/model_04/prompt/Change of Employment Conditions Form-history.json": "743bc367226b8ff6c2b0681b0bef8d034ff828ec33038687f7eb1116083ceee0",
+            "model_generation/model_04/prompt/Decorations and Medals Application Form-history.json": "7a25b6e4069cb3025f148ff93504972899328ddb19b57125116cc746ea4e05ee",
+            "model_generation/model_04/prompt/Decorations and Medals Process Diagram-history.json": "89cff81f6ba4161e6821786eef7c5e3d37c4e9bc01f0edd5b47871e84379f816",
+            "model_generation/model_04/prompt/Employee Leave Request Form-history.json": "cad0b0332dcd6acdf83dd02baba07fbffb82f3b822739049cce1dfe985738439",
+            "model_generation/model_04/prompt/Leave Request Process Diagram-history.json": "24dd9ae10d2511bd960ab7506e81ab459351c9e2dc47f75c88a2db872966cc9c"
+          },
+          "gap_seconds": [
+            3.684,
+            30.54,
+            2.213,
+            146.103,
+            3.163,
+            108.575,
+            4.745,
+            154.867,
+            5.191,
+            169.24,
+            4.799,
+            126.71,
+            5.697,
+            480.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "model_05",
+      "team_id": "T05",
+      "condition": "Model",
+      "time_method": "team_elapsed_to_runtime_test_json",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "merged_six_histories",
+          "source_hashes": {
+            "model_generation/model_05/prompt/Change of Employment Conditions Diagram-history.json": "47a0cbb67a50ec12055d2aae301d59c98b7b0d53d54ea2f839a3d5a86787ab89",
+            "model_generation/model_05/prompt/Change of Employment Conditions Form-history.json": "583cabf2c391e4b02e8d028596f894138cd8af737fd72b133b87f61af8a2d7b7",
+            "model_generation/model_05/prompt/Decorations and Medals Process Diagram-history.json": "03bace352f79e02dfc81aff31b82d9cab6e91e98c989ee9d7a49244f71178673",
+            "model_generation/model_05/prompt/Decorations and Medals Process Form-history.json": "23209d1f294450d2afb9dd20d1f3a536ec550a93819c7247e1a6bbdd7be3a606",
+            "model_generation/model_05/prompt/Leave Request Process Diagram-history.json": "a703c6183e4c9e0e557e25d54dc5c2de26ea836424265ad7828578cb4967966f",
+            "model_generation/model_05/prompt/Leave Request Process Form-history.json": "73df3ed94d0e937bf78c03dbd6ed05919fcd047f39abce1929e099318f185c4f"
+          },
+          "gap_seconds": [
+            3.735,
+            37.462,
+            4.519,
+            104.399,
+            2.689,
+            59.052,
+            4.947,
+            61.692,
+            2.255,
+            148.507,
+            3.022,
+            98.021,
+            4.734,
+            120.607,
+            4.904,
+            158.013,
+            5.318,
+            578.09,
+            4.737,
+            420.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "model_06",
+      "team_id": "T06",
+      "condition": "Model",
+      "time_method": "team_elapsed_to_runtime_test_json",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "merged_six_histories",
+          "source_hashes": {
+            "model_generation/model_06/prompt/Change of Employment Conditions Diagram-history.json": "baf87e2814dd539fb01d5e8f1b8ff39cd0cb95e39b7425051ff47fd31e52165a",
+            "model_generation/model_06/prompt/Change of Employment Conditions Form-history.json": "db9d9f4ec46ceb5dd0bcfa5dd94e8e53d6034aea809ec01eedee7381a80837e0",
+            "model_generation/model_06/prompt/Decorations and Medals Application Form-history.json": "55c611c668588820cae379c886d8f9c95101853b20f624f30e82ede906adc3af",
+            "model_generation/model_06/prompt/Decorations and Medals Diagram-history.json": "a5c17adfac21c1086414ff9137516a9fd1797bfdcf8a5c7c3f349a36a66b9643",
+            "model_generation/model_06/prompt/Leave Request Diagram-history.json": "b947f93b0a4f965a7844be06a88d35f40ed5d99609acd993fd9fad39789f8f97",
+            "model_generation/model_06/prompt/Leave Request Process Form-history.json": "e254d86387b76e160d2cebd348a54eea8e074086a36d8548e34c9583bfc56925"
+          },
+          "gap_seconds": [
+            3.83,
+            71.01,
+            2.922,
+            112.39,
+            3.866,
+            313.154,
+            8.472,
+            142.832,
+            5.074,
+            104.12,
+            4.807,
+            90.588,
+            4.594,
+            300.0
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "model_07",
+      "team_id": "T07",
+      "condition": "Model",
+      "time_method": "team_elapsed_to_runtime_test_json",
+      "fixed_seconds": 0,
+      "streams": [
+        {
+          "source": "merged_six_histories",
+          "source_hashes": {
+            "model_generation/model_07/prompt/Change of Employment Conditions Process-history.json": "32e15ac3f0591004c43372392c131864ca4d9c7fdcbe03a2449d225b9ac97a17",
+            "model_generation/model_07/prompt/Change of Employment Conditions-history.json": "da91df8c4298cf010743617cabe2027738b7edfd7ad13d04d3eb9a35b7ae0398",
+            "model_generation/model_07/prompt/Decorations and Medals Process-history.json": "2f9637e78200bb4a99fed945fe981593ae9a2fbf5cdfb5f98c5001b3b82c9447",
+            "model_generation/model_07/prompt/Decorations and Medals Registration-history.json": "1a1f565faf07e347f5fd09c6299c2831fb16a2ff6fc0bbd18e9a82b848cedf84",
+            "model_generation/model_07/prompt/Leave Request Process-history.json": "e3ad2d7a7229f4a0945d7c31221a9dbb659b001f44b7820e6a78f4ab5247f623",
+            "model_generation/model_07/prompt/Leave Request-history.json": "552d9cc54a43f5edcf820d624e67c613efce6ff0ff9c37f52cbd10a0829df4af"
+          },
+          "gap_seconds": [
+            4.172,
+            45.592,
+            4.826,
+            469.513,
+            4.535,
+            525.447,
+            3.927,
+            50.297,
+            4.862,
+            41.886,
+            4.408,
+            320.502,
+            4.376,
+            114.806,
+            4.754,
+            354.448,
+            4.912,
+            37.923,
+            3.788,
+            300.0
+          ]
+        }
+      ]
+    }
+  ]
+}

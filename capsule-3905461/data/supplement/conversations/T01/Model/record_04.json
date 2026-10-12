@@ -1,0 +1,318 @@
+{
+  "team": "T01",
+  "approach": "Model",
+  "source_filename": "Decorations and Medals Registration-history.json",
+  "source_format": ".json",
+  "source_sha256": "e09c93cea199563de78ce3c3de042947ab271b37182d41ccebd95b7fa8936d4d",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Decorations and Medals Registration",
+    "exportedAt": "2026-04-02T18:51:52.442Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Prepare a process form based on these files.",
+        "timestamp": "2026-04-02T18:49:38.601Z",
+        "files": [
+          "Decorations and Medals.bpmn",
+          "Decorations and Medals Data.docx",
+          "Decorations and Medals Test Scenario.docx"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "Organized the form into two cards: 'Application Details' for initiation inputs (Employee, Unit, Decoration, Justification) and 'Process & Decision Data' for tracking workflow status (Opinions, RKR decision, Grant Date, and Outcome).",
+        "timestamp": "2026-04-02T18:49:42.043Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "Decorations and Medals Registration",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1"
+              }
+            },
+            "applicationData": {
+              "title": "Application Details",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employee_name": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "organizational_unit": {
+                      "type": "string",
+                      "label": "Organizational Unit",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "decoration_type": {
+                      "type": "string",
+                      "label": "Decoration Type",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "application_justification": {
+                      "type": "string",
+                      "label": "Application Justification",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "processData": {
+              "title": "Process & Decision Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "reviewer_opinion": {
+                      "type": "string",
+                      "label": "Reviewer Opinion",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "rkr_decision": {
+                      "type": "string",
+                      "label": "RKR Decision",
+                      "component": "select",
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Accepted",
+                            "value": "Accepted",
+                            "title": "Accepted"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    },
+                    "award_grant_date": {
+                      "type": "string",
+                      "label": "Award Grant Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    },
+                    "process_outcome": {
+                      "type": "string",
+                      "label": "Process Outcome",
+                      "component": "select",
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Completed",
+                            "value": "Completed",
+                            "title": "Completed"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": [
+            "applicationData"
+          ]
+        }
+      },
+      {
+        "role": "user",
+        "content": "Make date fields half a screen wide.",
+        "timestamp": "2026-04-02T18:51:49.051Z"
+      },
+      {
+        "role": "ai",
+        "content": "I have updated the 'Award Grant Date' field to take up half of the screen width.",
+        "timestamp": "2026-04-02T18:51:50.442Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "Decorations and Medals Registration",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1",
+                "cols": 12
+              }
+            },
+            "applicationData": {
+              "title": "Application Details",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employee_name": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "organizational_unit": {
+                      "type": "string",
+                      "label": "Organizational Unit",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "decoration_type": {
+                      "type": "string",
+                      "label": "Decoration Type",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "application_justification": {
+                      "type": "string",
+                      "label": "Application Justification",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "processData": {
+              "title": "Process & Decision Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "reviewer_opinion": {
+                      "type": "string",
+                      "label": "Reviewer Opinion",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "rkr_decision": {
+                      "type": "string",
+                      "label": "RKR Decision",
+                      "component": "select",
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Accepted",
+                            "value": "Accepted",
+                            "title": "Accepted"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    },
+                    "award_grant_date": {
+                      "type": "string",
+                      "label": "Award Grant Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 6,
+                        "component": "date-picker"
+                      }
+                    },
+                    "process_outcome": {
+                      "type": "string",
+                      "label": "Process Outcome",
+                      "component": "select",
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Completed",
+                            "value": "Completed",
+                            "title": "Completed"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": [
+            "applicationData"
+          ]
+        }
+      }
+    ]
+  }
+}

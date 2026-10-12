@@ -1,0 +1,15 @@
+run_id,ai_tool,model_name_version,generation_settings,authoring_interface,metadata_evidence
+code_01,Google Antigravity,Gemini 3 Pro (Medium),Medium,Google Antigravity,"ai_model.txt contains Gemini 3 Pro (Medium); platform confirmed by investigator, 8 October 2026"
+code_02,Google Antigravity,Gemini 3 Pro (Medium),Medium,Google Antigravity,"ai_model.txt contains Gemini 3 Pro (Medium); platform confirmed by investigator, 8 October 2026"
+code_03,Google Antigravity,Gemini 3 Pro (High),High; Planning enabled,Google Antigravity,Team log declaration: team04-prompting-logs.docx; previously extracted and confirmed by investigator
+code_04,Firebase Studio,Gemini in Firebase (Agent AI),Unknown - not recorded,Firebase Studio,"Integration document identifies Firebase Studio; Gemini in Firebase agent label confirmed by investigator, 8 October 2026; backend version not specified"
+code_05,Google Antigravity,Gemini 3 Pro (High),High,Google Antigravity,"ai_model.txt contains Gemini 3 Pro (High); platform confirmed by investigator, 8 October 2026"
+code_06,Google Antigravity,Gemini 3.6 Flash,Unknown - not recorded,Google Antigravity,"prompts_and_responses.md identifies Gemini 3.6 Flash; Antigravity platform confirmed by investigator, 8 October 2026"
+code_07,Google Antigravity,Gemini 3.5 Flash (Medium),Medium,Google Antigravity,"Platform and model/tier confirmed by investigator, 8 October 2026, referring to session settings; current retained log.md does not itself name the model"
+model_01,Google Generative AI API,gemini-3.1-flash-lite-preview,Unknown - not recorded,Unknown - not recorded,Investigator-supplied ai_model.txt and ai_name.txt; matching copies in canonical and capsule model_generation/model_01; verified 8 October 2026
+model_02,Google Generative AI API,gemini-3.1-flash-lite-preview,Unknown - not recorded,Unknown - not recorded,Investigator-supplied ai_model.txt and ai_name.txt; matching copies in canonical and capsule model_generation/model_02; verified 8 October 2026
+model_03,Google Gemini,gemini-3.0-pro,Unknown - not recorded,Unknown - not recorded,Investigator-supplied ai_model.txt and ai_name.txt; matching copies in canonical and capsule model_generation/model_03; verified 8 October 2026
+model_04,Google Gemini,gemini-3.1-flash-lite-preview,Unknown - not recorded,Unknown - not recorded,Investigator-supplied ai_model.txt and ai_name.txt; matching copies in canonical and capsule model_generation/model_04; verified 8 October 2026
+model_05,Google Gemini,gemini-3.0-pro,Unknown - not recorded,Unknown - not recorded,Investigator-supplied ai_model.txt and ai_name.txt; matching copies in canonical and capsule model_generation/model_05; verified 8 October 2026
+model_06,Google Gemini,gemini-3.1-flash,Unknown - not recorded,Unknown - not recorded,Investigator-supplied ai_model.txt and ai_name.txt; matching copies in canonical and capsule model_generation/model_06; verified 8 October 2026
+model_07,Google Gemini,gemini-3.1-flash-lite-preview,Unknown - not recorded,Unknown - not recorded,Investigator-supplied ai_model.txt and ai_name.txt; matching copies in canonical and capsule model_generation/model_07; verified 8 October 2026

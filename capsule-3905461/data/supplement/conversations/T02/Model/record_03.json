@@ -1,0 +1,164 @@
+{
+  "team": "T02",
+  "approach": "Model",
+  "source_filename": "Decorations and Medals Application-history.json",
+  "source_format": ".json",
+  "source_sha256": "dd41c77f65a51e996ac570051b1ad2d38d553311689a2c077278b5187a922a33",
+  "embedded_media_files_omitted": 0,
+  "content": {
+    "title": "Decorations and Medals Application",
+    "exportedAt": "2026-04-01T08:13:57.049Z",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Utwórz formularz na podstawie tego pliku.",
+        "timestamp": "2026-04-01T08:13:51.689Z",
+        "files": [
+          "Decorations and Medals Data.docx"
+        ]
+      },
+      {
+        "role": "ai",
+        "content": "I have created two distinct cards: 'Application Data' for initial submission fields (employee details and justification) and 'Process Approval and Routing Data' for administrative status tracking, including decisions and the final outcome.",
+        "timestamp": "2026-04-01T08:13:55.049Z",
+        "schemaSnapshot": {
+          "type": "object",
+          "properties": {
+            "_formTitle": {
+              "content": "Decorations and Medals Application",
+              "layout": {
+                "component": "static-content",
+                "tag": "h1"
+              }
+            },
+            "applicationData": {
+              "title": "Application Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "employee_name": {
+                      "type": "string",
+                      "label": "Employee Name",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "organizational_unit": {
+                      "type": "string",
+                      "label": "Organizational Unit",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "decoration_type": {
+                      "type": "string",
+                      "label": "Decoration Type",
+                      "component": "text-field",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-field"
+                      }
+                    },
+                    "application_justification": {
+                      "type": "string",
+                      "label": "Application Justification",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            },
+            "processData": {
+              "title": "Process Approval and Routing Data",
+              "layout": {
+                "component": "card",
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "reviewer_opinion": {
+                      "type": "string",
+                      "label": "Reviewer Opinion",
+                      "component": "text-area",
+                      "layout": {
+                        "cols": 12,
+                        "component": "text-area"
+                      }
+                    },
+                    "rkr_decision": {
+                      "type": "string",
+                      "label": "RKR Decision",
+                      "component": "select",
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Accepted",
+                            "value": "Accepted",
+                            "title": "Accepted"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    },
+                    "award_grant_date": {
+                      "type": "string",
+                      "label": "Award Grant Date",
+                      "component": "date-picker",
+                      "layout": {
+                        "cols": 12,
+                        "component": "date-picker"
+                      }
+                    },
+                    "process_outcome": {
+                      "type": "string",
+                      "label": "Process Outcome",
+                      "component": "select",
+                      "layout": {
+                        "cols": 12,
+                        "component": "select"
+                      },
+                      "source": {
+                        "items": [
+                          {
+                            "label": "Accepted",
+                            "value": "Accepted",
+                            "title": "Accepted"
+                          },
+                          {
+                            "label": "Rejected",
+                            "value": "Rejected",
+                            "title": "Rejected"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "cols": 12
+              }
+            }
+          },
+          "required": []
+        }
+      }
+    ]
+  }
+}
